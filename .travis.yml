@@ -1,0 +1,24 @@
+language: r
+sudo: false
+cache: packages
+
+r_github_packages:
+  - jimhester/covr
+
+addons:
+  apt:
+    packages:
+      - libpoppler-cpp-dev
+
+after_success:
+  - Rscript -e 'covr::codecov()'
+
+before_script:
+  - Rscript -e "install.packages('Rcampdf', repos = 'http://datacube.wu.ac.at/', type = 'source')"
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+  slack:
+    secure: iUbodhwdTWY/Lu+u0THafzSCMB+5im7XCYEAoIxNB61KSD0i99e+reqKXy2c5Rh8XS4KqlhOZ7FN0ivJ9T0DU1sIN27cyIZJHwDL3sY2tKsPlrxATM07+WVuVhvHVeF8JGktbI/mHspoI1OSzAoPZsj7LUdWyDIGYNGwYNXqt04=

@@ -1,0 +1,23 @@
+Package: pubchunks
+Title: Get chunks of XML articles
+Description: Get chunks of XML articles.
+Version: 0.0.1.9100
+License: MIT + file LICENSE
+Authors@R: c(
+    person("Scott", "Chamberlain",
+        role = c("aut", "cre"),
+        email = "myrmecocystus@gmail.com",
+        comment = c(ORCID = "0000-0003-1444-9135"))
+    )
+URL: https://github.com/ropensci/pubchunks
+BugReports: https://github.com/ropensci/pubchunks/issues
+LazyLoad: yes
+Roxygen: list(wrap = FALSE, markdown = TRUE)
+Imports:
+    xml2 (>= 1.1.1),
+    data.table
+Suggests:
+    fulltext (>= 0.9.9.9100),
+    testthat
+Remotes: ropensci/fulltext
+RoxygenNote: 6.0.1
