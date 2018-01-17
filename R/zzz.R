@@ -12,17 +12,6 @@ is_doi <- function(x) {
   grepl("[0-9]+\\.[0-9]+/.+", x)
 }
 
-check_dois <- function(x) {
-  stopifnot(is(x, "list") || is(x, "vector"))
-  x <- vapply(x, utils::URLdecode, "")
-  res <- vapply(x, is_doi, logical(1))
-  if (all(res)) {
-    TRUE
-  } else {
-    stop("These are probably not DOIs:\n\n", paste0(names(res[!res]), "\n"), call. = FALSE)
-  }
-}
-
 is_or <- function(x, clazzes) {
   if (!class(x) %in% clazzes) stop("Input to x must be one of class ", paste0(clazzes, collapse = ", "), call. = FALSE)
 }
@@ -31,7 +20,7 @@ strextract <- function(str, pattern) regmatches(str, regexpr(pattern, str))
 strtrim <- function(str) gsub("^\\s+|\\s+$", "", str)
 
 xml_node_parse <- function(x) {
-  as.list(setNames(strtrim(xml2::xml_text(x)), xml2::xml_name(x)))
+  as.list(stats::setNames(strtrim(xml2::xml_text(x)), xml2::xml_name(x)))
 }
 
 # Modified from plyr::try_default

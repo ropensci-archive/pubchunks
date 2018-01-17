@@ -13,8 +13,8 @@ pub_tabularize(x)
 Tabularize chunks output
 }
 \examples{
-x <- system.file("examples/10_7554_eLife_03032.xml", 
-  package = "pubchunks")
-res <- pub_chunks(x, "elife", c("doi", "title", "keywords"))
-pub_tabularize(res)
+# x <- system.file("examples/10_7554_eLife_03032.xml", 
+#   package = "pubchunks")
+# res <- pub_chunks(x, "elife", c("doi", "title", "keywords"))
+# pub_tabularize(res)
 }

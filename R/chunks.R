@@ -91,7 +91,7 @@ pub_chunks.character <- function(x, provider, sections = 'all') {
 
 #' @export
 pub_chunks.xml_document <- function(x, provider, sections = 'all') {
-  get_what(data = xml, sections, provider)
+  get_what(data = x, sections, provider)
 }
 
 #' @export

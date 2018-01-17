@@ -1,5 +1,5 @@
 get_what <- function(data, what, from){
-  if ( any(what == "all") ) what <- sections()
+  if ( any(what == "all") ) what <- pub_sections()
   stats::setNames(lapply(what, function(z){
     switch(z,
            front = front(data, from),
