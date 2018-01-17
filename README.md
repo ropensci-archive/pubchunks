@@ -18,7 +18,7 @@ Development version from GitHub
 
 ```r
 # get latest fulltext
-devtools::install_github("ropensci/fulltext")
+install.packages("fulltext")
 devtools::install_github("ropensci/pubchunks")
 ```
 
