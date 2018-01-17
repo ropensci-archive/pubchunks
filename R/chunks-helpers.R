@@ -1,11 +1,3 @@
-sections <- function() {
-  c("front","body","back","title","doi","categories",
-    "authors","keywords",
-    "abstract","executive_summary","refs","refs_dois",
-    "publisher","journal_meta","article_meta",
-    "acknowledgments","permissions","history")
-}
-
 get_what <- function(data, what, from){
   if ( any(what == "all") ) what <- sections()
   stats::setNames(lapply(what, function(z){

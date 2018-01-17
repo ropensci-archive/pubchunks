@@ -34,38 +34,41 @@ Load library
 library('pubchunks')
 ```
 
-## First, get some full text
+## Working with files
 
-Using `fulltext`
-
-```{r eval=FALSE}
-library(fulltext)
-x <- ft_search(query = 'ecology', from = 'crossref')
+```{r}
+x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml", 
+  package = "pubchunks")
 ```
 
-Then extract chunks
-
-```{r eval=FALSE}
-x <- ft_get(c('10.7554/eLife.03032', '10.7554/eLife.32763'), from = "elife")
-x %>% ft_collect() %>% ft_chunks("publisher") %>% ft_tabularize()
+```{r}
+pub_chunks(x, "elsevier", "abstract")
+pub_chunks(x, "elsevier", "title")
+pub_chunks(x, "elsevier", "authors")
+pub_chunks(x, "elsevier", c("title", "refs"))
 ```
 
-Get multiple fields at once
+## Working with the xml already in a string
 
-```{r eval=FALSE}
-x %>% ft_collect() %>% ft_chunks(c("doi","publisher")) %>% ft_tabularize()
+```{r}
+xml <- paste0(readLines(x), collapse = "")
+pub_chunks(xml, "elsevier", "title")
 ```
 
-Use `dplyr` to data munge
+## Working with xml2 class object
 
-```{r eval=FALSE}
-library("dplyr")
-x %>%
-  ft_collect() %>% 
-  ft_chunks(c("doi", "publisher", "permissions")) %>%
-  ft_tabularize() %>%
-  .$elife %>%
-  select(-permissions.license, -permissions.license_url)
+```{r}
+xml <- paste0(readLines(x), collapse = "")
+xml <- xml2::read_xml(xml)
+pub_chunks(xml, "elsevier", "title")
+```
+
+## Working with output of fulltext::ft_get()
+
+```{r}
+library("fulltext")
+x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
+pub_chunks(fulltext::ft_collect(x), sections="authors")
 ```
 
 ## Contributors

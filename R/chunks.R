@@ -6,12 +6,17 @@
 #' output downstream for visualization and analysis.
 #'
 #' @export
-#' @param x An object of class `fulltext::ft_data`, the output from a call to
+#' @param x A file path for an XML file, or a character string of XML, 
+#' or an object of class `fulltext::ft_data`, the output from a call to
 #' [fulltext::ft_get()]
-#' @param what What to get, can be one or more in a vector or list.
-#' See Details.
+#' @param provider (character) the publisher. a single option only. see 
+#' [pub_providers()] for options. required. If you select the wrong provider
+#' for the XML you have you may or may not get what you need :)
+#' @param sections (character) What elements to get, can be one or more in 
+#' a vector or list. See [pub_sections()] for options. optional. Default is 
+#' to get all sections. See Details.
 #'
-#' @details Options for the `what` parameter:
+#' @details Options for the `sections` parameter:
 #' 
 #' * front - Publisher, journal and article metadata elements
 #' * body - Body of the article
@@ -33,12 +38,14 @@
 #' * permissions - Article permissions
 #' * history - Dates, recieved, published, accepted, etc.
 #'
-#' Note that we currently only support PLOS, eLife, Entrez, and Elsevier
-#' right now; more to come.
+#' Note that we currently only support PLOS, eLife, Entrez, and Elsevier;
+#' more to come.
 #'
-#' @return A list of output, one for each thing requested
+#' @return A list, named by the section selected. sections not found or
+#' not in accepted list return `NULL`
+#' 
 #' @examples \dontrun{
-#' # new stuff
+#' # a file path to an XML file
 #' x <- system.file("examples/10_1016_s1569_1993_15_30039_4.xml", 
 #'   package = "pubchunks")
 #' x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml", 
@@ -49,103 +56,47 @@
 #' pub_chunks(x, "elsevier", "authors")
 #' pub_chunks(x, "elsevier", "acknowledgments")
 #' pub_chunks(x, "elsevier", "refs")
+#' pub_chunks(x, "elsevier", c("title", "refs"))
 #' 
+#' # works the same with the xml already in a string
+#' xml <- paste0(readLines(x), collapse = "")
+#' pub_chunks(xml, "elsevier", "title")
 #' 
-#' x <- ft_get('10.1371/journal.pone.0086169', from='plos')
-#' pub_chunks(x, what="authors")
-#'
-#' library("rplos")
-#' (dois <- searchplos(q="*:*", fl='id',
-#'    fq=list('doc_type:full',"article_type:\"research article\""),
-#'      limit=5)$data$id)
-#' x <- ft_get(dois, from="plos")
-#' x %>% pub_chunks("front")
-#' x %>% pub_chunks("body")
-#' x %>% pub_chunks("back")
-#' x %>% pub_chunks("history")
-#' x %>% pub_chunks(c("doi","history")) %>% ft_tabularize()
-#' x %>% pub_chunks("authors")
-#' x %>% pub_chunks(c("doi","categories"))
-#' x %>% pub_chunks("all")
-#' x %>% pub_chunks("publisher")
-#' x %>% pub_chunks("acknowledgments")
-#' x %>% pub_chunks("permissions")
-#' x %>% pub_chunks("journal_meta")
-#' x %>% pub_chunks("article_meta")
-#'
-#' # Coerce list output to a data.frame, where possible
-#' (dois <- searchplos(q="*:*", fl='id',
-#'    fq=list('doc_type:full',"article_type:\"research article\""),
-#'      limit=5)$data$id)
-#' x <- ft_get(dois, from="plos")
-#' x %>% pub_chunks("publisher") %>% ft_tabularize()
-#' x %>% pub_chunks("refs") %>% ft_tabularize()
-#' x %>% pub_chunks(c("doi","publisher")) %>% ft_tabularize()
-#' x %>% pub_chunks(c("doi","publisher","permissions")) %>% ft_tabularize()
-#'
-#' x <- ft_get(c("10.3389/fnagi.2014.00130",'10.1155/2014/249309',
-#'   '10.1155/2014/162024'), from='entrez')
-#' x %>% pub_chunks("doi") %>% ft_tabularize()
-#' x %>% pub_chunks("authors") %>% ft_tabularize()
-#' x %>% pub_chunks(c("doi","publisher","permissions")) %>% ft_tabularize()
-#' x %>% pub_chunks("history") %>% ft_tabularize()
-#'
-#' x <- ft_get('10.3389/fnagi.2014.00130', from='entrez')
-#' x %>% pub_chunks("keywords")
-#'
-#' # Piping workflow
-#' opts <- list(fq=list('doc_type:full',"article_type:\"research article\""))
-#' ft_search(query='ecology', from='plos', plosopts = opts)$plos$data$id %>%
-#'  ft_get(from = "plos") %>%
-#'  pub_chunks("publisher")
-#'
-#' # Via entrez
-#' res <- ft_get(c("10.3389/fnagi.2014.00130",'10.1155/2014/249309',
-#'    '10.1155/2014/162024'), from='entrez')
-#' pub_chunks(res, what="abstract")
-#' pub_chunks(res, what="title")
-#' pub_chunks(res, what="keywords")
-#' pub_chunks(res, what="publisher")
-#'
-#' (res <- ft_search(query='ecology', from='entrez'))
-#' ft_get(res$entrez$data$doi, from='entrez') %>% pub_chunks("title")
-#' ft_get(res$entrez$data$doi[1:4], from='entrez') %>%
-#'   pub_chunks("acknowledgments")
-#' ft_get(res$entrez$data$doi[1:4], from='entrez') %>%
-#'   pub_chunks(c('title','keywords'))
-#'
-#' # From eLife
-#' x <- ft_get(c('10.7554/eLife.04251', '10.7554/eLife.04986'), from='elife')
-#' x %>% pub_chunks("abstract")
-#' x %>% pub_chunks("publisher")
-#' x %>% pub_chunks("journal_meta")
-#' x %>% pub_chunks("acknowledgments")
-#' x %>% pub_chunks("refs_dois")
-#' x %>% pub_chunks(c("abstract", "executive_summary"))
+#' # also works if you've already read in the XML (with xml2 pkg)
+#' xml <- paste0(readLines(x), collapse = "")
+#' xml <- xml2::read_xml(xml)
+#' pub_chunks(xml, "elsevier", "title")
+#' 
+#' # using output of fulltext::ft_get()
+#' if (requireNamespace("fulltext")) {
+#'   x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
+#'   pub_chunks(fulltext::ft_collect(x), sections="authors")
 #' }
-pub_chunks <- function(x, from, what='all') {
+#' 
+#' }
+pub_chunks <- function(x, provider, sections = 'all') {
   UseMethod("pub_chunks")
 }
 
 #' @export
-pub_chunks.default <- function(x, from, what='all') {
+pub_chunks.default <- function(x, provider, sections = 'all') {
   stop("no 'pub_chunks' method for ", class(x)[1L])
 }
 
 #' @export
-pub_chunks.character <- function(x, from, what='all') {
+pub_chunks.character <- function(x, provider, sections = 'all') {
   xml <- xml2::read_xml(x)
-  get_what(data = xml, what, from)
+  get_what(data = xml, sections, provider)
 }
 
 #' @export
-pub_chunks.xml_document <- function(x, from, what='all') {
-  x
+pub_chunks.xml_document <- function(x, provider, sections = 'all') {
+  get_what(data = xml, sections, provider)
 }
 
 #' @export
-pub_chunks.ft_data <- function(x, from, what='all') {
-  what <- match.arg(unlist(what), c("all", sections()), TRUE)
+pub_chunks.ft_data <- function(x, provider, sections = 'all') {
+  sections <- match.arg(unlist(sections), c("all", pub_sections()), TRUE)
   out <- list()
   for (i in seq_along(x)) {
     if (is.null(x[[i]]$found)) {
@@ -154,7 +105,7 @@ pub_chunks.ft_data <- function(x, from, what='all') {
       out[[names(x[i])]] <-
       lapply(x[[i]]$data$data, function(q){
         qparsed <- if (inherits(q, "xml_document")) q else xml2::read_xml(q)
-        get_what(data = qparsed, what, names(x[i]))
+        get_what(data = qparsed, sections, names(x[i]))
       })
     }
   }
