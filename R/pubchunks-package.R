@@ -7,6 +7,6 @@
 #' @name pubchunks-package
 #' @aliases pubchunks
 #' @docType package
-#' @author Scott Chamberlain <myrmecocystus@@gmail.com>
+#' @author Scott Chamberlain <myrmecocystus+r@@gmail.com>
 #' @keywords package
 NULL

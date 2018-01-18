@@ -11,6 +11,6 @@ of articles. It makes not knowing what XPath/CSS selectors are totally
 fine.
 }
 \author{
-Scott Chamberlain \href{mailto:myrmecocystus@gmail.com}{myrmecocystus@gmail.com}
+Scott Chamberlain \href{mailto:myrmecocystus+r@gmail.com}{myrmecocystus+r@gmail.com}
 }
 \keyword{package}
