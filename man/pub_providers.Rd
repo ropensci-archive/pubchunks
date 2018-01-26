@@ -12,3 +12,6 @@ character vector
 \description{
 The possible providers to select from
 }
+\examples{
+pub_providers()
+}

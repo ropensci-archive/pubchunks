@@ -86,5 +86,17 @@ if (requireNamespace("fulltext")) {
   pub_chunks(fulltext::ft_collect(x), sections="authors")
 }
 
+# Hindawi
+x <- system.file("examples/hindawi_1.xml", package = "pubchunks")
+pub_chunks(x, "hindawi", "abstract")
+pub_chunks(x, "hindawi", "title")
+pub_chunks(x, "hindawi", c("abstract", "title", "authors", "refs"))
+
+# Pensoft
+x <- system.file("examples/pensoft_1.xml", package = "pubchunks")
+pub_chunks(x, "pensoft", "abstract")
+pub_chunks(x, "pensoft", "title")
+pub_chunks(x, "pensoft", c("abstract", "title", "authors", "refs"))
+
 }
 }

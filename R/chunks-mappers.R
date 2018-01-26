@@ -3,7 +3,9 @@ title <- function(b, from){
          elife = f1txt(b, "//title-group/article-title"),
          plos = f1txt(b, "//title-group/article-title"),
          entrez = f1txt(b, "//title-group/article-title"),
-         elsevier = f1txt(b, "//dc:title")
+         elsevier = f1txt(b, "//dc:title"),
+         hindawi = f1txt(b, "//article-title"),
+         pensoft = f1txt(b, "//article-title")
   )
 }
 
@@ -38,7 +40,9 @@ authors <- function(b, from){
     elife = get_auth(b),
     plos = get_auth(b),
     entrez = get_auth(b),
-    elsevier = falltxt(b, "//dc:creator")
+    elsevier = falltxt(b, "//dc:creator"),
+    hindawi = get_auth(b),
+    pensoft = get_auth(b)
   )
 }
 
@@ -73,7 +77,9 @@ abstract <- function(b, from){
           '//abstract[@hwp:id="abstract-1"]', ns = xml2::xml_ns(b))[[1]], "p")[1]),
     plos = falltxt(b, "//abstract"),
     entrez = falltxt(b, "//abstract"),
-    elsevier = f1txt(b, "//dc:description")
+    elsevier = f1txt(b, "//dc:description"),
+    hindawi = f1txt(b, "//abstract"),
+    pensoft = f1txt(b, "//abstract")
   )
 }
 
@@ -110,7 +116,9 @@ refs <- function(b, from){
     elife = NULL,
     plos = falltxt(b, "//ref-list/ref/mixed-citation"),
     entrez = falltxt(b, "//ref-list/ref"),
-    elsevier = falltxt(b, "//ce:bib-reference")
+    elsevier = falltxt(b, "//ce:bib-reference"),
+    hindawi = falltxt(b, "//ref-list/ref"),
+    pensoft = falltxt(b, "//ref-list/ref")
   )
 }
 

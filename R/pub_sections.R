@@ -5,6 +5,8 @@
 #' 
 #' @export
 #' @return character vector
+#' @examples
+#' pub_sections()
 pub_sections <- function() {
   c("front","body","back","title","doi","categories",
     "authors","keywords",

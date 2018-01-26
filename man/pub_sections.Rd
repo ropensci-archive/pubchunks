@@ -13,3 +13,6 @@ character vector
 The possible sections of an XML article that are supported
 for retrieval
 }
+\examples{
+pub_sections()
+}

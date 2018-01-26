@@ -11,6 +11,16 @@ __Get chunks of XML articles__
 ... still working through whether this will be a package or not and how it would work ...
 
 
+## Supported publishers/sources
+
+- eLife
+- PLOS
+- Entrez
+- Elsevier
+- Hindawi
+- Pensoft
+
+
 ## Installation
 
 Development version from GitHub
