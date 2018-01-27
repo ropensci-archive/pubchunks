@@ -98,5 +98,19 @@ pub_chunks(x, "pensoft", "abstract")
 pub_chunks(x, "pensoft", "title")
 pub_chunks(x, "pensoft", c("abstract", "title", "authors", "refs"))
 
+# Peerj
+x <- system.file("examples/peerj_1.xml", package = "pubchunks")
+pub_chunks(x, "peerj", "abstract")
+pub_chunks(x, "peerj", "title")
+pub_chunks(x, "peerj", c("abstract", "title", "authors", "refs"))
+
+# Copernicus
+x <- system.file("examples/copernicus_2.xml", package = "pubchunks")
+pub_chunks(x, "copernicus", c("doi", "abstract", "title", "authors", "refs"))
+
+# Frontiers
+x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
+pub_chunks(x, "frontiers", c("doi", "abstract", "title", "authors", "refs"))
+
 }
 }

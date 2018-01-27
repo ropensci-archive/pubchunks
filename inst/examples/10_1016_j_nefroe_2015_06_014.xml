@@ -1,0 +1,541 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>http://api.elsevier.com/content/article/pii/S2013251415001108</prism:url><dc:identifier>doi:10.1016/j.nefroe.2015.06.014</dc:identifier><eid>1-s2.0-S2013251415001108</eid><prism:doi>10.1016/j.nefroe.2015.06.014</prism:doi><pii>S2013-2514(15)00110-8</pii><dc:title>Bibliographic references in PubMed and other search engines: Errare humanum est
+             </dc:title><prism:publicationName>Nefrología (English Edition)</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>
+               Letter to the Editor
+            </pubType><prism:issn>20132514</prism:issn><prism:volume>36</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>87</prism:startingPage><prism:pageRange>87</prism:pageRange><prism:number>1</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2016-02-29</prism:coverDate><prism:coverDisplayDate>January–February 2016</prism:coverDisplayDate><prism:copyright>© 2015 Sociedad Española de Nefrología. Published by Elsevier España, S.L.U.</prism:copyright><prism:publisher>Sociedad Española de Nefrología. Published by Elsevier España, S.L.U.</prism:publisher><dc:creator>Martínez-Castelao, Alberto</dc:creator><dc:description/><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName>Sociedad Española de Nefrología</openaccessSponsorName><openaccessSponsorType>FundingBody</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><link href="http://api.elsevier.com/content/article/pii/S2013251415001108" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2013251415001108" rel="scidir"/></coredata><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>313343</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291739</xocs:ssid>
+         <xocs:ssid type="subj">291912</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Nefrología (English Edition)</xocs:srctitle>
+      <xocs:normalized-srctitle>NEFROLOGIAENGLISHEDITION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20151221">2015-12-21</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20151221">2015-12-21</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20160416">2016-04-16</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20160416">2016-04-16</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2017-03-31T09:11:24</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2013251415001108</xocs:eid>
+      <xocs:pii-formatted>S2013-2514(15)00110-8</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2013251415001108</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.nefroe.2015.06.014</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2013251415X00071</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20170331">2017-03-31T04:24:14.50796-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20160101</xocs:date-search-begin>
+      <xocs:date-search-end>20160229</xocs:date-search-end>
+      <xocs:year-nav>2016</xocs:year-nav>
+      <xocs:indexeddate epoch="1450704517">2015-12-21T13:28:37.590705Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav body affil altitemtitle articletitle auth authfirstini authfull authlast pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2013-2514</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>20132514</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>36</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>36</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>1</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>1</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 36, Issue 1</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>20</xocs:sort-order>
+      <xocs:first-fp>87</xocs:first-fp>
+      <xocs:pages>
+         <xocs:first-page>87</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201601</xocs:start-date>
+         <xocs:end-date>201602</xocs:end-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>January–February 2016</xocs:cover-date-text>
+      <xocs:cover-date-start>2016-01-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2016-02-29</xocs:cover-date-end>
+      <xocs:cover-date-year>2016</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Letters to the Editor</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>cor</xocs:document-subtype>
+      <xocs:copyright-line>© 2015 Sociedad Española de Nefrología. Published by Elsevier España, S.L.U.</xocs:copyright-line>
+      <xocs:normalized-article-title>BIBLIOGRAPHICREFERENCESINPUBMEDOTHERSEARCHENGINESERRAREHUMANUMEST</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MARTINEZCASTELAO</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:refers-to>
+         <xocs:refers-to-doi>10.1016/j.nefro.2015.06.021</xocs:refers-to-doi>
+         <xocs:refers-to-pii-unformatted>S0211699515000892</xocs:refers-to-pii-unformatted>
+      </xocs:refers-to>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>MARTINEZCASTELAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>243</xocs:ref-first-fp>
+            <xocs:ref-last-lp>262</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>MARTINEZCASTELAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>501</xocs:ref-first-fp>
+            <xocs:ref-last-lp>519</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>MARTINEZCASTELAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>441</xocs:ref-first-fp>
+            <xocs:ref-last-lp>459</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>MARTINEZCASTELAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>e25</xocs:ref-first-fp>
+            <xocs:ref-last-lp>e43</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0055">
+            <xocs:ref-normalized-surname>TORRESRODRIGUEZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>749</xocs:ref-first-fp>
+            <xocs:ref-last-lp>755</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="oref0030"/>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MARTINEZCASTELAOX2016X87</xocs:refkey3>
+         <xocs:refkey4ai>MARTINEZCASTELAOX2016X87XA</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2015-11-27T00:48:02Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>FundingBody</xocs:oa-sponsor-type>
+            <xocs:oa-sponsor-name>Sociedad Española de Nefrología</xocs:oa-sponsor-name>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/20132514_UNBOUNDED_FB">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2015 Sociedad Española de Nefrología. Published by Elsevier España, S.L.U.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2013-2514(15)00110-8</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2013251415001108</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2013251415001108</xocs:eid>
+         <xocs:doi>10.1016/j.nefroe.2015.06.014</xocs:doi>
+         <xocs:cid>313343</xocs:cid>
+         <xocs:timestamp>2017-03-31T04:24:14.50796-04:00</xocs:timestamp>
+         <xocs:cover-date-start>2016-01-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2016-02-29</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2013251415001108-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2013251415001108/MAIN/application/pdf/fc29e8e50ee5c43f1709235085703dac/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S2013251415001108/MAIN/application/pdf/fc29e8e50ee5c43f1709235085703dac/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>618948</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>1</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2013251415001108-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2013251415001108/PREVIEW/image/png/9c8907d75a7e99567506c3bbabadb765/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S2013251415001108/PREVIEW/image/png/9c8907d75a7e99567506c3bbabadb765/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>72760</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:serial-item>
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="cor">
+         <item-info>
+            <jid>NEFROE</jid>
+            <aid>72</aid>
+            <ce:pii>S2013-2514(15)00110-8</ce:pii>
+            <ce:doi>10.1016/j.nefroe.2015.06.014</ce:doi>
+            <ce:document-thread>
+               <ce:refers-to-document id="rtd0005">
+                  <ce:pii>S0211-6995(15)00089-2</ce:pii>
+                  <ce:doi>10.1016/j.nefro.2015.06.021</ce:doi>
+               </ce:refers-to-document>
+            </ce:document-thread>
+            <ce:copyright type="society" year="2015">Sociedad Española de Nefrología</ce:copyright>
+         </item-info>
+         <simple-head>
+            <ce:article-footnote>
+               <ce:label>☆</ce:label>
+               <ce:note-para id="npar0005" view="all">Please cite this article as: Martínez-Castelao A. Referencias bibliográficas en PubMed y otros buscadores. <ce:italic>Errare humanum est</ce:italic>. Nefrología. 2016;36:87.</ce:note-para>
+            </ce:article-footnote>
+            <ce:dochead id="doh0005">
+               <ce:textfn>Letter to the Editor</ce:textfn>
+            </ce:dochead>
+            <ce:title id="tit0005">Bibliographic references in PubMed and other search engines: <ce:italic>Errare humanum est</ce:italic>
+            </ce:title>
+            <ce:alt-title xml:lang="es">Referencias bibliográficas en PubMed y otros buscadores. <ce:italic>Errare humanum est</ce:italic>
+            </ce:alt-title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S2013251415001108-74306e24b7c72978e4074dc23f2a7d04">
+                  <ce:given-name>Alberto</ce:given-name>
+                  <ce:surname>Martínez-Castelao</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0010" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address id="eadd0005" type="email">albertomcastelao@gmail.com</ce:e-address>
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Nefrología, Hospital Universitario de Bellvitge, IDIBELL, GEENDIAB, REDinREN, Instituto de Salud Carlos III, Hospitalet de Llobregat, Barcelona, Spain</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Nefrología, Hospital Universitario de Bellvitge, IDIBELL, GEENDIAB, REDinREN, Instituto de Salud Carlos III, Hospitalet de Llobregat</sa:organization>
+                     <sa:city>Barcelona</sa:city>
+                     <sa:country>Spain</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Expresidente de la S.E.N., Spain</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Expresidente de la S.E.N.</sa:organization>
+                     <sa:country>Spain</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+         </simple-head>
+         <body view="all">
+            <ce:salutation>Dear Editor,</ce:salutation>
+            <ce:sections>
+               <ce:para id="par0005" view="all">Cybernetic elves can sometimes play tricks on researchers submitting their papers to scientific journals. Yet, there are many other times when elves may not be the sole guilty party for certain mistakes.</ce:para>
+               <ce:para id="par0010" view="all">The journal <ce:small-caps>Nephrology</ce:small-caps> 2014 Volume 2 published an article involving ten scientific societies in Spain, “Consensus Document for the Detection and Management of Chronic Kidney Disease” including myself as the leading author and 19 researchers from societies taking part in the draft of the document.<ce:cross-ref id="crf0015" refid="bib0035">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:para>
+               <ce:para id="par0015" view="all">Very recently, Dr Jordi Bover needed to search PubMed for some data from his published papers and was assailed by the appalling surprise of finding that his name had not been included in the corresponding quote of the <ce:small-caps>Nephrology</ce:small-caps> paper. This was in spite of being the third author, as evidenced in the printed edition and in three official journals of many other participating societies where it was published.<ce:cross-refs id="crfs0005" refid="bib0040 bib0045 bib0050">
+                     <ce:sup loc="post">2–4</ce:sup>
+                  </ce:cross-refs> His authorship was also evident <ce:italic>online</ce:italic> in our webpage and in the webpages of these societies.</ce:para>
+               <ce:para id="par0020" view="all">Similarly, having recently spoken with Dr Daniel Serón with regard to one of his papers submitted for publication also in <ce:small-caps>Nephrology,</ce:small-caps>I became aware that the paper still remained unpublished despite the long time between its acceptance and the correction of galley proofs. However, this paper had actually been published and the misunderstanding here lay in the fact that PubMed had quoted authors by their first names, instead of by family name followed by first name,<ce:cross-ref id="crf0020" refid="bib0055">
+                     <ce:sup loc="post">5</ce:sup>
+                  </ce:cross-ref> as per the applicable Vancouver rules.<ce:cross-ref id="crf0025" refid="bib0060">
+                     <ce:sup loc="post">6</ce:sup>
+                  </ce:cross-ref>
+               </ce:para>
+               <ce:para id="par0025" view="all">“<ce:italic>Errare Humanum Est.”</ce:italic> In light of the major efforts expended in publishing, it would be worth urging those charged with quoting authors in PubMed and other search engines to carefully perform this task. Considering that having authors’ names correctly quoted is the sole incentive researchers receive as payment for their interest and endeavour. In addition, the impact of publications is a well-known important aspect for curricular assessment when applying for any job, especially, in the National Healthcare.</ce:para>
+            </ce:sections>
+         </body>
+         <simple-tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0005">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Martínez-Castelao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Górriz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Bover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Segura-de la Morena</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Cebollada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Escalada</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Consensus document for the detection and management of chronic kidney disease</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nefrologia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>243</sb:first-page>
+                              <sb:last-page>262</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>[Article in English, Spanish]</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Martínez-Castelao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Górriz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Bover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Segura-de la Morena</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Cebollada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Escalada</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Consensus document for the detection and management of chronic kidney disease</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Aten Primaria</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>501</sb:first-page>
+                              <sb:last-page>519</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>[Article in Spanish]</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Martínez-Castelao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Górriz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Bover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Segura-de la Morena</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Cebollada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Escalada</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Consensus document for the detection and management of chronic kidney disease</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Semergen</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>441</sb:first-page>
+                              <sb:last-page>459</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>[Article in Spanish]</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Martínez-Castelao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Górriz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Bover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Segura-de la Morena</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Cebollada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Escalada</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Consensus document for the detection and management of chronic kidney disease</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Endocrinol Nutr</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>e25</sb:first-page>
+                              <sb:last-page>e43</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>[Article in Spanish]</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.B.</ce:given-name>
+                                 <ce:surname>Torres-Rodríguez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Castella-Fierro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Serres-Creixans</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Salcedo-Allende</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Azancot-Rivero</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Perelló-Carrascosa</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Safety and efficacy of outpatient biopsy in renal transplantation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nefrologia</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>749</sb:first-page>
+                              <sb:last-page>755</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>[Article in English, Spanish]</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>6</ce:label>
+                     <ce:other-ref id="oref0030">
+                        <ce:textref>Vancouver style referencing guide. Available from <ce:inter-ref id="intr0010" xlink:href="http://www.library.auckland.ac.nz/" xlink:type="simple">http://www.library.auckland.ac.nz</ce:inter-ref> [accessed 15.07.15].</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

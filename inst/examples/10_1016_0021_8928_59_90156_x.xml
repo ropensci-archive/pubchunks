@@ -1,0 +1,389 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>http://api.elsevier.com/content/article/pii/002189285990156X</prism:url><dc:identifier>doi:10.1016/0021-8928(59)90156-X</dc:identifier><eid>1-s2.0-002189285990156X</eid><prism:doi>10.1016/0021-8928(59)90156-X</prism:doi><pii>0021-8928(59)90156-X</pii><dc:title>On the driving of a piston with a rigid collar into an elastic half-space </dc:title><prism:publicationName>Journal of Applied Mathematics and Mechanics</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><prism:issn>00218928</prism:issn><prism:volume>23</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>610</prism:startingPage><prism:endingPage>621</prism:endingPage><prism:pageRange>610-621</prism:pageRange><prism:number>3</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1959-12-31</prism:coverDate><prism:coverDisplayDate>1959</prism:coverDisplayDate><prism:copyright>Copyright © 1959 Published by Elsevier Ltd.</prism:copyright><prism:publisher>Published by Elsevier Ltd.</prism:publisher><dc:creator>Chetaev, D.N</dc:creator><dc:description>
+               Abstract
+               
+                  This paper is concerned with the study of the problem of a field of steady-state vibrations excited in an elastic half-space by means of a rigid circular piston with an infinite rigid and smooth collar. Formulas for the active and reactive resistance of the connection between the field of wave propagation and the piston are obtained in terms of tabulated functions. Results of the analysis are presented for the case of driving a piston into an elastic Poisson medium.
+               
+            </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><link href="http://api.elsevier.com/content/article/pii/002189285990156X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/002189285990156X" rel="scidir"/></coredata><scopus-id>49749214070</scopus-id><scopus-eid>2-s2.0-49749214070</scopus-eid><link href="http://api.elsevier.com/content/abstract/scopus_id/49749214070" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271476</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291692</xocs:ssid>
+         <xocs:ssid type="subj">291787</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Applied Mathematics and Mechanics</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALAPPLIEDMATHEMATICSMECHANICS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20030224">2003-02-24</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20030224">2003-02-24</xocs:available-online-date>
+      <xocs:ew-transaction-id>2010-04-02T17:07:54</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-002189285990156X</xocs:eid>
+      <xocs:pii-formatted>0021-8928(59)90156-X</xocs:pii-formatted>
+      <xocs:pii-unformatted>002189285990156X</xocs:pii-unformatted>
+      <xocs:doi>10.1016/0021-8928(59)90156-X</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0021892800X02353</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150513">2015-05-13T20:38:17.689683-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>19590101</xocs:date-search-begin>
+      <xocs:date-search-end>19591231</xocs:date-search-end>
+      <xocs:year-nav>1959</xocs:year-nav>
+      <xocs:indexeddate epoch="1046044800">2003-02-24T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype volfirst volissue webpdf webpdfpagecount affil altitemtitle articletitle auth authfirstini authfull authlast primabst ref alllist content subj ssids</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0021-8928</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00218928</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0"/>
+      <xocs:vol-first>23</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>23</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>3</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>3</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 23, Issue 3</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>3</xocs:sort-order>
+      <xocs:first-fp>610</xocs:first-fp>
+      <xocs:last-lp>621</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>610</xocs:first-page>
+         <xocs:last-page>621</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>1959</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>1959</xocs:cover-date-text>
+      <xocs:cover-date-start>1959-01-01</xocs:cover-date-start>
+      <xocs:cover-date-end>1959-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>1959</xocs:cover-date-year>
+      <xocs:document-type>converted-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 1959 Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>DRIVINGAPISTONARIGIDCOLLARELASTICHALFSPACE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>CHETAEV</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>D</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="BIB1">
+            <xocs:ref-normalized-surname>WATSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1949</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>TEORIIABESSELEVYKHFUNKTSII</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB2">
+            <xocs:ref-normalized-surname>STRETT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1955</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>TEORIIAZVUKA</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB3">
+            <xocs:ref-normalized-surname>HARDY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1951</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>RASKHODIASHCHIESIARIADY</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB4">
+            <xocs:ref-normalized-surname>CHETAEV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1953</xocs:ref-pub-year>
+            <xocs:ref-first-fp>355</xocs:ref-first-fp>
+            <xocs:ref-last-lp>358</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB5">
+            <xocs:ref-normalized-surname>CHETAEV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1956</xocs:ref-pub-year>
+            <xocs:ref-first-fp>302</xocs:ref-first-fp>
+            <xocs:ref-last-lp>309</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB6">
+            <xocs:ref-normalized-surname>MORSE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1949</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>KOLEBANIIAIZVUK</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>CHETAEVX1959X610</xocs:refkey3>
+         <xocs:refkey4lp>CHETAEVX1959X610X621</xocs:refkey4lp>
+         <xocs:refkey4ai>CHETAEVX1959X610XD</xocs:refkey4ai>
+         <xocs:refkey5>CHETAEVX1959X610X621XD</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>0021-8928(59)90156-X</xocs:pii-formatted>
+         <xocs:pii-unformatted>002189285990156X</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-002189285990156X</xocs:eid>
+         <xocs:doi>10.1016/0021-8928(59)90156-X</xocs:doi>
+         <xocs:cid>271476</xocs:cid>
+         <xocs:timestamp>2010-10-12T00:22:23.543096-04:00</xocs:timestamp>
+         <xocs:cover-date-start>1959-01-01</xocs:cover-date-start>
+         <xocs:cover-date-end>1959-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-002189285990156X-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:002189285990156X/MAIN/application/pdf/144b79ac4abf71836cd803e825bd75af/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:002189285990156X/MAIN/application/pdf/144b79ac4abf71836cd803e825bd75af/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>609050</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>12</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-002189285990156X-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:002189285990156X/PREVIEW/image/png/ec9a8c4366a74df559e10d0d78bfc830/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:002189285990156X/PREVIEW/image/png/ec9a8c4366a74df559e10d0d78bfc830/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>53165</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:rawtext>ON THE DRIVING OF A PISTON WITH A RIGID COLLAR  INTO AN ELASTIC HALF-SPACE    (OB IZLHENII PORSHNIA S ZHESTKIM FLANTSEM V UPRUOOE  POLULROSRANSTVO)    PMM Vol. 23. No.3. 1959. pp. 425-4;?,?    D. N. CHETAEV  (Moscow)    (Received 11 March 1956)    This paper Is concerned with the study of the problem of a field of  steady-state vibrations excited in an elastic half-space by means of  a rigid circular piston with an Infinite rigid and smooth collar.  Formulas for the active and reactive resistance of the connection  between the field of wave propagation and the piston are obtained In  terms of tabulated functions. Results of the analysis are presented  for the case of driving a piston Into an elastic Poisson medium.    Let us study an elastic half-space z &gt; 0. A circular piston of radius  c is oscillating harmonically according to the law dz/dt = v exp(i&amp;&gt;t)  in the opening of a rigid collar at the surface of the half-space. Contact  of the piston with the elastic medium is assured during the entire cycle  of the oscillation by some constant load, such that the piston executes  small oscillations about the position of equilibrium. Because of the  principle of superposition of states of stress in the linear theory of  elasticity the static field and the field of steady-state oscillations  are independent.    The analysis of the latter reduces to the solution of the dynamic  equations of the theory of elasticity with the condition that the normal  displacements at the points under the rigid piston are equal to z   (v/ia&gt;) exp(i&lt;ut), where 11 is the amplitude of the velocity of the piston.  At points under the rigid collar the normal displacements are equal to  zero. In calculations where the dimensions are large, the collar can be  assumed to be infinite. The surface of the piston and the collar will be  also assumed to be sufficiently smooth, such that the shear stresses that  might arise on the surface of the medium can be neglected.    The mathematical problem of the analysis of the wave field, which de-  pends on time as exp(itut), reduces to finding bounded solutions of the  equations on the amplitudes of the scalar displacement potential &lt;j6 and    610    Driving a piston into an elastic half-space            611    the angular component of the vector displacement potential i//. There is  only a single angular component of i/r because of the symmetry of the  problem. The equations    a'c . i p , ? , , o   ^                  ,,,  +T-^+^S-+kaf=o                 (1)  a^  ^^__4L  ^    Q^ ' r or     r2 ' 2 '   b ^ ~                         ^'    are to be solved for the boundary conditions representing the given  values of the shear stresses r   and normal displacements u at the sur-  face:    ^.l.-.=[^+^+^-a +VtL-"        (3)    ".i.-.-f^+H.^T ^:;    w    Here                      ____    1            &lt;^               ~t  /        P                       7            til               "I/P    ^T^Vx-T-   ^-T-^yf    are the wave numbers corresponding to the speeds of propagation of longi-  tudinal and transverse waves a and b (p is the density of the mium, and  and ft are the Lame constants).    The solution of equations (1) and (2) by means of separation of vari-  ables yields the following general representation of the bounded solutions:    00    y = [ Ci (X) /o (^) exp ( 2 ^K2 V) d\             (5)    J  0    00    cj, = [ C^ (X) 7i (Xr) exp (- z ^X2 - Ab2) dx               (6)    J  0    where the branches of the roots are chosen to be positive for large  values of \ .    The functions C,(A) and CA) are determined from the boundary condi-  tions. Substitution of (5) and (6) into (3) and (4) yields    00    \ /i (Xr) \2\Y^-^C^ (K) + (Ab2 - 2\2) C, (K)] d\ = 0        (7)      0    00    [ J(^) l- ^"-^a2^ (X) + ^ (X)] d\ == f/ '"  (r &lt; c)      (8)    J                                                             |      (r .&gt;c)    o    Taking into account the discontinuous Weber integral [1]    612 D.H. Chetaev    we see that in order to satisfy equalities (7) and (8) it is sufficient  to let    2X V^ + k^Ci + (Ab2 2X2) Ca = 0; Y^ ka'Ci -F \C^ = (vc / ) /i (Xc)    Then    ,-, _ vc 2X , . ,      ^ _ vc   2X2k^  V2~ 'wk^''1^''     vl~7&lt;k,zY&gt;^k^Jl\CI    Thus the solution is given by the following formulas    00   ^2 ._ Je 2                                      ________    y = -pc- \ ,   '' - JI (Xc) /o (^^) exp (- z ^X2 V) dX      (9)    M } k^y^^   '      '                   '         ' '    00    ^ = -s ^J1 (xc) 1 ^^exp (- z ^&gt;:2::rA62)dx        (10)    o    In the acoustic case (fe, -&gt;  ) formula (9) gives a new representation  of the Rayleigh integral [2] for the displacement potential    &lt;p=^exp(-^^-^)7,(Xc)/o(X.) ^^=-^1^ dS (11)  o                                            s    where R is the distance from a point in the field (r, 6, z) to an element  of the piston with coordinates (p, &lt;,&amp; )    R == Y^ + r2 + p2 27-p cos (&lt;p 6)  and the integration is performed over the surface of the piston 5.    Oti the other hand, because of formula (11), one can express the solu-  tion (9), (10) in terms of the integral    'w^^^       as follows:    lu 2fc22          iv 2 a2 r/i.\               /n\    rf=~^W+^-^7^0)           (12)    lu        2         92        T,,     t                                                                                                    /&lt; q\    '^-o^^7^)                         (13)    Driving a piston into an elastic half-space            613    Without dwelling on the study of the wave propagation field, whose  potentials are given by the formulas (9), (10) or (12), (13), we shall  proceed to the more complicated problem of determining the active and re-  active resistance of the connection of the piston with the field of pro-  pagation. The total mechanical impedance of the piston Z relates the  reaction force F of the elastic medium due to the piston to its velocity v    F exp (t'tof) = Zv exp (i&lt;ut)    where the force acting on the piston is equal to the integral over the  surface of the piston 5 of the normal stress a   in the medium of the  surface taken with a reversed sign:    F=-\\^\^dS                      (14)  "s-    Since    -..[')0^    [-      29^    D a'y     2 p     , n -l     /       &lt;o\    a"=n2ar-k--7-9.-2g^-TW-^!f\   (^=~kJ-)    and when the values of the potentials (9), (10) and z = 0 are substituted  here we obtain    00    ^2 |^o = t'top \ J'i (Xc) Jo (^r) (D (X) dk                (15)    where    (^^^^-^    2  '    \ '   A(4]/xa   V    1   -L^I^-iV.  1   _   1   ^     /16)  ^-^v^VW   ^^x^-v ^-^J     ^ ;       From this it can be seen that for -&gt; oo    k 2 fc 2    ^M-a-0-^^    "b    which means that the integral (15) is not convergent in the usual sense.  The absence of convergence means that the analytical expression for a  used is not valid at z = 0, which is quite natural with the discontinuous  boundary conditions (4) for u .    We have to determine the limiting value of a   as z -&gt; 0. Consequently,  equation (15) makes no sense if it is to be understood in terms of con-  vergent integrals. Yet, expression (15) will acquire a completely deter-  mined sense if one agrees to study the integration symbol as a limiting  value of the convergent integral    00                                        00    \ JI (\c) Jo (\r) (D (X) d\ = lim [ e-^ J^ (Xc) /o (^) (K (X) d\  v                        s--oJ                                      s-*-    0                                                                   0    614 D.N. Chetaev    of course, if such a limiting value exists. Such a way of using divergent  integrals in computations, originating with Euler and Poisson, is known  by the name of the Abel method of sumnation of divergent integrals [3] .  Thus, when using the symbol of the divergent integral we will have in  mind operations with a convergent integral up to the limiting operation.    W&gt;en (15) is substituted into (14) we obtain    00                                               COO    Z = pe [\\Ji (^c) /o (^) ^ W ^ dS = 2i(opc [{ /i (Xc) Jo (^) ^ W d\ rdr  So                               oo    Interchanging the order of integration we will integrate with respect  to r:    c    ^Jo(\r)rdr=--^J,{\c)  o  When    Z == 2itKc2 [ /i2 (Xc) O (X) -  o    the function (16) is represented in the form    (r W = -rr K2V - W (^ - Ao2)-''+ 4 (2A - As2) (x2 - A)-'. -    _ 4,2 (x2 - A,,2)-'. + 4 (X2 - Aa2)''- 4 (X2 - W.]  and the notation    00    An (k) = /i2 (Xc) (X2 - A2)"-^ ^                 (17)  o    is introduced, where the integral sign is to be understood in the sense  of the Abel suinnation, then we shall obtain    Z . 2.,^ [ '^W ^ ^ ^ ^W. ^ ^ _    -AiW+A,(lt.)-A,(ku\             (18)    b                         b                         b                J    Now we shall evaluate the integrals (17). First of all let us perform  a change of variable    Xc = u      (kc = v)                       (19)  then    00    An (A) = ^h- S ^l2 (") ("2 - u2)"-1'-   0    Furthermore, using the Neumann integral,    Driving a piston into an elastic half-space            615    'f."    /^(u)=-^- /2(2usin9)ri9    o    one can write              ^i^    An(A)=-^,- ^ .^usin^u2-.2)"-1!^  oo    With the aid of the recurrence formula    Ja (2u sin 9) == U-S^Q- [A (2u sin 9) + /3 (2u sin 9)]    written in terms of Bessel integrals    V^it  ./2 (2u sin 9) = st\ (sin y --)- sin 3&lt;p) sin (2u sin 9 sin y) dy    we obtain                   0                                       ^    00 ')2 7T 2 7t    o   r f* r  ^"(^^n=T \ \ \ sin cp cos2 y sin 9 sin (2M sin sin 9) (M2 )"-17'dy d9 du    Tt^c       J   J   J    ooo    Now we shall interchange the order of integration and the internal  integral with respect to the variable and sum according to Abel. Then  the integral becomes    00    Bn = \ sin (2u sin y sin 6) (u2 v2)"-'!' du ==                  (a; = 2v sin y sin 9)      0    l                                          00    =  ()nv2n[sm(xt)(l2)n-'/'dt-'t-v2n\ sin (a-()((2 l)"-v'd(    (21)    o                                         i    The integral with finite limits is an ordinary integral. It determines  the Struve function with the index n    \sm {xt) (1 - f2)"--'. dt -- -[L(M+2)r(T H(x)          (22)  0                            2^r)    The second integral is computed using the Schlafli representation    CO                                                                                       /               1 '\    ^e-^(t2-\ )"-. dt = -- K- (z)      (z = 5 - ix' 5 &gt; 0. " &gt; - )    &lt;i                                                      ^ V 2 / \ 2 /    When the limit    oo                         /   i \  lime-^(t2- \Y-^dt = lim   .n+2nA^(2) =    S-&gt;-0                              z-cx r ( ) ( )    i                             'va-.''^7    616 D.N. Chetaev    r("+y)                  rCn+y) (_i)" ,,1     ,    = Tpyp^"^ '):- l'fTyw ^-^^PT17"^) -n^    exists then we obtain    00                                          00    ^ sin (a:&lt;) (t2 1 )"-'/'' A - lim [ e-8' sin (xt) (x2 !)"-' d&lt; ---  J                             s- ')    = }\mlm\ e-^^-^-^dt = r     2'   (-l)"7n(.e)     (23)  s-o   ^                       2 (Y)    From this it follows that the generalized Mehler-Sonine formula [1]    y / \ ^ _______2_______ r   sin (xt} dt    v\)  r(-^-.)r(t)(fy ) (^-i)^    is correct in the sense of the Abel sumnation not only for the values  - 1/2 &lt; v &lt; 1/2 but also for all negative values of v.    When formulas (22) and (23) are combined we obtain the following ex-  pression for the integral (21):    B- = ^^^ 'e'^" l7" (a sin 9) - ?H(a sin e)]       (a = 2V sm     2(    The remaining integrals in expression (20) have the usual meaning.  Wien (19) is taken into account this expression becomes:    AnW=(-=-^^(n+i)T(^^cx    V."                     '/2l    X \ sin 9 cos2 y \ [/asm 6) zHn(asin6)] ("^^"sineriedy   (24)    0                                0    The integration with respect to 6 will be accomplished by expanding  the Bessel and Struve functions into power series:    'I'"                           .   _  Cn(y)== ( [^asme^i-H^asine)]^18!"6) "sin 9^6==    o    ';, it                             co                          nm i    s m-""9^^.::^...)^)-"    00                       TTUti                       VIT    = y      ^--T-       W f sin'"+i6de=    ^or^+Or^+n+i)^2^ }    Driving a piston into an elastic half-space            617  oo             mitt                / l \ / m   \    ^ y     tap---r-___/q\Tn r^r ^+ij  -&gt;r(f+i)r(f+.+i)V2;  2^(m^4-l)    Then                   oo -, / 1 \                 miti    r /^   V r 'z'7 ____-T      r a Y"    (-n(T) = 2J -^-  /m+l    ^  /m        X ^-2-}  =o       1 ^"^~+1/1 \'Y+n+l) \    Now one can conpute the last integral with respect of ci:    ."    Dn (A) = \ sin y cos2 cpCn (y) dy =  o    Vi TC                oo     / 1 \                 mni    r .      o  vi r ^T/      Bxp -i-         / a \",    = S ''P^'^S^-rP-FTOrt^TTO^) 'i    oo  _ l l \                /    mm\ ^           'i, re    = 2 ^-Pl-h^ ^ sin^.cos^d, -  ^o 2 ^("4-l+l)^(f+n+l) ^    = vr(^)    exp^^)."     r(1)r(^-+i)  2 rC^+^r^+n+i) 2^(m^-l+2)    which can be written in the following way:    oo                /_mm\ n                          n    ot)=^s^,n^(^:)^(m+^ (" 0 = n (-" ^()) (25)    m=o II (t) 1 ^~ +  l \+ ^               I'=l    It can easily be seen that    A(^ ) - ^ V exp(-^)^-.n^ ^    du(" ^^An^r^+iM"1^)-2'   JDn-1    From this, assuming that D is a function which is complete and bounded  at zero, one obtains a recurrence formula       Z)=^^"-iun-i^                       (26)    0    For n = 0 the series (25) becomes    oo                /   ir&gt;xi\ ^    D (k} - n y     exp^--^       _    ^oW--8-2j    /m+l     \   (mJ_l    '. -  "1=0 l Vg+1/1 \2^ + ^/    00         i it        /    pT \ r\-l    _ -"_ V expyexp^-^-^P-'-1 ^ _ ^ [, _ ^i (2i&gt;)    . Hi (2i&gt;) 1    ^^+iMt+i+i)   ^L    . +  . J    618 D.H. Chetaev    The recurrence formula yields    20                   2V    D,(k)=--h-^-[J-^dx+-t-\11^dx]=  " '      4v \_    v }  x      v j   x     \    0                                    0    where    -     "i r-1      J (2y) ~ J1 &lt;2^;)  l- , H {2v) - Hi (2t.)-]    ----L1-1,J          (28)    X                                                           X    ^)=^o(^,    i;r)=S)rfS    J                                          J    0                                          0    are tabulated functions. Similarly    u                                                  u    ^2 (A) = - -g- {l - ^- ^ [7(2^) - ^ (2^)] ^+ -^ ^ (H (2y) - Hi (2^)] vdv\ =    0                                                              0    __ "L    Qr7(2^)-Ji(2z&gt;)    Jp(2i&gt;)    7(2i&gt;) 1     6v \      L       2u       "'   W       W \ '    , ,.rH(2t&gt;)-Hj(22&gt;)-l/    Ho (2)    H(2i&gt;)1l    -t-0^u^-4----8^'JJ    Now expression (24) becomes:    ^^-iti-^'.i-.]    A ^^D ^ tfc r^    J{2kc}-Ji{2kc)    ^. H (2fcc) - Hi (2fcc) 1  1-''        7tl2l_             kc                      kc         |    4 /^   3&amp;&lt;c n        ife3 L    -&lt; r J(2kc}-Ji{2kc}    Jo {2kc)  A2 W =-^2= "-T t1" "LAci  (2fcc)   7(2Ac)1 , o. ^H(2Ac)l(2tc)/^t , Bo (^g)    H(2Ac)1l  - [2kcy~,\ + oi L*c + (2^)2 --(2kcyr]f    Substitution of these functions into formula (18) yields the following  final formulas for the resistance of the driving of the piston    Z = Spa [R (kaC; kbc) + iX (kaC, k^c}]    where 5 = ne2 is the area of the piston, p is the density of the medium,  a is the speed of propagation of the lingitudinal waves, c is the radius  of the piston, and k and k, are the wave numbers corresponding to speeds  of propagation of longitudinal and transverse waves. The dimensionless  active resistance R and the reactive resistance X of the connection of  the piston with the wave propagation field is expressed in terms of  tabulated functions in the following fashion:    Driving a piston into an elastic half-space            619    = -[-'+'-^ -2^w- ^    -K-a'-^)']^^)^-    ^ ( fc Y Jo (2fcc) , 3 / 6 V ^ (2fcq c) | o ^fc \ '(^b c)    3 / b \ -f (2^ c)  \   (fca6)2   '2 la 7   (&amp;)3 T \a) (A(,c)2      2 V &lt;J (^ c)3    ^^-8(A)4)r-'^)+ (30)  -m'-^)^-^)"^    , /_b\* Ho(2^c) _ 3^ ^N* H(2^c) _ ^ ^Y J_ _  +d^;   (fc)'     2 l a;   (A)S      ^^a^fe    / b \ Ho (^bc) , 3 f b \ H(2fc,,c)    6 ,f,, 1  "^-a-J (A)' +2Y (AbC)"  +^VJfc    In the case of a fluid (b = 0), formulas (29) and (30) become the  well-known Rayleigh formulas.    The above dependence of the mechanical impedance of a piston with a  rigid collar upon the parameters p, and p can be utilized, for instance,  for the determination of the physical properties of elastic bodies (in  particular rock strata), just as the analysis of the impedance of a  piston acting upon a fluid flow [4,5] can be used for the measurement of  the flow velocity.    ^ Formulas (29) and (30) are easily studied in the limiting cases. For  wavelengths that are small compared to the dimensions of the driver one  has k c 1 and k,c 1. In this case the reactive resistance is small  and the dimensionless active resistance approaches unity, so that    ZwSpa    which means that the character of the driving is the same as in the case  of a high-frequency driving of a fluid of uniform density moving at the  speed of sound, equal to the speed of propagation of longitudinal waves.    At low frequencies, when k c 1 and k,c 1 we obtain  'a            o    v    z    F 4     16 / &amp; \2 ,  4 / b \1-]  X A Aa C 5-(  ) +   )  L"     37t \a/  ' nVa/J    D    /7   \2r1  i   4 /o\    4/6\2 , 16 y b VI  H = (Aa C)2 [-,- + -^ (-,-)- 3- (^) +T5-(T-)J    To avoid misunderstanding let us note that in the last formulas the  transition to the case of a fluid {k, -no ) is impossible since they were    620 D.H. Chetaev    obtained under the condition that k,c 1, i.e. for media in which the  speed of propagation of transverse waves was comparable to the speed of  longitudinal waves.    TABLE 1.         R(l fee)  X(k 0   Elastic  Ideal Elastic Ideal   Poisson  fluid Poisson fluid  ^ medium   medium   0.25 0.50 0.75 1.00 0.0376 0.1461 0.2960 0.4560 ( ( ( ( 0.0309 0.1199 0.2561 0.4233 0.2063 0.3772 0.4891 0.5345 0.2087 0.3969 0.5471 0.6468  1.25 1.50 1.75 2.00 0.5967 0.7005 0.7639 0.7956 ( ( ( V.6023 0.7740 0.9215 1.0330 0.5232 0.4761 0.4184 0.3675 0.6905 0.6&amp;01 0.6238 0.5349  2.25 2.50 2.75 3.00 0.8101 0.8204 0.8337 0.8508  1.1027 1.1310 1.1242 1.0922 0.3323 0.3188 0.2993 0.2875 0.4293 0.3231 0.2300 0.1594  3.25 3.50 3.75 4.00 0.8681 0.8822 0.8882 0.8902 ( ( 1.0473 1.0013 0.9639 0.9413 0.2724 0.2543 0.2365 0.2226 0.1159 0.0989 0.1036 0.1220    The analysis using formulas (29) and (30) is also sufficiently simple  even in those cases when it becomes necessary to enlarge the extent or  the accuracy of the existing tables of integrals    x    /o(S)dc,  H(x)=CH   As an illustration we present in Table 1 a computation of the values  of the dimensionless active and reactive resistance using the formulas  (29) and (30) for the case of driving of a Poisson medium (X = p.). For  comparison also the corresponding values for the case of the fluid [6]  are presented. The argument is fee, wherein the wave number corresponds  to the value of the speed of longitudinal waves.    Driving a piston into an elastic half-space            621    BIBLIOGRAPHY    1. Watson, G.N., r&lt;oriia besselevykh funktsii (Theory of Bessel Func-  tions). Chap. 1. Izd-.vo inostr. lit., Moscow, 1949.    2. Strett. G.B. (Lord Rayleigh), Teoriia zvuka (The Theory of Sound).  Vol. 2. Gostekhizdat. Moscow, 1955.    3. Hardy, G., Raskhodiashchiesia riady (Diverging Series), Izd-vo in-  ostran. lit.. Moscow, 1951.    4. Chetaev, D.N., Ob akusticheskom soprotivlenil dvizhushchegosia plos-  kogo izluchatelia (On the acoustic resistance of a moving plane  driver). Dokl. Akad. Hank SSSR. Vol. 90, No. 3, pp. 355-358, 1953,    5. Chetaev, D.N., 0 vlilanil skorosti dozvukovogo potoka na soprotivlenle  Izluchenlla porshnlla s beskonechnym flantsem (On the influence of  a subsonic flow upon the resistance to the driving by a piston with  an infinite collar). Akust. zh. Vol. 2. No. 3. pp. 302-309, 1956.    6. Morse, P., Kolebaniia i zvuk (Vibrations and Sound). Gostekhizdat,  Moscow-Leningrad, 1949.    Translated by M.I.Y.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </xocs:rawtext>
+   <xocs:serial-item>
+      <converted-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="4.5.2" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>JAMM</jid>
+            <aid>5990156X</aid>
+            <ce:pii>0021-8928(59)90156-X</ce:pii>
+            <ce:doi>10.1016/0021-8928(59)90156-X</ce:doi>
+            <ce:copyright type="unknown" year="1959"/>
+         </item-info>
+         <head>
+            <ce:title>On the driving of a piston with a rigid collar into an elastic half-space</ce:title>
+            <ce:alt-title xml:lang="ru">Ob izluchenii porshnia s zhestkim flantsem v uprugoe polulrosranstvo</ce:alt-title>
+            <ce:alt-subtitle xml:lang="ru">PMM vol. 23, no. 3, 1959, pp. 425–433</ce:alt-subtitle>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>D.N</ce:given-name>
+                  <ce:surname>Chetaev</ce:surname>
+               </ce:author>
+               <ce:affiliation>
+                  <ce:textfn>MoscowRussia</ce:textfn>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:date-received day="11" month="3" year="1956"/>
+            <ce:abstract class="author">
+               <ce:section-title>Abstract</ce:section-title>
+               <ce:abstract-sec>
+                  <ce:simple-para view="all">This paper is concerned with the study of the problem of a field of steady-state vibrations excited in an elastic half-space by means of a rigid circular piston with an infinite rigid and smooth collar. Formulas for the active and reactive resistance of the connection between the field of wave propagation and the piston are obtained in terms of tabulated functions. Results of the analysis are presented for the case of driving a piston into an elastic Poisson medium.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+         </head>
+         <tail>
+            <ce:bibliography view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec>
+                  <ce:bib-reference id="BIB1">
+                     <ce:label>1.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.N.</ce:given-name>
+                                 <ce:surname>Watson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Teoriia besselevykh funktsii</sb:maintitle>
+                           </sb:title>
+                           <sb:translated-title>
+                              <sb:maintitle>Theory of Bessel Functions</sb:maintitle>
+                           </sb:translated-title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>1949</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Izd-vo inostr. lit</sb:name>
+                                 <sb:location>Moscow</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                        <sb:comment>Chap. 1.</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB2">
+                     <ce:label>2.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.B.</ce:given-name>
+                                 <ce:surname>Strett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:comment>(Lord Rayleigh)</sb:comment>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Teoriia zvuka</sb:maintitle>
+                                    </sb:title>
+                                    <sb:translated-title>
+                                       <sb:maintitle>The Theory of Sound</sb:maintitle>
+                                    </sb:translated-title>
+                                    <sb:volume-nr>Vol. 2</sb:volume-nr>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>1955</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Gostekhizdat</sb:name>
+                                 <sb:location>Moscow</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB3">
+                     <ce:label>3.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Hardy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Raskhodiashchiesia riady</sb:maintitle>
+                           </sb:title>
+                           <sb:translated-title>
+                              <sb:maintitle>Diverging Series</sb:maintitle>
+                           </sb:translated-title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>1951</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Izd-vo inostran. lit</sb:name>
+                                 <sb:location>Moscow</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB4">
+                     <ce:label>4.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.N.</ce:given-name>
+                                 <ce:surname>Chetaev</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Ob akusticheskom soprotivlenii dvizhushchegosia ploskogo izluchatelia</sb:maintitle>
+                           </sb:title>
+                           <sb:translated-title>
+                              <sb:maintitle>On the acoustic resistance of a moving plane driver</sb:maintitle>
+                           </sb:translated-title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Dokl. Akad. Nauk SSSR</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>Vol. 90</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>No. 3</sb:issue-nr>
+                              <sb:date>1953</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>355</sb:first-page>
+                              <sb:last-page>358</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB5">
+                     <ce:label>5.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.N.</ce:given-name>
+                                 <ce:surname>Chetaev</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>O vliianii skorosti dozvukovogo potoka na soprotivlenie izlucheniia porshniia s beskonechnym flantsem</sb:maintitle>
+                           </sb:title>
+                           <sb:translated-title>
+                              <sb:maintitle>On the influence of a subsonic flow upon the resistance to the driving by a piston with an infinite collar</sb:maintitle>
+                           </sb:translated-title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Akust. zh.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>Vol. 2</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>No. 3</sb:issue-nr>
+                              <sb:date>1956</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>302</sb:first-page>
+                              <sb:last-page>309</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB6">
+                     <ce:label>6.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Morse</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Kolebaniia i zvuk</sb:maintitle>
+                           </sb:title>
+                           <sb:translated-title>
+                              <sb:maintitle>Vibrations and Sound</sb:maintitle>
+                           </sb:translated-title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>1949</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Gostekhizdat</sb:name>
+                                 <sb:location>Moscow-Leningrad</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </converted-article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

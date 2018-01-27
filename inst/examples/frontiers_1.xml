@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Microbio.</journal-id>
+<journal-title>Frontiers in Microbiology</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Microbio.</abbrev-journal-title>
+<issn pub-type="epub">1664-302X</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3389/fmicb.2012.00403</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Microbiology</subject>
+<subj-group>
+<subject>Original Research</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Metagenomic Analysis of a Southern Maritime Antarctic Soil</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name><surname>Pearce</surname> <given-names>David A.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+<xref ref-type="author-notes" rid="fn001">&#x0002A;</xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Newsham</surname> <given-names>Kevin K.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Thorne</surname> <given-names>Michael A. S.</given-names></name>
+<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Calvo-Bado</surname> <given-names>Leo</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Krsek</surname> <given-names>Martin</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+<xref ref-type="author-notes" rid="fn002"><sup>&#x02020;</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Laskaris</surname> <given-names>Paris</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+<xref ref-type="author-notes" rid="fn002"><sup>&#x02020;</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Hodson</surname> <given-names>Andy</given-names></name>
+<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+</contrib>
+<contrib contrib-type="author">
+<name><surname>Wellington</surname> <given-names>Elizabeth M.</given-names></name>
+<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff1"><sup>1</sup><institution>Ecosystems Programme, Natural Environment Research Council, British Antarctic Survey</institution> <country>Cambridge, UK</country></aff>
+<aff id="aff2"><sup>2</sup><institution>School of Life Sciences, University of Warwick</institution> <country>Coventry, UK</country></aff>
+<aff id="aff3"><sup>3</sup><institution>Department of Geography, University of Sheffield</institution> <country>Sheffield, UK</country></aff>
+<author-notes>
+<fn fn-type="edited-by"><p>Edited by: Diana R. Nemergut, University of Colorado Boulder, USA</p></fn>
+<fn fn-type="edited-by"><p>Reviewed by: Rebecca Gast, Woods Hole Oceanographic Institution, USA; Cristina Takacs-Vesbach, University of New Mexico, USA</p></fn>
+<fn fn-type="corresp" id="fn001"><p>&#x0002A;Correspondence: David A. Pearce, Ecosystems Programme, British Antarctic Survey, Natural Environment Research Council, Madingley Road, Cambridge CB3 0ET, UK. e-mail: <email>dpearce&#x00040;bas.ac.uk</email></p></fn>
+<fn fn-type="present-address" id="fn002"><p><sup>&#x02020;</sup>Present address: Martin Krsek, Masaryk University, Brno, Czech Republic; Paris Laskaris, Department of Plant Pathology, University of Florida, Gainesville, FL 32611, USA.</p></fn>
+<fn fn-type="other" id="fn003"><p>This article was submitted to Frontiers in Extreme Microbiology, a specialty of Frontiers in Microbiology.</p></fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>05</day>
+<month>12</month>
+<year>2012</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2012</year>
+</pub-date>
+<volume>3</volume>
+<elocation-id>403</elocation-id>
+<history>
+<date date-type="received">
+<day>24</day>
+<month>06</month>
+<year>2012</year>
+</date>
+<date date-type="accepted">
+<day>02</day>
+<month>11</month>
+<year>2012</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#x000A9; 2012 Pearce, Newsham, Thorne, Calvo-Bado, Krsek, Laskaris, Hodson and Wellington.</copyright-statement>
+<copyright-year>2012</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/"><p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in other forums, provided the original authors and source are credited and subject to any copyright notices concerning any third-party graphics etc.</p></license>
+</permissions>
+<abstract>
+<p>Our current understanding of Antarctic soils is derived from direct culture on selective media, biodiversity studies based on clone library construction and analysis, quantitative PCR amplification of specific gene sequences and the application of generic microarrays for microbial community analysis. Here, we investigated the biodiversity and functional potential of a soil community at Mars Oasis on Alexander Island in the southern Maritime Antarctic, by applying 454 pyrosequencing technology to a metagenomic library constructed from soil genomic DNA. The results suggest that the commonly cited range of phylotypes used in clone library construction and analysis of 78&#x02013;730&#x02009;OTUs (de-replicated to 30&#x02013;140) provides low coverage of the major groups present (&#x0223C;5%). The vast majority of functional genes (&#x0003E;77%) were for structure, carbohydrate metabolism, and DNA/RNA processing and modification. This study suggests that prokaryotic diversity in Antarctic terrestrial environments appears to be limited at the generic level, with <italic>Proteobacteria</italic>, <italic>Actinobacteria</italic> being common. Cyanobacteria were surprisingly under-represented at 3.4% of sequences, although &#x0223C;1% of the genes identified were involved in CO<sub>2</sub> fixation. At the sequence level there appeared to be much greater heterogeneity, and this might be due to high divergence within the relatively restricted lineages which have successfully colonized Antarctic terrestrial environments.</p>
+</abstract>
+<kwd-group>
+<kwd>Antarctica</kwd>
+<kwd>bacteria</kwd>
+<kwd>metagenomics</kwd>
+<kwd>polar</kwd>
+<kwd>soil</kwd>
+<kwd>454 pyrosequencing</kwd>
+</kwd-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="6"/>
+<equation-count count="0"/>
+<ref-count count="56"/>
+<page-count count="13"/>
+<word-count count="9644"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec sec-type="introduction">
+<title>Introduction</title>
+<p>Antarctic soils have fascinated microbiologists throughout the last century. Expeditions to the continent as far back as 1901 collected soils specifically for bacteriological study. The results of these studies, and later twentieth century research, indicated that Antarctic soils typically harbor low numbers of bacterial taxa (Wynn-Williams, <xref ref-type="bibr" rid="B54">1996</xref>). It is thought that this low taxonomic diversity is associated with increasingly severe environmental conditions, such as restricted water and nutrient availability, and frequent freeze-thaw cycling in summer. These environmental factors also increase in severity with progression from the island archipelagos of the Scotia arc and northern Antarctic Peninsula southwards to the Antarctic continent (Convey, <xref ref-type="bibr" rid="B13">2001</xref>). However, the evidence for this restricted taxonomic diversity has been largely based on data from culture-based studies (e.g., Wynn-Williams, <xref ref-type="bibr" rid="B53">1983</xref>) and, more recently, on data from clone libraries (Table <xref ref-type="table" rid="T1">1</xref>). These studies have typically only provided levels of coverage of 0.50&#x02013;0.80 (but see Aislabie et al., <xref ref-type="bibr" rid="B2">2009</xref>), and all have recorded similar levels of biodiversity (at &#x0223C;30&#x02013;140&#x02009;OTUs), all of which could be considered to be relatively low when compared with soils sampled from temperate or tropical environments (Fierer et al., <xref ref-type="bibr" rid="B21">2003</xref>, <xref ref-type="bibr" rid="B19">2007</xref>; Fierer and Jackson, <xref ref-type="bibr" rid="B20">2006</xref>). Many of the dominant bacterial taxa identified by previous studies of Antarctic soil fall into similar taxonomic categories (Table <xref ref-type="table" rid="T2">2</xref>). However, in recent years, with the advent of metagenomic technology (Handelsman et al., <xref ref-type="bibr" rid="B28">1998</xref>; Hugenholz et al., <xref ref-type="bibr" rid="B30">1998</xref>; Eisen, <xref ref-type="bibr" rid="B17">2007</xref>; Delmont et al., <xref ref-type="bibr" rid="B15">2011</xref>) it is now possible to make a more comprehensive assessment of the scope of the microbial biodiversity present in these soils, and even to determine some of the potential geochemical functions of these microbial communities.</p>
+<table-wrap position="float" id="T1">
+<label>Table 1</label>
+<caption><p><bold>Summary data from a selection of previous studies of Antarctic soil microbial diversity</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th align="left">Reference</th>
+<th align="left">Latitude and longitude (place name)</th>
+<th align="left">T</th>
+<th align="left">S</th>
+<th align="left">R</th>
+<th align="left">% D</th>
+<th align="left">Shannon&#x02013;Weaver DI</th>
+<th align="left">Coverage</th>
+<th align="left">Richness</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Aislabie et al. (<xref ref-type="bibr" rid="B1">2006</xref>)</td>
+<td align="left">S 77&#x000B0; 25&#x02032;E 163&#x000B0; 41&#x02032; (Marble Point)</td>
+<td align="left">728</td>
+<td align="left">33</td>
+<td align="left">52&#x02013;85</td>
+<td align="left">44&#x02013;56</td>
+<td align="left">2.65&#x02013;3.95</td>
+<td align="left">0.50&#x02013;0.52</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 31&#x02032; E 161&#x000B0; 52&#x02032; (Bull Pass)</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">29&#x02013;47</td>
+<td align="left">82&#x02013;85</td>
+<td align="left">2.53&#x02013;3.19</td>
+<td align="left">0.81&#x02013;0.83</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 31&#x02032; E 161&#x000B0; 40&#x02032; (Lake Vanda)</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">47&#x02013;61</td>
+<td align="left">67&#x02013;69</td>
+<td align="left">3.27&#x02013;3.32</td>
+<td align="left">0.70&#x02013;0.70</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left">Saul et al. (<xref ref-type="bibr" rid="B44">2005</xref>)</td>
+<td align="left">S 77&#x000B0; 50&#x02032; E 166&#x000B0; 45&#x02032; (Scott Base)</td>
+<td align="left">522</td>
+<td align="left">62</td>
+<td align="left">56</td>
+<td align="left">n/a</td>
+<td align="left">3.70&#x02013;3.76</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left">Aislabie et al. (<xref ref-type="bibr" rid="B3">2008</xref>)</td>
+<td align="left">S 77&#x000B0; 55&#x02032; E 166&#x000B0; 45&#x02032; (Scott Base)</td>
+<td align="left">155</td>
+<td align="left">n/a</td>
+<td align="left">45&#x02013;51</td>
+<td align="left">11&#x02013;18</td>
+<td align="left">n/a</td>
+<td align="left">0.52&#x02013;0.57</td>
+<td align="left">46&#x02013;182</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 25&#x02032; E 163&#x000B0; 41&#x02032; (Marble Point)</td>
+<td align="left">131</td>
+<td align="left">n/a</td>
+<td align="left">47&#x02013;85</td>
+<td align="left">4&#x02013;12</td>
+<td align="left">n/a</td>
+<td align="left">0.50</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 31&#x02032; E 161&#x000B0; 52&#x02032; (Bull Pass)</td>
+<td align="left">236</td>
+<td align="left">n/a</td>
+<td align="left">29&#x02013;47</td>
+<td align="left">23&#x02013;24</td>
+<td align="left">n/a</td>
+<td align="left">0.78&#x02013;0.83</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 31&#x02032; E 161&#x000B0; 40&#x02032; (Lake Vanda)</td>
+<td align="left">211</td>
+<td align="left">n/a</td>
+<td align="left">47&#x02013;49</td>
+<td align="left">16&#x02013;17</td>
+<td align="left">n/a</td>
+<td align="left">0.63&#x02013;0.70</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 19&#x02032; E 170&#x000B0; 13&#x02032; (Cape Hallett)</td>
+<td align="left">173</td>
+<td align="left">n/a</td>
+<td align="left">26</td>
+<td align="left">19&#x02013;27</td>
+<td align="left">n/a</td>
+<td align="left">0.77&#x02013;0.80</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left">Aislabie et al. (<xref ref-type="bibr" rid="B2">2009</xref>)</td>
+<td align="left">S 77&#x000B0; 19&#x02032; E 170&#x000B0; 13&#x02032; (Cape Hallett)</td>
+<td align="left">580</td>
+<td align="left">52</td>
+<td align="left">27&#x02013;57</td>
+<td align="left">29&#x02013;76</td>
+<td align="left">n/a</td>
+<td align="left">0.45&#x02013;0.78</td>
+<td align="left">63&#x02013;256</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 77&#x000B0; 13&#x02032; E 166&#x000B0; 26&#x02032; (Cape Bird)</td>
+<td align="left">168</td>
+<td align="left">11</td>
+<td align="left">4&#x02013;19</td>
+<td align="left">78&#x02013;99</td>
+<td align="left">n/a</td>
+<td align="left">0.85&#x02013;0.99</td>
+<td align="left">5&#x02013;36</td>
+</tr>
+<tr>
+<td align="left">Smith et al. (<xref ref-type="bibr" rid="B46">2006</xref>)</td>
+<td align="left">S 78&#x000B0; 05&#x02032; E 165&#x000B0; 53&#x02032; (PENP)</td>
+<td align="left">181</td>
+<td align="left">61</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">1.598</td>
+<td align="left">0.73</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 78&#x000B0; 06&#x02032; E 165&#x000B0; 49&#x02032; (MVG)</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">1.331</td>
+<td align="left">0.64</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">S 78&#x000B0; 01&#x02032; E 165&#x000B0; 33&#x02032; (BIS)</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">1.238</td>
+<td align="left">0.56</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left">Taton et al. (<xref ref-type="bibr" rid="B47">2003</xref>)</td>
+<td align="left">S 77&#x000B0; 37&#x02032; E 163&#x000B0; 07&#x02032; (Lake Fryxell)</td>
+<td align="left">78</td>
+<td align="left">16</td>
+<td align="left">15</td>
+<td align="left">n/a</td>
+<td align="left">2.88</td>
+<td align="left">0.79</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left">Niederberger et al. (<xref ref-type="bibr" rid="B38">2008</xref>)</td>
+<td align="left">S 72&#x000B0; 22&#x02032; E 169&#x000B0; 53&#x02032; (Luther Vale)</td>
+<td align="left">323</td>
+<td align="left">323</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">3.32&#x02013;4.04</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+</tr>
+<tr>
+<td align="left">Yergeau et al. (<xref ref-type="bibr" rid="B55">2007</xref>)</td>
+<td align="left">54&#x000B0; 15&#x02032; S, 36&#x000B0; 30&#x02032; W (South Georgia)</td>
+<td align="left">178</td>
+<td align="left">2111</td>
+<td align="left">130</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">470</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">60&#x000B0; 43&#x02032; S, 45&#x000B0; 38&#x02032; W (Signy Island)</td>
+<td align="left">174</td>
+<td align="left">n/a</td>
+<td align="left">128</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">420</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">67&#x000B0; 34&#x02032; S, 68&#x000B0; 08&#x02032; W (Anchorage Island)</td>
+<td align="left">154</td>
+<td align="left">n/a</td>
+<td align="left">100</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">430</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">71&#x000B0; 19&#x02032; S, 68&#x000B0; 18&#x02032; W (Fossil Bluff)</td>
+<td align="left">183</td>
+<td align="left">n/a</td>
+<td align="left">60</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">180</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">71&#x000B0; 53&#x02032; S, 68&#x000B0; 15&#x02032; W (Mars Oasis)</td>
+<td align="left">168</td>
+<td align="left">n/a</td>
+<td align="left">138</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">460</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">72&#x000B0; 03&#x02032; S, 68&#x000B0; 31&#x02032; W (Coal Nunatak)</td>
+<td align="left">187</td>
+<td align="left">n/a</td>
+<td align="left">40</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">100</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">78&#x000B0; 26&#x02032; S, 85&#x000B0; 60&#x02032; W (Ellsworth Mountains)</td>
+<td align="left">170</td>
+<td align="left">n/a</td>
+<td align="left">98</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">270</td>
+</tr>
+<tr>
+<td align="left">Yergeau et al. (<xref ref-type="bibr" rid="B56">2009</xref>)</td>
+<td align="left">60&#x000B0; 43&#x02032; S, 45&#x000B0; 38&#x02032; W (Signy Island)</td>
+<td align="left">320</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">420</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">67&#x000B0; 34&#x02032; S, 68&#x000B0; 08&#x02032; W (Anchorage Island)</td>
+<td align="left">367</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">430</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">71&#x000B0; 19&#x02032; S, 68&#x000B0; 18&#x02032; W (Fossil Bluff)</td>
+<td align="left">107</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">180</td>
+</tr>
+<tr>
+<td align="left"/>
+<td align="left">72&#x000B0; 03&#x02032; S, 68&#x000B0; 31&#x02032; W (Coal Nunatak)</td>
+<td align="left">160</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+<td align="left">100</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<p><italic>T, total number of clones; S, number of sequences deposited; R, number of ribotype or phylotype patterns; % D, clones assigned to dominant ribotype (percentage); DI, diversity Index; n/a, not available</italic>.</p>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap position="float" id="T2">
+<label>Table 2</label>
+<caption><p><bold>Many of the dominant bacterial taxa identified by previous studies on Antarctic soil fall into similar taxonomic categories</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<tbody>
+<tr>
+<td align="left"><italic>Rubrobacter</italic>, <italic>Arthrobacter</italic>, <italic>Acidobacteria</italic>, <italic>Oscillatoria</italic>, <italic>Phormidium</italic>, <italic>Deinococcus</italic>, <italic>Sphingomonas</italic>, <italic>Bacteroides</italic>, <italic>Brevundimonas</italic>, <italic>Chloroflexus</italic>, <italic>Hymenobacter</italic>, <italic>Leptolyngbya</italic>, <italic>Nostoc</italic>, <italic>Pseudonocardia</italic>, <italic>Psychrobacter</italic>, <italic>Rhodococcus</italic>, <italic>Synechococcus</italic>, <italic>Actinobacteria</italic>, <italic>Anabaena</italic>, <italic>Cytophaga</italic>, <italic>Fervidobacterium</italic>, <italic>Friedmanniella</italic>, <italic>Microcoleus</italic>, <italic>Microcystis</italic>, <italic>Nitrosospira</italic>, <italic>Pseudomonas</italic>, <italic>Sphingobacterium</italic>, <italic>Sporosarcosina</italic>, and <italic>Xanthomonas</italic></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>Antarctic soils are of particular interest because chemical analyses has shown that they are relatively low in nutrient content (Lawley et al., <xref ref-type="bibr" rid="B32">2004</xref>; Newsham et al., <xref ref-type="bibr" rid="B37">2010</xref>). This can lead to strong gradients in physicochemical parameters at a wide range of spatial scales; of the order of meters (Chong et al., <xref ref-type="bibr" rid="B9">2010</xref>), kilometers (Chong et al., <xref ref-type="bibr" rid="B10">2011</xref>), or hundreds of kilometers (Yergeau et al., <xref ref-type="bibr" rid="B55">2007</xref>). Antarctic soils also provide extremely good early indications of the potential effects of environmental change. The Antarctic Peninsula, for example, is warming three times faster than the global average (Turner et al., <xref ref-type="bibr" rid="B49">2005</xref>).</p>
+<p>Unsurprisingly, an increasing number of studies are beginning to show that the microbial biodiversity associated with these environmental gradients could be much larger than was once thought. Mars Oasis was chosen for this study as preliminary data already exist for this site. It has been suggested to be a potential biodiversity hotspot (Yergeau et al., <xref ref-type="bibr" rid="B55">2007</xref>) and it has unique soil chemistry when compared to the surrounding area (Chong et al., <xref ref-type="bibr" rid="B10">2011</xref>). It is also geographically isolated, being situated 1,000&#x02009;km from South America on the south-eastern coast of Alexander Island in the southern Maritime Antarctic, and is isolated by the Antarctic Circumpolar current and prevailing wind direction from the continental interior. Through studies of aerobiological transfer at Rothera (Hughes et al., <xref ref-type="bibr" rid="B31">2004</xref>) and Halley (Pearce et al., <xref ref-type="bibr" rid="B41">2010</xref>) we have some idea of the type of colonist arriving via aerial transfer, and there is relatively little wildlife or human impact at the site. One such study (Newsham et al., <xref ref-type="bibr" rid="B37">2010</xref>) showed no difference between microbial biodiversity across two different parts of the same site at the 97% sequence homology level. However, the effects of alignment quality, distance calculation method, sequence filtering, and region on the analysis of 16S rRNA gene can all influence biodiversity estimates (Schloss, <xref ref-type="bibr" rid="B45">2010</xref>). A re-analysis of data from this study, showed that the biodiversity could be different at each of the two study sites examined depending upon the specific criteria used for sequence differentiation. Hence the site may contain a higher diversity than that shown by clone library analysis alone.</p>
+<p>Here, we report the biodiversity and functional potential of the soil community at Mars Oasis, based on the application of 454 pyrosequencing technology to a metagenomic library. It is important to recognize that all techniques in molecular biology impose some degree of bias or selection, and indeed numerous studies have investigated new methods to improve extraction, purification, amplification, and quantification of DNA from soils. In addition, comparative studies have been performed to analyze the efficiency of methods for extraction and purification of soil DNA recovered, and there are a number of excellent reviews in the literature which consider this topic in some detail (for example, Wintzingerode et al., <xref ref-type="bibr" rid="B52">1997</xref>; Frosteg&#x000E5;rd et al., <xref ref-type="bibr" rid="B22">1999</xref>; Courtois et al., <xref ref-type="bibr" rid="B14">2001</xref>; Martin-Laurent et al., <xref ref-type="bibr" rid="B35">2001</xref>; Feinstein et al., <xref ref-type="bibr" rid="B18">2009</xref>; Delmont et al., <xref ref-type="bibr" rid="B15">2011</xref>; Mahmoudi et al., <xref ref-type="bibr" rid="B34">2011</xref>). For this reason, we do not attempt to provide a systematic analysis of the differentiation based on 16S rDNA. We rather highlight that a polyphasic approach can significantly increase the apparent diversity present and to focus on the relative magnitude and direction of the difference rather than absolute values. This is particularly important for Antarctic soils now, where the total biodiversity was believed to be limited. This view is changing. So the aim of this study was to gain a more comprehensive understanding of the taxonomic diversity of bacteria present in the soil and to determine an initial frequency distribution of potential functional genes. By combining the latter data with analyses of the chemistry of runoff and lake water, we also aimed to try to gain some preliminary insight into the main elements being utilized and cycled by the soil microbial community.</p>
+</sec>
+<sec sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec>
+<title>Site description and sampling</title>
+<p>Mars Oasis consists of an upper and lower terrace formed from shales. The soil used in this study was collected from the lower terrace, which is situated on a moraine ridge formed by contact between the George VI ice-shelf and Alexander Island. The lower terrace consists of areas of till, fluvial, and lacustrine sediments, with streams and ponds forming during the austral spring and summer. Restricted stands of bryophytes occur on the lower terrace close to meltwater streams and ponds. Lichens are sparse at the site, from which higher animals, including seals and nesting birds, are absent. Mean monthly air and soil (20&#x02009;mm depth) temperatures at Mars Oasis vary between 1 and 6&#x000B0;C in January and &#x02212;20 and &#x02212;15&#x000B0;C in June, respectively. Snow depth at the site is typically &#x0223C;2&#x02009;m in winter, but snow ablates rapidly, usually in November, coinciding with a marked rise in soil water content close to the melt water ponds at the lower site (H. J. Peat, personal communication).</p>
+<p>The site was accessed from Rothera Research Station on Adelaide Island by fixed-wing aircraft fitted with skis in December 2004. Samples of moraine soil were collected from an area of level ground at the south-eastern margin of a permanent meltwater pool (71&#x000B0;52.6960&#x02032; S; 68&#x000B0;14.9879&#x02032; W; Figure <xref ref-type="fig" rid="F1">1</xref>). The soil was collected by inserting four sterile Vacutainers, with their lids removed, to a depth of 5&#x02009;cm into the soil. Bryophytes were absent from this soil. The lids of the Vacutainers were replaced and the samples placed into re-sealable polythene bags, which were packed in ice in an insulated box. The soils were returned the following day to Rothera Research Station and were frozen at &#x02212;20&#x000B0;C, prior to their return to the UK at the same temperature.</p>
+<fig id="F1" position="float">
+<label>Figure 1</label>
+<caption><p><bold>Location of Mars Oasis (A) on the Antarctic Peninsula (B)</bold>.</p></caption>
+<graphic xlink:href="fmicb-03-00403-g001.tif"/>
+</fig>
+</sec>
+<sec>
+<title>Metagenomic library construction</title>
+<p>The four soil samples (75&#x02009;g each) were each suspended in 1% SDS solution (25&#x02009;ml), to which 0.05&#x02009;g of glucanex and glucanase had been added. The suspensions were vortexed for a few seconds and then incubated at 37&#x000B0;C for 4&#x02009;h. They were cooled and filtered (1&#x02009;mm) and 250&#x02009;&#x003BC;g of RNAase was added to each solution. The solutions were centrifuged six times at 7,500&#x02009;rpm for 15&#x02009;min. After each centrifuge run, the supernatant (12&#x02009;ml) was decanted. Three molar sodium acetate at pH 7.0 (1.2&#x02009;ml) and ethanol (26.4&#x02009;ml) was added to each aliquot of the supernatant, which was centrifuged at 10,000&#x02009;<italic>g</italic> for 10&#x02009;min. The pellet of DNA was drained and dried for several minutes. TE buffer (0.1&#x02009;ml) was added to each pellet, which was then incubated at 4&#x000B0;C for 16&#x02009;h. All of the TE buffer solutions were combined (&#x0223C;240&#x02009;&#x003BC;l), mixed with an equal volume of loading buffer, and ran out in a large-welled 1% low melting point agarose gel (Sigma-Aldrich) at 20&#x02009;V overnight. The gel ran for 48&#x02009;h, after which a block of agarose containing the target DNA, which had advanced 14&#x02013;17&#x02009;mm, was excised from the gel with a sterile scalpel. A size standard was used to select the region of the gel containing 35&#x02013;45&#x02009;kbp fragments. The agarose containing the target nucleic acids was then kept at 4&#x000B0;C for 60&#x02009;h.</p>
+<p>The agarose was digested in Gelase according to the manufacturers&#x02019; instructions and enzymes were then denatured by heating to 60&#x000B0;C for 30&#x02009;s. DNA was precipitated in three separate aliquots and was re-suspended in TE buffer (4.5&#x02009;&#x003BC;l). The concentration of DNA (3&#x02009;&#x000D7;&#x02009;20&#x02009;ng&#x02009;&#x003BC;l<sup>&#x02212;1</sup> aliquots) was determined by running against known standards in 1.5% agarose gels (1&#x02009;h at 120&#x02009;V). The DNA was then end-repaired by combining aliquots (12&#x02009;&#x003BC;l) on ice with 10&#x02009;&#x000D7;&#x02009;end-repair buffer (1.85&#x02009;&#x003BC;l), 2.5&#x02009;mM dNTP mix (1.85&#x02009;&#x003BC;l), 10&#x02009;mM ATP (1.85&#x02009;&#x003BC;l), and end-repair enzyme mix (0.92&#x02009;&#x003BC;l). The mixture was incubated at room temperature for 45&#x02009;min and then at 70&#x000B0;C for 10&#x02009;min. The DNA, consisting of a solution containing 240&#x02009;ng of DNA, was then ligated into the pEpiFOS-5 fosmid vector (EpiCentre, Madison, WI, USA) by combining it with sterile water (2&#x02009;&#x003BC;l), 10&#x02009;&#x000D7;&#x02009;fast link ligation buffer (3&#x02009;&#x003BC;l), 10&#x02009;mM ATP solution (3&#x02009;&#x003BC;l), fastlink ligase (3&#x02009;&#x003BC;l), and vector (1&#x02009;&#x003BC;l). The ligation reaction was then incubated at 4&#x000B0;C for 7&#x02009;days.</p>
+<p>The ligation mix was heated to 70&#x000B0;C for 10&#x02009;min and the fosmid clones were packaged into lambda phages using MaxPlax lambda packaging extracts according to the manufacturer&#x02019;s instructions (Epicentre, Madison, WI, USA). This process yielded three aliquots (1.025&#x02009;ml) of cloned cells. The packaged library was transduced into <italic>E. coli</italic> EPI-100, and <italic>E. coli</italic> transformants were selected on LB agar supplemented with 12.5&#x02009;&#x003BC;g ml<sup>&#x02212;1</sup> chloramphenicol. After determining the number of viable cells present, aliquots (200&#x02009;&#x003BC;l) were spread onto dry Luria broth (100&#x02009;ml) containing 12.5&#x02009;&#x003BC;g&#x02009;ml<sup>&#x02212;1</sup> chloramphenicol in 47 Petri dishes (150&#x02009;mm diameter). Chloroformed phage (0.5&#x02009;ml) was added to EPIFOS cells (5&#x02009;ml, OD 1.0) and were incubated at 37&#x000B0;C for 20&#x02009;min. Aliquots (100&#x02009;&#x003BC;l) were added to each plate, spread, and grown at 37&#x000B0;C for 17&#x02009;h. Colonies were picked into individual wells of 96 well plates containing Luria broth with 12.5&#x02009;&#x003BC;g ml<sup>&#x02212;1</sup> chloramphenicol (40&#x02009;&#x003BC;l). The plates were incubated at 37&#x000B0;C for 17&#x02009;h before sterile glycerol (10% v/v) was added to each well and the plates covered with plastic seals prior to storage at &#x02212;80&#x000B0;C. All procedures described above took place under a sterile hood.</p>
+<p>Quality control was established by end sequencing 20 random fosmids using pEpiFOS<sup>&#x02122;</sup>-5 forward and reverse end sequencing primers to ensure environmental DNA had been successfully incorporated, from microorganisms that one might expect to find in this extreme environment. One full fosmid was also sequenced. Primers were used to identify specific sequences from the fosmid library. The metagenomic library was screened using a range of primers for viral (Cyanophage CPS4GC, CPS5 Fuller et al., <xref ref-type="bibr" rid="B23">1998</xref>; Wilson et al., <xref ref-type="bibr" rid="B51">1999</xref> and Phycodnaviridae AVS1, AVS2 Chen and Suttle, <xref ref-type="bibr" rid="B8">1995</xref>), fungal (ITS1F/ITS4F; White et al., <xref ref-type="bibr" rid="B50">1990</xref>; Gardes and Bruns, <xref ref-type="bibr" rid="B24">1993</xref>), phosphonate (Gilbert et al., <xref ref-type="bibr" rid="B25">2009</xref>), and N cycling (nosZ-F/nosZ-R, nirS1F/nirS6R, and nifHF/nifHRb; Thr&#x000F6;back et al., <xref ref-type="bibr" rid="B48">2004</xref>; R&#x000F6;sche and Bothe, <xref ref-type="bibr" rid="B43">2005</xref>) genes. A selection of <italic>E. coli</italic> cells containing fosmids were screened for antibiotic production.</p>
+<p>Cells from 25 plates (10% of the total) were combined (to favor depth of sequencing rather than coverage) and cultured in Luria broth with 12.5&#x02009;&#x003BC;g&#x02009;ml<sup>&#x02212;1</sup> chloramphenicol overnight in a shaking incubator at 37&#x000B0;C until an OD of 0.8 was obtained. The cells were centrifuge-concentrated and used to construct a 10,000&#x02009;Gbp metagenomic library for 454 pyrosequencing. Fosmids were extracted from <italic>E. coli</italic> cells using the QIAGEN Plasmid Midi Kit (QIAGEN Plasmid Midi Kit, Cat. No. 12145. QIAGEN) and then treated with ATP-dependent Exo-nuclease (Plasmid-SafeTM ATP-Dependent Dnase, 10&#x02009;U&#x003BC;l<sup>&#x02212;1</sup> 10,000&#x02009;U, Cat. No. E3110K, Epicentre). Extracts were sequenced by Macrogen (South Korea) according to the emPCR Method Manual &#x02013; Lib-L MV (Anon, <xref ref-type="bibr" rid="B5">2009a</xref>) and the Sequencing Method Manual (Anon, <xref ref-type="bibr" rid="B6">2009b</xref>).</p>
+</sec>
+<sec>
+<title>Mars oasis clone library re-analysis</title>
+<p>In clone library based studies, it is common to de-replicate samples through RFLP, or to assign sequences to groups with a predetermined sequence similarity (commonly 97%), for the purposes of comparison across different samples, studies, or environmental gradients. The consequence of this approach is a potential underestimate of the total sequence diversity present in any given sample. To estimate the magnitude of this uncertainty, we selected 21 groupings of OTUs derived from a Mars Oasis clone library study (Newsham et al., <xref ref-type="bibr" rid="B37">2010</xref>) and independently aligned them in CLUSTALW, to determine the levels of variation or similarity within each designated group. In the original study, PCR products were aligned in ClustalW and vector sequences removed. Initially these sequences were grouped according to gross similarity by aligning all sequences in Clustal and generating a single average distance tree based on percentage identities. Groups of sequences and any ungrouped sequences were then analyzed as separate data sets. In this re-analysis, this step was modified so that sequences within each group were only retained in that group if they had &#x02265;97% sequence similarity to other members of the same grouping.</p>
+</sec>
+<sec>
+<title>Chemistry</title>
+<p>Samples of runoff, lake water, sediment pore water from lake margins and snow were collected in December 2007. The samples were filtered immediately in the field (1&#x02009;&#x003BC;&#x02009;m) and then frozen. Sub-samples were stored at &#x0223C;1&#x000B0;C in the dark for &#x0223C;10&#x02009;days until pH and <inline-formula><mml:math id="M1"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>HCO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula> analyses (alkalinity titration using 1&#x02009;mM HCl) could be made. Thawed samples were analyzed for major ions (Ca<sup>2&#x0002B;</sup>, Mg<sup>2&#x0002B;</sup>, Na<sup>&#x0002B;</sup>, K<sup>&#x0002B;</sup>, Cl<sup>-</sup>, <inline-formula><mml:math id="M2"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>NO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup><mml:mo class="MathClass-punc">,</mml:mo></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math id="M3"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>SO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula>) in the UK using Dionex DX90 ion chromatography units, and for <inline-formula><mml:math id="M4"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>NH</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">&#x0002B;</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula> using a Skalar Autoanalyzer. Precision errors were &#x0003C;5% according to mid-range standards for all tests.</p>
+</sec>
+<sec>
+<title>Data analyses</title>
+<p>After stringent removal of technical replicates (Gomez-Alvarez et al., <xref ref-type="bibr" rid="B26">2009</xref>) with cd-hit (at 99.5%; Li and Godzik, <xref ref-type="bibr" rid="B33">2006</xref>), vector screening with Lucy (Chou and Holmes, <xref ref-type="bibr" rid="B11">2001</xref>) and MG-RAST (Meyer et al., <xref ref-type="bibr" rid="B36">2008</xref>), and eliminating shorter (&#x0003C;100&#x02009;bp) reads, 262,086 reads (average length 441&#x02009;bp) were then analyzed using MG-RAST (Meyer et al., <xref ref-type="bibr" rid="B36">2008</xref>). Searches with a minimum cut-off of 1e<sup>&#x02212;05</sup>, were made against the RDP (Cole et al., <xref ref-type="bibr" rid="B12">2009</xref>), Greengenes (DeSantis et al., <xref ref-type="bibr" rid="B16">2006</xref>), and SEED (Overbeek et al., <xref ref-type="bibr" rid="B39">2005</xref>) databases. An alternate independent OTU analysis was carried out by screening the original set of reads for 16S sequence using both RDP and GenBank (Benson et al., <xref ref-type="bibr" rid="B7">2005</xref>), eliminating redundancy, and selecting those above 90% identity. Sequences were deposited in GenBank accession number SRA060370.</p>
+</sec>
+</sec>
+<sec>
+<title>Results</title>
+<sec>
+<title>Metagenomic library</title>
+<sec>
+<title>Preliminary analysis</title>
+<p>End sequencing gave matches to phototrophs and halotolerant organisms such as <italic>Nocardioides</italic> sp., <italic>Actinobacteria</italic>, <italic>Chlamydomonas reinhardtii</italic>, <italic>Halobacterium</italic> sp., Halophilic archaeon, <italic>Chromohalobacter salexigens</italic>, <italic>Phytophthora sojae</italic>, and a plant pathogen, confirming that genomic DNA incorporated into the metagenomic library was predominantly derived from typical soil micro-organisms. Specific gene probing for phosphonate genes, fungal genes, and phage genes all generated successful amplifications.</p>
+</sec>
+<sec>
+<title>Phylogeny from 454 pyrosequencing data</title>
+<p>The total number of sequences containing some taxonomic information was 261,840. Blasting these sequences against the SEED database produced 322 Phyla hits (including bacteria, eukarya, viruses, and archaea). The full phylogeny of these sequences (&#x0003E;1,000 hits) is shown in Table <xref ref-type="table" rid="T3">3</xref>. The numbers of genera in each class in the 454 phylogeny were (with percentage abundances in parentheses): Proteobacteria 320 genera (48.7%) as: alpha 100 genera (12.2%), beta 46 genera (4.2%), delta 27 genera (4.1%), epsilon 18 genera (0.1%), gamma 129 genera (7.5%), unclassified (0.1%), then Actinobacteria 78 genera (10.6%), Firmicutes 85 genera (7.9%), Bacteroidetes 21 genera (5.9%), Planctomycetes 3 genera (4.7%), Acidobacteria 2 genera (4.0%), Cyanobacteria 26 genera (3.4%), Verrucomicrobia 2 genera (3.1%), and Chloroflexi 9 genera (2.3%).</p>
+<table-wrap position="float" id="T3">
+<label>Table 3</label>
+<caption><p><bold>Phylogeny of bacterial sequences derived from 454 pyrosequencing data, with number of sequences in each group (where frequency &#x0003E;1,000)</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<tbody>
+<tr>
+<td align="left">Candidatus <italic>Solibacter usitatus</italic></td>
+<td align="left">5,652</td>
+</tr>
+<tr>
+<td align="left"><italic>Rhodopseudomonas palustris</italic></td>
+<td align="left">3,293</td>
+</tr>
+<tr>
+<td align="left"><italic>Rhodopirellula baltica</italic></td>
+<td align="left">2,764</td>
+</tr>
+<tr>
+<td align="left"><italic>Gemmatimonas aurantiaca</italic></td>
+<td align="left">2,735</td>
+</tr>
+<tr>
+<td align="left"><italic>Sphingomonas wittichii</italic></td>
+<td align="left">2,507</td>
+</tr>
+<tr>
+<td align="left">Candidatus <italic>Koribacter versatilis</italic></td>
+<td align="left">2,343</td>
+</tr>
+<tr>
+<td align="left"><italic>Salmonella enterica</italic></td>
+<td align="left">2,299</td>
+</tr>
+<tr>
+<td align="left"><italic>Sphingopyxis alaskensis</italic></td>
+<td align="left">2,272</td>
+</tr>
+<tr>
+<td align="left"><italic>Novosphingobium aromaticivorans</italic></td>
+<td align="left">2,239</td>
+</tr>
+<tr>
+<td align="left"><italic>Chthoniobacter flavus</italic></td>
+<td align="left">2,100</td>
+</tr>
+<tr>
+<td align="left"><italic>Pirellula staleyi</italic></td>
+<td align="left">1,931</td>
+</tr>
+<tr>
+<td align="left"><italic>Ruminococcus albus</italic></td>
+<td align="left">1,889</td>
+</tr>
+<tr>
+<td align="left"><italic>Gemmata obscuriglobus</italic></td>
+<td align="left">1,811</td>
+</tr>
+<tr>
+<td align="left"><italic>Planctomyces limnophilus</italic></td>
+<td align="left">1,692</td>
+</tr>
+<tr>
+<td align="left"><italic>Myxococcus xanthus</italic></td>
+<td align="left">1,624</td>
+</tr>
+<tr>
+<td align="left"><italic>Xylella fastidiosa</italic></td>
+<td align="left">1,601</td>
+</tr>
+<tr>
+<td align="left"><italic>Bradyrhizobium japonicum</italic></td>
+<td align="left">1,571</td>
+</tr>
+<tr>
+<td align="left"><italic>Verrucomicrobium spinosum</italic></td>
+<td align="left">1,519</td>
+</tr>
+<tr>
+<td align="left"><italic>Opitutus terrae</italic></td>
+<td align="left">1,379</td>
+</tr>
+<tr>
+<td align="left"><italic>Frankia</italic> sp.</td>
+<td align="left">1,352</td>
+</tr>
+<tr>
+<td align="left">Bacterium Ellin514</td>
+<td align="left">1,341</td>
+</tr>
+<tr>
+<td align="left"><italic>Bradyrhizobium</italic> sp.</td>
+<td align="left">1,340</td>
+</tr>
+<tr>
+<td align="left"><italic>Xanthomonas campestris</italic></td>
+<td align="left">1,332</td>
+</tr>
+<tr>
+<td align="left"><italic>Erythrobacter</italic> sp.</td>
+<td align="left">1,302</td>
+</tr>
+<tr>
+<td align="left"><italic>Spirosoma linguale</italic></td>
+<td align="left">1,263</td>
+</tr>
+<tr>
+<td align="left"><italic>Chitinophaga pinensis</italic></td>
+<td align="left">1,182</td>
+</tr>
+<tr>
+<td align="left"><italic>Blastopirellula marina</italic></td>
+<td align="left">1,161</td>
+</tr>
+<tr>
+<td align="left"><italic>Planctomyces maris</italic></td>
+<td align="left">1,128</td>
+</tr>
+<tr>
+<td align="left"><italic>Escherichia coli</italic></td>
+<td align="left">1,127</td>
+</tr>
+<tr>
+<td align="left"><italic>Synechococcus</italic> sp.</td>
+<td align="left">1,120</td>
+</tr>
+<tr>
+<td align="left"><italic>Erythrobacter litoralis</italic></td>
+<td align="left">1,105</td>
+</tr>
+<tr>
+<td align="left"><italic>Sinorhizobium meliloti</italic></td>
+<td align="left">1,074</td>
+</tr>
+<tr>
+<td align="left"><italic>Sorangium cellulosum</italic></td>
+<td align="left">1,055</td>
+</tr>
+<tr>
+<td align="left"><italic>Sphingobium japonicum</italic></td>
+<td align="left">1,037</td>
+</tr>
+<tr>
+<td align="left"><italic>Roseiflexus</italic> sp. RS-1</td>
+<td align="left">1,019</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>A rarefaction analysis of the final 454 data matches from the 261,840 sequences yielded 1,160 genera identified (Figure <xref ref-type="fig" rid="F2">2</xref>). An analysis of frequency distribution allowed an assessment of rare diversity, with the most common individual sequence match occurring 5,652 times (Figure <xref ref-type="fig" rid="F3">3</xref>). One hundred sixty-eight sequences occurred only once and 58 only twice. These data gave a Chao estimated sequence number of 1,400 (82.9% coverage) and a coverage estimate (Good, <xref ref-type="bibr" rid="B27">1953</xref>) of 85.52%.</p>
+<fig id="F2" position="float">
+<label>Figure 2</label>
+<caption><p><bold>Rarefaction graph from SEED data</bold>.</p></caption>
+<graphic xlink:href="fmicb-03-00403-g002.tif"/>
+</fig>
+<fig id="F3" position="float">
+<label>Figure 3</label>
+<caption><p><bold>Rare diversity graph</bold>.</p></caption>
+<graphic xlink:href="fmicb-03-00403-g003.tif"/>
+</fig>
+<p>Of the 1,160 genera identified, the top 10 matches were to <italic>Candidatus Solibacter</italic> (5,652), <italic>Burkholderia</italic> (5,405), <italic>Streptomyces</italic> (5,348), <italic>Xanthomonas</italic> (3,685), <italic>Pseudomonas</italic> (3,554), <italic>Sphingomonas</italic> (3,432), <italic>Planctomyces</italic> (3,417), <italic>Bradyrhizobium</italic> (3,308), <italic>Rhodopseudomonas</italic> (3,295), and <italic>Bacillus</italic> (3,279). Other important groups were also present, for example, the <italic>Methylobacteria</italic> (2,562). Only 228 sequences had a single hit and 10,236 sequences in 73 groups were unclassified genera (3.88%).</p>
+<p>Of the 3,316 species identified, the top 10 matches were to <italic>Candidatus Solibacter usitatus</italic> (5,652), <italic>Rhodopseudomonas palustris</italic> (3,293), <italic>Rhodopirellula baltica</italic> (2,764), <italic>Gemmatimonas aurantiaca</italic> (2,735), <italic>Sphingomonas wittichii</italic> (2,507), <italic>Candidatus Koribacter versatilis</italic> (2,343), <italic>Salmonella enterica</italic> (2,299), <italic>Sphingopyxis alaskensis</italic> (2,272), <italic>Novosphingobium aromaticivorans</italic> (2,239), and <italic>Chthoniobacter flavus</italic> (2,100). Other important groups were also identified, e.g., bacterium Ellin514 (1,341), which is commonly recorded in polar studies. Only 2,326 sequences in 328 groups were unclassified species (0.82%).</p>
+<p>Screening the sequences using the SEED database and selecting for virus sequences gave 494 phage sequences in 28 genera (shown in parentheses). The top 10 phage type occurrences in order of frequency were <italic>Mycobacterium</italic> 107 (10 types), <italic>Burkholderia</italic> 104 (8 types), <italic>Bordetella</italic> 59 (3 types), <italic>Pseudomonas</italic> 51 (7 types), <italic>Enterobacteria</italic> 39 (10 types), <italic>Flavobacterium</italic> 22 (1 type), <italic>Myxococcus</italic> 14 (1 type), <italic>Synechococcus</italic> 11 (2 types), <italic>Prochlorococcus</italic> 9 (3 types), and <italic>Sinorhizobium</italic> 9 (1 type).</p>
+<p>Screening sequences using the SEED database and selecting for Archaea sequences gave 32 Euryarchaeota, 16 Crenarchaeota, and 1 Korarchaeota. The top 10 Archaeal species that were recorded were <italic>Methanosarcina acetivorans</italic> 296 (3 types), <italic>Methanospirillum hungatei</italic> 77 (1 type), <italic>Pyrococcus abyssi</italic> 75 (3 types), <italic>Sulfolobus acidocaldarius</italic> 64 (3 types), <italic>Haloarcula marismortui</italic> 60 (1 type), <italic>Methanococcus maripaludis</italic> 59 (1 type), <italic>Pyrobaculum aerophilum</italic> 55 (4 types), <italic>Methanoculleus marisnigri</italic> 50 (1 type), <italic>Archaeoglobus fulgidus</italic> 48 (1 type), and <italic>Methanosphaerula palustris</italic> 48 (1 type).</p>
+<p>Screening sequences using the SEED database and selecting for eukaryotic sequences generated few matches. These included the nematode <italic>Caenorhabditis</italic> sp., the liverwort <italic>Marchantia</italic> sp., the marine diatom <italic>Odontella</italic> sp., the fungi (<italic>Gibberella</italic> sp., <italic>Neurospora</italic> sp., <italic>Magnaporthe</italic> sp., <italic>Schizosaccharomyces</italic> sp., <italic>Saccharomyces</italic> sp., and <italic>Eremothecium</italic> sp.), protozoa (<italic>Mesostigma</italic> sp., <italic>Naegleria</italic> sp., and <italic>Paramecium</italic> sp.), and algae (<italic>Cyanidium</italic> sp., <italic>Cyanidioschyzon</italic> sp., and <italic>Laminaria</italic> sp.).</p>
+</sec>
+<sec>
+<title>Gene ontology from 454 data</title>
+<p>The gene ontologies derived from the metagenomic data are shown in Figure <xref ref-type="fig" rid="F4">4</xref>. Based on activity class, the most frequently encountered genes were those for clustering-based sub-systems (the precise functions of which are currently unknown), with the next most frequent genes being for carbohydrate metabolism, protein metabolism, amino acids and their derivatives, and cofactors, vitamins, prosthetic groups, and pigments. After these, the next most common genes were for DNA and RNA metabolism, membrane transport, and the cell wall and capsule. Genes for respiration, nucleosides and nucleotides, three classes of potentially ecologically important genes phages, prophages, transposable elements, plasmids, stress response genes, virulence, disease, and defense followed these. After these, four further classes of housekeeping genes (fatty acids, lipids, and isoprenoids; regulation and cell signaling, metabolism of aromatic compounds and cell division and cell cycle) occurred. Finally, ecologically important classes of genes for sulfur, phosphorus, and nitrogen metabolism, motility and chemotaxis, iron acquisition and metabolism, secondary metabolism, potassium metabolism, dormancy and sporulation, and photosynthesis were recorded.</p>
+<fig id="F4" position="float">
+<label>Figure 4</label>
+<caption><p><bold>Gene ontology by function</bold>.</p></caption>
+<graphic xlink:href="fmicb-03-00403-g004.tif"/>
+</fig>
+<p>Removing all structural, carbohydrate metabolism, and DNA/RNA processing and modification genes (77% of matches) resulted in 31 classes of protein with &#x0003E;500 matches (10% of matches). The most common (&#x0003C;6% of all matches, &#x0223C;10,000 matches) was to a protein (DUF1446) of unknown function. The next most frequent category (&#x0003E;1%, &#x0223C;3,000 matches) contained genes for prophage associated DNA combinational repair protein (2.4%), resistance to antibiotics and toxic compounds (2.4%), one-carbon metabolism (1.5%), and oxidative stress (1.5%). The next category, with 1,500&#x02013;3,000 matches (0.5&#x02013;1.0%) contained genes for CO<sub>2</sub> fixation (0.86%), flagellar motility (0.7%), phosphate metabolism (0.6%), and phospholipids (0.6%). After these, 1,000&#x02013;1,500 matches (0.3&#x02013;0.5%) were for osmotic stress (0.45%), heat shock (0.42%), quinone cofactors (0.38%), Ton and Tol transport systems (0.38%), and ammonia assimilation (0.36%). In the next category, several groups of potentially ecologically important proteins for Antarctic soils were then recorded, 1,000&#x02013;600 (0.2&#x02013;0.3%) containing genes for siderophores (0.3%), high affinity phosphate transporter and control of PHO regulon (0.3%), iron acquisition (0.29%), potassium homeostasis (0.29%), organic sulfur assimilation (0.28%), nitrate and nitrite ammonification (0.28%), nucleotidyl-phosphate metabolic clusters (0.28%), inorganic sulfur assimilation (0.27%), bacterial chemotaxis (0.25%), regulation of virulence (0.24%), P uptake in cyanobacteria (0.21%), and pathogenicity islands (0.21%). Finally, &#x0003C;600 hits (0.15&#x02013;0.2%) occurred to quorum sensing and biofilm formation (0.19%), periplasmic stress (0.19%), and detoxification genes (0.17%). A further 43,168 categories had &#x0003C;500 matches, with 17 classes having a single sequence associated with them.</p>
+</sec>
+<sec>
+<title>Clone library re-analysis</title>
+<p>Of 43 sequences that had earlier been grouped into 21 sequence types based on a &#x02265;97% cut-off level, pair-wise comparison of sequences within the originally assigned groups showed that only four of these independently the criteria within the group itself (Table <xref ref-type="table" rid="T4">4</xref>), suggesting that 14 of the original groupings underestimated total diversity.</p>
+<table-wrap position="float" id="T4">
+<label>Table 4</label>
+<caption><p><bold>Mars Oasis clone library re-analysis</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th align="left">Nominal identification given</th>
+<th align="left">Original (&#x02265;97% BLAST i.d.)</th>
+<th align="left">Sequence number</th>
+<th colspan="3" align="center">Sequence pair-wise comparisons (mismatch/sequence length similarity%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Uncultured bact clone MeCl 62</td>
+<td align="left">12/657 (98.2%)</td>
+<td align="left">3</td>
+<td align="left">27/841 (96.8%)</td>
+<td align="left">38/721 (94.7%)</td>
+<td align="left">33/721 (95.4%)</td>
+</tr>
+<tr>
+<td align="left">Uncultured eukaryote clone</td>
+<td align="left">36/730 (99%)</td>
+<td align="left">3</td>
+<td align="left">12/769 (98.4%)</td>
+<td align="left">74/802 (90.8%)</td>
+<td align="left">51/760 (93.3%)</td>
+</tr>
+<tr>
+<td align="left">Uncultured bact clone FRCH17502</td>
+<td align="left">3/745 (99.6%)</td>
+<td align="left">2</td>
+<td align="left">20/767 (97.4%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured bact clone LVH3-G7</td>
+<td align="left">4/715 (99%)</td>
+<td align="left">2</td>
+<td align="left">4/715 (99.0%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured bacteroidetes AS28</td>
+<td align="left">209/728 (71.3%)</td>
+<td align="left">2</td>
+<td align="left">92/725 (87.3%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured bacteroidetes clone</td>
+<td align="left">34/780 (95.6%)</td>
+<td align="left">3</td>
+<td align="left">317/826 (97.9%)</td>
+<td align="left">25/781 (96.8%)</td>
+<td align="left">29/782 (96.3%)</td>
+</tr>
+<tr>
+<td align="left">Uncultured cyanobacterium clone</td>
+<td align="left">20/699 (97.14%)</td>
+<td align="left">2</td>
+<td align="left">20/708 (97.2%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured Micrococcineae</td>
+<td align="left">64/715 (91.1%)</td>
+<td align="left">3</td>
+<td align="left">23/715 (96.8%)</td>
+<td align="left">48/708 (93.2%)</td>
+<td align="left">53/757 (93.0%)</td>
+</tr>
+<tr>
+<td align="left">Soil bacterial clone U8</td>
+<td align="left">24/795 (97.0%)</td>
+<td align="left">2</td>
+<td align="left">26/801 (96.8%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Actinomycetes clone FB-2 A11</td>
+<td align="left">28/724 (96.1%)</td>
+<td align="left">2</td>
+<td align="left">24/725 (96.7%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured bacterium clone CM131</td>
+<td align="left">32/414 (92.3%)</td>
+<td align="left">2</td>
+<td align="left">33/414 (92.0%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Bacterial clone KuyT-IWPB 17</td>
+<td align="left">26/744 (96.5%)</td>
+<td align="left">2</td>
+<td align="left">29/744 (96.1%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left"><italic>Solirubrobacter</italic> Gsoil 921</td>
+<td align="left">33/709 (95.3%)</td>
+<td align="left">3</td>
+<td align="left">7/710 (99.0%)</td>
+<td align="left">33/701 (95.3%)</td>
+<td align="left">30/767 (96.1%)</td>
+</tr>
+<tr>
+<td align="left">Uncultured bact 071021-ONK-KR1-12</td>
+<td align="left">69/812 (91.5%)</td>
+<td align="left">2</td>
+<td align="left">62/799 (92.2%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured bacterium FACH1766</td>
+<td align="left">16/805 (98.0%)</td>
+<td align="left">2</td>
+<td align="left">20/802 (97.5%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured bacterial clone F1-2F-F12</td>
+<td align="left">163/775 (79.0%)</td>
+<td align="left">2</td>
+<td align="left">80/774 (89.7%)</td>
+<td align="left"/>
+<td align="left"/>
+</tr>
+<tr>
+<td align="left">Uncultured Caldilineaceae bacterium</td>
+<td align="left">59/734 (92.0%)</td>
+<td align="left">3</td>
+<td align="left">30/744 (96.0%)</td>
+<td align="left">48/761 (93.7%)</td>
+<td align="left">48/744 (93.5%)</td>
+</tr>
+<tr>
+<td align="left"><italic>Anabaena</italic> sp.</td>
+<td align="left">37/756 (92.0%)</td>
+<td align="left">3</td>
+<td align="left">18/772 (97.7%)</td>
+<td align="left">29/770 (96.2%)</td>
+<td align="left">39/780 (95.0%)</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+<sec>
+<title>Chemistry</title>
+<p>Chemical data are shown in Table <xref ref-type="table" rid="T5">5</xref>. Runoff and soil pore water from the margin of the lake at Mars Oasis had pHs of 7.4&#x02013;7.6. Sulfate and calcium were the dominant ions present in the water (2,700&#x02013;4,100&#x02009;&#x003BC; equivalents L<sup>&#x02212;1</sup>). Carbonate and magnesium ions were less frequent (450&#x02013;1,400&#x02009;&#x003BC; equivalents L<sup>&#x02212;1</sup>), followed by sodium, chloride, and potassium (13&#x02013;333&#x02009;&#x003BC; equivalents L<sup>&#x02212;1</sup>). Finally, ammonium-<italic>N</italic> and nitrate-<italic>N</italic> were the least frequent ions in runoff, and ammonium was infrequent in pore water (each 3&#x02013;6&#x02009;&#x003BC; equivalents L<sup>&#x02212;1</sup>), but nitrate was relatively frequent in the latter (200&#x02009;&#x003BC; equivalents L<sup>&#x02212;1</sup>).</p>
+<table-wrap position="float" id="T5">
+<label>Table 5</label>
+<caption><p><bold>pH and ion concentrations of lake runoff, lake water, pore water, and snow at Mars Oasis</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<thead>
+<tr>
+<th align="left">Sample</th>
+<th align="left">pH</th>
+<th align="left"><inline-formula><mml:math id="M5"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>NH</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">&#x0002B;</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula></th>
+<th align="left">Na<sup>&#x0002B;</sup></th>
+<th align="left">K<sup>&#x0002B;</sup></th>
+<th align="left">Ca<sup>2&#x0002B;</sup></th>
+<th align="left">Mg<sup>2&#x0002B;</sup></th>
+<th align="left"><inline-formula><mml:math id="M6"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>HCO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula></th>
+<th align="left">Cl<sup>-</sup></th>
+<th align="left"><inline-formula><mml:math id="M7"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>SO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula></th>
+<th align="left"><inline-formula><mml:math id="M8"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>NO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula></th>
+<th align="left">O<sub>2</sub></th>
+<th align="left">DOC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Runoff</td>
+<td align="left">7.6</td>
+<td align="left">5.61</td>
+<td align="left">118</td>
+<td align="left">12.8</td>
+<td align="left">2,981</td>
+<td align="left">784</td>
+<td align="left">1,392</td>
+<td align="left">32.6</td>
+<td align="left">4,082</td>
+<td align="left">3.33</td>
+<td align="left">13.0</td>
+<td align="left">0.35</td>
+</tr>
+<tr>
+<td align="left">Lake water (sample 1)</td>
+<td align="left">7.3</td>
+<td align="left">6.25</td>
+<td align="left">101</td>
+<td align="left">14.2</td>
+<td align="left">1,238</td>
+<td align="left">259</td>
+<td align="left">1,771</td>
+<td align="left">141</td>
+<td align="left">956</td>
+<td align="left">2.38</td>
+<td align="left">12.2</td>
+<td align="left">6.53</td>
+</tr>
+<tr>
+<td align="left">Lake water (sample 2)</td>
+<td align="left">7.4</td>
+<td align="left">4.09</td>
+<td align="left">129</td>
+<td align="left">20.0</td>
+<td align="left">1,540</td>
+<td align="left">233</td>
+<td align="left">1,573</td>
+<td align="left">108</td>
+<td align="left">1,310</td>
+<td align="left">1.80</td>
+<td align="left">12.9</td>
+<td align="left">2.43</td>
+</tr>
+<tr>
+<td align="left">Lake water (sample 3)</td>
+<td align="left">7.5</td>
+<td align="left">6.14</td>
+<td align="left">85.7</td>
+<td align="left">16.6</td>
+<td align="left">849</td>
+<td align="left">115</td>
+<td align="left">768</td>
+<td align="left">103</td>
+<td align="left">781</td>
+<td align="left">0.86</td>
+<td align="left">12.7</td>
+<td align="left">1.15</td>
+</tr>
+<tr>
+<td align="left">Lake water (sample 4)</td>
+<td align="left">7.7</td>
+<td align="left">3.11</td>
+<td align="left">36.8</td>
+<td align="left">8.37</td>
+<td align="left">510</td>
+<td align="left">64.0</td>
+<td align="left">1,088</td>
+<td align="left">26.1</td>
+<td align="left">165</td>
+<td align="left">5.92</td>
+<td align="left">12.6</td>
+<td align="left">m.d.</td>
+</tr>
+<tr>
+<td align="left">Pore water</td>
+<td align="left">7.4</td>
+<td align="left">2.91</td>
+<td align="left">124</td>
+<td align="left">16.2</td>
+<td align="left">2,693</td>
+<td align="left">449</td>
+<td align="left">652</td>
+<td align="left">333</td>
+<td align="left">2,464</td>
+<td align="left">199</td>
+<td align="left">7.31</td>
+<td align="left">5.59</td>
+</tr>
+<tr>
+<td align="left">Snow</td>
+<td align="left">5.7</td>
+<td align="left">2.03</td>
+<td align="left">16.5</td>
+<td align="left">12.0</td>
+<td align="left">46.1</td>
+<td align="left">3.91</td>
+<td align="left">m.d.</td>
+<td align="left">19.2</td>
+<td align="left">46.2</td>
+<td align="left">2.38</td>
+<td align="left">m.d.</td>
+<td align="left">3.64</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<p><italic>DOC, dissolved organic carbon; m.d., missing data</italic>.</p>
+<p><italic>Data are expressed in &#x003BC; equivalents L<sup>-1</sup> except for dissolved oxygen and DOC (both mg L<sup>-1</sup>) and pH. Data are means of 7, 12, 3, and 4 measurements for runoff, lake water, pore water, and snow, respectively. <inline-formula><mml:math id="M9"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>PO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula> was below detection limits of 1&#x02009;&#x003BC; equivalents L<sup>&#x02212;1</sup></italic></p>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+</sec>
+</sec>
+<sec sec-type="discussion">
+<title>Discussion</title>
+<p>Studies of bacterial communities from around the world suggest a wide spectrum of taxonomic diversity, from the Amazonian soils, where every sequence sampled could be different (Fierer et al., <xref ref-type="bibr" rid="B19">2007</xref>) to the highly selective Rio Tinto river in Europe, with a relatively restricted biodiversity (Palacios et al., <xref ref-type="bibr" rid="B40">2008</xref>). It is apparent from the current study that the bacterial community diversity in the soil at Mars Oasis lies somewhere between the extremes, with a total of 1,160 genera from 3,318 phylotypes detected in the 454 library. This is an order of magnitude greater than data from clone library studies alone, which have to date recorded 78&#x02013;730 (de-replicated to 30&#x02013;140) phylotypes present in Antarctic soils sampled from the sub-Antarctic Islands, the Antarctic Peninsula, and the continent itself (see references in Table <xref ref-type="table" rid="T1">1</xref>). Of the 1,160 genera recorded in our study, 71 (6.12%) have also been identified by other studies of Antarctic soil biodiversity.</p>
+<sec>
+<title>Diversity at the genus level</title>
+<p>The most frequent genera in Antarctic soils (identified in &#x0003E;3 studies) are <italic>Rubrobacter</italic>, <italic>Arthrobacter</italic>, <italic>Oscillatoria</italic>, <italic>Sphingomonas</italic>, <italic>Chloroflexus</italic>, <italic>Anabaena</italic>, <italic>Actinobacteria</italic>, <italic>Microcoleus</italic>, <italic>Microcystis</italic>, <italic>Nitrosospira</italic>, <italic>Pseudomonas</italic>, <italic>Fervidobacterium</italic>, <italic>Xanthomonas</italic>, <italic>and Acidobacteria</italic>, <italic>Phormidium</italic>, <italic>Deinococcus</italic>, <italic>Bacteroides</italic>, <italic>Brevundimonas</italic>, <italic>Hymenobacter</italic>, <italic>Leptolyngbya</italic>, <italic>Nostoc</italic>, <italic>Pseudonocardia</italic>, <italic>Psychrobacter</italic>, <italic>Rhodococcus</italic>, <italic>Synechococcus</italic>, <italic>Cytophaga</italic>, <italic>Friedmanniella</italic>, and <italic>Sphingobacterium</italic>. The former group was identified in both clone library based and 454 based studies, indicating that there is some broad agreement with previous studies, whilst the latter group was specifically identified in this study.</p>
+</sec>
+<sec>
+<title>Diversity at the sequence level</title>
+<p>The 10 Antarctic soil biodiversity studies examined (based upon PCR amplification, cloning, and sequencing of 16S rRNA genes) each reported relatively low prokaryotic biodiversity in Antarctic terrestrial ecosystems. However, estimated coverage in each of these studies ranged from 30&#x02013;70%, only two of the collectors&#x02019; curves approached anywhere near saturation and all were based upon the assumption that taxonomic differentiation occurs with &#x0003C;97% sequence similarity over 200&#x02013;800&#x02009;bp. Despite 97% sequence similarity being adopted for species differentiation in many biodiversity studies, it has already been demonstrated that 100% sequence similarity in the 16S rRNA gene can be found between isolates with different ecological phenotypes (Pe&#x000F1;a et al., <xref ref-type="bibr" rid="B42">2010</xref>), and conversely, &#x0003C;97% sequence similarity has been found between isolates which have an identical ecological function. We therefore conducted a detailed re-analysis of 300 sequences (Newsham et al., <xref ref-type="bibr" rid="B37">2010</xref>), and show that at a sequence similarity of 97%, only 7 of the 300 sequences were duplicated in the clone library. This re-analysis showed that the diversity of closely related sequences may have been underestimated by up to 40%. If we add to this an approximate doubling of the total number of genera identified through the addition of 454 data to the combined clone library summary, then there could be a minimum of four times greater diversity than was previously described. So although prokaryotic diversity may indeed be restricted at the generic level, there appears to be high sequence diversity present in the soil at Mars Oasis.</p>
+</sec>
+<sec>
+<title>Biodiversity</title>
+<p>The range of taxa identified extended (indeed increased by five times), rather than contradicted the taxa identified in earlier clone library studies (140 Genera were present in both; 56 from clone library studies only and 1,026 from this 454 study only). A number of key taxa were identified, that have been indicated to be important in other studies of Antarctic soils &#x02013; these include the Actinobacteria and Cyanobacteria. The taxa identified were also similar to those recovered in airborne samples of the Peninsula region. Hughes et al. (<xref ref-type="bibr" rid="B31">2004</xref>) sampled air for a 2-week period above Rothera Station on Adelaide Island, and found a range of microorganisms, including cyanobacteria, actinomycetes, diatom plastids, and other uncultivated bacterial groups. Elsewhere, on the Brunt Ice-Shelf over an isolated scientific research station, on an ice-shelf in continental Antarctica Pearce et al. (<xref ref-type="bibr" rid="B41">2010</xref>) found Bacilli, Pseudomonads, and Sphingomonads. In common with other environmental studies, particularly in the polar regions, many of the sequences obtained were from as yet uncultivated organisms. The detected aerial microorganisms were different from those obtained over the Antarctic Peninsula. In both aerobiological studies, a low microbial biodiversity was detected, which included many sequence replicates. In this study, there were also important genera identified that had not been described in a range of selected clone library studies (Table <xref ref-type="table" rid="T6">6</xref>).</p>
+<table-wrap position="float" id="T6">
+<label>Table 6</label>
+<caption><p><bold>Diversity of bacteria (and other groups) identified to the Genus level from Antarctic soil from by 454 sequencing</bold>.</p></caption>
+<table frame="hsides" rules="groups">
+<tbody>
+<tr>
+<td align="left"><italic>Abiotrophia</italic>, <italic>Acanthamoeba</italic>, <italic>Acaryochloris</italic>, <italic>Acetitomaculum</italic>, <italic>Acetivibrio</italic>, <italic>Acetobacter</italic>, <italic>Acetohalobium</italic>, <italic>Acholeplasma</italic>, <italic>Achromobacter</italic>, <italic>Acidaminococcus</italic>, <italic>Acidilobus</italic>, <italic>Acidiphilium</italic>, <italic>Acidithiobacillus</italic>, <italic>Acidithiomicrobium</italic>, <italic>Acidobacterium</italic>, <italic>Aciduliprofundum</italic>, <italic>Acorus</italic>, <italic>Actinocorallia</italic>, <italic>Actinomadura</italic>, <italic>Actinoplanes</italic>, <italic>Actinosynnema</italic>, <italic>Acuclavella</italic>, <italic>Acyrthosiphon</italic>, <italic>Adineta</italic>, <italic>Aedes</italic>, <italic>Aerococcus</italic>, <italic>Aeromonas</italic>, <italic>Aeropyrum</italic>, <italic>Afipia</italic>, <italic>Aggregatibacter</italic>, <italic>Agromyces</italic>, <italic>Ahrensia</italic>, <italic>Ailuropoda</italic>, <italic>Ajellomyces</italic>, <italic>Akkermansia</italic>, <italic>Albidiferax</italic>, <italic>Alcanivorax</italic>, <italic>Algoriphagus</italic>, <italic>Alicycliphilus</italic>, <italic>Alicyclobacillus</italic>, <italic>Aliivibrio</italic>, <italic>Alistipes</italic>, <italic>Alkalilimnicola</italic>, <italic>Alkaliphilus</italic>, <italic>Allium</italic>, <italic>Allochromatium</italic>, <italic>Alphabaculovirus</italic>, <italic>Alphapapillomavirus</italic>, <italic>Alternaria</italic>, <italic>Alteromonas</italic>, <italic>Amaranthus</italic>, <italic>Amatitlania</italic>, <italic>Aminobacterium</italic>, <italic>Aminomonas</italic>, <italic>Ammonifex</italic>, <italic>Amplypterus</italic>, <italic>Amycolatopsis</italic>, <italic>Anaerobaculum</italic>, <italic>Anaerococcus</italic>, <italic>Anaerofustis</italic>, <italic>Anaerolinea</italic>, <italic>Anaeromyxobacter</italic>, <italic>Anaerostipes</italic>, <italic>Anaerotruncus</italic>, <italic>Anaplasma</italic>, <italic>Ancylobacter</italic>, <italic>Aneurinibacillus</italic>, <italic>Anopheles</italic>, <italic>Anoplopoma</italic>, <italic>Anoxybacillus</italic>, <italic>Anthopleura</italic>, <italic>Antonospora</italic>, <italic>Aphanizomenon</italic>, <italic>Aphanomyces</italic>, <italic>Apis</italic>, <italic>Apteryx</italic>, <italic>Aquimonas</italic>, <italic>Arabidopsis</italic>, <italic>Arcanobacterium</italic>, <italic>Archaeoglobus</italic>, <italic>Arcobacter</italic>, <italic>Aromatoleum</italic>, <italic>Arsenophonus</italic>, <italic>Artemia</italic>, <italic>Arthroderma</italic>, <italic>Arthrospira</italic>, <italic>Ascidia</italic>, <italic>Asfivirus</italic>, <italic>Aspergillus</italic>, <italic>Asticcacaulis</italic>, <italic>Ateles</italic>, <italic>Atopobium</italic>, <italic>Aulacoseira</italic>, <italic>Aurantimonas</italic>, <italic>Aureobasidium</italic>, <italic>Aureococcus</italic>, <italic>Azorhizobium</italic>, <italic>Azospirillum</italic>, <italic>Babesia</italic>, <italic>Bacteroides</italic>, <italic>Basfia</italic>, <italic>Bathymodiolus</italic>, <italic>Batrachovirus</italic>, <italic>Beggiatoa</italic>, <italic>Beijerinckia</italic>, <italic>Bermanella</italic>, <italic>Beryx</italic>, <italic>Beutenbergia</italic>, <italic>Bilophila</italic>, <italic>Blastocystis</italic>, <italic>Blastomonas</italic>, <italic>Blastopirellula</italic>, <italic>Blattabacterium</italic>, <italic>Blautia</italic>, <italic>Bombyx</italic>, <italic>Bordetella</italic>, <italic>Borrelia</italic>, <italic>Bos</italic>, <italic>Botryotinia</italic>, Bpp-1-like viruses, <italic>Brachybacterium</italic>, <italic>Brachymonas</italic>, <italic>Brachypodium</italic>, <italic>Brachyspira</italic>, <italic>Branchiostoma</italic>, <italic>Brassica</italic>, <italic>Brevibacillus</italic>, <italic>Brevundimonas</italic>, <italic>Bromus</italic>, <italic>Brucella</italic>, <italic>Brugia</italic>, <italic>Bryonia</italic>, <italic>Bulleidia</italic>, <italic>Butyrivibrio</italic>, <italic>Caenorhabditis</italic>, <italic>Caldanaerobacter</italic>, <italic>Calditerrivibrio</italic>, <italic>Caldivirga</italic>, <italic>Caligus</italic>, <italic>Callithrix</italic>, <italic>Camelus</italic>, <italic>Caminibacter</italic>, <italic>Camponotus</italic>, <italic>Campylobacter</italic>, <italic>Canavalia</italic>, <italic>Candida</italic>, Candidatus, <italic>Accumulibacter</italic>, Candidatus, <italic>Amoebophilus</italic>, Candidatus, <italic>Azobacteroides</italic>, Candidatus, <italic>Blochmannia</italic>, Candidatus, <italic>Chloracidobacterium</italic>, Candidatus, <italic>Cloacamonas</italic>, Candidatus, <italic>Desulforudis</italic>, Candidatus, <italic>Hamiltonella</italic>, Candidatus, <italic>Korarchaeum</italic>, Candidatus, <italic>Koribacter</italic>, Candidatus, <italic>Kuenenia</italic>, Candidatus, <italic>Liberibacter</italic>, Candidatus, <italic>Magnetobacterium</italic>, Candidatus, <italic>Micrarchaeum</italic>, Candidatus, <italic>Nitrososphaera</italic>, Candidatus, <italic>Odyssella</italic>, Candidatus, <italic>Parvarchaeum</italic>, Candidatus, <italic>Pelagibacter</italic>, Candidatus, <italic>Phytoplasma</italic>, Candidatus, <italic>Protochlamydia</italic>, Candidatus, <italic>Puniceispirillum</italic>, Candidatus, <italic>Regiella</italic>, Candidatus, <italic>Rhodoluna</italic>, Candidatus, <italic>Solibacter</italic>, Candidatus, <italic>Sulcia</italic>, <italic>Canis</italic>, <italic>Capnocytophaga</italic>, <italic>Capsaspora</italic>, <italic>Capsicum</italic>, <italic>Carassius</italic>, <italic>Cardiobacterium</italic>, <italic>Carnobacterium</italic>, <italic>Catabena</italic>, <italic>Catenibacterium</italic>, <italic>Catenulispora</italic>, <italic>Catharanthus</italic>, <italic>Catonella</italic>, <italic>Cavia</italic>, <italic>Cellulomonas</italic>, <italic>Cellulosilyticum</italic>, <italic>Cellulosimicrobium</italic>, <italic>Cellvibrio</italic>, <italic>Cenarchaeum</italic>, <italic>Chaetoceros</italic>, <italic>Chaetomium</italic>, <italic>Chara</italic>, <italic>Chattonella</italic>, <italic>Chelativorans</italic>, <italic>Chitinophaga</italic>, <italic>Chlamydia</italic>, <italic>Chlamydomonas</italic>, <italic>Chlamydophila</italic>, <italic>Chlorella</italic>, <italic>Chlorobaculum</italic>, <italic>Chlorobium</italic>, <italic>Chloroherpeton</italic>, <italic>Chlorokybus</italic>, <italic>Chlorovirus</italic>, <italic>Chondrus</italic>, <italic>Chrysopathes</italic>, <italic>Chthoniobacter</italic>, <italic>Cicer</italic>, <italic>Ciona</italic>, <italic>Citreicella</italic>, <italic>Citrobacter</italic>, <italic>Citromicrobium Clavibacter</italic>, <italic>Clavispora</italic>, <italic>Coccidioides</italic>, <italic>Cochliobolus</italic>, <italic>Collimonas</italic>, <italic>Collinsella</italic>, <italic>Colossendeis</italic>, <italic>Comamonas</italic>, <italic>Compsopogon</italic>, <italic>Congregibacter</italic>, <italic>Coprinopsis</italic>, <italic>Coprobacillus</italic>, <italic>Coprococcus</italic>, <italic>Coprothermobacter</italic>, <italic>Coptotermes</italic>, <italic>Coraliomargarita</italic>, <italic>Corallina</italic>, <italic>Corynebacterium</italic>, <italic>Coxiella</italic>, <italic>Crassostrea</italic>, <italic>Cricetulus</italic>, <italic>Croceibacter</italic>, <italic>Crocosphaera</italic>, <italic>Cronobacter</italic>, <italic>Crustomastix</italic>, <italic>Crypthecodinium</italic>, <italic>Cryptobacterium</italic>, <italic>Cryptosporidium</italic>, <italic>Cucumis</italic>, <italic>Cucurbita</italic>, <italic>Culex</italic>, <italic>Culicoides</italic>, <italic>Cupriavidus</italic>, <italic>Curvibacter</italic>, <italic>Curvularia</italic>, <italic>Cyanidioschyzon</italic>, <italic>Cyanidium</italic>, <italic>Cyanobium</italic>, <italic>Cyanophora</italic>, <italic>Cylindrospermopsis</italic>, <italic>Cystobacter</italic>, <italic>Cytophaga</italic>, <italic>Dactylosporangium</italic>, <italic>Danio</italic>, <italic>Daphnia</italic>, <italic>Dasypus</italic>, <italic>Daucus</italic>, <italic>Debaryomyces</italic>, <italic>Deferribacter</italic>, <italic>Dehalogenimonas</italic>, <italic>Deinococcus</italic>, <italic>Denitrovibrio</italic>, <italic>Dermacentor</italic>, <italic>Dermacoccus</italic>, <italic>Desulfarculus</italic>, <italic>Desulfatibacillum</italic>, <italic>Desulfobacterium</italic>, <italic>Desulfobulbus</italic>, <italic>Desulfocella</italic>, <italic>Desulfococcus</italic>, <italic>Desulfohalobium</italic>, <italic>Desulfomicrobium</italic>, <italic>Desulfomonile</italic>, <italic>Desulfonatronospira</italic>, <italic>Desulfotomaculum</italic>, <italic>Desulfurispirillum</italic>, <italic>Desulfurivibrio</italic>, <italic>Desulfurococcus</italic>, <italic>Desulfuromonas</italic>, <italic>Dethiobacter</italic>, <italic>Dethiosulfovibrio</italic>, <italic>Dialister</italic>, <italic>Dicathais</italic>, <italic>Dichelobacter</italic>, <italic>Dickeya</italic>, <italic>Dictyoglomus</italic>, <italic>Dictyostelium</italic>, <italic>Dietzia</italic>, <italic>Discophora</italic>, <italic>Dokdonia</italic>, <italic>Dolichospermum</italic>, <italic>Dorea</italic>, <italic>Drosophila</italic>, <italic>Durinskia</italic>, <italic>Dyadobacter</italic>, <italic>Echinops</italic>, <italic>Ectocarpus</italic>, <italic>Edwardsiella</italic>, <italic>Eggerthella</italic>, <italic>Ehrlichia</italic>, <italic>Eikenella</italic>, <italic>Elaeis</italic>, <italic>Eleocharis</italic>, <italic>Eleotris</italic>, <italic>Elizabethkingia</italic>, <italic>Elusimicrobium</italic>, <italic>Elymus</italic>, <italic>Emericella</italic>, <italic>Encephalitozoon</italic>, <italic>Enchytraeus</italic>, <italic>Endoriftia</italic>, <italic>Enhydrobacter</italic>, <italic>Enhygromyxa</italic>, <italic>Ensifer</italic>, <italic>Entamoeba</italic>, <italic>Epiphyas</italic>, <italic>Epulopiscium</italic>, <italic>Equus</italic>, <italic>Eremococcus</italic>, <italic>Eremothecium</italic>, <italic>Erinaceus</italic>, <italic>Erwinia</italic>, <italic>Erysipelothrix</italic>, <italic>Ethanoligenens</italic>, <italic>Eubacterium</italic>, <italic>Euglena</italic>, <italic>Faecalibacterium</italic>, <italic>Felis</italic>, <italic>Ferrimonas</italic>, <italic>Ferroglobus</italic>, <italic>Ferroplasma</italic>, <italic>Filifactor</italic>, <italic>Filobasidiella</italic>, <italic>Finegoldia</italic>, <italic>Flammeovirga</italic>, <italic>Flexithrix</italic>, <italic>Fragilariopsis</italic>, <italic>Francisella</italic>, <italic>Fructobacillus</italic>, <italic>Fulvimarina</italic>, <italic>Fusarium</italic>, <italic>Fusobacterium</italic>, <italic>Gallionella</italic>, <italic>Gallus</italic>, <italic>Gardnerella</italic>, <italic>Gasterosteus</italic>, <italic>Gemella</italic>, <italic>Gemmatimonas</italic>, <italic>Gentiana</italic>, <italic>Geobacillus</italic>, <italic>Giardia</italic>, <italic>Gibberella</italic>, <italic>Glaciecola</italic>, <italic>Glomerella</italic>, <italic>Glossina</italic>, <italic>Gluconacetobacter</italic>, <italic>Glycine</italic>, <italic>Gordonia</italic>, <italic>Gordonibacter</italic>, <italic>Gorilla</italic>, <italic>Gracilaria</italic>, <italic>Gramella</italic>, <italic>Granulicatella</italic>, <italic>Grosmannia</italic>, <italic>Guillardia</italic>, <italic>Haemophilus</italic>, <italic>Hafnia</italic>, <italic>Hahella</italic>, <italic>Haladaptatus</italic>, <italic>Halalkalicoccus</italic>, <italic>Halanaerobium</italic>, <italic>Haliangium</italic>, <italic>Haliotis</italic>, <italic>Haloarcula</italic>, <italic>Halobacterium</italic>, <italic>Haloferax</italic>, <italic>Halogeometricum</italic>, <italic>Halomicrobium</italic>, <italic>Halomonas</italic>, <italic>Haloquadratum</italic>, <italic>Halorhabdus</italic>, <italic>Halorubrum</italic>, <italic>Haloterrigena</italic>, <italic>Halothermothrix</italic>, <italic>Halothiobacillus</italic>, <italic>Harpegnathos</italic>, <italic>Hartmannella</italic>, <italic>Haslea</italic>, <italic>Helianthus</italic>, <italic>Heliobacillus</italic>, <italic>Heliobacterium</italic>, <italic>Heliothis</italic>, <italic>Herbaspirillum</italic>, <italic>Herminiimonas</italic>, <italic>Hirschia</italic>, <italic>Histophilus</italic>, <italic>Hoeflea</italic>, <italic>Holdemania</italic>, <italic>Homo</italic>, <italic>Hordeum</italic>, <italic>Hydra</italic>, <italic>Hydrogenivirga</italic>, <italic>Hydrogenobacter</italic>, <italic>Hydrogenobaculum</italic>, <italic>Hydrogenophaga</italic>, <italic>Hyles</italic>, <italic>Hyperthermus</italic>, <italic>Hyphomicrobium</italic>, <italic>Hyphomonas</italic>, <italic>Ictalurus</italic>, <italic>Ignicoccus</italic>, <italic>Ignisphaera</italic>, <italic>Ilyobacter</italic>, <italic>Ipomoea</italic>, <italic>Isosphaera</italic>, <italic>Ixodes</italic>, <italic>Jackiella</italic>, <italic>Jannaschia</italic>, <italic>Jonesia</italic>, <italic>Jonquetella</italic>, <italic>Kalidium</italic>, <italic>Kangiella</italic>, <italic>Karenia</italic>, <italic>Ketogulonicigenium</italic>, <italic>Kineococcus</italic>, <italic>Kingella</italic>, <italic>Kitasatospora</italic>, <italic>Kluyveromyces</italic>, <italic>Kocuria</italic>, <italic>Kordia</italic>, <italic>Kosmotoga</italic>, <italic>Ktedonobacter</italic>, <italic>Kutzneria</italic>, <italic>Kytococcus</italic>, L5-like viruses, <italic>Labrenzia</italic>, <italic>Laccaria</italic>, <italic>Lachancea</italic>, <italic>Lactobacillus</italic>, <italic>Lactococcus</italic>, Lambda-like viruses, <italic>Laminaria</italic>, <italic>Lamprocystis</italic>, <italic>Laribacter</italic>, <italic>Larimichthys</italic>, <italic>Lautropia</italic>, <italic>Lawsonia</italic>, <italic>Leadbetterella</italic>, <italic>Leclercia</italic>, <italic>Leeuwenhoekiella</italic>, <italic>Legionella</italic>, <italic>Leishmania</italic>, <italic>Lentisphaera</italic>, <italic>Lentivirus</italic>, <italic>Lepeophtheirus</italic>, <italic>Lepidium</italic>, <italic>Leptolyngbya</italic>, <italic>Leptosphaeria</italic>, <italic>Leptospira</italic>, <italic>Leptospirillum</italic>, <italic>Leptothrix</italic>, <italic>Leptotrichia</italic>, <italic>Limnobacter</italic>, <italic>Limnoria</italic>, <italic>Listeria</italic>, <italic>Listonella</italic>, <italic>Loa</italic>, <italic>Lodderomyces</italic>, <italic>Lolium</italic>, <italic>Loxodonta</italic>, <italic>Lunularia</italic>, <italic>Lutiella</italic>, LUZ24-like viruses, <italic>Lymnaea</italic>, <italic>Lysinibacillus</italic>, <italic>Lysobacter</italic>, <italic>Lytechinus</italic>, <italic>Macaca</italic>, <italic>Macrococcus</italic>, <italic>Magnaporthe</italic>, <italic>Magnetococcus</italic>, <italic>Magnetospirillum</italic>, <italic>Malassezia</italic>, <italic>Malus</italic>, <italic>Mannheimia</italic>, <italic>Marchantia</italic>, <italic>Maribacter</italic>, <italic>Maricaulis</italic>, <italic>Marinitoga</italic>, <italic>Marinobacter</italic>, <italic>Mariprofundus</italic>, <italic>Maritimibacter</italic>, <italic>Marivirga</italic>, <italic>Medicago</italic>, <italic>Megamonas</italic>, <italic>Megasphaera</italic>, <italic>Mesembryanthemum</italic>, <italic>Mesorhizobium</italic>, <italic>Mesostigma</italic>, <italic>Metajapyx</italic>, <italic>Metallosphaera</italic>, <italic>Metarhizium</italic>, <italic>Methanobacterium</italic>, <italic>Methanobrevibacter</italic>, <italic>Methanocaldococcus</italic>, <italic>Methanocella</italic>, <italic>Methanococcoides</italic>, <italic>Methanococcus</italic>, <italic>Methanocorpusculum</italic>, <italic>Methanoculleus</italic>, <italic>Methanohalobium</italic>, <italic>Methanohalophilus</italic>, <italic>Methanoplanus</italic>, <italic>Methanopyrus</italic>, <italic>Methanoregula</italic>, <italic>Methanosaeta</italic>, <italic>Methanosarcina</italic>, <italic>Methanosphaera</italic>, <italic>Methanosphaerula</italic>, <italic>Methanospirillum</italic>, <italic>Methanothermobacter</italic>, <italic>Methanothermococcus</italic>, <italic>Methanothermus</italic>, <italic>Methylacidiphilum</italic>, <italic>Methylibium</italic>, <italic>Methylobacter</italic>, <italic>Methylobacterium</italic>, <italic>Methylocapsa</italic>, <italic>Methylocella</italic>, <italic>Methylocystis</italic>, <italic>Methylomonas</italic>, <italic>Methylophaga</italic>, <italic>Methylophilus</italic>, <italic>Methylosinus</italic>, <italic>Methylotenera</italic>, <italic>Methyloversatilis</italic>, <italic>Methylovorus</italic>, <italic>Metridium</italic>, <italic>Meyerozyma</italic>, <italic>Microbacterium</italic>, <italic>Microchaete</italic>, <italic>Micromonas</italic>, <italic>Micromonospora</italic>, <italic>Microtus</italic>, <italic>Mimivirus</italic>, <italic>Mitsuokella</italic>, <italic>Mnemiopsis</italic>, <italic>Mobiluncus</italic>, <italic>Moniliophthora</italic>, <italic>Monocercomonoides</italic>, <italic>Monodelphis</italic>, <italic>Monosiga</italic>, <italic>Moorella</italic>, <italic>Moraxella</italic>, <italic>Mucilaginibacter</italic>, <italic>Mus</italic>, <italic>Mussa</italic>, <italic>Mycobacterium</italic>, <italic>Myotis</italic>, <italic>Myrothecium</italic>, <italic>Myxococcus</italic>, <italic>Myzus</italic>, N15-like viruses, N4-like viruses, <italic>Naegleria</italic>, <italic>Nakamurella</italic>, <italic>Nakaseomyces</italic>, <italic>Nannocystis</italic>, <italic>Nanoarchaeum</italic>, <italic>Nasonia</italic>, <italic>Natranaerobius</italic>, <italic>Natrialba</italic>, <italic>Natronomonas</italic>, <italic>Nautilia</italic>, <italic>Nectria</italic>, <italic>Neisseria</italic>, <italic>Nematostella</italic>, <italic>Neosartorya</italic>, <italic>Nephroselmis</italic>, <italic>Neptuniibacter</italic>, <italic>Neurospora</italic>, <italic>Nicotiana</italic>, <italic>Nitratifractor</italic>, <italic>Nitratiruptor</italic>, <italic>Nitrobacter</italic>, <italic>Nitrococcus</italic>, <italic>Nitrosomonas</italic>, <italic>Nitrosopumilus</italic>, <italic>Nitrospira</italic>, <italic>Nocardiopsis</italic>, <italic>Nonomuraea</italic>, <italic>Nostoc</italic>, <italic>Notechis</italic>, <italic>Novosphingobium</italic>, <italic>Oceanibulbus</italic>, <italic>Oceanicaulis</italic>, <italic>Oceanithermus</italic>, <italic>Oceanobacillus</italic>, <italic>Ochrobactrum</italic>, <italic>Octadecabacter</italic>, <italic>Odontella</italic>, <italic>Oenococcus</italic>, <italic>Oenothera</italic>, <italic>Oikopleura</italic>, <italic>Okibacterium</italic>, <italic>Oligotropha</italic>, <italic>Olsenella</italic>, <italic>Oncorhynchus</italic>, <italic>Opsanus</italic>, <italic>Oribacterium</italic>, <italic>Orientia</italic>, <italic>Ornithobacterium</italic>, <italic>Ornithorhynchus</italic>, <italic>Oryctolagus</italic>, <italic>Oryza</italic>, <italic>Oryzias</italic>, <italic>Oscillochloris</italic>, <italic>Osmerus</italic>, <italic>Ostreococcus</italic>, <italic>Otolemur</italic>, <italic>Ovis</italic>, P1-like viruses, P22-like viruses, P2-like viruses, <italic>Paenibacillus</italic>, <italic>Pagrus</italic>, <italic>Paludibacter</italic>, <italic>Pan</italic>, <italic>Pantoea</italic>, <italic>Parabacteroides</italic>, <italic>Paracoccidioides</italic>, <italic>Paramecium</italic>, <italic>Parascardovia</italic>, <italic>Parvibaculum</italic>, <italic>Parvularcula</italic>, <italic>Pasteurella</italic>, <italic>Paucimonas</italic>, <italic>Paulinella</italic>, <italic>Pectobacterium</italic>, <italic>Pediculus</italic>, <italic>Pediococcus</italic>, <italic>Pelagibacter</italic>, <italic>Pelobacter</italic>, <italic>Pelodictyon</italic>, <italic>Pelotomaculum</italic>, <italic>Penicillium</italic>, <italic>Peperomia</italic>, <italic>Peptoniphilus</italic>, <italic>Peptostreptococcus</italic>, <italic>Perilla</italic>, <italic>Perittia</italic>, <italic>Perkinsus</italic>, <italic>Persephonella</italic>, <italic>Persicobacter</italic>, <italic>Pervagor</italic>, <italic>Petroselinum</italic>, <italic>Petrotoga</italic>, <italic>Pfiesteria</italic>, <italic>Phaeobacter</italic>, <italic>Phaeodactylum</italic>, <italic>Phaeosphaeria</italic>, <italic>Phascolarctobacterium</italic>, <italic>Phenylobacterium</italic>, Phi29-like viruses, PhiC31-like viruses, Phieco32-like viruses, phiKMV-like viruses, phiKZ-like viruses, <italic>Phormidium</italic>, <italic>Phoronis</italic>, <italic>Photobacterium</italic>, <italic>Photorhabdus</italic>, <italic>Physarum</italic>, <italic>Physcomitrella</italic>, <italic>Phytophthora</italic>, <italic>Picea</italic>, <italic>Pichia</italic>, <italic>Picrophilus</italic>, <italic>Picrorhiza</italic>, <italic>Pimelobacter</italic>, <italic>Pinctada</italic>, <italic>Pinus</italic>, <italic>Pisum</italic>, <italic>Planktothrix</italic>, <italic>Planobispora</italic>, <italic>Plasmodium</italic>, <italic>Plesiocystis</italic>, <italic>Pleurotus</italic>, <italic>Ploceus</italic>, <italic>Pneumocystis</italic>, <italic>Podospora</italic>, <italic>Poecilia</italic>, <italic>Polaromonas</italic>, <italic>Polynucleobacter</italic>, <italic>Polysphondylium</italic>, <italic>Pongo</italic>, <italic>Populus</italic>, <italic>Porphyra</italic>, <italic>Porphyrobacter</italic>, <italic>Porphyromonas</italic>, <italic>Postia</italic>, <italic>Potorous</italic>, <italic>Prasinovirus</italic>, <italic>Prauserella</italic>, <italic>Prionoxystus</italic>, <italic>Propionibacterium</italic>, <italic>Prosthecobacter</italic>, <italic>Prosthecochloris</italic>, <italic>Prototheca</italic>, <italic>Providencia</italic>, <italic>Pseudechis</italic>, <italic>Pseudendoclonium</italic>, <italic>Pseudonocardia</italic>, <italic>Pseudoramibacter</italic>, <italic>Pseudovibrio</italic>, <italic>Pseudoxanthomonas</italic>, <italic>Psilotum</italic>, <italic>Psychrobacter</italic>, <italic>Psychroflexus</italic>, <italic>Psychromonas</italic>, <italic>Pteris</italic>, <italic>Puccinia</italic>, <italic>Pyramidobacter</italic>, <italic>Pyrenophora</italic>, <italic>Pyrobaculum</italic>, <italic>Pyrococcus</italic>, <italic>Rahnella</italic>, <italic>Ralstonia</italic>, <italic>Rana</italic>, <italic>Raphidiopsis</italic>, <italic>Rattus</italic>, <italic>Reclinomonas</italic>, <italic>Reinekea</italic>, <italic>Renibacterium</italic>, <italic>Rhadinovirus</italic>, <italic>Rhinoceros</italic>, <italic>Rhodobacter</italic>, <italic>Rhodococcus</italic>, <italic>Rhodomonas</italic>, <italic>Rhodopirellula</italic>, <italic>Rhodopseudomonas</italic>, <italic>Rhodothermus</italic>, <italic>Ricinus</italic>, <italic>Rickettsia</italic>, <italic>Rickettsiella</italic>, <italic>Ricordea</italic>, <italic>Riemerella</italic>, <italic>Robiginitalea</italic>, <italic>Roseburia</italic>, <italic>Roseibium</italic>, <italic>Roseomonas</italic>, <italic>Roseovarius</italic>, <italic>Rothia</italic>, <italic>Rubritalea</italic>, <italic>Ruegeria</italic>, <italic>Ruminococcus</italic>, <italic>Rupicapra</italic>, <italic>Saccharomonospora</italic>, <italic>Saccharomyces</italic>, <italic>Saccharophagus</italic>, <italic>Saccharopolyspora</italic>, <italic>Saccharum</italic>, <italic>Saccoglossus</italic>, <italic>Sagittula</italic>, <italic>Salinibacter</italic>, <italic>Salinispora</italic>, <italic>Salmo</italic>, <italic>Sanguibacter</italic>, <italic>Scardovia</italic>, <italic>Scenedesmus</italic>, <italic>Scheffersomyces</italic>, <italic>Schistocerca</italic>, <italic>Schistosoma</italic>, <italic>Schizophyllum</italic>, <italic>Schizosaccharomyces</italic>, <italic>Sclerotinia</italic>, <italic>Scutigerella</italic>, <italic>Scytonema</italic>, <italic>Sebaldella</italic>, <italic>Segniliparus</italic>, <italic>Selaginella</italic>, <italic>Selenomonas</italic>, <italic>Serratia</italic>, <italic>Shewanella</italic>, <italic>Shigella</italic>, <italic>Shuttleworthia</italic>, <italic>Sideroxydans</italic>, <italic>Simonsiella</italic>, <italic>Simplexvirus</italic>, <italic>Sinorhizobium</italic>, <italic>Slackia</italic>, <italic>Sodalis</italic>, <italic>Solanum</italic>, <italic>Solobacterium</italic>, <italic>Sordaria</italic>, <italic>Sorex</italic>, <italic>Sorghum</italic>, SP6-like viruses, SPbeta-like viruses, <italic>Spermophilus</italic>, <italic>Sphaerotilus</italic>, <italic>Sphingobacterium</italic>, <italic>Sphingobium</italic>, <italic>Sphingopyxis</italic>, <italic>Spinacia</italic>, <italic>Spirochaeta</italic>, <italic>Spirogyra</italic>, <italic>Spirosoma</italic>, <italic>Spisula</italic>, SPO1-like viruses, <italic>Squalus</italic>, <italic>Stackebrandtia</italic>, <italic>Staphylothermus</italic>, <italic>Starkeya</italic>, <italic>Staurastrum</italic>, <italic>Stephos</italic>, <italic>Stigmatella</italic>, <italic>Streptoalloteichus</italic>, <italic>Streptobacillus</italic>, <italic>Streptosporangium</italic>, <italic>Strongylocentrotus</italic>, <italic>Suaeda</italic>, <italic>Subdoligranulum</italic>, <italic>Succinatimonas</italic>, <italic>Sulfitobacter</italic>, <italic>Sulfolobus</italic>, <italic>Sulfuricurvum</italic>, <italic>Sulfurihydrogenibium</italic>, <italic>Sulfurimonas</italic>, <italic>Sulfurospirillum</italic>, <italic>Sulfurovum</italic>, <italic>Sutterella</italic>, <italic>Synechococcus</italic>, <italic>Syntrophobacter</italic>, <italic>Syntrophomonas</italic>, <italic>Syntrophothermus</italic>, <italic>Syntrophus</italic>, T1-like viruses, T4-like viruses, T7-like viruses, <italic>Taenia</italic>, <italic>Taeniopygia</italic>, <italic>Takifugu</italic>, <italic>Talaromyces</italic>, <italic>Teredinibacter</italic>, <italic>Terracoccus</italic>, <italic>Terriglobus</italic>, <italic>Terrimonas</italic>, <italic>Tetrahymena</italic>, <italic>Tetraodon</italic>, <italic>Thalassiosira</italic>, <italic>Thalassobium</italic>, <italic>Thauera</italic>, <italic>Theileria</italic>, <italic>Thermaerobacter</italic>, <italic>Thermanaerovibrio</italic>, <italic>Thermincola</italic>, <italic>Thermoactinomyces</italic>, <italic>Thermoanaerobacter</italic>, <italic>Thermoanaerobacterium</italic>, <italic>Thermobaculum</italic>, <italic>Thermobispora</italic>, <italic>Thermococcus</italic>, <italic>Thermocrinis</italic>, <italic>Thermodesulfovibrio</italic>, <italic>Thermofilum</italic>, <italic>Thermomicrobium</italic>, <italic>Thermomonospora</italic>, <italic>Thermoplasma</italic>, <italic>Thermoproteus</italic>, <italic>Thermosediminibacter</italic>, <italic>Thermosinus</italic>, <italic>Thermosphaera</italic>, <italic>Thermosynechococcus</italic>, <italic>Thermovibrio</italic>, <italic>Thioalkalivibrio</italic>, <italic>Thiobacillus</italic>, <italic>Thiocapsa</italic>, <italic>Thiococcus</italic>, <italic>Thiorhodovibrio</italic>, <italic>Thylacodes</italic>, <italic>Tolumonas</italic>, <italic>Tolypothrix</italic>, <italic>Toxoplasma</italic>, <italic>Toxoptera</italic>, <italic>Trabulsiella</italic>, <italic>Tribolium</italic>, <italic>Trichinella</italic>, <italic>Trichocolea</italic>, <italic>Trichomonas</italic>, <italic>Trichophyton</italic>, <italic>Trichoplax</italic>, <italic>Triglochin</italic>, <italic>Triticum</italic>, <italic>Truepera</italic>, <italic>Trypanosoma</italic>, <italic>Tsukamurella</italic>, <italic>Tuber</italic>, <italic>Tubularia</italic>, <italic>Tupaia</italic>, <italic>Turbo</italic>, <italic>Turicibacter</italic>, <italic>Uncinocarpus</italic>, <italic>Ustilago</italic>, <italic>Vanderwaltozyma</italic>, <italic>Varicellovirus</italic>, <italic>Variovorax</italic>, <italic>Veillonella</italic>, <italic>Verrucomicrobium</italic>, <italic>Verticillium</italic>, <italic>Vicia</italic>, <italic>Victivallis</italic>, <italic>Vigna</italic>, <italic>Vitis</italic>, <italic>Volvox</italic>, VP2-like phages, <italic>Vulcanisaeta</italic>, <italic>Waddlia</italic>, <italic>Weeksella</italic>, <italic>Weissella</italic>, <italic>Wigglesworthia</italic>, <italic>Wolbachia</italic>, <italic>Wolinella</italic>, <italic>Xanthobacter</italic>, <italic>Xenopus</italic>, <italic>Xenorhabdus</italic>, <italic>Xylanimonas</italic>, <italic>Xylaria</italic>, <italic>Yarrowia</italic>, <italic>Yersinia</italic>, <italic>Zea</italic>, <italic>Zingiber</italic>, <italic>Zoophthora</italic>, <italic>Zunongwangia</italic>, <italic>Zygnema</italic>, <italic>Zygosaccharomyces</italic>, <italic>Zymomonas</italic></td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+<sec>
+<title>Gene ontology</title>
+<p>The gene ontology data in the present study, when expressed by activity class, gave some potential insights into the presence of functional genes in the soil at Mars Oasis. Although many genes for clustering-based sub-systems were encountered in the 454 library, suggesting the functional coupling of genes whose present purpose is unknown, the data clearly indicated that the microbial community was active, with the presence of many genes for cell division and the cell cycle, cell wall formation, nucleotides and nucleosides, and RNA metabolism. This indicates that there is potential for the soil community at the oasis to express these genes, at least during the austral summer, when temperatures are typically above freezing point during the daytime and liquid water is freely available. There is also the potential for active competition between microbes in the soil, with the presence of antibiotic and toxic compound resistance genes, quorum sensing, and biofilm formation genes and many genes relating to virulence. Given the abundance of <italic>Actinobacteria</italic> in the soil, and particularly genera such as <italic>Streptomyces</italic>, which are active synthesizers of antibiotics, it is unsurprising that many virulence genes were encountered in the soil. Genes found at lower frequencies than expected were those for stress responses (including oxidative stress, osmotic stress, periplasmic stress, cold shock, and detoxification genes), perhaps reflecting the not unfavorable environmental conditions for soil microbial growth at Mars Oasis during the summer, and those for photosynthesis. Given the abundance of Cyanobacteria in the lake margin at Mars Oasis (Wynn-Williams, <xref ref-type="bibr" rid="B54">1996</xref>), it was surprising that only &#x0223C;1% of the genes in the library encoded for CO<sub>2</sub> fixation. Although genes for nitrogen cycling expressed by phyla such as <italic>Acidobacteria</italic> were not found in the library, the use of probes indicated the presence of using <italic>nifH</italic>, <italic>nosZ</italic>, and <italic>nirS</italic> genes in the soil (data not shown). Genes for sulfur, phosphorus, and nitrogen metabolism were all present at about 1%, whilst those for iron acquisition and metabolism were 0.7% and potassium metabolism 0.3%.</p>
+<p>The gene ontology data, if expressed as actual function, corroborate the view that the community at Mars Oasis is active during summer, with the potential expression of many genes for cytoskeleton and ribosome formation. The presence of genes for the utilization of lactose and galactose indicate that the microbes in the soil most probably utilize relatively simple sugars for growth: there are few plants at the oasis, and those that are present are bryophytes, which typically do not form complex aromatic molecules such as lignin. Nevertheless, some capacity within the microbial community was found for the assimilation of aromatic compounds, with the presence of genes for the assimilation of peptides, which are known to be of importance to the nitrogen cycle in soils of the northern Maritime Antarctic (Hill et al., <xref ref-type="bibr" rid="B29">2011</xref>).</p>
+</sec>
+<sec>
+<title>Soil chemistry</title>
+<p>The dominant ion in runoff and soil pore water was sulfate, which is almost certainly derived from the oxidation of sulfide minerals in the local shales. Like the carbonate sources, there were also clear signs of secondary minerals (gypsum and/or anhydrite) contributing to the high <inline-formula><mml:math id="M10"><mml:mrow><mml:msubsup><mml:mrow><mml:mtext>SO</mml:mtext></mml:mrow><mml:mtext>4</mml:mtext><mml:mrow><mml:mtext>2</mml:mtext><mml:mo>&#x02212;</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula> concentrations. Furthermore, carbonate precipitates were visible around the base of all larger clasts in the soils (Andre and Hall, <xref ref-type="bibr" rid="B4">2004</xref>), and so dissolution of secondary carbonates will have contributed to the high concentrations of Ca<sup>2&#x0002B;</sup> and <inline-formula><mml:math id="M11"><mml:mrow><mml:msubsup><mml:mrow><mml:mstyle class="text"><mml:mtext>HCO</mml:mtext></mml:mstyle></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow><mml:mrow><mml:mo class="MathClass-bin">-</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula> also present in waters. The major ion geochemistry of surface waters at Mars Oasis therefore seems to be controlled by reactive carbonate and sulfide mineral phases and the precipitation of secondary salts following the evaporation of sediment pore waters, with coupled pyrite oxidation and carbonate dissolution, and carbonate and anhydrite dissolution and precipitation dominating the rock weathering reactions.</p>
+</sec>
+</sec>
+<sec>
+<title>Summary</title>
+<p>Studies during the twentieth century suggested that Antarctic soils are of comparatively low microbial biodiversity (Wynn-Williams, <xref ref-type="bibr" rid="B54">1996</xref>). This is certainly true when most Antarctic soils are compared to temperate or tropical soils (Fierer and Jackson, <xref ref-type="bibr" rid="B20">2006</xref>; Fierer et al., <xref ref-type="bibr" rid="B19">2007</xref>). It appears from the current study that prokaryotic diversity in soil at Mars Oasis is limited at the generic level, with the frequent occurrence of <italic>Actinobacteria</italic> and Cyanobacteria. However, at the sequence level, there appears to be much greater heterogeneity than was previously thought, perhaps owing to high divergence within the relatively restricted lineages that have successfully colonized Antarctic terrestrial environments. However, the process of grouping sequences can have an impact. Furthermore, by grouping the sequences based upon genera-level identification, you do lose the distinction of possible species and strain level diversity. As more studies on the microbial diversity present in Antarctic soil using molecular techniques become available, particularly those using mass sequencing on soils sampled from transect studies along the Antarctic Peninsula, it will become clear whether Antarctic terrestrial prokaryotic diversity is higher than was originally thought, and whether potential biodiversity hot spots, such as Mars Oasis, occur in this region (Yergeau et al., <xref ref-type="bibr" rid="B55">2007</xref>).</p>
+</sec>
+<sec>
+<title>Conflict of Interest Statement</title>
+<p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+</body>
+<back>
+<ack>
+<p>Funding was provided by the Natural Environment Research Council through the British Antarctic Survey&#x02019;s Long Term Monitoring and Survey programme. Mark Laidlaw provided field assistance and the BAS Operations and Logistics group arranged transport to and from Mars Oasis. We would also like to thank the reviewers for helpful comments which improved the manuscript.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="B1"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Aislabie</surname> <given-names>J.</given-names></name> <name><surname>Broady</surname> <given-names>P.</given-names></name> <name><surname>Saul</surname> <given-names>D.</given-names></name></person-group> (<year>2006</year>). <article-title>Culturable heterotropic bacteria from high altitude, high latitude soil of La Gorce Mountains (86o30&#x02032;S, 147oW), Antarctica</article-title>. <source>Antarct. Sci.</source> <volume>18</volume>, <fpage>313</fpage>&#x02013;<lpage>321</lpage>.<pub-id pub-id-type="doi">10.1017/S0954102006000368</pub-id></citation></ref>
+<ref id="B2"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Aislabie</surname> <given-names>J.</given-names></name> <name><surname>Jordan</surname> <given-names>S.</given-names></name> <name><surname>Ayton</surname> <given-names>J.</given-names></name> <name><surname>Klassen</surname> <given-names>J. L.</given-names></name> <name><surname>Barker</surname> <given-names>G. M.</given-names></name> <name><surname>Turner</surname> <given-names>S.</given-names></name></person-group> (<year>2009</year>). <article-title>Bacterial diversity associated with ornithogenic soil of the Ross Sea region, Antarctica</article-title>. <source>Can. J. Microbiol.</source> <volume>55</volume>, <fpage>21</fpage>&#x02013;<lpage>36</lpage>.<pub-id pub-id-type="doi">10.1139/W08-118</pub-id><pub-id pub-id-type="pmid">19190698</pub-id></citation></ref>
+<ref id="B3"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Aislabie</surname> <given-names>J.</given-names></name> <name><surname>Jordan</surname> <given-names>S.</given-names></name> <name><surname>Barker</surname> <given-names>G. M.</given-names></name></person-group> (<year>2008</year>). <article-title>Relation between soil classification and bacterial diversity in soils of the Ross Sea region, Antarctica</article-title>. <source>Geoderma</source> <volume>144</volume>, <fpage>9</fpage>&#x02013;<lpage>20</lpage>.<pub-id pub-id-type="doi">10.1016/j.geoderma.2007.10.006</pub-id></citation></ref>
+<ref id="B4"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Andre</surname> <given-names>M.-F.</given-names></name> <name><surname>Hall</surname> <given-names>K.</given-names></name></person-group> (<year>2004</year>). <article-title>Honeycomb development on Alexander island, glacial history of George VI sound and palaeoclimatic implications (two step cliffs/Mars Oasis, W Antarctica)</article-title>. <source>Geomorphology</source> <volume>65</volume>, <fpage>117</fpage>&#x02013;<lpage>138</lpage>.<pub-id pub-id-type="doi">10.1016/j.geomorph.2004.08.004</pub-id></citation></ref>
+<ref id="B5"><citation citation-type="book"><collab>Anon.</collab> (<year>2009a</year>). <source>emPCR Method Manual &#x02013; Lib-L MV</source>. <publisher-loc>Mannheim</publisher-loc>: <publisher-name>Roche Diagnostics</publisher-name>, <fpage>12</fpage>.</citation></ref>
+<ref id="B6"><citation citation-type="book"><collab>Anon.</collab> (<year>2009b</year>). <source>Sequencing Method Manual</source>. <publisher-loc>Mannheim</publisher-loc>: <publisher-name>Roche Diagnostics</publisher-name>, <fpage>22</fpage>.</citation></ref>
+<ref id="B7"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Benson</surname> <given-names>D. A.</given-names></name> <name><surname>Karsch-Mizrachi</surname> <given-names>I.</given-names></name> <name><surname>Lipman</surname> <given-names>D. J.</given-names></name> <name><surname>Ostell</surname> <given-names>J.</given-names></name> <name><surname>Wheeler</surname> <given-names>D. L.</given-names></name></person-group> (<year>2005</year>). <article-title>GenBank</article-title>. <source>Nucleic Acids Res.</source> <volume>33</volume>, <fpage>D34</fpage>&#x02013;<lpage>D38</lpage>.<pub-id pub-id-type="doi">10.1093/nar/gni032</pub-id><pub-id pub-id-type="pmid">15608212</pub-id></citation></ref>
+<ref id="B8"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname> <given-names>F.</given-names></name> <name><surname>Suttle</surname> <given-names>C. A.</given-names></name></person-group> (<year>1995</year>). <article-title>Amplification of DNA-polymerase gene fragments from viruses infecting microalgae</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>61</volume>, <fpage>1274</fpage>&#x02013;<lpage>1278</lpage>.<pub-id pub-id-type="pmid">7747950</pub-id></citation></ref>
+<ref id="B9"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Chong</surname> <given-names>C. W.</given-names></name> <name><surname>Pearce</surname> <given-names>D. A.</given-names></name> <name><surname>Convey</surname> <given-names>P.</given-names></name> <name><surname>Tan</surname> <given-names>G. Y. A.</given-names></name> <name><surname>Wong</surname> <given-names>R. C. S.</given-names></name> <name><surname>Tan</surname> <given-names>I. K. P.</given-names></name></person-group> (<year>2010</year>). <article-title>High levels of spatial heterogeneity in the biodiversity of soil prokaryotes on Signy Island, Antarctica</article-title>. <source>Soil Biol. Biochem.</source> <volume>42</volume>, <fpage>601</fpage>&#x02013;<lpage>610</lpage>.<pub-id pub-id-type="doi">10.1016/j.soilbio.2009.12.009</pub-id></citation></ref>
+<ref id="B10"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Chong</surname> <given-names>C. W.</given-names></name> <name><surname>Pearce</surname> <given-names>D. A.</given-names></name> <name><surname>Convey</surname> <given-names>P.</given-names></name> <name><surname>Tan</surname> <given-names>I. K. P.</given-names></name></person-group> (<year>2011</year>). <article-title>Assessment of soil bacterial communities on Alexander island (in the maritime and continental Antarctic transitional zone)</article-title>. <source>Polar Biol.</source> <volume>35</volume>, <fpage>387</fpage>&#x02013;<lpage>399</lpage>.<pub-id pub-id-type="doi">10.1007/s00300-011-1084-0</pub-id></citation></ref>
+<ref id="B11"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Chou</surname> <given-names>H.-H.</given-names></name> <name><surname>Holmes</surname> <given-names>M. H.</given-names></name></person-group> (<year>2001</year>). <article-title>DNA sequence quality trimming and vector removal</article-title>. <source>Bioinformatics</source> <volume>17</volume>, <fpage>1093</fpage>&#x02013;<lpage>1104</lpage>.<pub-id pub-id-type="doi">10.1093/bioinformatics/17.12.1093</pub-id><pub-id pub-id-type="pmid">11751217</pub-id></citation></ref>
+<ref id="B12"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Cole</surname> <given-names>J. R.</given-names></name> <name><surname>Wang</surname> <given-names>Q.</given-names></name> <name><surname>Cardenas</surname> <given-names>E.</given-names></name> <name><surname>Fish</surname> <given-names>J.</given-names></name> <name><surname>Chai</surname> <given-names>B.</given-names></name> <name><surname>Farris</surname> <given-names>R. J.</given-names></name> <etal/></person-group> (<year>2009</year>). <article-title>The Ribosomal Database Project: improved alignments and new tools for rRNA analysis</article-title>. <source>Nucleic Acids Res.</source> <volume>37</volume>, <fpage>D141</fpage>&#x02013;<lpage>145</lpage>.<pub-id pub-id-type="doi">10.1093/nar/gkp353</pub-id><pub-id pub-id-type="pmid">19004872</pub-id></citation></ref>
+<ref id="B13"><citation citation-type="book"><person-group person-group-type="author"><name><surname>Convey</surname> <given-names>P.</given-names></name></person-group> (<year>2001</year>). <article-title>&#x0201C;Antarctic ecosystems,&#x0201D;</article-title> in <source>Encyclopedia of Biodiversity</source>, Vol. <volume>1</volume>, ed. <person-group person-group-type="editor"><name><surname>Levin</surname> <given-names>S. A.</given-names></name></person-group> (<publisher-loc>San Diego</publisher-loc>: <publisher-name>Academic</publisher-name>), <fpage>171</fpage>&#x02013;<lpage>184</lpage>.</citation></ref>
+<ref id="B14"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Courtois</surname> <given-names>S.</given-names></name> <name><surname>Frosteg&#x000E5;rd</surname> <given-names>A.</given-names></name> <name><surname>Goransson</surname> <given-names>P.</given-names></name> <name><surname>Depret</surname> <given-names>G.</given-names></name> <name><surname>Jeannin</surname> <given-names>P.</given-names></name> <name><surname>Simonet</surname> <given-names>P.</given-names></name></person-group> (<year>2001</year>). <article-title>Quantification of bacterial subgroups in soil: comparison of DNA extracted directly from soil or from cells previously released by density gradient centrifugation</article-title>. <source>Environ. Microbiol.</source> <volume>3</volume>, <fpage>431</fpage>&#x02013;<lpage>439</lpage>.<pub-id pub-id-type="doi">10.1046/j.1462-2920.2001.00208.x</pub-id><pub-id pub-id-type="pmid">11553233</pub-id></citation></ref>
+<ref id="B15"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Delmont</surname> <given-names>T. O.</given-names></name> <name><surname>Robe</surname> <given-names>P. R.</given-names></name> <name><surname>Clark</surname> <given-names>I.</given-names></name> <name><surname>Simonet</surname> <given-names>P.</given-names></name> <name><surname>Vogel</surname> <given-names>T. M.</given-names></name></person-group> (<year>2011</year>). <article-title>Metagenomic comparison of direct and indirect soil DNA extraction approaches</article-title>. <source>J. Microbiol. Methods</source> <volume>86</volume>, <fpage>397</fpage>&#x02013;<lpage>400</lpage>.<pub-id pub-id-type="doi">10.1016/j.mimet.2011.06.013</pub-id><pub-id pub-id-type="pmid">21723887</pub-id></citation></ref>
+<ref id="B16"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>DeSantis</surname> <given-names>T. Z.</given-names></name> <name><surname>Hugenholtz</surname> <given-names>P.</given-names></name> <name><surname>Larsen</surname> <given-names>N.</given-names></name> <name><surname>Rojas</surname> <given-names>M.</given-names></name> <name><surname>Brodie</surname> <given-names>E. L.</given-names></name> <name><surname>Keller</surname> <given-names>K.</given-names></name> <etal/></person-group> (<year>2006</year>). <article-title>Greengenes, a chimera-checked 16S rRNA gene database and workbench compatible with ARB</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>72</volume>, <fpage>5069</fpage>&#x02013;<lpage>5072</lpage>.<pub-id pub-id-type="doi">10.1128/AEM.03006-05</pub-id><pub-id pub-id-type="pmid">16820507</pub-id></citation></ref>
+<ref id="B17"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Eisen</surname> <given-names>J. A.</given-names></name></person-group> (<year>2007</year>). <article-title>Environmental shotgun sequencing: its potential and challenges for studying the hidden world of microbes</article-title>. <source>PLoS Biol.</source> <volume>5</volume>:<fpage>e82</fpage>.<pub-id pub-id-type="doi">10.1371/journal.pbio.0050082</pub-id></citation></ref>
+<ref id="B18"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Feinstein</surname> <given-names>L. M.</given-names></name> <name><surname>Sul</surname> <given-names>W. J.</given-names></name> <name><surname>Blackwood</surname> <given-names>C. B.</given-names></name></person-group> (<year>2009</year>). <article-title>Assessment of bias associated with incomplete extraction of microbial DNA from soil</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>75</volume>, <fpage>5428</fpage>.<pub-id pub-id-type="doi">10.1128/AEM.00120-09</pub-id><pub-id pub-id-type="pmid">19561189</pub-id></citation></ref>
+<ref id="B19"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Fierer</surname> <given-names>N.</given-names></name> <name><surname>Breitbart</surname> <given-names>M.</given-names></name> <name><surname>Nulton</surname> <given-names>J.</given-names></name> <name><surname>Salamon</surname> <given-names>P.</given-names></name> <name><surname>Lozupone</surname> <given-names>C.</given-names></name> <name><surname>Jones</surname> <given-names>R.</given-names></name> <etal/></person-group> (<year>2007</year>). <article-title>Metagenomic and small-subunit rRNA analyses reveal the genetic diversity of bacteria, archaea, fungi, and viruses in soil</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>73</volume>, <fpage>7059</fpage>&#x02013;<lpage>7066</lpage>.<pub-id pub-id-type="doi">10.1128/AEM.00358-07</pub-id><pub-id pub-id-type="pmid">17827313</pub-id></citation></ref>
+<ref id="B20"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Fierer</surname> <given-names>N.</given-names></name> <name><surname>Jackson</surname> <given-names>R. B.</given-names></name></person-group> (<year>2006</year>). <article-title>The diversity and biogeography of soil bacterial communities</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source> <volume>103</volume>, <fpage>626</fpage>&#x02013;<lpage>631</lpage>.<pub-id pub-id-type="doi">10.1073/pnas.0507535103</pub-id><pub-id pub-id-type="pmid">16407148</pub-id></citation></ref>
+<ref id="B21"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Fierer</surname> <given-names>N.</given-names></name> <name><surname>Schimela</surname> <given-names>J. P.</given-names></name> <name><surname>Holden</surname> <given-names>P. A.</given-names></name></person-group> (<year>2003</year>). <article-title>Variations in microbial community composition through two soil depth profiles</article-title>. <source>Soil Biol. Biochem.</source> <volume>35</volume>, <fpage>167</fpage>&#x02013;<lpage>176</lpage>.<pub-id pub-id-type="doi">10.1016/S0038-0717(02)00251-1</pub-id></citation></ref>
+<ref id="B22"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Frosteg&#x000E5;rd</surname> <given-names>A.</given-names></name> <name><surname>Courtois</surname> <given-names>S.</given-names></name> <name><surname>Ramisse</surname> <given-names>V.</given-names></name> <name><surname>Clerc</surname> <given-names>S.</given-names></name> <name><surname>Bernillon</surname> <given-names>D.</given-names></name> <name><surname>Le Gall</surname> <given-names>F.</given-names></name> <etal/></person-group> (<year>1999</year>). <article-title>Quantification of bias related to the extraction of DNA directly from soils</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>65</volume>, <fpage>5409</fpage>&#x02013;<lpage>5420</lpage>.<pub-id pub-id-type="pmid">10583997</pub-id></citation></ref>
+<ref id="B23"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Fuller</surname> <given-names>N.</given-names></name> <name><surname>Wilson</surname> <given-names>W. H.</given-names></name> <name><surname>Joint</surname> <given-names>I. R.</given-names></name> <name><surname>Mann</surname> <given-names>N. H.</given-names></name></person-group> (<year>1998</year>). <article-title>Occurrence of T4 gp20 homologues in marine cyanophages and their application to PCR-based detection and quantification techniques</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>64</volume>, <fpage>2051</fpage>&#x02013;<lpage>2060</lpage>.<pub-id pub-id-type="pmid">9603813</pub-id></citation></ref>
+<ref id="B24"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Gardes</surname> <given-names>M.</given-names></name> <name><surname>Bruns</surname> <given-names>T. D.</given-names></name></person-group> (<year>1993</year>). <article-title>ITS primers with enhanced specificity for basidiomycetes &#x02013; application to the identification of mycorrhizae and rusts</article-title>. <source>Mol. Ecol.</source> <volume>2</volume>, <fpage>113</fpage>&#x02013;<lpage>118</lpage>.<pub-id pub-id-type="doi">10.1111/j.1365-294X.1993.tb00005.x</pub-id><pub-id pub-id-type="pmid">8180733</pub-id></citation></ref>
+<ref id="B25"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Gilbert</surname> <given-names>J. A.</given-names></name> <name><surname>Thomas</surname> <given-names>S.</given-names></name> <name><surname>Cooley</surname> <given-names>N. A.</given-names></name> <name><surname>Kulakova</surname> <given-names>A.</given-names></name> <name><surname>Field</surname> <given-names>D.</given-names></name> <name><surname>Booth</surname> <given-names>T.</given-names></name> <etal/></person-group> (<year>2009</year>). <article-title>Potential for phosphonate utilisation by marine bacteria in temperate coastal waters</article-title>. <source>Environ. Microbiol.</source> <volume>11</volume>, <fpage>111</fpage>&#x02013;<lpage>125</lpage>.<pub-id pub-id-type="doi">10.1111/j.1462-2920.2009.02017.x</pub-id><pub-id pub-id-type="pmid">18783384</pub-id></citation></ref>
+<ref id="B26"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Gomez-Alvarez</surname> <given-names>V.</given-names></name> <name><surname>Teal</surname> <given-names>T. K.</given-names></name> <name><surname>Schmidt</surname> <given-names>T. M.</given-names></name></person-group> (<year>2009</year>). <article-title>Systematic artifacts in metagenomes from complex microbial communities</article-title>. <source>ISME J.</source> <volume>3</volume>, <fpage>1314</fpage>&#x02013;<lpage>1317</lpage>.<pub-id pub-id-type="doi">10.1038/ismej.2009.72</pub-id><pub-id pub-id-type="pmid">19587772</pub-id></citation></ref>
+<ref id="B27"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Good</surname> <given-names>I. J.</given-names></name></person-group> (<year>1953</year>). <article-title>The population frequencies of species and the estimation of population parameters</article-title>. <source>Biometrika</source> <volume>40</volume>, <fpage>237</fpage>&#x02013;<lpage>264</lpage>.<pub-id pub-id-type="doi">10.2307/2333344</pub-id></citation></ref>
+<ref id="B28"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Handelsman</surname> <given-names>J.</given-names></name> <name><surname>Rondon</surname> <given-names>M. R.</given-names></name> <name><surname>Brady</surname> <given-names>S. F.</given-names></name> <name><surname>Clardy</surname> <given-names>J.</given-names></name> <name><surname>Goodman</surname> <given-names>R. M.</given-names></name></person-group> (<year>1998</year>). <article-title>Molecular biological access to the chemistry of unknown soil microbes: a new frontier for natural products</article-title>. <source>Chem. Biol.</source> <volume>5</volume>, <fpage>245</fpage>&#x02013;<lpage>249</lpage>.<pub-id pub-id-type="doi">10.1016/S1074-5521(98)90108-9</pub-id></citation></ref>
+<ref id="B29"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hill</surname> <given-names>P. W.</given-names></name> <name><surname>Farrar</surname> <given-names>J.</given-names></name> <name><surname>Roberts</surname> <given-names>P.</given-names></name> <name><surname>Farrell</surname> <given-names>M.</given-names></name> <name><surname>Grant</surname> <given-names>H.</given-names></name> <name><surname>Newsham</surname> <given-names>K. K.</given-names></name> <etal/></person-group> (<year>2011</year>). <article-title>Vascular plant success in a warming Antarctic may be due to efficient nitrogen acquisition</article-title>. <source>Nat. Clim. Chang.</source> <volume>1</volume>, <fpage>50</fpage>&#x02013;<lpage>53</lpage>.<pub-id pub-id-type="doi">10.1038/nclimate1060</pub-id></citation></ref>
+<ref id="B30"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hugenholz</surname> <given-names>P.</given-names></name> <name><surname>Goebel</surname> <given-names>B. M.</given-names></name> <name><surname>Pace</surname> <given-names>N. R.</given-names></name></person-group> (<year>1998</year>). <article-title>Impact of culture-independent studies on the emerging phylogenetic view of bacterial diversity</article-title>. <source>J. Bacteriol.</source> <volume>180</volume>, <fpage>4765</fpage>&#x02013;<lpage>4774</lpage>.<pub-id pub-id-type="pmid">9733676</pub-id></citation></ref>
+<ref id="B31"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Hughes</surname> <given-names>K. A.</given-names></name> <name><surname>McCartney</surname> <given-names>H. A.</given-names></name> <name><surname>Lachlan-Cope</surname> <given-names>T. A.</given-names></name> <name><surname>Pearce</surname> <given-names>D. A.</given-names></name></person-group> (<year>2004</year>). <article-title>A preliminary study of airborne microbial biodiversity over Peninsular Antarctica</article-title>. <source>Cell. Mol. Biol.</source> <volume>50</volume>, <fpage>537</fpage>&#x02013;<lpage>542</lpage>.</citation></ref>
+<ref id="B32"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Lawley</surname> <given-names>B.</given-names></name> <name><surname>Ripley</surname> <given-names>S.</given-names></name> <name><surname>Bridge</surname> <given-names>P.</given-names></name> <name><surname>Convey</surname> <given-names>P.</given-names></name></person-group> (<year>2004</year>). <article-title>Molecular analysis of geographic patterns of eukaryotic diversity in Antarctic soils</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>70</volume>, <fpage>5963</fpage>&#x02013;<lpage>5972</lpage>.<pub-id pub-id-type="doi">10.1128/AEM.70.10.5963-5972.2004</pub-id><pub-id pub-id-type="pmid">15466539</pub-id></citation></ref>
+<ref id="B33"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Li</surname> <given-names>W.</given-names></name> <name><surname>Godzik</surname> <given-names>A.</given-names></name></person-group> (<year>2006</year>). <article-title>Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences</article-title>. <source>Bioinformatics</source> <volume>22</volume>, <fpage>1658</fpage>&#x02013;<lpage>1659</lpage>.<pub-id pub-id-type="doi">10.1093/bioinformatics/btl410</pub-id><pub-id pub-id-type="pmid">16731699</pub-id></citation></ref>
+<ref id="B34"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Mahmoudi</surname> <given-names>N.</given-names></name> <name><surname>Slater</surname> <given-names>G. F.</given-names></name> <name><surname>Fulthorpe</surname> <given-names>R. R.</given-names></name></person-group> (<year>2011</year>). <article-title>Comparison of commercial DNA extraction kits for isolation and purification of bacterial and eukaryotic DNA from PAH-contaminated soils</article-title>. <source>Can. J. Microbiol.</source> <volume>57</volume>, <fpage>623</fpage>&#x02013;<lpage>628</lpage>.<pub-id pub-id-type="doi">10.1139/w11-049</pub-id><pub-id pub-id-type="pmid">21815819</pub-id></citation></ref>
+<ref id="B35"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Martin-Laurent</surname> <given-names>F.</given-names></name> <name><surname>Philippot</surname> <given-names>L.</given-names></name> <name><surname>Hallet</surname> <given-names>S.</given-names></name> <name><surname>Chaussod</surname> <given-names>R.</given-names></name> <name><surname>Germon</surname> <given-names>J. C.</given-names></name> <name><surname>Soulas</surname> <given-names>G.</given-names></name> <etal/></person-group> (<year>2001</year>). <article-title>DNA extraction from soils: old bias for new microbial diversity analysis methods</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>67</volume>, <fpage>2354</fpage>&#x02013;<lpage>2359</lpage>.<pub-id pub-id-type="doi">10.1128/AEM.67.5.2354-2359.2001</pub-id><pub-id pub-id-type="pmid">11319122</pub-id></citation></ref>
+<ref id="B36"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Meyer</surname> <given-names>F.</given-names></name> <name><surname>Paarmann</surname> <given-names>D.</given-names></name> <name><surname>D&#x02019;Souza</surname> <given-names>M.</given-names></name> <name><surname>Olson</surname> <given-names>R.</given-names></name> <name><surname>Glass</surname> <given-names>E. M.</given-names></name> <name><surname>Kubal</surname> <given-names>M.</given-names></name> <etal/></person-group> (<year>2008</year>). <article-title>The metagenomics RAST server &#x02013; a public resource for the automatic phylogenetic and functional analysis of metagenomes</article-title>. <source>BMC Bioinformatics</source> <volume>9</volume>:<fpage>386</fpage>.<pub-id pub-id-type="doi">10.1186/1471-2105-9-386</pub-id></citation></ref>
+<ref id="B37"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Newsham</surname> <given-names>K. K.</given-names></name> <name><surname>Pearce</surname> <given-names>D. A.</given-names></name> <name><surname>Bridge</surname> <given-names>P.</given-names></name></person-group> (<year>2010</year>). <article-title>Minimal influence of water and nutrient content on the bacterial community composition of a maritime Antarctic soil</article-title>. <source>Microbiol. Res.</source> <volume>165</volume>, <fpage>523</fpage>&#x02013;<lpage>530</lpage>.<pub-id pub-id-type="doi">10.1016/j.micres.2009.11.005</pub-id><pub-id pub-id-type="pmid">20006478</pub-id></citation></ref>
+<ref id="B38"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Niederberger</surname> <given-names>T. D.</given-names></name> <name><surname>McDonald</surname> <given-names>I. R.</given-names></name> <name><surname>Hacker</surname> <given-names>A. L.</given-names></name> <name><surname>Soo</surname> <given-names>R. M.</given-names></name> <name><surname>Barrett</surname> <given-names>J. E.</given-names></name> <name><surname>Wall</surname> <given-names>D. H.</given-names></name> <etal/></person-group> (<year>2008</year>). <article-title>Microbial community composition in soils of Northern Victoria Land, Antarctica</article-title>. <source>Environ. Microbiol.</source> <volume>10</volume>, <fpage>1713</fpage>&#x02013;<lpage>1724</lpage>.<pub-id pub-id-type="doi">10.1111/j.1462-2920.2008.01593.x</pub-id><pub-id pub-id-type="pmid">18373679</pub-id></citation></ref>
+<ref id="B39"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Overbeek</surname> <given-names>R.</given-names></name> <name><surname>Begley</surname> <given-names>T.</given-names></name> <name><surname>Butler</surname> <given-names>R.</given-names></name> <name><surname>Choudhuri</surname> <given-names>J.</given-names></name> <name><surname>Chuang</surname> <given-names>H.</given-names></name> <name><surname>Cohoon</surname> <given-names>M.</given-names></name> <etal/></person-group> (<year>2005</year>). <article-title>The subsystems approach to genome annotation and its use in the project to annotate 1000 genomes</article-title>. <source>Nucleic Acids Res.</source> <volume>33</volume>, <fpage>5691</fpage>&#x02013;<lpage>5702</lpage>.<pub-id pub-id-type="doi">10.1093/nar/gki866</pub-id><pub-id pub-id-type="pmid">16214803</pub-id></citation></ref>
+<ref id="B40"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Palacios</surname> <given-names>C.</given-names></name> <name><surname>Zettler</surname> <given-names>E.</given-names></name> <name><surname>Amils</surname> <given-names>R.</given-names></name> <name><surname>Amaral-Zettler</surname> <given-names>L.</given-names></name></person-group> (<year>2008</year>). <article-title>Contrasting microbial community assembly hypotheses: a reconciling tale from the R&#x000ED;o Tinto</article-title>. <source>PLoS ONE</source> <volume>3</volume>:<fpage>e3853</fpage>.<pub-id pub-id-type="doi">10.1371/journal.pone.0003853</pub-id></citation></ref>
+<ref id="B41"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pearce</surname> <given-names>D. A.</given-names></name> <name><surname>Hughes</surname> <given-names>K. A.</given-names></name> <name><surname>Harangozo</surname> <given-names>S. A.</given-names></name> <name><surname>Lachlan-Cope</surname> <given-names>T. A.</given-names></name> <name><surname>Jones</surname> <given-names>A. E.</given-names></name></person-group> (<year>2010</year>). <article-title>Biodiversity of air-borne microorganisms at Halley station, Antarctica</article-title>. <source>Extremophiles</source> <volume>14</volume>, <fpage>145</fpage>&#x02013;<lpage>159</lpage>.<pub-id pub-id-type="doi">10.1007/s00792-009-0293-8</pub-id><pub-id pub-id-type="pmid">20091326</pub-id></citation></ref>
+<ref id="B42"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Pe&#x000F1;a</surname> <given-names>A.</given-names></name> <name><surname>Teeling</surname> <given-names>H.</given-names></name> <name><surname>Huerta-Cepas</surname> <given-names>J.</given-names></name> <name><surname>Santos</surname> <given-names>F.</given-names></name> <name><surname>Yarza</surname> <given-names>P.</given-names></name> <name><surname>Brito-Echeverria</surname> <given-names>J.</given-names></name> <etal/></person-group> (<year>2010</year>). <article-title>Fine-scale evolution: genomic, phenotypic and ecological differentiation in two coexisting Salinibacter ruber strains</article-title>. <source>ISME J.</source> <volume>4</volume>, <fpage>882</fpage>&#x02013;<lpage>895</lpage>.<pub-id pub-id-type="doi">10.1038/ismej.2010.6</pub-id><pub-id pub-id-type="pmid">20164864</pub-id></citation></ref>
+<ref id="B43"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>R&#x000F6;sche</surname> <given-names>C.</given-names></name> <name><surname>Bothe</surname> <given-names>H.</given-names></name></person-group> (<year>2005</year>). <article-title>Improved assessment of denitrifying, N2-fixing, and total-community bacteria by terminal restriction fragment length polymorphism analysis using multiple restriction enzymes</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>71</volume>, <fpage>2026</fpage>&#x02013;<lpage>2035</lpage>.<pub-id pub-id-type="doi">10.1128/AEM.71.4.2026-2035.2005</pub-id><pub-id pub-id-type="pmid">15812035</pub-id></citation></ref>
+<ref id="B44"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Saul</surname> <given-names>D. J.</given-names></name> <name><surname>Aislabie</surname> <given-names>J. M.</given-names></name> <name><surname>Brown</surname> <given-names>C. E.</given-names></name> <name><surname>Harris</surname> <given-names>L.</given-names></name> <name><surname>Foght</surname> <given-names>J. M.</given-names></name></person-group> (<year>2005</year>). <article-title>Hydrocarbon contamination changes the bacterial diversity of soil from around Scott Base, Antarctica</article-title>. <source>FEMS Microbiol. Ecol.</source> <volume>53</volume>, <fpage>141</fpage>&#x02013;<lpage>155</lpage>.<pub-id pub-id-type="doi">10.1016/j.femsec.2004.11.007</pub-id><pub-id pub-id-type="pmid">16329936</pub-id></citation></ref>
+<ref id="B45"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Schloss</surname> <given-names>P. D.</given-names></name></person-group> (<year>2010</year>). <article-title>The effects of alignment quality, distance calculation method, sequence filtering, and region on the analysis of 16S rRNA gene-based studies</article-title>. <source>PLoS Comput. Biol.</source> <volume>6</volume>:<fpage>e1000844</fpage>.<pub-id pub-id-type="doi">10.1371/journal.pcbi.1000844</pub-id></citation></ref>
+<ref id="B46"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname> <given-names>J. J.</given-names></name> <name><surname>Tow</surname> <given-names>L. A.</given-names></name> <name><surname>Stafford</surname> <given-names>W.</given-names></name> <name><surname>Cary</surname> <given-names>C.</given-names></name> <name><surname>Cowan</surname> <given-names>D. A.</given-names></name></person-group> (<year>2006</year>). <article-title>Bacterial diversity of three different Antarctic cold desert mineral soils</article-title>. <source>Microb. Ecol.</source> <volume>51</volume>, <fpage>413</fpage>&#x02013;<lpage>421</lpage>.<pub-id pub-id-type="doi">10.1007/s00248-004-0159-7</pub-id><pub-id pub-id-type="pmid">16596438</pub-id></citation></ref>
+<ref id="B47"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Taton</surname> <given-names>A.</given-names></name> <name><surname>Grubisic</surname> <given-names>S.</given-names></name> <name><surname>Brambilla</surname> <given-names>E.</given-names></name> <name><surname>De Wit</surname> <given-names>R.</given-names></name> <name><surname>Wilmotte</surname> <given-names>A.</given-names></name></person-group> (<year>2003</year>). <article-title>Cyanobacterial diversity in natural and artificial microbial mats of Lake Fryxell (McMurdo Dry Valleys, Antarctica): a morphological and molecular approach</article-title>. <source>Appl. Environ. Microbiol.</source> <volume>69</volume>, <fpage>5157</fpage>&#x02013;<lpage>5169</lpage>.<pub-id pub-id-type="doi">10.1128/AEM.69.9.5157-5169.2003</pub-id><pub-id pub-id-type="pmid">12957897</pub-id></citation></ref>
+<ref id="B48"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Thr&#x000F6;back</surname> <given-names>I. N.</given-names></name> <name><surname>Enwall</surname> <given-names>K.</given-names></name> <name><surname>Jarvis</surname> <given-names>A.</given-names></name> <name><surname>Hallin</surname> <given-names>S.</given-names></name></person-group> (<year>2004</year>). <article-title>Reassessing PCR primers targeting nirS, nirK and nosZ genes for community surveys of denitrifying bacteria with DGGE</article-title>. <source>FEMS Microbiol. Ecol.</source> <volume>49</volume>, <fpage>401</fpage>&#x02013;<lpage>417</lpage>.<pub-id pub-id-type="doi">10.1016/j.femsec.2004.04.011</pub-id><pub-id pub-id-type="pmid">19712290</pub-id></citation></ref>
+<ref id="B49"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Turner</surname> <given-names>J.</given-names></name> <name><surname>Colwell</surname> <given-names>S. R.</given-names></name> <name><surname>Marshall</surname> <given-names>G. J.</given-names></name> <name><surname>Lachlan-Cope</surname> <given-names>T. A.</given-names></name> <name><surname>Carleton</surname> <given-names>A. M.</given-names></name> <name><surname>Jones</surname> <given-names>P. D.</given-names></name> <etal/></person-group> (<year>2005</year>). <article-title>Antarctic climate change during the last 50 years</article-title>. <source>Int. J. Climatol.</source> <volume>25</volume>, <fpage>279</fpage>&#x02013;<lpage>294</lpage>.<pub-id pub-id-type="doi">10.1002/joc.1130</pub-id></citation></ref>
+<ref id="B50"><citation citation-type="book"><person-group person-group-type="author"><name><surname>White</surname> <given-names>T. J.</given-names></name> <name><surname>Bruns</surname> <given-names>T.</given-names></name> <name><surname>Lee</surname> <given-names>S.</given-names></name> <name><surname>Taylor</surname> <given-names>J.</given-names></name></person-group> (<year>1990</year>). <article-title>&#x0201C;Amplification and direct sequencing of fungal ribosomal RNA genes for phylogenetics,&#x0201D;</article-title> in <source>PCR Protocols: A Guide to Methods and Applications</source>, eds <person-group person-group-type="editor"><name><surname>Innis</surname> <given-names>M. A.</given-names></name> <name><surname>Gelfand</surname> <given-names>H.</given-names></name> <name><surname>Sninsky</surname> <given-names>J. S.</given-names></name> <name><surname>White</surname> <given-names>T. J.</given-names></name></person-group> (<publisher-loc>New York</publisher-loc>: <publisher-name>Academic Press</publisher-name>), <fpage>315</fpage>&#x02013;<lpage>322</lpage>.</citation></ref>
+<ref id="B51"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Wilson</surname> <given-names>W. H.</given-names></name> <name><surname>Fuller</surname> <given-names>N. J.</given-names></name> <name><surname>Joint</surname> <given-names>I. R.</given-names></name> <name><surname>Mann</surname> <given-names>N. H.</given-names></name></person-group> (<year>1999</year>). <article-title>Analysis of cyanophage diversity and population structure in a south-north transect of the Atlantic ocean</article-title>. <source>Bull. Inst. Oceanogr.</source> <volume>19</volume>, <fpage>209</fpage>&#x02013;<lpage>216</lpage>.</citation></ref>
+<ref id="B52"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Wintzingerode</surname> <given-names>F. V.</given-names></name> <name><surname>G&#x000F6;bel</surname> <given-names>U. B.</given-names></name> <name><surname>Stackebrandt</surname> <given-names>E.</given-names></name></person-group> (<year>1997</year>). <article-title>Determination of microbial diversity in environmental samples: pitfalls of PCR-based rRNA analysis</article-title>. <source>FEMS Microbiol. Rev.</source> <volume>21</volume>, <fpage>213</fpage>&#x02013;<lpage>229</lpage>.<pub-id pub-id-type="doi">10.1111/j.1574-6976.1997.tb00351.x</pub-id><pub-id pub-id-type="pmid">9451814</pub-id></citation></ref>
+<ref id="B53"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Wynn-Williams</surname> <given-names>D. D.</given-names></name></person-group> (<year>1983</year>). <article-title>Distribution and characteristics of chromobacterium in the maritime and sub-Antarctic</article-title>. <source>Polar Biol.</source> <volume>2</volume>, <fpage>101</fpage>&#x02013;<lpage>108</lpage>.<pub-id pub-id-type="doi">10.1007/BF00303175</pub-id></citation></ref>
+<ref id="B54"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Wynn-Williams</surname> <given-names>D. D.</given-names></name></person-group> (<year>1996</year>). <article-title>Antarctic microbial diversity: the basis of polar ecosystem processes</article-title>. <source>Biodivers. Conserv.</source> <volume>5</volume>, <fpage>1271</fpage>&#x02013;<lpage>1293</lpage>.<pub-id pub-id-type="doi">10.1007/BF00051979</pub-id></citation></ref>
+<ref id="B55"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yergeau</surname> <given-names>E.</given-names></name> <name><surname>Newsham</surname> <given-names>K. K.</given-names></name> <name><surname>Pearce</surname> <given-names>D. A.</given-names></name> <name><surname>Kowalchuk</surname> <given-names>G.</given-names></name></person-group> (<year>2007</year>). <article-title>Patterns of bacterial diversity across a range of Antarctic terrestrial habitats</article-title>. <source>Environ. Microbiol.</source> <volume>9</volume>, <fpage>2670</fpage>&#x02013;<lpage>2682</lpage>.<pub-id pub-id-type="doi">10.1111/j.1462-2920.2007.01379.x</pub-id><pub-id pub-id-type="pmid">17922752</pub-id></citation></ref>
+<ref id="B56"><citation citation-type="journal"><person-group person-group-type="author"><name><surname>Yergeau</surname> <given-names>E.</given-names></name> <name><surname>Schoondermark-Stolk</surname> <given-names>S. A.</given-names></name> <name><surname>Brodie</surname> <given-names>E. L.</given-names></name> <name><surname>D&#x000E9;jean</surname> <given-names>S.</given-names></name> <name><surname>DeSantis</surname> <given-names>T. Z.</given-names></name> <name><surname>Gon&#x000E7;alves</surname> <given-names>O.</given-names></name> <etal/></person-group> (<year>2009</year>). <article-title>Environmental microarray analyses of Antarctic soil microbial communities</article-title>. <source>ISME J.</source> <volume>3</volume>, <fpage>340</fpage>&#x02013;<lpage>351</lpage>.<pub-id pub-id-type="doi">10.1038/ismej.2008.111</pub-id><pub-id pub-id-type="pmid">19020556</pub-id></citation></ref>
+</ref-list>
+</back>
+</article>

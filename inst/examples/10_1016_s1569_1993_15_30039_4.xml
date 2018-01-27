@@ -1,0 +1,299 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>http://api.elsevier.com/content/article/pii/S1569199315300394</prism:url><dc:identifier>doi:10.1016/S1569-1993(15)30039-4</dc:identifier><eid>1-s2.0-S1569199315300394</eid><prism:doi>10.1016/S1569-1993(15)30039-4</prism:doi><pii>S1569-1993(15)30039-4</pii><dc:title>WS07.1 Standardized treatment of pulmonary exacerbations (STOP) study: Treatment goals for pulmonary exacerbations </dc:title><prism:publicationName>Journal of Cystic Fibrosis</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>
+               Oral Presentations
+            </pubType><prism:issn>15691993</prism:issn><prism:volume>14</prism:volume><prism:startingPage>S13</prism:startingPage><prism:pageRange>S13</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2015-06-30</prism:coverDate><prism:coverDisplayDate>June 2015</prism:coverDisplayDate><prism:copyright>Copyright © 2015 European Cystic Fibrosis Society. Published by Elsevier B.V. All rights reserved.</prism:copyright><prism:publisher>European Cystic Fibrosis Society. Published by Elsevier B.V.</prism:publisher><prism:issueName>Abstracts of the 38th European Cystic Fibrosis Conference</prism:issueName><dc:creator>West, N.E.</dc:creator><dc:creator>Goss, C.H.</dc:creator><dc:creator>VanDevanter, D.R.</dc:creator><dc:creator>Heltshe, S.</dc:creator><dc:creator>Thompson, V.</dc:creator><dc:creator>Sanders, D.B.</dc:creator><dc:creator>Flume, P.</dc:creator><dc:description>
+               
+                  Objectives
+                  Pulmonary exacerbations (PEx) are common in individuals with CF, but there are no standard treatment recommendations. STOP collects information to define the primary endpoint for studies of treatment of PEx, and to access the feasibility for future trials to use the CF Foundation Patient Registry (CFFPR) for data capture.
+               
+               
+                  Methods
+                  STOP is an observational pilot study using the CFFPR and projected to enroll over 200 patients (age &gt;12 years) at 10 sites admitted to the hospital for PEx treatment. A survey of admitting physicians was performed to ascertain treatment goals and physician willingness to enroll the patient in hypothetical interventional trials.
+               
+               
+                  Results
+                  After 12 months, 204 patients (56% female) have entered the study, with a mean age of 27.2±9.2 years and 53% homozygous F508del. The primary objective of treatment was recovery of lung function (53%) and improvement of symptoms (45%). The mean lung function recovery goal (target FEV1 – admission FEV1) was 13.7% predicted (range: 0–65.7%). For CF centers with a treatment protocol, the average planned treatment duration was 13.9±1.6 days. A majority of physicians were willing to enroll their patients in a trial of differing durations [10 days (71%) and 14 days (87%)], specified antibiotics (86%), and other treatments (83%), but less so for treatment of 7 days (30%).
+               
+               
+                  Conclusion
+                  The primary goals for treatment of PEx are recovery of lung function, targeting almost 14% recovery, and symptom improvement. Most sites express willingness to enroll patients into interventional trials of treatments. Early experience suggests the CFFPR can be used successfully for clinical trials.
+                  Supported by CFFT.
+               
+            </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierBranded</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><link href="http://api.elsevier.com/content/article/pii/S1569199315300394" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1569199315300394" rel="scidir"/></coredata><scopus-id>85026620644</scopus-id><scopus-eid>2-s2.0-85026620644</scopus-eid><link href="http://api.elsevier.com/content/abstract/scopus_id/85026620644" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272296</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291911</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Cystic Fibrosis</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALCYSTICFIBROSIS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20150605">2015-06-05</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20150605">2015-06-05</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20150605">2015-06-05</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20150605">2015-06-05</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2015-05-26T04:46:36</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1569199315300394</xocs:eid>
+      <xocs:pii-formatted>S1569-1993(15)30039-4</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1569199315300394</xocs:pii-unformatted>
+      <xocs:doi>10.1016/S1569-1993(15)30039-4</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1569199315X0004X</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20170531">2017-05-31T21:38:06.015854-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20150601</xocs:date-search-begin>
+      <xocs:date-search-end>20150630</xocs:date-search-end>
+      <xocs:year-nav>2015</xocs:year-nav>
+      <xocs:indexeddate epoch="1433503180">2015-06-05T11:19:40.638887Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confdate confloc contenttype copyright crossmark dateloaded dateloadedtxt vor datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj suppl tomb vol volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authlast primabst pubtype</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1569-1993</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>15691993</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>14</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>14</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>S1</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 14, Supplement 1</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>39</xocs:sort-order>
+      <xocs:first-fp>S13</xocs:first-fp>
+      <xocs:pages>
+         <xocs:first-page>S13</xocs:first-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201506</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>June 2015</xocs:cover-date-text>
+      <xocs:cover-date-start>2015-06-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2015-06-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2015</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:title>Abstracts of the 38th European Cystic Fibrosis Conference</ce:title>
+            <xocs:conference-info>
+               <xocs:venue>Brussels, Belgium</xocs:venue>
+               <xocs:conference-date-text>10–13 June 2015</xocs:conference-date-text>
+               <xocs:date-range>
+                  <xocs:start-date>20150610</xocs:start-date>
+                  <xocs:end-date>20150613</xocs:end-date>
+               </xocs:date-range>
+            </xocs:conference-info>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Oral Presentations</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>abs</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2015 European Cystic Fibrosis Society. Published by Elsevier B.V. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>WS071STANDARDIZEDTREATMENTPULMONARYEXACERBATIONSSTOPSTUDYTREATMENTGOALSFORPULMONARYEXACERBATIONS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>WEST</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>N</xocs:normalized-first-auth-initial>
+      <xocs:refkeys>
+         <xocs:refkey3>WESTX2015XS13</xocs:refkey3>
+         <xocs:refkey4ai>WESTX2015XS13XN</xocs:refkey4ai>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2017-06-01T00:39:05Z</xocs:oa-access-effective-date>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/15691993_P2Y_ESBranded" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierBranded</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2016-06-05T00:00:00Z</xocs:sa-start-date>
+         <xocs:sa-embargo-status>Open</xocs:sa-embargo-status>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1569-1993(15)30039-4</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1569199315300394</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1569199315300394</xocs:eid>
+         <xocs:doi>10.1016/S1569-1993(15)30039-4</xocs:doi>
+         <xocs:cid>272296</xocs:cid>
+         <xocs:timestamp>2015-06-05T06:19:40.638887-04:00</xocs:timestamp>
+         <xocs:cover-date-start>2015-06-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2015-06-30</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1569199315300394-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1569199315300394/MAIN/application/pdf/d417bf54a640f74c5d18b84cabaaa813/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1569199315300394/MAIN/application/pdf/d417bf54a640f74c5d18b84cabaaa813/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>66163</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>1</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1569199315300394-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1569199315300394/PREVIEW/image/png/a2c86a5889fbbc3a472ead418d48b99f/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1569199315300394/PREVIEW/image/png/a2c86a5889fbbc3a472ead418d48b99f/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>84319</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:rawtext>Oral Presentations    Workshop 7. Monitoring CF lung disease WS07.3 FEF25-75 does not contribute to the interpretation of spirometry in patients  with cystic fibrosis F. Vermeulen1 , K. De Boeck1 . 1 University Hospital Leuven, Leuven, Belgium    S13    WS07.1 Standardized treatment of pulmonary exacerbations (STOP) study: Treatment goals for pulmonary exacerbations N.E. West1  , C.H. Goss2 , D.R. VanDevanter3 , S. Heltshe2 , V Thompson4 , . D.B. Sanders5 , P. Flume6 . 1 Johns Hopkins University,  Division of Pulmonary and Critical Care Medicine, Baltimore, United States; 2 University of Washington, Seattle, United  States; 3 Case Western Reserve University School of Medicine, Cleveland, United States; 4 Seattle Children's Hospital,  Seattle, United States; 5 University of Wisconsin, Madison, United States; 6 Medical University of South Carolina, Charleston,  United States Objectives: Pulmonary exacerbations (PEx) are common in individuals with CF, but there are no standard treatment  recommendations. STOP collects information to define the primary endpoint for studies of treatment of PEx, and to access the  feasibility for future trials to use the CF Foundation Patient Registry (CFFPR) for data capture. Methods: STOP is an  observational pilot study using the CFFPR and projected to enroll over 200 patients (age &gt;12 years) at 10 sites admitted to  the hospital for PEx treatment. A survey of admitting physicians was performed to ascertain treatment goals and physician  willingness to enroll the patient in hypothetical interventional trials. Results: After 12 months, 204 patients (56% female)  have entered the study, with a mean age of 27.2±9.2 years and 53% homozygous F508del. The primary objective of treatment was  recovery of lung function (53%) and improvement of symptoms (45%). The mean lung function recovery goal (target FEV1 -  admission FEV1 ) was 13.7% predicted (range: 0­65.7%). For CF centers with a treatment protocol, the average planned treatment  duration was 13.9±1.6 days. A majority of physicians were willing to enroll their patients in a trial of differing durations  [10 days (71%) and 14 days (87%)], specified antibiotics (86%), and other treatments (83%), but less so for treatment of 7  days (30%). Conclusion: The primary goals for treatment of PEx are recovery of lung function, targeting almost 14% recovery,  and symptom improvement. Most sites express willingness to enroll patients into interventional trials of treatments. Early  experience suggests the CFFPR can be used successfully for clinical trials. Supported by CFFT.    Objective: To explore the value of assessing the FEF25-75 , a measure of "small airway disease" in addition to the FEV1 , FVC  and FEV1/FVC in patients with cystic fibrosis (CF) Methods: The spirometry of the patients followed between 1998 and 2013 at  the CF Centre of Leuven, Belgium, were retrospectively reviewed. For each patient, the last measurement of each age year was  included, resulting in 1793 measurements in 268 patients aged between 6 and 76 years. Z-scores were calculated with the  equations from the Global Lung Initiative, with -1.645 as the lower limit of normal. Medians and interquartile ranges are  reported. Results: Discordance between FEF25-75 and FEV1 /FVC was uncommon. In the 811 tests with normal FEV1 and FVC, the 95  tests with a low FEF25-75 but normal FEV1 /FVC were from younger patients [12.3 years (10.0; 21.9) vs 16.6 years (13.0; 27.9),  p = 0.006] and had a lower FVC Z-score [-0.53 (-0.80; -0.21) vs +0.54 (-0.04; 1.17), p &lt; 0.001] than the 126 tests with both  low FEF25-75 and low FEV1 /FVC. In the 971 tests with a low FEV1 , FEF25-75 was also abnormal in 95.7% and FEV1 /FVC in 83.3%.  The 122 tests with a low FEF25-75 but normal FEV1 /FVC were from younger patients [15.5 years (IQR 10.9; 24.9) vs 24.9 years  (17.0; 31.5), p &lt; 0.001] and had a lower FVC Z-score [-1.90 (-2.76; -1.41) vs -1.66 (-2.74; -0.71), p = 0.015] than the 807  tests with both low FEF25-75 and low FEV1 /FVC. Conclusion: A spirometry with only a low FEF25-75 was rare in patients with  CF, and was seen more often at younger age and with FVC Z-scores at the lower end of the normal range. In this group of  patients with CF assessment of FEF25-75 in addition to FEV1 , FVC and FEV1 /FVC added little information.    WS07.2 Bronchoalveolar lavage in children with cystic fibrosis and increasing Lung Clearance Index M. Svedberg1 , K. K¨ tz1 ,  P. Wilmar1 , P. Gustavsson2 , A. Lindblad1 . 1 Queen Siliva o Children's University Hospital, Department of Paediatrics,  Gothenburg, Sweden; 2 Central Hospital, Dept of Pediatrics, Sk¨ vde, Sweden o Objectives: Lung Clearance Index (LCI) is a  promising tool to identify early lung disease in children with cystic fibrosis (CF). This retrospective study presents the  findings in bronchoalveolar lavage (BAL) in children with CF and an increasing LCI-value and the possibility to reverse the  LCI-value with a BAL-directed therapy. Methods: 70 children with CF were monitored annually between October 2007 and April  2014 with Multiple Breath Washout (MBW) using SF6 as tracer gas. During this period 23 of 70 children (median 6.6 yrs, range  0.8­13.8 yrs) with an increasing LCI (not responding to treatment) or positive pseudomonas (PA) serum antibodies with negative  PA sputum cultures underwent 31 BALs (minimum 1.9 yrs between BALs performed in the same child). Antibiotic treatment was  ended 3 days prior to BAL. Results: LCI and BAL-neutrophils correlated significantly (r = 0.572, p = 0.001). In children with  LCI 7.8, 18 of 21 BAL-cultures were positive ( 1000 cfu/ml or a positive fungus culture) and only 2 of 10 BAL-cultures were  positive when LCI &lt; 7.8 (p = 0.001). LCI was 7.8 in all 11 fungus positive BAL-cultures. In three of these, fungus was the  only pathogen detected. LCI increased over time before BAL (mean increase 0.55, CI 0.0-1.11, p = 0.05). Mean LCI before BAL  was 8.95 (median 68 days prior to BAL) and decreased with a BAL-directed therapy (mean decrease 0.59, CI 0.1-1.1, p = 0.02).  Conclusion: An increasing LCI in CF patients correlates with neutrophil inflammation and infection in BAL. An increasing LCI  might be an indication for BAL to achieve a more effective treatment. Fungus may play an active role in causing neutrophil  inflammation and an increasing LCI.    WS07.4 MBW and MRI as sensitive markers of stable CF lung disease and at exacerbation in children and adolescents M. Stahl1,2  , M.O. Wielp¨ tz2,3 , S.Y. Gr¨ ber1,2 , S. H¨ mmerling1 , O. Sommerburg1,2 , u a a M. Eichinger3,4 , M.A. Mall1,2,5 . 1  University Children's Hospital Heidelberg, Division of Pediatric Pulmonology &amp; Allergy and Cystic Fibrosis Centre, Heidelberg,  Germany; 2 German Centre for Lung Research (DZL), Translational Lung Research Center (TLRC), Heidelberg, Germany; 3 University  of Heidelberg, Department of Diagnostic and Interventional Radiology, Heidelberg, Germany; 4 Thoraxklinik at University of  Heidelberg, Department of Diagnostic and Interventional Radiology with Nuclear Medicine, Heidelberg, Germany; 5 University of  Heidelberg, Department of Translational Pulmonology, Heidelberg, Germany Objectives: MBW and MRI have both been shown to be  sensitive outcome measures for CF lung disease. Therefore, we wanted to determine the correlation of the LCI with alterations  in the MRI chest score as markers of CF lung disease under stable conditions and at exacerbation. Methods: 57 stable children  with CF (mean age, 9.5±6.2 years) had chest MRI scans performed. All children with CF and 106 healthy children (mean age,  8.9±4.8 years) underwent age-adapted MBW testing to assess LCI and to calculate LCI z-scores. 36 children (mean age, 13.9±4.4  years) were investigated at time of pulmonary exacerbation either via MRI (n = 10) or MBW (n = 26). Results: Mean LCI z-score  in healthy children was 0.1±1.2). LCI z-score was significantly higher in stable children with CF (5.4±5.5, P &lt; 0.001).  Morphological, perfusion and global MRI chest score were elevated in stable children with CF and were positively correlated  with a higher LCI z-score (R 0.682; 0.669; 0.711). Concordance between abnormal findings in MBW and MRI was above 70%. At  exacerbation, LCI increased in children with CF from baseline (P &lt; 0.001) and decreased after antibiotic therapy (P &lt; 0.001).  The MRI chest scores also decreased after iv antibiotic treatment (P &lt; 0.05). Conclusion: LCI z-score and MRI chest score are  elevated in CF and show a high correlation. Both methods are feasible and sensitive non-invasive markers of CF lung disease in  children with CF under stable conditions and at time of exacerbation.        spital, Dept of Pediatrics, Sk¨ vde, Sweden o Objectives: Lung Clearance Index (LCI) is a  promising tool to identify early lung disease in children with cystic fibrosis (CF). This retrospective study presents the  findings in bronchoalveolar lavage (BAL) in children with CF and an increasing LCI-value and the possibility to reverse the  LCI-value with a BAL-directed therapy. Methods: 70 children with CF were monitored annually between October 2007 and April  2014 with Multiple Breath Washout (MBW) using SF6 as tracer gas. During this period 23 of 70 children (median 6.6 yrs, range  0.8­13.8 yrs) with an increasing LCI (not responding to treatment) or positive pseudomonas (PA) serum antibodies with negative  PA sputum cultures underwent 31 BALs (minimum 1.9 yrs between BALs performed in the same child). Antibiotic treatment was  ended 3 days prior to BAL. Results: LCI and BAL-neutrophils correlated significantly (r = 0.572, p = 0.001). In children with  LCI 7.8, 18 of 21 BAL-cultures were positive ( 1000 cfu/ml or a positive fungus culture) and only 2 of 10 BAL-cultures were  positive when LCI &lt; 7.8 (p = 0.001). LCI was 7.8 in all 11 fungus positive BAL-cultures. In three of these, fungus was the  only pathogen detected. LCI increased over time before BAL (mean increase 0.55, CI 0.0-1.11, p = 0.05). Mean LCI before BAL  was 8.95 (median 68 days prior to BAL) and decreased with a BAL-directed therapy (mean decrease 0.59, CI 0.1-1.1, p = 0.02).  Conclusion: An increasing LCI in CF patients correlates with neutrophil inflammation and infection in BAL. An increasing LCI  might be an indication for BAL to achieve a more effective treatment. Fungus may play an active role in causing neutrophil  inflammation and an increasing LCI.    WS07.4 MBW and MRI as sensitive markers of stable CF lung disease and at exacerbation in children and adolescents M. Stahl1,2  , M.O. Wielp¨ tz2,3 , S.Y. Gr¨ ber1,2 , S. H¨ mmerling1 , O. Sommerburg1,2 , u a a M. Eichinger3,4 , M.A. Mall1,2,5 . 1  University Children's Hospital Heidelberg, Division of Pediatric Pulmonology &amp; Allergy and Cystic Fibrosis Centre, Heidelberg,  Germany; 2 German Centre for Lung Research (DZL), Translational Lung Research Center (TLRC), Heidelberg, Germany; 3 University  of Heidelberg, Department of Diagnostic and Interventional Radiology, Heidelberg, Germany; 4 Thoraxklinik at University of  Heidelberg, Department of Diagnostic and Interventional Radiology with Nuclear Medicine, Heidelberg, Germany; 5 University of  Heidelberg, Department of Translational Pulmonology, Heidelberg, Germany Objectives: MBW and MRI have both been shown to be  sensitive outcome measures for CF lung disease. Therefore, we wanted to determine the correlation of the LCI with alterations  in the MRI chest score as markers of CF lung disease under stable conditions and at exacerbation. Methods: 57 stable children  with CF (mean age, 9.5±6.2 years) had chest MRI scans performed. All children with CF and 106 healthy children (mean age,  8.9±4.8 years) underwent age-adapted MBW testing to assess LCI and to calculate LCI z-scores. 36 children (mean age, 13.9±4.4  years) were investigated at time of pulmonary exacerbation either via MRI (n = 10) or MBW (n = 26). Results: Mean LCI z-score  in healthy children was 0.1±1.2). LCI z-score was significantly higher in stable children with CF (5.4±5.5, P &lt; 0.001).  Morphological, perfusion and global MRI chest score were elevated in stable children with CF and were positively correlated  with a higher LCI z-score (R 0.682; 0.669; 0.711). Concordance betwe</xocs:rawtext>
+   <xocs:serial-item>
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="abs" version="5.2" xml:lang="en">
+         <item-info>
+            <jid>JCF</jid>
+            <aid>30039</aid>
+            <ce:pii>S1569-1993(15)30039-4</ce:pii>
+            <ce:doi>10.1016/S1569-1993(15)30039-4</ce:doi>
+            <ce:copyright type="society" year="2015">European Cystic Fibrosis Society</ce:copyright>
+         </item-info>
+         <simple-head>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Oral Presentations</ce:textfn>
+            </ce:dochead>
+            <ce:title id="cetitle10">WS07.1 Standardized treatment of pulmonary exacerbations (STOP) study: Treatment goals for pulmonary exacerbations</ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10">
+                  <ce:given-name>N.E.</ce:given-name>
+                  <ce:surname>West</ce:surname>
+                  <ce:cross-ref id="cecref10" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au20">
+                  <ce:given-name>C.H.</ce:given-name>
+                  <ce:surname>Goss</ce:surname>
+                  <ce:cross-ref id="cecref20" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30">
+                  <ce:given-name>D.R.</ce:given-name>
+                  <ce:surname>VanDevanter</ce:surname>
+                  <ce:cross-ref id="cecref30" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40">
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Heltshe</ce:surname>
+                  <ce:cross-ref id="cecref40" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au50">
+                  <ce:given-name>V.</ce:given-name>
+                  <ce:surname>Thompson</ce:surname>
+                  <ce:cross-ref id="cecref50" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au60">
+                  <ce:given-name>D.B.</ce:given-name>
+                  <ce:surname>Sanders</ce:surname>
+                  <ce:cross-ref id="cecref60" refid="aff5">
+                     <ce:sup loc="post">e</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au70">
+                  <ce:given-name>P.</ce:given-name>
+                  <ce:surname>Flume</ce:surname>
+                  <ce:cross-ref id="cecref70" refid="aff6">
+                     <ce:sup loc="post">f</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Johns Hopkins University, Division of Pulmonary and Critical Care Medicine, Baltimore, United States</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Johns Hopkins University</sa:organization>
+                     <sa:address-line>Division of Pulmonary and Critical Care Medicine</sa:address-line>
+                     <sa:city>Baltimore</sa:city>
+                     <sa:country>United States</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>University of Washington, Seattle, United States</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>University of Washington</sa:organization>
+                     <sa:city>Seattle</sa:city>
+                     <sa:country>United States</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Case Western Reserve University School of Medicine, Cleveland, United States</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Case Western Reserve University School of Medicine</sa:organization>
+                     <sa:city>Cleveland</sa:city>
+                     <sa:country>United States</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Seattle Children's Hospital, Seattle, United States</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Seattle Children's Hospital</sa:organization>
+                     <sa:city>Seattle</sa:city>
+                     <sa:country>United States</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff5">
+                  <ce:label>e</ce:label>
+                  <ce:textfn>University of Wisconsin, Madison, United States</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>University of Wisconsin</sa:organization>
+                     <sa:city>Madison</sa:city>
+                     <sa:country>United States</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff6">
+                  <ce:label>f</ce:label>
+                  <ce:textfn>Medical University of South Carolina, Charleston, United States</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Medical University of South Carolina</sa:organization>
+                     <sa:city>Charleston</sa:city>
+                     <sa:country>United States</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:abstract id="ceab10" view="all" class="author">
+               <ce:abstract-sec id="ceabs10" view="all">
+                  <ce:section-title id="cestitle10">Objectives</ce:section-title>
+                  <ce:simple-para id="spara10" view="all">Pulmonary exacerbations (PEx) are common in individuals with CF, but there are no standard treatment recommendations. STOP collects information to define the primary endpoint for studies of treatment of PEx, and to access the feasibility for future trials to use the CF Foundation Patient Registry (CFFPR) for data capture.</ce:simple-para>
+               </ce:abstract-sec>
+               <ce:abstract-sec id="ceabs20" view="all">
+                  <ce:section-title id="cestitle20">Methods</ce:section-title>
+                  <ce:simple-para id="spara20" view="all">STOP is an observational pilot study using the CFFPR and projected to enroll over 200 patients (age &gt;12 years) at 10 sites admitted to the hospital for PEx treatment. A survey of admitting physicians was performed to ascertain treatment goals and physician willingness to enroll the patient in hypothetical interventional trials.</ce:simple-para>
+               </ce:abstract-sec>
+               <ce:abstract-sec id="ceabs30" view="all">
+                  <ce:section-title id="cestitle30">Results</ce:section-title>
+                  <ce:simple-para id="spara30" view="all">After 12 months, 204 patients (56% female) have entered the study, with a mean age of 27.2±9.2 years and 53% homozygous F508del. The primary objective of treatment was recovery of lung function (53%) and improvement of symptoms (45%). The mean lung function recovery goal (target FEV<ce:inf loc="post">1</ce:inf> – admission FEV<ce:inf loc="post">1</ce:inf>) was 13.7% predicted (range: 0–65.7%). For CF centers with a treatment protocol, the average planned treatment duration was 13.9±1.6 days. A majority of physicians were willing to enroll their patients in a trial of differing durations [10 days (71%) and 14 days (87%)], specified antibiotics (86%), and other treatments (83%), but less so for treatment of 7 days (30%).</ce:simple-para>
+               </ce:abstract-sec>
+               <ce:abstract-sec id="ceabs40" view="all">
+                  <ce:section-title id="cestitle40">Conclusion</ce:section-title>
+                  <ce:simple-para id="spara40" view="all">The primary goals for treatment of PEx are recovery of lung function, targeting almost 14% recovery, and symptom improvement. Most sites express willingness to enroll patients into interventional trials of treatments. Early experience suggests the CFFPR can be used successfully for clinical trials.</ce:simple-para>
+                  <ce:simple-para id="spara50" view="all">Supported by CFFT.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+         </simple-head>
+      </simple-article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

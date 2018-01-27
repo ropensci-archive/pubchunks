@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing with OASIS Tables v3.0 20080202//EN" "journalpub-oasis3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:oasis="http://docs.oasis-open.org/ns/oasis-exchange/table" dtd-version="3.0"><?xmltex \bartext{14th~EMS Annual Meeting\,\&\, 10th~European Conference on Applied Climatology (ECAC)}?>
+  <front>
+    <journal-meta>
+<journal-id journal-id-type="publisher">ASR</journal-id>
+<journal-title-group>
+<journal-title>Advances in Science and Research</journal-title>
+<abbrev-journal-title abbrev-type="publisher">ASR</abbrev-journal-title>
+<abbrev-journal-title abbrev-type="nlm-ta">Adv. Sci. Res.</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="epub">1992-0636</issn>
+<publisher><publisher-name>Copernicus GmbH</publisher-name>
+<publisher-loc>Göttingen, Germany</publisher-loc>
+</publisher>
+</journal-meta>
+
+    <article-meta>
+      <article-id pub-id-type="doi">10.5194/asr-12-23-2015</article-id><title-group><article-title>Quality control of 10-min soil temperatures data at RMI</article-title>
+      </title-group><?xmltex \runningtitle{Quality control of 10-min soils temperature data at RMI}?><?xmltex \runningauthor{C.~Bertrand et al.}?>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes" rid="aff1">
+          <name><surname>Bertrand</surname><given-names>C.</given-names></name>
+          <email>cedric.bertrand@meteo.be</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff1">
+          <name><surname>González Sotelino</surname><given-names>L.</given-names></name>
+          
+        </contrib>
+        <contrib contrib-type="author" corresp="no" rid="aff1">
+          <name><surname>Journée</surname><given-names>M.</given-names></name>
+          
+        </contrib>
+        <aff id="aff1"><institution>Royal Meteorological Institute of Belgium, Brussels, Belgium</institution>
+        </aff>
+      </contrib-group>
+      <author-notes><corresp id="corr1">C. Bertrand (cedric.bertrand@meteo.be)</corresp></author-notes><pub-date><day>6</day><month>March</month><year>2015</year></pub-date>
+      
+      <volume>12</volume>
+      <issue>1</issue>
+      <fpage>23</fpage><lpage>30</lpage>
+      <history>
+        <date date-type="received"><day>28</day><month>October</month><year>2014</year></date>
+           <date date-type="rev-recd"><day>20</day><month>February</month><year>2015</year></date>
+           <date date-type="accepted"><day>23</day><month>February</month><year>2015</year></date>
+           
+      </history>
+      <permissions>
+<license license-type="open-access">
+<license-p>This work is licensed under a Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit <ext-link ext-link-type="uri"  xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link></license-p>
+</license>
+</permissions><self-uri xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015.html">This article is available from https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015.html</self-uri>
+<self-uri xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015.pdf">The full text article is available as a PDF file from https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015.pdf</self-uri>
+
+
+      <abstract>
+    <p>Soil temperatures at various depths are unique parameters useful to describe
+both the surface energy processes and regional environmental and climate
+conditions. To provide soil temperature observation in different regions
+across Belgium for agricultural management as well as for climate research,
+soil temperatures are recorded in 13 of the 20 automated weather stations
+operated by the Royal Meteorological Institute (RMI) of Belgium. At each
+station, soil temperature can be measured at up to 5 different depths (from 5
+to 100 cm) in addition to the bare soil and grass temperature records.
+Although many methods have been developed to identify erroneous air
+temperatures, little attention has been paid to quality control of soil
+temperature data. This contribution describes the newly developed
+semi-automatic quality control of 10-min soil temperatures data at RMI.</p>
+  </abstract>
+    </article-meta>
+  </front>
+<body>
+      
+
+<sec id="Ch1.S1" sec-type="intro">
+  <title>Introduction</title>
+      <p>Of great importance in agriculture, soil temperature affects plant growth
+directly, e.g. in seed germination, root growth and nutrient uptake as well
+as indirectly in soil water and gas flow, soil structure and nutrient
+availability (Hillel, 1998). Soil temperature is an important parameter in
+energy balance applications such as land surface modeling, numerical weather
+forecasting, and climate prediction (e.g. Best et al., 2005). It is also
+important in radiative transfer applications, such as in the retrieval of
+land surface properties with satellite sensors, and especially in the
+retrieval of surface moisture with microwave sensors (e.g. de Jeu et al.,
+2008). Soil temperature varies in response to exchange processes that take
+place primarily through the soil surface. These effects are propagated into
+the soil profile by a complex series of transport processes, the rates of
+which are affected by time-variable and space-variable soil properties. At
+each succeeding depth, the peak temperature is dampened and shifted
+progressively in time (see Fig. <xref ref-type="fig" rid="Ch1.F1"/>). The degree of damping increases
+with depth and is related to the thermal properties of the soil and the
+frequency of the temperature fluctuation. Due to the much higher heat
+capacity of soil relative to air and the thermal insulation provided by
+vegetation and surface soil layers, soil heat anomalies of daily or weekly
+timescales in shallow layers near the surface do not propagate to the deeper
+layers. Only persistent long-term anomalies (e.g. at the inter annual and
+decadal scale) affect temperature variations in those layers (e.g. Lachenbruch
+and Marshall, 1986).</p>
+      <p>While many methods have been proposed to identify erroneous air temperatures,
+only little attention has been paid to quality control of soil temperature
+data. This situation imposes a significant effort toward providing quality
+control and assurance (QC/QA) especially devoted to soil temperature
+measurements. Here we propose a semi-automatic quality control method to
+check 10-min grass and soil temperature records. In developing quality
+control tests for the automatic weather stations (AWSs) operated by the Royal
+Meteorological Institute of Belgium (RMI), we adapted some of the tools
+developed in Hu et al. (2002) and Hu and Feng (2003) to examine daily and
+hourly soil temperature data and expanded their approach to include
+additional tests introduced for some of them in quality control of air
+temperatures at RMI (Bertrand et al., 2013). The framework is similar to
+Gandin's concept of complex QA (Gandin, 1988), in that it approaches the
+question of the validity of a given datum from several different angles and
+considers errors of different types. However, in the present approach, the
+automated QA functions are included in a larger QA protocol involving manual
+inspections similarly to the method implemented at RMI for the quality
+control of 10-min air temperature data (Bertrand et al., 2013).</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T1" specific-use="star"><caption><p>List of the 13 RMI's Automatic Weather Stations performing at least
+one soil temperature record and the associated measurements.</p></caption><oasis:table frame="topbot"><?xmltex \begin{scaleboxenv}{.98}[.98]?><oasis:tgroup cols="14">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="left"/>
+     <oasis:colspec colnum="3" colname="col3" align="center"/>
+     <oasis:colspec colnum="4" colname="col4" align="left"/>
+     <oasis:colspec colnum="5" colname="col5" align="center"/>
+     <oasis:colspec colnum="6" colname="col6" align="center"/>
+     <oasis:colspec colnum="7" colname="col7" align="center"/>
+     <oasis:colspec colnum="8" colname="col8" align="center"/>
+     <oasis:colspec colnum="9" colname="col9" align="center"/>
+     <oasis:colspec colnum="10" colname="col10" align="center"/>
+     <oasis:colspec colnum="11" colname="col11" align="center"/>
+     <oasis:colspec colnum="12" colname="col12" align="center"/>
+     <oasis:colspec colnum="13" colname="col13" align="center"/>
+     <oasis:colspec colnum="14" colname="col14" align="center"/>
+     <oasis:thead>
+       <oasis:row>  
+         <oasis:entry rowsep="1" namest="col1" nameend="col3" align="center">AWS </oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry rowsep="1" namest="col5" nameend="col11">Air temperature measurement (s) </oasis:entry>  
+         <oasis:entry colname="col12">QC</oasis:entry>  
+         <oasis:entry rowsep="1" namest="col13" nameend="col14">Coordinates </oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Code</oasis:entry>  
+         <oasis:entry colname="col2">Name</oasis:entry>  
+         <oasis:entry colname="col3">Climate</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">Grass</oasis:entry>  
+         <oasis:entry colname="col6">Bare soil</oasis:entry>  
+         <oasis:entry colname="col7">Soil</oasis:entry>  
+         <oasis:entry colname="col8">Soil</oasis:entry>  
+         <oasis:entry colname="col9">Soil</oasis:entry>  
+         <oasis:entry colname="col10">Soil</oasis:entry>  
+         <oasis:entry colname="col11">Soil</oasis:entry>  
+         <oasis:entry colname="col12">group</oasis:entry>  
+         <oasis:entry colname="col13">Lat.</oasis:entry>  
+         <oasis:entry colname="col14">Lon.</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2"/>  
+         <oasis:entry colname="col3">zone</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6">0 cm</oasis:entry>  
+         <oasis:entry colname="col7"><inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>5 cm</oasis:entry>  
+         <oasis:entry colname="col8"><inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>10 cm</oasis:entry>  
+         <oasis:entry colname="col9"><inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>20 cm</oasis:entry>  
+         <oasis:entry colname="col10"><inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>50 cm</oasis:entry>  
+         <oasis:entry colname="col11"><inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>1 m</oasis:entry>  
+         <oasis:entry colname="col12"/>  
+         <oasis:entry colname="col13">(<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula> N)</oasis:entry>  
+         <oasis:entry colname="col14">(<inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula> E)</oasis:entry>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">6414</oasis:entry>  
+         <oasis:entry colname="col2">Beitem</oasis:entry>  
+         <oasis:entry colname="col3">1</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">3</oasis:entry>  
+         <oasis:entry colname="col13">50.91</oasis:entry>  
+         <oasis:entry colname="col14">3.12</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6431</oasis:entry>  
+         <oasis:entry colname="col2">Zelzate</oasis:entry>  
+         <oasis:entry colname="col3">1</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7"/>  
+         <oasis:entry colname="col8"/>  
+         <oasis:entry colname="col9"/>  
+         <oasis:entry colname="col10"/>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">5</oasis:entry>  
+         <oasis:entry colname="col13">51.18</oasis:entry>  
+         <oasis:entry colname="col14">3.81</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6434</oasis:entry>  
+         <oasis:entry colname="col2">Melle</oasis:entry>  
+         <oasis:entry colname="col3">1</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">50.98</oasis:entry>  
+         <oasis:entry colname="col14">3.83</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6438</oasis:entry>  
+         <oasis:entry colname="col2">Stabroek</oasis:entry>  
+         <oasis:entry colname="col3">1</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">51.33</oasis:entry>  
+         <oasis:entry colname="col14">4.37</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6439</oasis:entry>  
+         <oasis:entry colname="col2">Sint Katelijn</oasis:entry>  
+         <oasis:entry colname="col3">2</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7"/>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">4</oasis:entry>  
+         <oasis:entry colname="col13">51.08</oasis:entry>  
+         <oasis:entry colname="col14">4.53</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2">Waver</oasis:entry>  
+         <oasis:entry colname="col3"/>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6"/>  
+         <oasis:entry colname="col7"/>  
+         <oasis:entry colname="col8"/>  
+         <oasis:entry colname="col9"/>  
+         <oasis:entry colname="col10"/>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12"/>  
+         <oasis:entry colname="col13"/>  
+         <oasis:entry colname="col14"/>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6447</oasis:entry>  
+         <oasis:entry colname="col2">Uccle</oasis:entry>  
+         <oasis:entry colname="col3">1</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">50.80</oasis:entry>  
+         <oasis:entry colname="col14">4.36</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6455</oasis:entry>  
+         <oasis:entry colname="col2">Dourbes</oasis:entry>  
+         <oasis:entry colname="col3">3</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">50.10</oasis:entry>  
+         <oasis:entry colname="col14">4.60</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6459</oasis:entry>  
+         <oasis:entry colname="col2">Ernage</oasis:entry>  
+         <oasis:entry colname="col3">3</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">50.58</oasis:entry>  
+         <oasis:entry colname="col14">4.69</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6464</oasis:entry>  
+         <oasis:entry colname="col2">Retie</oasis:entry>  
+         <oasis:entry colname="col3">2</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">51.22</oasis:entry>  
+         <oasis:entry colname="col14">5.03</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6472</oasis:entry>  
+         <oasis:entry colname="col2">Humain</oasis:entry>  
+         <oasis:entry colname="col3">4</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11">X</oasis:entry>  
+         <oasis:entry colname="col12">1</oasis:entry>  
+         <oasis:entry colname="col13">50.19</oasis:entry>  
+         <oasis:entry colname="col14">5.26</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6477</oasis:entry>  
+         <oasis:entry colname="col2">Diepenbeek</oasis:entry>  
+         <oasis:entry colname="col3">2</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5">X</oasis:entry>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">2</oasis:entry>  
+         <oasis:entry colname="col13">50.92</oasis:entry>  
+         <oasis:entry colname="col14">5.45</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6484</oasis:entry>  
+         <oasis:entry colname="col2">Buzenol</oasis:entry>  
+         <oasis:entry colname="col3">4</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">3</oasis:entry>  
+         <oasis:entry colname="col13">49.62</oasis:entry>  
+         <oasis:entry colname="col14">5.59</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">6494</oasis:entry>  
+         <oasis:entry colname="col2">Mont Rigi</oasis:entry>  
+         <oasis:entry colname="col3">5</oasis:entry>  
+         <oasis:entry colname="col4"/>  
+         <oasis:entry colname="col5"/>  
+         <oasis:entry colname="col6">X</oasis:entry>  
+         <oasis:entry colname="col7">X</oasis:entry>  
+         <oasis:entry colname="col8">X</oasis:entry>  
+         <oasis:entry colname="col9">X</oasis:entry>  
+         <oasis:entry colname="col10">X</oasis:entry>  
+         <oasis:entry colname="col11"/>  
+         <oasis:entry colname="col12">3</oasis:entry>  
+         <oasis:entry colname="col13">50.51</oasis:entry>  
+         <oasis:entry colname="col14">6.07</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup><?xmltex \end{scaleboxenv}?></oasis:table></table-wrap>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F1"><caption><p>10-min soil temperature at various depths vs time of
+the day for 2–3 July 2014, at the Humain station (RMI's AWS 6472, see
+Table <xref ref-type="table" rid="Ch1.T1"/>).</p></caption>
+        <?xmltex \igopts{width=236.157874pt}?><graphic xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015-f01.pdf"/>
+
+      </fig>
+
+</sec>
+<sec id="Ch1.S2">
+  <title>Soil temperature records at RMI</title>
+      <p>Automatic weather stations operated by RMI range from basic climatological
+stations to fully equipped synoptic stations performing a complete set of
+meteorological observations. Soil temperature measurements are performed in
+13 of them to provide soil temperature profile in different regions across
+Belgium for agricultural management as well as for climate research. At each
+station, soil temperature can be measured at up to 5 different depths (from
+5 to 100 cm) in addition to the bare soil and grass temperatures records (see
+Table <xref ref-type="table" rid="Ch1.T1"/>). Due to the large heterogeneity within the RMI's AWSs,
+five groups based on the recorded temperature parameters are distinguished
+for the automated data QC and the stations are gathered in five climatic zones.</p><?xmltex \hack{\newpage}?>
+</sec>
+<sec id="Ch1.S3">
+  <title>Complex automatic QA</title>
+      <p>RMI's AWSs are built around a programmable data logger that measures the
+sensors, then processes, stores and transmits the data to the central
+database (DB) in Uccle, Brussels. Once converted to digital values a first
+processing is performed on the raw data at the data logger level allowing
+calculation of 10-min temperatures values from the 5-s measurements. To
+ensure that gross errors are trapped before being further transmitted in the
+central DB a first basic QC is performed on all temperature values once
+acquired centrally. Automated procedures monitor the data to make sure they
+are collected and that the system performance is acceptable. After an
+existence test, a module checks for physical limits and flags the data
+violating these limits (erroneous when data lie outside physical limits and
+suspect when lying outside basic long-term climatological extremes that do
+not take into account the time of year and location). A list of missing and
+flagged data is automatically produced after each control cycle and
+transmitted to the AWS network maintenance team for further intervention.
+Note that values flagged as erroneous fail immediately and do not require
+further testing.</p>
+      <p>Second, each night automated QA procedures check the previous day 10-min
+temperatures values for more subtle errors. Implementation of the complex
+automated QA is diagrammed in Fig. <xref ref-type="fig" rid="Ch1.F2"/>. Daily temperature values are
+first checked using annual variation expectancies envelopes and the shape of
+the diurnal variation of the soil temperature at the different depths are
+compared to ensure consistency between them (see Sect. <xref ref-type="sec" rid="Ch1.S3.SS1"/> for
+details). Individual 10-min records are further scrutinized for plausibility
+(using adjusted limits to reflect climatic conditions more precisely than in
+the first near real time range test), internal consistency, temporal
+consistency and spatial consistency (see Sect. <xref ref-type="sec" rid="Ch1.S3.SS2"/> for details).</p>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F2" specific-use="star"><caption><p>Complex QA of 10-min grass/soil temperatures records.</p></caption>
+        <?xmltex \igopts{width=341.433071pt}?><graphic xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015-f02.pdf"/>
+
+      </fig>
+
+      <p><?xmltex \hack{\newpage}?>At the end of the checks, when all 10-min daily temperature time series
+recorded in a given station have been analyzed, a decision algorithm (that is
+applicable to all variables and all sites) interprets the scores obtained at
+each of the individual tests and attributes a final flag (i.e. erroneous,
+suspect or valid) to each particular data given the weight of evidence. At
+the end of the process, a report is automatically generated for each AWS and
+sent to the QC staff.</p>
+<sec id="Ch1.S3.SS1">
+  <title>Global daily QC</title>
+      <p>In nature, soil temperature varies continuously in response to the ever
+changing meteorological regime acting upon the soil-atmosphere interface.
+That regime is characterized by a regular periodic succession of days and
+nights, and of summers and winters. The regular diurnal and annual cycles are
+perturbed by irregular episodic phenomena as cloudiness, cold wave, warm
+waves, rain storms or snow storms, and periods of drought. In addition to
+these external influences, there are the soil's own changing properties
+(i.e. temporal changes in reflectivity, heat capacity, and thermal
+conductivity as the soil alternately wets and dries, and the variation of all
+these properties with depth), as well as the influences of geographic
+location and vegetation. While the thermal regime of soil profiles is very
+complex, a simple mathematical representation of the fluctuating thermal
+regime in a soil profile is obtained by assuming that at all depths in the
+soil the temperature oscillates as a pure harmonic (sinusoidal) function of
+time around an average value (van Wijk and de Vries, 1963).</p>
+      <p><?xmltex \hack{\newpage}?>To rapidly identify data outside the variation range of soil temperatures at
+each depth, daily values (i.e. computed from the 10-min measurements) are
+compared to lower and upper bounds for soil temperature at given depths.
+Similarly to the LIM test in Hu and Feng (2003), lower and upper bounds for a
+given temperature data series (i.e. grass and soil temperatures) are
+constructed for each of the five climate zones by retrieving the highest and
+lowest daily values on each calendar day of the year from 9 years (2005–2013)
+of manually quality controlled historical data. Assuming that annual
+soil/grass temperature variations follow a sinusoidal curve, envelopes of
+annual variation of these extreme temperatures were then defined using wave
+functions of the form:
+
+                <disp-formula id="Ch1.E1" content-type="numbered"><mml:math display="block"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mtext>L/U</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>d</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mtext>Lo/Uo</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:mtext>Lo/Uo</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo><mml:mo>⋅</mml:mo><mml:mi>sin⁡</mml:mi><mml:mfenced open="(" close=")"><mml:msub><mml:mi mathvariant="italic">ω</mml:mi><mml:mtext>o</mml:mtext></mml:msub><mml:mi>d</mml:mi></mml:mfenced></mml:mrow></mml:math></disp-formula>
+
+          where, <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mtext>L</mml:mtext></mml:msub></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mtext>U</mml:mtext></mml:msub></mml:mrow></mml:math></inline-formula> are the lower and upper bounds of soil temperature
+variations, respectively, <inline-formula><mml:math display="inline"><mml:mi>d</mml:mi></mml:math></inline-formula> is the day of year, <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi mathvariant="italic">ω</mml:mi><mml:mtext>o</mml:mtext></mml:msub></mml:mrow></mml:math></inline-formula> is the angular
+frequency, which is 2<inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">π</mml:mi></mml:math></inline-formula> times the actual frequency (i.e. 2<inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">π</mml:mi></mml:math></inline-formula>/365 in
+case of an annual forcing), <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula> is depth, and <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mtext>Lo/Uo</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and
+<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>A</mml:mi><mml:mtext>Lo/Uo</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> are the annual mean of these extreme soil temperatures and
+their amplitude of variations, respectively. To include the extreme values
+within the derived expectancy envelopes from Eq. (<xref ref-type="disp-formula" rid="Ch1.E1"/>), the
+boundaries are adjusted as follows (see Fig. <xref ref-type="fig" rid="Ch1.F3"/> for an
+illustration): data satisfying
+
+                <disp-formula id="Ch1.Ex1"><mml:math display="block"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mtext>L</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>d</mml:mi><mml:mo>)</mml:mo><mml:mo>-</mml:mo><mml:mn mathvariant="normal">2</mml:mn><mml:mo>≤</mml:mo><mml:mi>T</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>d</mml:mi><mml:mo>)</mml:mo><mml:mo>≤</mml:mo><mml:msub><mml:mi>T</mml:mi><mml:mtext>U</mml:mtext></mml:msub><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>d</mml:mi><mml:mo>)</mml:mo><mml:mo>+</mml:mo><mml:mn mathvariant="normal">2</mml:mn></mml:mrow></mml:math></disp-formula>
+
+          succeed the limits consistency test, and data failing it are soft flagged if
+they are less than 10 % outside the range delimited by the adjusted
+boundaries and hard flagged otherwise.</p>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F3"><caption><p>Example of annual variation expectancy envelopes used
+in the Global Daily QC Limits Consistency test. Illustrated limits apply to
+the daily mean soil temperature recorded at <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>10 cm for stations of climate
+zone 1 (see Table <xref ref-type="table" rid="Ch1.T1"/>)</p></caption>
+          <?xmltex \igopts{width=236.157874pt}?><graphic xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015-f03.pdf"/>
+
+        </fig>
+
+      <p><?xmltex \hack{\newpage}?>To check the reduction in amplitude of the diurnal temperature cycle and the
+phase shift of the temperature maximum and minimum with depth (see
+Fig. <xref ref-type="fig" rid="Ch1.F1"/>), the recorded diurnal temperature cycle at any depth <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula>,
+and time <inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula>, is modeled as follows:
+
+                <disp-formula id="Ch1.E2" content-type="numbered"><mml:math display="block"><mml:mrow><mml:mi>T</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mover accent="true"><mml:mi>T</mml:mi><mml:mo mathvariant="normal">‾</mml:mo></mml:mover><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo><mml:mo>+</mml:mo><mml:mi>A</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo><mml:mo>⋅</mml:mo><mml:mi>sin⁡</mml:mi><mml:mo>(</mml:mo><mml:mi mathvariant="italic">ω</mml:mi><mml:mi>t</mml:mi><mml:mo>-</mml:mo><mml:mi mathvariant="italic">ϕ</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo><mml:mo>)</mml:mo></mml:mrow></mml:math></disp-formula>
+
+          where, <inline-formula><mml:math display="inline"><mml:mrow><mml:mover accent="true"><mml:mi>T</mml:mi><mml:mo mathvariant="normal">‾</mml:mo></mml:mover><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is the daily mean temperature at depth <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula>, <inline-formula><mml:math display="inline"><mml:mi mathvariant="italic">ω</mml:mi></mml:math></inline-formula> is
+the angular frequency (diurnal forcing), <inline-formula><mml:math display="inline"><mml:mrow><mml:mi>A</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is the amplitude of the
+temperature wave at depth <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula>, and <inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="italic">ϕ</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> is the phase constant at depth <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula>
+(aligns soil temperature variation with the forcing). The different
+<inline-formula><mml:math display="inline"><mml:mrow><mml:mi>A</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> and <inline-formula><mml:math display="inline"><mml:mrow><mml:mi mathvariant="italic">ϕ</mml:mi><mml:mo>(</mml:mo><mml:mi>z</mml:mi><mml:mo>)</mml:mo></mml:mrow></mml:math></inline-formula> which are functions of <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula> but not of <inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula> are then
+compared and temperature data series which do not respect the damping and
+retarding of the temperature waves with depth fail the internal consistency test.</p>
+      <p>Note that these two tests are denoted as global because they cannot discern
+which observations within the daily time series are responsible for the offense.</p>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F4"><caption><p>Probable bare soil–grass temperature differences as a
+function of the bare soil temperature.</p></caption>
+          <?xmltex \igopts{width=236.157874pt}?><graphic xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015-f04.pdf"/>
+
+        </fig>
+
+</sec>
+<sec id="Ch1.S3.SS2">
+  <title>Individual 10-min record QC</title>
+      <p>The question of the validity of a given datum is approached using a number of
+additional tests applied to each particular 10-min temperature record. To
+verify whether the values are within acceptable range limits depending on the
+climatic conditions of the measurement site, individual data values are
+compared with upper and lower seasonal bounds derived for each temperature
+parameters and zones from several years of previous manually controlled data.
+The check provides information as to whether the values are erroneous or
+suspect. To minimize the possibility of a false positive identification, the
+algorithm does not report an anomaly in case where the majority of
+the recorded parameters in a given site at time <inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula> are flagged as being
+either to cool or to warm. Grass temperature and bare soil temperature are
+further examined for climatological consistency.</p>
+      <p>Bare soil temperature is measured by a PT100 sensor in contact with the
+ground on a horizontal surface fully exposed to the open sky. Similarly,
+grass temperature is measured by a PT100 sensor, fully exposed to the open
+sky, suspended horizontally over an area covered with short cropped turf and
+in contact with the tips of grass blades. With the advent of automation and
+the lack of daily attention by an observer or caretaker, this set up has
+proved limitations (e.g. lack/lost of contact between the temperature probe
+and the ground surface or the grass blades, probe fully covered by grass, …).
+The probable range test provides a more stringent constraint than
+simple valid maximum/minimum limit test by requiring consistency among
+temperature parameters as well as consistency with historical data.
+Basically, the differences between bare soil and grass temperatures as a
+function of the bare soil temperature are compared to probable difference
+determined from several years of previous data. Contours in Fig. <xref ref-type="fig" rid="Ch1.F4"/>
+indicate which combinations of grass and bare soil temperatures fall within a
+given percentile of joint probability density. Following a review of the
+values that fall outside the 99.9 % boundary, the 99.9th percentile was
+selected as the boundary of acceptability. Combinations are hard flagged when
+falling outside the 99.9 % boundary and soft flagged when falling between the
+99.0 and 99.9 % boundaries. Because two comparisons (involving three
+parameters) are necessary to unambiguously identify which parameter is
+problematic, similar joint probability densities were established involving
+the soil temperature at <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>10 cm. This last parameter has been chosen for the
+probable range test as it is systematically recorded in stations where both
+grass and bare soil temperatures are measured (see Table <xref ref-type="table" rid="Ch1.T1"/>).</p>
+      <p><?xmltex \hack{\newpage}?>To examine the temporal consistency of the data, two tests involving the rate
+of change of the variables from a preceding acceptable level are applied: the
+spike/step (<inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>Max) test and the persistence (<inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>Min) test. Both,
+the maximum and minimum probable changes for each analyzed parameters
+(i.e. grass and soil temperatures) are based on the 99.9th percentile change for
+several years of previous data. Because the rate of change for deep soil
+temperatures can be very small, the persistence test does not apply to soil
+temperature below <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>20 cm. Values are checked for 10-min, 1, 2, 3 and 6 h
+time steps. To minimize the possibility of a false positive identification,
+the data must fail in at least 3 of the 5 tested time steps prior to be
+flagged as suspect or erroneous. Moreover, because in case of extreme
+meteorological conditions, unusual variability in the air temperature may
+occur, grass and bare soil temperatures data may be flagged as suspect,
+although correct. To prevent from this, the algorithm does not report a
+spike/step anomaly for grass and bare soil temperatures if both temperatures
+at the same site fail the spike/step test. Similarly, the algorithm does not
+report a persistence anomaly for the grass and bare soil temperatures in case
+of snow cover. Below 0 <inline-formula><mml:math display="inline"><mml:msup><mml:mi/><mml:mo>∘</mml:mo></mml:msup></mml:math></inline-formula>C in snow free condition, a persistence anomaly is
+reported based on the assumption that freezing conditions can affect multiple
+sensors. Note that for stations where only one of the grass or bare soil
+temperatures is recorded, the <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>5 cm soil temperature value is used (when
+applicable) in place of the lacking parameter to adjust the <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>Max and
+<inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">Δ</mml:mi></mml:math></inline-formula>Min tests.</p>
+      <p>Finally, horizontal comparisons of the same measurement at different stations
+are performed for all recorded temperature parameters. As for the quality
+control of 10-min air temperature data implemented at RMI (Bertrand et al.,
+2013), the horizontal check works in two steps. First, an outlier detection
+is performed on both the station data being quality controlled and the data
+of the surrounding stations using the daily 10-min temperature time series of
+each stations.</p>
+      <p>Let <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> be a 10-min temperature record at station <inline-formula><mml:math display="inline"><mml:mi>i</mml:mi></mml:math></inline-formula> (<inline-formula><mml:math display="inline"><mml:mi>i</mml:mi></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> 1, <inline-formula><mml:math display="inline"><mml:mi>M</mml:mi></mml:math></inline-formula> with
+<inline-formula><mml:math display="inline"><mml:mi>M</mml:mi></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>≤</mml:mo></mml:math></inline-formula> 13) at time <inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula> (<inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> 1, <inline-formula><mml:math display="inline"><mml:mi>N</mml:mi></mml:math></inline-formula> with <inline-formula><mml:math display="inline"><mml:mi>N</mml:mi></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>≤</mml:mo></mml:math></inline-formula> 144) in a given day.
+<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover></mml:math></inline-formula> with <inline-formula><mml:math display="inline"><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mrow><mml:mfrac><mml:mn mathvariant="normal">1</mml:mn><mml:mi>N</mml:mi></mml:mfrac><mml:mspace width="0.125em" linebreak="nobreak"/><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>t</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mspace linebreak="nobreak" width="0.125em"/><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> the
+daily mean temperature at station <inline-formula><mml:math display="inline"><mml:mi>i</mml:mi></mml:math></inline-formula>. <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover></mml:math></inline-formula> with
+<inline-formula><mml:math display="inline"><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mrow><mml:mfrac><mml:mn mathvariant="normal">1</mml:mn><mml:mi>M</mml:mi></mml:mfrac><mml:mspace linebreak="nobreak" width="0.125em"/><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mi>M</mml:mi></mml:munderover><mml:mspace width="0.125em" linebreak="nobreak"/><mml:msub><mml:mi>Y</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> the stations' mean at time <inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula>.
+We test whether or not the <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> values fall within the confidence
+interval defined by:
+
+                <disp-formula id="Ch1.E3" content-type="numbered"><mml:math display="block"><mml:mrow><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover><mml:mo>-</mml:mo><mml:mi>C</mml:mi><mml:msub><mml:mi mathvariant="italic">σ</mml:mi><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:msub><mml:mo>≤</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>≤</mml:mo><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover><mml:mo>+</mml:mo><mml:mi>C</mml:mi><mml:msub><mml:mi mathvariant="italic">σ</mml:mi><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula>
+
+          where <inline-formula><mml:math display="inline"><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mrow><mml:mfrac><mml:mn mathvariant="normal">1</mml:mn><mml:mi>M</mml:mi></mml:mfrac><mml:mspace linebreak="nobreak" width="0.125em"/><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mi>M</mml:mi></mml:munderover><mml:mspace linebreak="nobreak" width="0.125em"/><mml:msub><mml:mi>Z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> 0,
+<inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi mathvariant="italic">σ</mml:mi><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:msqrt><mml:mrow><mml:mfrac><mml:mn mathvariant="normal">1</mml:mn><mml:mrow><mml:mi>M</mml:mi><mml:mo>-</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow></mml:mfrac><mml:mspace width="0.125em" linebreak="nobreak"/><mml:munderover><mml:mo movablelimits="false">∑</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn mathvariant="normal">1</mml:mn></mml:mrow><mml:mi>M</mml:mi></mml:munderover><mml:mspace width="0.125em" linebreak="nobreak"/><mml:mo>(</mml:mo><mml:msub><mml:mi>Z</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Z</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover><mml:msup><mml:mo>)</mml:mo><mml:mn mathvariant="normal">2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:math></inline-formula> is the estimated
+standard deviation at time <inline-formula><mml:math display="inline"><mml:mi>t</mml:mi></mml:math></inline-formula>, and <inline-formula><mml:math display="inline"><mml:mi>C</mml:mi></mml:math></inline-formula> is an adjustment parameter function
+of the considered soil/grass temperature parameter. Values <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> that do
+not satisfy the relation in Eq. (<xref ref-type="disp-formula" rid="Ch1.E3"/>) are considered as outliers.</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T2"><caption><p>Overall performance of the automatic QC. The evaluation is performed over
+the full month of November 2014. A total of 298 512 (100 %) 10-min records
+including all soil/grass temperature parameters recorded within the RMI AWS
+network have been analyzed.</p></caption><oasis:table frame="topbot"><oasis:tgroup cols="4">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="right"/>
+     <oasis:colspec colnum="3" colname="col3" align="right"/>
+     <oasis:colspec colnum="4" colname="col4" align="right"/>
+     <oasis:thead>
+       <oasis:row rowsep="1">  
+         <oasis:entry namest="col1" nameend="col4" align="center">10-min records </oasis:entry>
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>  
+         <oasis:entry colname="col1">QC<inline-formula><mml:math display="inline"><mml:msub><mml:mi/><mml:mtext>AUTO</mml:mtext></mml:msub></mml:math></inline-formula></oasis:entry>  
+         <oasis:entry colname="col2">Manual</oasis:entry>  
+         <oasis:entry colname="col3">Manual</oasis:entry>  
+         <oasis:entry colname="col4">Total</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1"/>  
+         <oasis:entry colname="col2">QC TRUE</oasis:entry>  
+         <oasis:entry colname="col3">QC FALSE</oasis:entry>  
+         <oasis:entry colname="col4"/>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Valid</oasis:entry>  
+         <oasis:entry colname="col2">97.71 %</oasis:entry>  
+         <oasis:entry colname="col3">1.60 %</oasis:entry>  
+         <oasis:entry colname="col4">99.31 %</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Suspect</oasis:entry>  
+         <oasis:entry colname="col2">0.17 %</oasis:entry>  
+         <oasis:entry colname="col3">0.09 %</oasis:entry>  
+         <oasis:entry colname="col4">0.26 %</oasis:entry>
+       </oasis:row>
+       <oasis:row rowsep="1">  
+         <oasis:entry colname="col1">Erroneous</oasis:entry>  
+         <oasis:entry colname="col2"><inline-formula><mml:math display="inline"><mml:mo>&lt;</mml:mo></mml:math></inline-formula> 0.01 %</oasis:entry>  
+         <oasis:entry colname="col3">0.43 %</oasis:entry>  
+         <oasis:entry colname="col4">0.43 %</oasis:entry>
+       </oasis:row>
+       <oasis:row>  
+         <oasis:entry colname="col1">Total</oasis:entry>  
+         <oasis:entry colname="col2">97.88 %</oasis:entry>  
+         <oasis:entry colname="col3">2.12 %</oasis:entry>  
+         <oasis:entry colname="col4">100 %</oasis:entry>
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup></oasis:table></table-wrap>
+
+      <p>If an outlier is detected for the station being quality checked, then the
+data fails the horizontal consistency test. Otherwise, the algorithm tests on
+a 10-min basis whether the analyzed station value, <inline-formula><mml:math display="inline"><mml:mrow><mml:msub><mml:mi>T</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>t</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula>, falls inside a
+confidence interval formed from surrounding stations data that were not
+classified as outliers. Measurements that fail the test are soft or hard
+flagged depending upon the departure of the data from the confidence
+interval. Note that the outlier check in Eq. (<xref ref-type="disp-formula" rid="Ch1.E3"/>) can lead to false
+positives if one or several of the comparison measurements are spatial
+outliers able to influence the stations mean, <inline-formula><mml:math display="inline"><mml:mover accent="true"><mml:mrow><mml:msub><mml:mi>Y</mml:mi><mml:mi>t</mml:mi></mml:msub></mml:mrow><mml:mo mathvariant="normal">‾</mml:mo></mml:mover></mml:math></inline-formula>, in such a way that
+the measurement under the test is erroneously flagged as an outlier while
+being valid. In such cases either the decision algorithm at the end of the
+checking process identifies the false positives as valid based on the scores
+obtained at the other tests involved in the automated QA system or they will
+be reviewed during the manual follow up (see Sect. 4) and set to valid if justified.</p>
+      <p>In developing quality control methods for the US Department of Agriculture
+(USDA) Natural Resources Conservation Service (NRCS) Soil Moisture-Soil
+Temperature (SM-ST) network, Hu et al. (2002) established a soil heat
+diffusion model to screen and identify erroneous soil temperature data.
+Because such kind of model was found to perform well only in sunny and clear
+days situations, in our case, modeled data are not used to examine the soil
+temperatures records. Instead a soil model is used to assist the QC staff in
+their corrections and estimations (see Sect. 4).</p>
+
+<?xmltex \floatpos{t}?><table-wrap id="Ch1.T3"><caption><p>Quantitative evaluation of the different tests involved
+in the automated QC of the 10-min soil/grass temperatures records (QC1 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> physical
+limits test, QC2 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> Min–Max range test, QC3 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> spike/step <inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula> persistence test,
+QC4 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> spatial horizontal test and QC5 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> probable range test). The evaluation is performed over
+the full month of November 2014. A total of 298 512 (100 %) 10-min records including all soil/grass
+temperature parameters recorded within the RMI AWS network have been analyzed (v <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> valid, s <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> suspect,
+e <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> erroneous, and nt=no check).</p></caption><oasis:table frame="topbot"><oasis:tgroup cols="4">
+     <oasis:colspec colnum="1" colname="col1" align="left"/>
+     <oasis:colspec colnum="2" colname="col2" align="left"/>
+     <oasis:colspec colnum="3" colname="col3" align="right"/>
+     <oasis:colspec colnum="4" colname="col4" align="right"/>
+     <oasis:thead>
+       <oasis:row rowsep="1">
+
+         <oasis:entry namest="col1" nameend="col4" align="center">10-min records </oasis:entry>
+
+       </oasis:row>
+     </oasis:thead>
+     <oasis:tbody>
+       <oasis:row>
+
+         <oasis:entry namest="col1" nameend="col2" align="center">QC TESTS </oasis:entry>
+
+         <oasis:entry colname="col3">Manual TRUE</oasis:entry>
+
+         <oasis:entry colname="col4">Manual FALSE</oasis:entry>
+
+       </oasis:row>
+       <oasis:row rowsep="1">
+
+         <oasis:entry namest="col1" nameend="col2" align="center">. </oasis:entry>
+
+         <oasis:entry colname="col3">292 187 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> 100 %</oasis:entry>
+
+         <oasis:entry colname="col4">6325 <inline-formula><mml:math display="inline"><mml:mo>=</mml:mo></mml:math></inline-formula> 100 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry rowsep="1" colname="col1" morerows="3">QC1</oasis:entry>
+
+         <oasis:entry colname="col2">v</oasis:entry>
+
+         <oasis:entry colname="col3">100 %</oasis:entry>
+
+         <oasis:entry colname="col4">100%</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">s</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4"/>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">e</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4"/>
+
+       </oasis:row>
+       <oasis:row rowsep="1">
+
+         <oasis:entry colname="col2">nt</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4"/>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry rowsep="1" colname="col1" morerows="3">QC2</oasis:entry>
+
+         <oasis:entry colname="col2">v</oasis:entry>
+
+         <oasis:entry colname="col3">98.15 %</oasis:entry>
+
+         <oasis:entry colname="col4">71.40 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">s</oasis:entry>
+
+         <oasis:entry colname="col3">1.81 %</oasis:entry>
+
+         <oasis:entry colname="col4">26.12 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">e</oasis:entry>
+
+         <oasis:entry colname="col3">0.04 %</oasis:entry>
+
+         <oasis:entry colname="col4">2.34 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row rowsep="1">
+
+         <oasis:entry colname="col2">nt</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4">0.14%</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry rowsep="1" colname="col1" morerows="3">QC3</oasis:entry>
+
+         <oasis:entry colname="col2">v</oasis:entry>
+
+         <oasis:entry colname="col3">99.36 %</oasis:entry>
+
+         <oasis:entry colname="col4">89.38 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">s</oasis:entry>
+
+         <oasis:entry colname="col3">0.51 %</oasis:entry>
+
+         <oasis:entry colname="col4">7.67 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">e</oasis:entry>
+
+         <oasis:entry colname="col3">0.13 %</oasis:entry>
+
+         <oasis:entry colname="col4">2.81 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row rowsep="1">
+
+         <oasis:entry colname="col2">nt</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4">0.14 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry rowsep="1" colname="col1" morerows="3">QC4</oasis:entry>
+
+         <oasis:entry colname="col2">v</oasis:entry>
+
+         <oasis:entry colname="col3">91.45 %</oasis:entry>
+
+         <oasis:entry colname="col4">96.13 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">s</oasis:entry>
+
+         <oasis:entry colname="col3">7.07 %</oasis:entry>
+
+         <oasis:entry colname="col4">1.44 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">e</oasis:entry>
+
+         <oasis:entry colname="col3"><inline-formula><mml:math display="inline"><mml:mo>&lt;</mml:mo></mml:math></inline-formula> 0.01 %</oasis:entry>
+
+         <oasis:entry colname="col4">2.43 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row rowsep="1">
+
+         <oasis:entry colname="col2">nt</oasis:entry>
+
+         <oasis:entry colname="col3">1.48 %</oasis:entry>
+
+         <oasis:entry colname="col4"/>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry rowsep="1" colname="col1" morerows="3">QC5</oasis:entry>
+
+         <oasis:entry colname="col2">v</oasis:entry>
+
+         <oasis:entry colname="col3">99.96 %</oasis:entry>
+
+         <oasis:entry colname="col4">78.95 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">s</oasis:entry>
+
+         <oasis:entry colname="col3">0.04 %</oasis:entry>
+
+         <oasis:entry colname="col4">1.56 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">e</oasis:entry>
+
+         <oasis:entry colname="col3"><inline-formula><mml:math display="inline"><mml:mo>&lt;</mml:mo></mml:math></inline-formula> 0.01 %</oasis:entry>
+
+         <oasis:entry colname="col4">19.34 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row rowsep="1">
+
+         <oasis:entry colname="col2">nt</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4">0.15 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col1" morerows="3">QC<inline-formula><mml:math display="inline"><mml:msub><mml:mi/><mml:mtext>AUTO</mml:mtext></mml:msub></mml:math></inline-formula></oasis:entry>
+
+         <oasis:entry colname="col2">v</oasis:entry>
+
+         <oasis:entry colname="col3">99.83 %</oasis:entry>
+
+         <oasis:entry colname="col4">75.38 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">s</oasis:entry>
+
+         <oasis:entry colname="col3">0.17 %</oasis:entry>
+
+         <oasis:entry colname="col4">4.49 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">e</oasis:entry>
+
+         <oasis:entry colname="col3"><inline-formula><mml:math display="inline"><mml:mo>&lt;</mml:mo></mml:math></inline-formula> 0.01 %</oasis:entry>
+
+         <oasis:entry colname="col4">20.13 %</oasis:entry>
+
+       </oasis:row>
+       <oasis:row>
+
+         <oasis:entry colname="col2">nt</oasis:entry>
+
+         <oasis:entry colname="col3"/>
+
+         <oasis:entry colname="col4"/>
+
+       </oasis:row>
+     </oasis:tbody>
+   </oasis:tgroup></oasis:table></table-wrap>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F5"><caption><p>Visualization of the automated QC applied on the 10-min
+soil/grass temperatures records performed on 22 November 2014 at the Melle
+station (AWS 6434, see Table 1). Erroneous grass temperature data are
+indicated by a orange circle on the green curve.</p></caption>
+          <?xmltex \igopts{width=236.157874pt}?><graphic xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015-f05.pdf"/>
+
+        </fig>
+
+</sec>
+<sec id="Ch1.S3.SS3">
+  <title>Automated QC performance</title>
+      <p>Quality assurance consists of procedures or rules against which data are
+tested. Each procedure will either detect the data as being valid, suspect or
+erroneous. False positives (i.e. type I error) increase the burden on the
+manual QC, and false negatives (i.e. type II error) reduce the quality of
+the data. One month of data (e.g. November 2014) has been used to determine
+the overall performance of the automated QA system. Independent manual QC
+applied on the recorded 10-min soil temperatures during the same month has
+been considered as reference for the evaluation. Table <xref ref-type="table" rid="Ch1.T2"/> presents a
+general overview of the performance of the newly developed complex QA system
+while Table <xref ref-type="table" rid="Ch1.T3"/> provides a quantitative evaluation of the various
+tests involved in the data checking. It is worth pointing out that both
+tables refer to the 10-min data tests (daily tests cannot identify which
+observations are responsible for the offense) and that the results could
+differ for a given temperature parameter or a station type (i.e. QC group in
+Table <xref ref-type="table" rid="Ch1.T1"/>). Table <xref ref-type="table" rid="Ch1.T2"/> indicates that type I errors generated
+by the automated QA system are very low (less than 0.01 % of the true 10-min
+records were detected as erroneous by the algorithm). By contrast the
+percentage of type II errors is very large (more than 75 % of the false
+10-min records were found as valid by the automated QC as indicated in
+Table <xref ref-type="table" rid="Ch1.T3"/>). However, this apparent very bad performance of the automated
+QA system in term of type II errors has to be handle with caution. First, it
+often occurred that while the algorithm effectively detected 10-min
+erroneous/suspect measurements in a daily parameter time series, the
+operators corrected more records than the ones found problematic by the
+system. As an example, Fig. <xref ref-type="fig" rid="Ch1.F5"/> indicates that the 10-min grass
+temperature records were found erroneous by the automated QA system 14 times
+(orange circles on the green curve) on 22 November 2014 at the Melle
+station. After visualization of the station grass temperatures time series on
+22 November 2014, 33 corrections were performed by the operator on the
+10-min records (i.e. the full time segment where problematic
+measurements were detected by the algorithm was manually corrected). Second,
+Tables <xref ref-type="table" rid="Ch1.T2"/> and <xref ref-type="table" rid="Ch1.T3"/> only deal with the 10-min tests and do not
+account for the daily tests. It is worth pointing out that during the month
+of November 2014, the grass temperature measurements performed in the
+Stabroek station were found systematically wrong by the QC staff during
+28 days. Over this time period, the grass temperature parameter in this station
+was detected as erroneous (suspect) 23 (4) times on a daily basis while the
+10-min tests did not necessarily reported any erroneous/suspect measurements
+for this parameter as illustrated in Fig. <xref ref-type="fig" rid="Ch1.F6"/>.</p>
+
+      <?xmltex \floatpos{t}?><fig id="Ch1.F6"><caption><p>Visualization of the automated QC applied on the 10-min
+soil/grass temperatures records performed on 3 November 2014 at the
+Stabroek station (AWS 6438, see Table 1). No erroneous or suspect data were
+found in the daily 10-min temperatures time series.</p></caption>
+          <?xmltex \igopts{width=236.157874pt}?><graphic xlink:href="https://www.adv-sci-res.net/12/23/2015/asr-12-23-2015-f06.pdf"/>
+
+        </fig>
+
+      <p>When accounting for both daily and 10-min automated QC results, the algorithm
+succeeded to identify the stations, days and parameters on which corrections
+were made by the QC staff. A detailed analysis of the type II errors revealed
+that they mainly concern grass temperature measurements. We strongly suspect
+that the grass temperature database (and to a lesser extend the bare soil
+temperature database) used to derive the tests was not validated as it should
+have been. Typically, probable range test aims at detecting problematic
+situations as the one illustrated in Fig. <xref ref-type="fig" rid="Ch1.F6"/> for the grass
+temperature 10-min daily time series. Because erroneous data have been
+involved when defining the boundaries used in the automated tests, probable
+differences between bare soil and grass temperatures given in
+Fig. <xref ref-type="fig" rid="Ch1.F4"/> are certainly too permissive. This drawback has a direct
+impact on the detection performance of problematic grass, bare soil and
+<inline-formula><mml:math display="inline"><mml:mo>-</mml:mo></mml:math></inline-formula>10 cm soil temperatures records by the probable range test. As an example,
+Table <xref ref-type="table" rid="Ch1.T3"/> indicates that this test (i.e. QC5) produced type II
+errors in about 79 % of the cases while this category of test has proven to
+be one of the most efficient in the detection of erroneous 10-min air
+temperature records performed by the RMI's AWSs.</p>
+</sec>
+</sec>
+<sec id="Ch1.S4">
+  <title>Manual QA</title>
+      <p>Each day, the QC staff analyses the preceding day 10-min temperature records
+in the light of the assigned quality flags from the automated QA system.
+Results of the automated QA system can be graphically plotted on the operator
+terminal screen as illustrated in Figs. <xref ref-type="fig" rid="Ch1.F5"/> and  <xref ref-type="fig" rid="Ch1.F6"/>. In that
+case, all the analyzed station 10-min soil/grass temperatures records of the
+inspected day are illustrated in a graphic window and erroneous or suspect
+data are indicated in the corresponding parameter daily time series
+(e.g. orange circles on the green line in Fig. <xref ref-type="fig" rid="Ch1.F5"/>). Visual inspection of
+all records flagged by the automated decision making algorithm is done to
+distinguish instrumental problems from plausible behaviors. It is the human
+decision whether or not a value is accepted. When errors are verified or
+visually detected, faulty records are eliminated and ”trouble tickets” are
+issued where needed to the maintenance team so that sensors can be replaced
+or repaired. More than simply deleting erroneous measurements, human
+operators supply corrections and estimations (i.e. when values are missing)
+where possible. They are supported in this task by automated procedures. As
+an example, assuming that the thermal properties are constant with depth,
+soil temperature at any depth below the ground surface (i.e. 0 <inline-formula><mml:math display="inline"><mml:mo>&lt;</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mi>z</mml:mi></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mo>&lt;</mml:mo></mml:math></inline-formula> <inline-formula><mml:math display="inline"><mml:mi mathvariant="normal">∞</mml:mi></mml:math></inline-formula>)
+can be estimated using a soil heat diffusion model (van Wijk and de Vries, 1963).</p>
+      <p>The correction/estimation process is fully interactive, operators directly
+visualize on screen the corrections they applied on the parameters time
+series (the graphic window displaying the station temperatures time series
+being automatically updated after each modification). They have the
+opportunity to visualize different corrections on the problematic time series
+in order to determine the most appropriate in their specific case. When the
+correction/estimation process is completed, all modifications introduced by
+the operator are automatically implemented in the central RMI database. Note
+that the original parameters values are kept in the database and still
+accessible by the QC staff if required.</p>
+</sec>
+<sec id="Ch1.S5" sec-type="conclusions">
+  <title>Conclusions</title>
+      <p>Automation of the RMI's AWSs data quality control is ongoing. After the
+automated quality control of 10-min air temperature data (Bertrand et al.,
+2013), automated quality assurance procedures devoted to 10-min grass/soils
+temperature records have been operationally implemented to support the QC
+staff in their work. The purpose of this automated data screening is to
+objectively identify abnormal data values for subsequent review by an
+experienced data analyst. The review is necessary to determine whether an
+anomaly results from a problem with instrumentation or whether it accurately
+reflects unusual meteorological conditions. Validation exercises have
+revealed that the complex automatic QA system is able to correctly identify
+problematic parameters in a particular station on a given day. However,
+automated tests applied to 10-min temperature records produce a very high
+percentage of type II error. In depth analysis of type II errors indicates
+that because the database of grass temperature records (and to a lesser
+extent bare soil temperature records) used to derive the boundaries involved
+in the automated tests was not validated as it should be, the probable range
+test fails to perform correctly. To overcome such a limitation an extensive
+validation of our historical records of 10-min grass and bare soil
+temperatures will be undergone as soon as possible. Once available, the new
+validated database will be used to refine the automated tests in general and
+in particular the probable range test involving the grass, bare soil and -10
+cm soil temperatures. This forthcoming version of the algorithm will be
+evaluated using test data days from a whole year as the use of one single
+month of data could have masked sensitivities of the automated QA system to
+seasonal variations.</p><?xmltex \hack{\newpage}?><?xmltex \hack{\small}?>
+      <p><?xmltex \hack{\noindent}?>Edited by: I. Auer <?xmltex \hack{\newline}?>
+Reviewed by: C. Sigg and another anonymous referee</p>
+</sec>
+
+      
+      </body>
+    <back><ref-list>
+    <title>References</title>
+
+      <ref id="bib1.bib1"><label>1</label><mixed-citation>Bertrand, C., Gonzalez Sotelino, L., and Journée, M.: Quality control of
+10-min air temperature data at RMI, Adv. Sci. Res., 10, 1–5, <ext-link xlink:href="http://dx.doi.org/10.5194/asr-10-1-2013" ext-link-type="DOI">10.5194/asr-10-1-2013</ext-link>, 2013.</mixed-citation></ref>
+      <ref id="bib1.bib2"><label>2</label><mixed-citation>
+Best, M. J., Cox, P. M., and Warrilow, D.: determining the optimal soil
+temperature scheme for atmospheric modeling applications, Bound.-Lay.
+Meteorol., 114, 111–142, 2005.</mixed-citation></ref>
+      <ref id="bib1.bib3"><label>3</label><mixed-citation>
+de Jeu, R. A. M., Wagner, W., Holmes, T. R. H., Dolman, A. J., van de Giesen, N.
+C., and Friesen, J.: Global soil moisture patterns observed by space borne
+microwave radiometers and scatterometers, Surv. Geophys., 29, 399–420, 2008.</mixed-citation></ref>
+      <ref id="bib1.bib4"><label>4</label><mixed-citation>Gandin, L. S.: Complex quality control of meteorological observations,
+Mon. Weather Rev., 116, 1137–1156, 1988.
+ </mixed-citation></ref><?xmltex \hack{\newpage}?>
+      <ref id="bib1.bib5"><label>5</label><mixed-citation>
+Hillel, D.: Environmental soil physics. Academic press, London, 771 pp., 1998.</mixed-citation></ref>
+      <ref id="bib1.bib6"><label>6</label><mixed-citation>
+Hu, Q. S. and Feng, S.: A daily soil temperature dataset and soil temperature
+climatology of the contiguous United states, J. Appl. Meteorol., 42, 1139–1156, 2003.</mixed-citation></ref>
+      <ref id="bib1.bib7"><label>7</label><mixed-citation>
+Hu, Q. S., Feng, S., and Schaefer, G.: Quality control for USDA NRCS SM-ST
+Network soil temperatures: a method and a dataset, J. Appl. Meteorol., 41, 607–619, 2002.</mixed-citation></ref>
+      <ref id="bib1.bib8"><label>8</label><mixed-citation>
+Lachenbruch, A. H. and Marshall, B. V.: Changing climate: geothermal evidence
+from permafrost in the Alaskan Arctic, Science, 234, 689–696, 1986.</mixed-citation></ref>
+      <ref id="bib1.bib9"><label>9</label><mixed-citation>
+van Wijk, W. R. and de Vries, D. A.: Periodic temperature variations in
+homogeneous soil, in: Physics of plant environment, edited by: van Wijk,
+W. R., North-Holland Publ. Co., Amsterdam, 102–143, 1963.</mixed-citation></ref>
+
+  </ref-list><app-group content-type="float"><app><title/>
+
+    </app></app-group></back>
+    </article>

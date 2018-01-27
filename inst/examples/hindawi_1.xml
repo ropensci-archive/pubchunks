@@ -1,0 +1,1078 @@
+<article xsi:noNamespaceSchemaLocation="http://jats.nlm.nih.gov/publishing/1.1/xsd/JATS-journalpublishing1-mathml3.xsd" dtd-version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">AC</journal-id>
+      <journal-title-group>
+        <journal-title>Advances in Chemistry</journal-title></journal-title-group>
+      <issn pub-type="epub">2314-7571</issn>
+      <issn pub-type="ppub">2356-6612</issn>
+      <publisher>
+        <publisher-name>Hindawi</publisher-name></publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1155/2017/8147421</article-id>
+      <article-id pub-id-type="publisher-id">8147421</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject></subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Flow and Microwave Induced Pellizzari Reactions: Synthesis of Heterocyclic Analogues of the Benzoxazepine Antipsychotic Agents Loxapine and JL-13</article-title></title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="U71656219">
+          <name>
+            <surname>Ranasinghe</surname>
+            <given-names>Nadeesha</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U79420525">
+          <name>
+            <surname>Mongeau</surname>
+            <given-names>Enrico</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U67371951">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Gengyang</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U62103104">
+          <name>
+            <surname>Minden</surname>
+            <given-names>Zachary</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U21892479">
+          <name>
+            <surname>Waldron</surname>
+            <given-names>Scott</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U62473253">
+          <name>
+            <surname>Patrick</surname>
+            <given-names>Christopher</given-names>
+            <suffix>Jr.</suffix></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U17165048">
+          <name>
+            <surname>Fouad</surname>
+            <given-names>Farid</given-names></name>
+          
+          <xref ref-type="aff" rid="I2">
+            <sup>2</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U92040216">
+          <name>
+            <surname>Kappera</surname>
+            <given-names>Sabiha</given-names></name>
+          
+          <xref ref-type="aff" rid="I2">
+            <sup>2</sup></xref>
+        </contrib>
+        <contrib contrib-type="author" id="U32510946" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2195-3567</contrib-id>
+          <name>
+            <surname>Jones</surname>
+            <given-names>Graham B.</given-names></name>
+          
+          <xref ref-type="aff" rid="I1">
+            <sup>1</sup></xref>
+          <xref ref-type="aff" rid="I3">
+            <sup>3</sup></xref>
+        </contrib>
+        <contrib contrib-type="Academic Editor" id="U79303802">
+          <name>
+            <surname>Besson</surname>
+            <given-names>Thierry</given-names></name>
+        </contrib></contrib-group>
+      <aff id="I1">
+        <sup>1</sup>
+        <addr-line>Department of Chemistry and Chemical Biology</addr-line>
+        <addr-line>Northeastern University</addr-line>
+        <addr-line>360 Huntington Avenue</addr-line>
+        <addr-line>Boston</addr-line>
+        <addr-line>MA 02115</addr-line>
+        <country>USA</country>
+        <ext-link ext-link-type="domain-name">northeastern.edu</ext-link></aff>
+      <aff id="I2">
+        <sup>2</sup>
+        <addr-line>Department of Chemistry</addr-line>
+        <addr-line>Kent State University</addr-line>
+        <addr-line>East Liverpool</addr-line>
+        <addr-line>OH 43920</addr-line>
+        <country>USA</country>
+        <ext-link ext-link-type="domain-name">kent.edu</ext-link></aff>
+      <aff id="I3">
+        <sup>3</sup>
+        <addr-line>Clinical and Translational Science Institute</addr-line>
+        <addr-line>Tufts University Medical Center</addr-line>
+        <addr-line>800 Washington Street</addr-line>
+        <addr-line>Boston</addr-line>
+        <addr-line>MA 02111</addr-line>
+        <country>USA</country></aff>
+      <pub-date pub-type="publication-year">
+        <year>2017</year></pub-date>
+      <pub-date pub-type="archival-date"><day>4</day><month>12</month><year>2017</year></pub-date>
+      <volume>2017</volume>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>05</month>
+          <year>2017</year></date>
+        <date date-type="rev-recd">
+          <day>28</day>
+          <month>09</month>
+          <year>2017</year></date>
+        <date date-type="accepted">
+          <day>09</day>
+          <month>10</month>
+          <year>2017</year></date>
+        <date date-type="pub"><day>4</day><month>12</month><year>2017</year></date>
+      </history>
+      <permissions>
+        <copyright-year>2017</copyright-year>
+        <copyright-holder> Copyright &#xa9; 2017 Nadeesha Ranasinghe et al.</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license>
+      </permissions>
+      <abstract>
+        <p>An expeditious route to fused triazolo-pyrido benzoxazepines has been developed using flow and microwave-mediated cyclization chemistry. A range of substituted aryl hydrazides are coupled with a core chloroimine in good to excellent yield via a Pellizzari type process, producing 1,2,4-triazolo-pyrido [<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M1"><mml:mrow><mml:mn fontstyle="italic">2</mml:mn></mml:mrow></mml:math></inline-formula>,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M2"><mml:mrow><mml:mn fontstyle="italic">3</mml:mn></mml:mrow></mml:math></inline-formula>-<italic>b</italic>] [<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M3"><mml:mrow><mml:mn fontstyle="italic">1</mml:mn></mml:mrow></mml:math></inline-formula>,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M4"><mml:mrow><mml:mn fontstyle="italic">5</mml:mn></mml:mrow></mml:math></inline-formula>] benzoxazepines with structural similarity to known antipsychotic agents. Modifications allow for strategically functionalized derivatives, and installation of a fluoro group for use in PET imaging is also demonstrated. Given the affinity of the tricyclic core for 5-HT and dopamine receptors, the derivatives are expected to find utility in CNS research.</p>
+      </abstract>
+      <funding-group>
+        <award-group>
+          <funding-source xlink:href="http://dx.doi.org/10.13039/100000002">National Institutes of Health</funding-source>
+          <award-id>UL1TR001064</award-id></award-group>
+      </funding-group>
+      <counts>
+        <ref-count count="21" />
+        <page-count count="7" /></counts>
+    </article-meta></front>
+  <body>
+    <sec id="sec1">
+      <title>1. Introduction</title>
+      <p>Heterocyclic derivatives of the benzodiazepine and benzoxazepine class are of considerable interest in medicinal chemistry due to their pharmacologic and metabolic profiles [<xref ref-type="bibr" rid="B1a">1</xref>, <xref ref-type="bibr" rid="B1b">2</xref>]. Prominent examples include the anxiolytic Alprazolam (Xanax&#xae;), Loxapine, and the atypical antipsychotic JL13, which has been investigated as a next-generation clozapine analogue [<xref ref-type="bibr" rid="B2a">3</xref>&#x2013;<xref ref-type="bibr" rid="B2c">5</xref>]. One of the pharmacologic targets of the agents is the <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M5"><mml:mn mathvariant="normal">5</mml:mn><mml:mtext>-</mml:mtext><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn><mml:mi mathvariant="normal">a</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula> receptor, and a number of heterocyclic analogues demonstrate high affinity including Asenapine which despite its altered geometry compares favorably to traditional agents Loxapine and Clozapine [<xref ref-type="bibr" rid="B3">6</xref>] (see Scheme <xref ref-type="fig" rid="sch1">1</xref>). Given promising preclinical data reported for JL13 [<xref ref-type="bibr" rid="B4a">7</xref>&#x2013;<xref ref-type="bibr" rid="B4c">9</xref>], we elected to study the potential of additional heterocyclic variants which might be readily accessible using efficient coupling strategies and which also highlights the benefits of green chemistry approaches [<xref ref-type="bibr" rid="B5a">10</xref>, <xref ref-type="bibr" rid="B5b">11</xref>]. Given the functional flexibility of the triazole group and its presence in a number of pharmacologically active molecules [<xref ref-type="bibr" rid="B6">12</xref>], we sought to investigate use of the Pellizzari method [<xref ref-type="bibr" rid="B7">13</xref>], which relies on one pot coupling, and closure of imino chlorides with substituted hydrazides.</p>
+      <fig id="sch1">
+        <label>Scheme 1</label>
+        <graphic xlink:href="8147421.sch.001" /></fig>
+    </sec>
+    <sec id="sec2">
+      <title>2. Results and Discussion</title>
+      <p>For initial studies we designed a series of hybrid triazole-benzoxazepine mimics of Loxapine and JL13, investigating the benefit of microwave and flow-mediated Pellizzari reactions as green approaches to these classes. A chloropyridyl amide substrate<bold> 1</bold> was firstly prepared by condensation of 2-chloro nicotinoyl chloride with 2-amino phenol (DIPEA, 94&#x25;). This was subjected to microwave accelerated base-mediated intramolecular closure to form<bold> 2</bold> (Scheme <xref ref-type="fig" rid="sch2">2</xref>) with KOtBu (90&#x25;) preferable to both NaOH (72&#x25;) and NaH (59&#x25;) with a 5&#x2009;min irradiation. The cyclic amide was converted to the corresponding chloroimine, allowing us to probe the key triazole forming reaction to produce<bold> 3</bold> (All new compounds were fully characterized by appropriate spectroscopic and analytical techniques.). A range of aryl hydrazide substrates were probed under thermal, microwave, and flow conditions at 100&#x2009;mg scale and the results are summarized in Table <xref ref-type="table" rid="tab1">1</xref>.</p>
+      <table-wrap id="tab1">
+        <label>Table 1</label>
+        <caption>
+          <p>Intramolecular cyclization to form triazolo benzoxepines <bold>3</bold> (&#x25; isolated yield).</p></caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="left">Entry</th>
+              <th align="center">
+                <bold>3</bold></th>
+              <th align="center">Ar</th>
+              <th align="center">
+                <inline-formula>
+                  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M6">
+                    <mml:mrow>
+                      <mml:msup>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">T</mml:mi>
+                          <mml:mi mathvariant="normal">h</mml:mi>
+                          <mml:mi mathvariant="normal">e</mml:mi>
+                          <mml:mi mathvariant="normal">r</mml:mi>
+                          <mml:mi mathvariant="normal">m</mml:mi>
+                          <mml:mi mathvariant="normal">a</mml:mi>
+                          <mml:mi mathvariant="normal">l</mml:mi></mml:mrow>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">a</mml:mi></mml:mrow>
+                      </mml:msup></mml:mrow>
+                  </mml:math></inline-formula>
+              </th>
+              <th align="center">
+                <inline-formula>
+                  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M7">
+                    <mml:mrow>
+                      <mml:msup>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">M</mml:mi>
+                          <mml:mi mathvariant="normal">W</mml:mi></mml:mrow>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">b</mml:mi></mml:mrow>
+                      </mml:msup></mml:mrow>
+                  </mml:math></inline-formula>
+              </th>
+              <th align="center">
+                <inline-formula>
+                  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M8">
+                    <mml:mrow>
+                      <mml:msup>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">F</mml:mi>
+                          <mml:mi mathvariant="normal">l</mml:mi>
+                          <mml:mi mathvariant="normal">o</mml:mi>
+                          <mml:mi mathvariant="normal">w</mml:mi></mml:mrow>
+                        <mml:mrow>
+                          <mml:mi mathvariant="normal">c</mml:mi></mml:mrow>
+                      </mml:msup></mml:mrow>
+                  </mml:math></inline-formula>
+              </th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left">1</td>
+              <td align="center">
+                <bold>3a</bold></td>
+              <td align="center">Ph</td>
+              <td align="center">38</td>
+              <td align="center">54</td>
+              <td align="center">57</td></tr>
+            <tr>
+              <td align="left">2</td>
+              <td align="center">
+                <bold>3b</bold></td>
+              <td align="center">2-Cl-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">48</td>
+              <td align="center">86</td>
+              <td align="center">78</td></tr>
+            <tr>
+              <td align="left">3</td>
+              <td align="center">
+                <bold>3c</bold></td>
+              <td align="center">4-Cl-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">66</td>
+              <td align="center">96</td>
+              <td align="center">84</td></tr>
+            <tr>
+              <td align="left">4</td>
+              <td align="center">
+                <bold>3d</bold></td>
+              <td align="center">2-OH-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">29</td>
+              <td align="center">89</td>
+              <td align="center">&#x3e;99</td></tr>
+            <tr>
+              <td align="left">5</td>
+              <td align="center">
+                <bold>3e</bold></td>
+              <td align="center">4-OH-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">41</td>
+              <td align="center">67</td>
+              <td align="center">72</td></tr>
+            <tr>
+              <td align="left">6</td>
+              <td align="center">
+                <bold>3f</bold></td>
+              <td align="center">3-OMe-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">28</td>
+              <td align="center">92</td>
+              <td align="center">82</td></tr>
+            <tr>
+              <td align="left">7</td>
+              <td align="center">
+                <bold>3g</bold></td>
+              <td align="center">3-pyridyl</td>
+              <td align="center">57</td>
+              <td align="center">84</td>
+              <td align="center">98</td></tr>
+            <tr>
+              <td align="left">8</td>
+              <td align="center">
+                <bold>3h</bold></td>
+              <td align="center">2-F-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">25</td>
+              <td align="center">88</td>
+              <td align="center">&#x3e;99</td></tr>
+            <tr>
+              <td align="left">9</td>
+              <td align="center">
+                <bold>3i</bold></td>
+              <td align="center">3-F-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">32</td>
+              <td align="center">83</td>
+              <td align="center">85</td></tr>
+            <tr>
+              <td align="left">10</td>
+              <td align="center">
+                <bold>3j</bold></td>
+              <td align="center">4-Me-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">39</td>
+              <td align="center">98</td>
+              <td align="center">88</td></tr>
+            <tr>
+              <td align="left">11</td>
+              <td align="center">
+                <bold>3k</bold></td>
+              <td align="center">3-NO<sub>2</sub>-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">17</td>
+              <td align="center">81</td>
+              <td align="center">85</td></tr>
+            <tr>
+              <td align="left">12</td>
+              <td align="center">
+                <bold>3l</bold></td>
+              <td align="center">3-Cl-C<sub>6</sub>H<sub>4</sub></td>
+              <td align="center">44</td>
+              <td align="center">80</td>
+              <td align="center">&#x2014;</td></tr>
+          </tbody></table>
+        <table-wrap-foot>
+          <fn>
+            <p>
+              <inline-formula>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M9">
+                  <mml:mrow>
+                    <mml:mmultiscripts>
+                      <mml:mrow>
+                        <mml:mi>n</mml:mi></mml:mrow>
+                      <mml:mprescripts />
+                      <mml:none />
+                      <mml:mrow>
+                        <mml:mi mathvariant="normal">a</mml:mi></mml:mrow>
+                    </mml:mmultiscripts></mml:mrow>
+                </mml:math></inline-formula>-BuOH, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M10"><mml:mrow><mml:mi>&#x394;</mml:mi></mml:mrow></mml:math></inline-formula>, 118&#xb0;C, 6&#x2009;h; <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M11"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mn mathvariant="normal">300</mml:mn></mml:mrow><mml:mprescripts /><mml:none /><mml:mrow><mml:mi mathvariant="normal">b</mml:mi></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math></inline-formula>&#x2009;W, 200&#xb0;C, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M12"><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:math></inline-formula>-BuOH 15&#x2009;min. <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M13"><mml:mrow><mml:mmultiscripts><mml:mrow><mml:mi mathvariant="normal">B</mml:mi><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">t</mml:mi><mml:mi mathvariant="normal">h</mml:mi></mml:mrow><mml:mprescripts /><mml:none /><mml:mrow><mml:mi mathvariant="normal">c</mml:mi></mml:mrow></mml:mmultiscripts></mml:mrow></mml:math></inline-formula> pumps of the reactor were set to flow at equal rates (2&#x2009;<italic>&#x3bc;</italic>l/min) at 190&#xb0;C with a solution of 5-chlorobenzo[b]pyrido[<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M14"><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:math></inline-formula>,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M15"><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:math></inline-formula>-f][<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M16"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math></inline-formula>,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M17"><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>]oxazepine (0.04&#x2009;M) and hydrazide (0.04&#x2009;M) in <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M18"><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:math></inline-formula>-BuOH with residence time of 2.5&#x2009;min. Experiments represent <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M19"><mml:mi>n</mml:mi><mml:mo>&#x3e;</mml:mo><mml:mn>3</mml:mn></mml:math></inline-formula>.</p>
+          </fn></table-wrap-foot>
+      </table-wrap>
+      <fig id="sch2">
+        <label>Scheme 2</label>
+        <caption>
+          <p>MW and flow based synthesis of triazolo-pyrido-benzoxazepines.</p></caption>
+        <graphic xlink:href="8147421.sch.002" /></fig>
+      <p>Though moderate conversion was observed within 6&#x2009;h of conventional thermolysis, the MW methods allowed very high yields of product within 15&#x2009;mins with<italic> n</italic>-butanol being the most effective solvent. Essentially comparable, flow-mediated reactions (conducted using a Chemtrix Labtrix S1 system equipped with T-mixer) in some cases produced even higher yields, a presumed consequence of improved mixing interactions [<xref ref-type="bibr" rid="B9">14</xref>].</p>
+      <p>Given literature reports citing the importance of both basic amino functionality and a hydrophobic substituent (e.g., chloroaryl group) for optimal receptor binding [<xref ref-type="bibr" rid="B10a">15</xref>, <xref ref-type="bibr" rid="B10b">16</xref>], a more elaborate substrate<bold> 5</bold> was also prepared from hydrazide<bold> 4</bold> (readily available from<italic> m</italic>-chloro-<italic>o</italic>-toluic acid), leading to the target compound in 87&#x25; yield (see Scheme <xref ref-type="fig" rid="sch3">3</xref>). Given the impressive results with the MW Pellizzari reaction, a second family of analogues were prepared which contain the chloroaryl functionality on the parent tricyclic ring system. Amide<bold> 6</bold> (prepared from 2-chloro nicotinoyl chloride and 2-amino-4-chloro phenol) was subjected to base induced oxepane formation and subsequent chlorination to give<bold> 7</bold> in good yield (Scheme <xref ref-type="fig" rid="sch4">4</xref>). Microwave induced Pellizzari reactions were conducted with various hydrazides to give substituted analogues<bold> 8</bold>.</p>
+      <fig id="sch3">
+        <label>Scheme 3</label>
+        <graphic xlink:href="8147421.sch.003" /></fig>
+      <fig id="sch4">
+        <label>Scheme 4</label>
+        <caption>
+          <p>Modification of core for MW Pellizzari route to chlorinated series.</p></caption>
+        <graphic xlink:href="8147421.sch.004" /></fig>
+      <p>A range of decorated analogues<bold> 9</bold>&#x2013;<bold>16</bold> were produced in good to excellent yield (see Scheme <xref ref-type="fig" rid="sch6">6</xref>), which, coupled with those depicted in Table <xref ref-type="table" rid="tab1">1</xref>, will allow insightful structure-activity studies to be performed with binding assays against key receptors (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M20"><mml:mn mathvariant="normal">5</mml:mn><mml:mtext>-</mml:mtext><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn><mml:mi mathvariant="normal">a</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula>, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M21"><mml:mn mathvariant="normal">5</mml:mn><mml:mtext>-</mml:mtext><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn><mml:mi mathvariant="normal">c</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula>, D<sub>1</sub>, D<sub>2</sub>, and D<sub>4.2</sub> being of importance, with the <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M22"><mml:mn mathvariant="normal">5</mml:mn><mml:mtext>-</mml:mtext><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn><mml:mi mathvariant="normal">a</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula>/D<sub>2</sub> ratio especially significant) [<xref ref-type="bibr" rid="B11">17</xref>]. In a preliminary assay, compound<bold> 5</bold> showed a <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M23"><mml:mrow><mml:msub><mml:mrow><mml:mi>K</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:math></inline-formula> of 16&#x2009;<italic>&#x3bc;</italic>M against <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M24"><mml:mn mathvariant="normal">5</mml:mn><mml:mtext>-</mml:mtext><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi><mml:mi mathvariant="normal">T</mml:mi></mml:mrow><mml:mrow><mml:mn mathvariant="normal">2</mml:mn><mml:mi mathvariant="normal">a</mml:mi></mml:mrow></mml:msub></mml:math></inline-formula>, which bodes well for in depth assays [<xref ref-type="bibr" rid="B12">18</xref>]. Finally, and with a potential view to studying biodistribution of these ligands via<italic> in vivo</italic> imaging methods, proof of principal was demonstrated for installation of a fluoro group via nucleophilic displacement. Following extensive optimization of parameters (temp, time, and stoichiometry), nitroarene<bold> 17</bold> was subjected to MW induced fluorodenitration to give<bold> 18</bold> in good yield within 15&#x2009;mins at 140&#xb0;C using 2 equivalents of TBAF in DMSO (Scheme <xref ref-type="fig" rid="sch5">5</xref>) [<xref ref-type="bibr" rid="B13">19</xref>]. Given the half-life of its <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M25"><mml:mrow><mml:mi>&#x3b3;</mml:mi></mml:mrow></mml:math></inline-formula> emitting sister <sup>18</sup>F isotope (&#x7e;120&#x2009;mins) this rapid transformation is compatible with late stage labeling for PET imaging.</p>
+      <fig id="sch5">
+        <label>Scheme 5</label>
+        <caption>
+          <p>MW induced fluorodenitration.</p></caption>
+        <graphic xlink:href="8147421.sch.005" /></fig>
+      <fig id="sch6">
+        <label>Scheme 6</label>
+        <graphic xlink:href="8147421.sch.006" /></fig>
+    </sec>
+    <sec id="sec3">
+      <title>3. Conclusions</title>
+      <p>Both MW and flow based Pellizzari reactions were effective and efficient for the production of new classes of substituted triazolo-pyrido fused benzoxazepines. The route provides access to compounds which may be useful probes of the 5-HT and dopamine receptors, based on similarity to known antipsychotic agents. A specimen compound shows measurable affinity for one of the receptor subtypes and derivatization of the core via nucleophilic fluorination provides a means to utilize the class in PET imaging studies. A comprehensive screening of these agents will be reported in due course.</p></sec>
+  </body>
+  <back>
+    <app-group>
+      <app>
+        <title>Appendix</title>
+        <sec id="secA">
+          <title>A. General Experimental Procedures</title>
+          <p> All solvents were of reagent or anhydrous grade quality and purchased from Sigma-Aldrich, Alfa Aesar, or Fisher Scientific. All reagents were purchased from Sigma-Aldrich, Alfa Aesar, Fisher Scientific, or Oakwood Chemical, unless otherwise stated. All deuterated solvents were purchased from Cambridge isotopes. Analytical thin-layer chromatography (TLC) was performed on precoated glass-backed plates (EMD TLC Silica gel 60 F<sub>254</sub>) and visualized using a UV lamp (254&#x2009;nm) and potassium permanganate stain. Silica gel for manual flash chromatography was high purity grade 40&#x2013;63&#x2009;<italic>&#x3bc;</italic>m pore size and purchased from Sigma-Aldrich. Yields refer to purified and spectroscopically pure compounds. Unless otherwise noted, compounds were recrystallized from toluene-hexanes. <sup>1</sup>H NMR (400&#x2009;MHz, DMSO-<italic>d6</italic>) and <sup>13</sup>C NMR (100&#x2009;MHz, DMSO-d6) spectra were obtained with a Varian instrument.</p>
+          <sec id="secA.1">
+            <title>A.1. Synthesis of 5-Chlorobenzo[b]pyrido[3,2-<italic>f</italic>][1,4]oxazepine</title>
+            <p>A mixture of amide, benzo[<italic>b</italic>]pyrido[3,2-<italic>f</italic>][1,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M26"><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>]oxazepine-5(6H)-one (<bold>2</bold>, 1.08&#x2009;g, 5.08&#x2009;mmol), phosphorous oxychloride (1.42&#x2009;mL, 15.26&#x2009;mmol), and N,N-dimethylaniline (2.57&#x2009;mL, 20.32&#x2009;mmol) in dry toluene (10&#x2009;mL) was heated at reflux for 2&#x2009;h. The reaction mixture was cooled to ambient temperature and excess solvents were evaporated under reduced pressure. The resulting residue was dissolved in THF (20&#x2009;ml) and Na<sub>2</sub>CO<sub>3</sub> (30&#x2009;mL of 2&#x2009;M solution) and heated at 80&#xb0;C for 1&#x2009;h. The reaction mixture was cooled to ambient temperature and THF was removed under reduced pressure. The resulting aqueous layer was extracted with EtOAc (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M27"><mml:mn>3</mml:mn><mml:mo>&#xd7;</mml:mo><mml:mn>120</mml:mn></mml:math></inline-formula>&#x2009;ml). The combined organic layers were washed with brine (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M28"><mml:mn>1</mml:mn><mml:mo>&#xd7;</mml:mo><mml:mn>100</mml:mn></mml:math></inline-formula>&#x2009;ml) and dried over MgSO<sub>4</sub> and solvents were evaporated. The resulting residue was purified by column chromatography using 5&#x25; MeOH in dichloromethane to afford the title compound (1.09&#x2009;g, 93&#x25;) as a light green solid m.p. 141.9&#x2013;142.7&#xb0;C; <sup>1</sup>H NMR: <italic>&#x3b4;</italic> 8.49 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M29"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 5.2, 8&#x2009;Hz, 1H), 8.26 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M30"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 2, 7.2&#x2009;Hz, 1H), 7.45 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M31"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 5.2, 8&#x2009;Hz, 1H), 7.33 (d, 8&#x2009;Hz, 1H), 7.24&#x2013;7.14 (m, 3H) ppm; <sup>13</sup>C NMR: <italic>&#x3b4;</italic> 164.4, 162.3, 152.4, 148.1, 142.4, 130.5, 126.3, 125.3, 122.5, 121.8, 121.7, 120.0&#x2009;ppm. HRMS calc. for C<sub>12</sub>H<sub>7</sub>ClN<sub>2</sub>O: 230.0246 obs: 230.0244.</p>
+            <sec id="secA.1.1">
+              <title>A.1.1. General Procedure for Synthesis of 3 in MW</title>
+              <p>5-Chlorobenzo[<italic>b</italic>]pyrido[3,2-<italic>f</italic>][1,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M32"><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>]oxazepine (0.14&#x2009;g, 0.61&#x2009;mmol, 1&#x2009;eq) and hydrazide (0.61&#x2009;mmol, 1&#x2009;eq) were dissolved in 1-butanol (3&#x2009;mL) in a 10&#x2009;mL glass microwave tube. The vial was capped with a CEM corp. PL cap (SP1318A) and stirred in the cavity of a CEM Discover&#xae; Lab Mate reactor set at 200&#xb0;C for 15&#x2009;min (300&#x2009;W, 250&#x2009;psi). The contents of the tube were poured onto crushed ice/cold water (30&#x2009;mL) and extracted with EtOAc (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M33"><mml:mn>3</mml:mn><mml:mo>&#xd7;</mml:mo><mml:mn>25</mml:mn></mml:math></inline-formula>&#x2009;mL). The combined organic layers were washed with brine (1 &#xd7; 25&#x2009;mL) and dried over MgSO<sub>4</sub>. Removal of solvents under reduced pressure followed by silica gel chromatography (CH<sub>2</sub>Cl<sub>2</sub>, with 1&#x2013;10&#x25; MeOH gradient) afforded the corresponding adduct<bold> 3</bold>.</p>
+            </sec>
+            <sec id="secA.1.2">
+              <title>A.1.2. General Procedure for Synthesis of 3 in Flow [<xref ref-type="bibr" rid="B14a">20</xref>, <xref ref-type="bibr" rid="B14b">21</xref>]</title>
+              <p>Synthesis was performed using a ChemTrix Labtrix S1 flow chemistry reactor containing a T-mixer [<xref ref-type="bibr" rid="B9">14</xref>]. Syringe<bold> A</bold> was loaded with a 0.04&#x2009;M solution of 5-chlorobenzo[<italic>b</italic>]pyrido[3,2-<italic>f</italic>][1,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M34"><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>]oxazepine in <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M35"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:math></inline-formula>-butanol and syringe<bold> B</bold> was loaded with a 0.04&#x2009;M solution of corresponding hydrazide in <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M36"><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:math></inline-formula>-butanol. Syringes A and B were pumped through a 10&#x2009;<italic>&#x3bc;</italic>L glass microreactor heated to 190&#xb0;C with a combined flow rate of 4&#x2009;<italic>&#x3bc;</italic>L/min. The output collected was poured over crushed ice/cold water (20&#x2009;mL) and extracted with EtOAc (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M37"><mml:mn>3</mml:mn><mml:mo>&#xd7;</mml:mo><mml:mn>20</mml:mn></mml:math></inline-formula>&#x2009;mL). The combined organic layers were washed with brine (1 &#xd7; 20&#x2009;mL) and dried over MgSO<sub>4</sub>. The solvents were removed under reduced pressure and the crude product was purified by silica gel chromatography (CH<sub>2</sub>Cl<sub>2</sub>, with 1&#x2013;10&#x25; MeOH gradient).</p>
+            </sec></sec>
+          <sec id="secA.2">
+            <title>A.2. 5-Chlorobenzo[b]pyrido[3,2-f][1,4]oxazepine</title>
+            <p>To a cooled solution of<bold> 2</bold> (1.08&#x2009;g, 5.08&#x2009;mmol) in dry toluene (10&#x2009;mL) POCl<sub>3</sub> was added (1.42&#x2009;mL, 15.26&#x2009;mmol) in a 50&#x2009;mL round bottom flask under an atmosphere of argon followed by N,N-dimethylaniline (2.57&#x2009;mL, 20.32&#x2009;mmol). After refluxing for 2&#x2009;h the mixture was concentrated under reduced pressure to remove excess POCl<sub>3</sub> and<italic> N,N</italic>-dimethylaniline. The resulting mixture was dissolved in THF (20&#x2009;mL) and Na<sub>2</sub>CO<sub>3</sub> (30&#x2009;mL of a 2&#x2009;M solution) and heated at 80&#xb0;C. After 1&#x2009;h the mixture was cooled to room temperature and THF was removed under reduced pressure. The resulting aqueous layer was extracted to EtOAc (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M38"><mml:mn>3</mml:mn><mml:mo>&#xd7;</mml:mo><mml:mn>120</mml:mn></mml:math></inline-formula>&#x2009;mL) and the combined organic layers were washed with brine (<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M39"><mml:mn>1</mml:mn><mml:mo>&#xd7;</mml:mo><mml:mn>100</mml:mn></mml:math></inline-formula>&#x2009;mL), dried over MgSO<sub>4</sub>, and concentrated in vacuo. The residue was purified using silica gel chromatography (5&#x25; MeOH in CH<sub>2</sub>Cl<sub>2</sub>) to afford 5-chlorobenzo[<italic>b</italic>]pyrido[3,2-<italic>f</italic>][1,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M40"><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>]oxazepine as a light green solid (1.09&#x2009;g, 93&#x25;). mp: 141.9&#x2013;142.7&#xb0;C; <sup>1</sup>H NMR: ppm 8.49 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M41"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8, 5.2&#x2009;Hz, 1H), 8.26 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M42"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 7.45 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M43"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.8, 4.8&#x2009;Hz, 1H), 7.33 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M44"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz,&#x2009;1H), 7.24&#x2013;7.14 (m, 3H) <sup>13</sup>C NMR: ppm 164.4, 162.2, 152.3, 148.0, 142.3, 130.5, 130.3, 126.3, 125.5, 122.4, 121.8, 119.9 MS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M45"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>12</sub>H<sub>8</sub>ClN<sub>2</sub>O (M + H)<sup>+</sup> calcd: 231.03 obsd: 232.0.</p>
+            <sec id="secA.2.1">
+              <title>A.2.1. Synthesis of 5 from Hydrazide 4</title>
+              <p>Compound<bold> 4</bold> (0.615&#x2009;mmol, 0.14&#x2009;g) and 5-chlorobenzo[<italic>b</italic>]pyrido[3,2-<italic>f</italic>][1,<inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M46"><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:math></inline-formula>]oxazepine (0.615&#x2009;mmol, 0.14&#x2009;g) were dissolved in 3&#x2009;mL of n-BuOH in a 10&#x2009;mL glass microwave vial and subjected to MW irradiation at 200&#xb0;C for 15&#x2009;min. The resulting mixture was concentrated in vacuo and purified by silica gel chromatography (1&#x25; MeOH in CH<sub>2</sub>Cl<sub>2</sub>) to afford<bold> 5</bold> as a pale yellow solid (0.21&#x2009;g, 87&#x25;). m.p. 140&#x2013;143&#xb0;C <sup>1</sup>H NMR: ppm 8.58 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M47"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7, 1.8&#x2009;Hz, 1H), 8.48 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M48"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.8, 1.8&#x2009;Hz, 1H), 7.61 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M49"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 7.45&#x2013;7.39 (m, 4H), 7.33&#x2013;7.31 (m, 1H), 7.01 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M50"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7&#x2009;Hz, 1H), 6.82 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M51"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 3.89 (s, 2H), 2.25 (s, 6H); <sup>13</sup>C NMR: ppm 158.9, 158.3, 151.0, 133.6, 133.5, 132.0, 131.9, 131.6, 131.5, 131.2, 130.8, 130.3, 130.2, 130.1, 126.5, 124.6, 124.0, 122.9, 60.7, 45.4; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M52"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>22</sub>H<sub>19</sub>ClN<sub>5</sub>O (M + H)<sup>+</sup> calc: 404.1278 obs: 404.1282.</p>
+            </sec></sec>
+          <sec id="secA.3">
+            <title>A.3. Spectroscopic Data [See Supplemental Information for <sup>13</sup>C Assignments]</title>
+            <p>See Supplemental Information for <sup>13</sup>C assignments in Supplementary Material available online at <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2017/8147421">https://doi.org/10.1155/2017/8147421</ext-link>.</p>
+            <p>
+              <bold>3a</bold> (R=Ph): m.p. 246&#x2013;247&#xb0;C; <sup>1</sup>H NMR: ppm 8.59 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M53"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 8.48&#x2013;8.47 (m, 1H), 7.96&#x2013;7.95 (m, 1H), 7.64 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M54"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.6&#x2009;Hz, 2H), 7.53&#x2013;7.45 (m, 3H), 7.40&#x2013;7.38 (m, 2H), 7.05 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M55"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7&#x2009;Hz, 1H), 6.87 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M56"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H); <sup>13</sup>C NMR: ppm 161.6, 153.9, 151.0, 133.0, 131.0, 130.8, 130.3, 129.3, 129.2, 126.8, 126.4, 125.9, 124.4, 124.2, 122.9, 122.0, 118.6, 115.2, 114.9; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M57"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>13</sub>N<sub>4</sub>O (M + H)<sup>+</sup> calc: 313.1089 obs: 313. 1092.</p>
+            <p>
+              <bold>3b</bold> (R=<italic>o</italic>-ClC<sub>6</sub>H<sub>5</sub>): m.p. 241&#x2013;244&#xb0;C; <sup>1</sup>H NMR: ppm 8.57 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M58"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 8.48 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M59"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.4&#x2009;Hz, 1H), 7.77 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M60"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.4&#x2009;Hz, 1H), 7.62 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M61"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.1&#x2009;Hz, 1H), 7.52&#x2013;7.34 (m, 5H), 7.00 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M62"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 6.74 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M63"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H); <sup>13</sup>C NMR: ppm 162.0, 161.8, 151.1, 150.5, 150.3, 139.6, 134.2, 132.7, 132.3, 130.6, 130.3, 127.8, 127.6, 126.8, 126.5, 124.2, 123.5, 122.8, 115.3; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M64"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>ClN<sub>4</sub>O (M + H)<sup>+</sup> calc: 347.0700 obs: 347.0694.</p>
+            <p>
+              <bold>3c</bold> (R=<italic>p</italic>-ClC<sub>6</sub>H<sub>5</sub>): m.p. 236&#x2013;238&#xb0;C; <sup>1</sup>H NMR: ppm 8.60 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M65"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 8.50 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M66"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.4&#x2009;Hz, 1H), 7.67 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M67"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.1&#x2009;Hz, 1H), 7.60 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M68"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.8&#x2009;Hz, 2H), 7.46&#x2013;7.40 (m, 4H), 7.10 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M69"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7&#x2009;Hz, 1H), 6.88 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M70"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H); <sup>13</sup>C NMR: ppm 152.7, 151.1, 147.5, 146.2, 141.4, 139.8, 137.1, 136.4, 132.8, 130.5, 129.6, 126.5, 125.3, 124.3, 123.1, 116.3, 115.1; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M71"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>N<sub>4</sub>ClO (M + H)<sup>+</sup> calc: 347.0700 obs: 347.0706.</p>
+            <p>
+              <bold>3e</bold> (R=<italic>p</italic>OHC<sub>6</sub>H<sub>5</sub>): m.p. 264-265&#xb0;C; <sup>1</sup>H NMR: ppm 8.61 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M72"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.3&#x2009;Hz, 1H), 8.50 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M73"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.4&#x2009;Hz, 1H), 8.10 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M74"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 7.51 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M75"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 2H), 7.42 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M76"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.1&#x2009;Hz, 2H), 7.10 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M77"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 6.95&#x2013;6.93 (m, 3H), 6.69 (bs, 1H); <sup>13</sup>C NMR: ppm 202.6, 161.7, 161.3, 152.0, 151.6, 150.1, 141.0, 131.3, 131.2, 131.1, 130.85, 128.5, 126.5, 124.0, 123.9, 121.4, 116.5; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M78"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>13</sub>N<sub>4</sub>O<sub>2</sub> (M + H)<sup>+</sup> calc: 329.1039 obs: 329.1038.</p>
+            <p>
+              <bold>3f</bold> (R=<italic>m</italic>OCH<sub>3</sub>C<sub>6</sub>H<sub>5</sub>): m.p. 255-256&#xb0;C; <sup>1</sup>H NMR: ppm 8.54 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M79"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 8.43 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M80"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 7.61&#x2013;7.59 (m, 1H), 7.37&#x2013;7.32 (m, 3H), 7.19 (s, 1H), 7.10&#x2013;7.08 (m, 1H), 7.05&#x2013;6.98 (m, 2H), 6.92 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M81"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 3.75 (s, 3H); <sup>13</sup>C NMR: ppm 161.6, 160.0, 154.3, 150.8, 150.4, 130.3, 130.2, 126.3, 125.9, 127.8, 127.5, 126.3, 125.9, 124.0, 122.9, 121.6, 117.0, 115.1, 114.2, 55.6; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M82"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>20</sub>H<sub>15</sub>N<sub>4</sub>O<sub>2</sub> (M + H)<sup>+</sup> calc: 343.1195 obs: 343.1191.</p>
+            <p>
+              <bold>3g</bold> (R=<italic>m</italic>pyridyl): m.p. 226-227&#xb0;C; <sup>1</sup>H NMR: ppm 8.92 (s, 1H), 8.76 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M83"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 3.2&#x2009;Hz, 1H), 8.61 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M84"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8, 2.4&#x2009;Hz, 1H), 8.50 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M85"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.8, 1.8&#x2009;Hz, 1H), 8.38 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M86"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7, 1.8&#x2009;Hz, 1H), 8.30-8.29 (m, 1H), 7.46&#x2013;7.44 (m, 1H), 7.31 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M87"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7, 4.8&#x2009;Hz, 1H), 7.21&#x2013;7.19 (m, 2H), 7.08&#x2013;7.06 (m, 1H). <sup>13</sup>C NMR: ppm 172.6, 167.2, 161.5, 161.1, 157.3, 150.4, 146.9, 146.4, 141.5, 128.5, 126.7, 125.3, 125.2, 123.9, 123.0, 122.3, 121.2, 119.8; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M88"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>18</sub>H<sub>12</sub>N<sub>5</sub>O (M + H)<sup>+</sup> calc: 314.1042 obs: 314.1042.</p>
+            <p>
+              <bold>3h</bold> (R=<italic>o</italic>FC<sub>6</sub>H<sub>5</sub>): m.p. 247&#x2013;249&#xb0;C; <sup>1</sup>H NMR: ppm 8.59 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M89"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 8.49-8.48 (m, 1H), 7.86 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M90"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H), 7.64-7.65 (m, 1H), 7.55 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M91"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 5.1&#x2009;Hz, 1H), 7.41&#x2013;7.35 (m, 3H), 7.13&#x2013;7.03 (m, 2H), 6.86 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M92"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H); <sup>13</sup>C NMR: ppm 167.7, 156.7, 150.0, 143.7, 139.5, 137.6, 132.9, 131.8, 130.1, 126.4, 126.0, 125.1, 123.9, 123.4, 122.8, 116.6, 116.3, 115.7, 115.1; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M93"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>FN<sub>4</sub>O (M + H)<sup>+</sup> calc: 331.0995 obs: 331.0992.</p>
+            <p>
+              <bold>3l</bold> (R=<italic>m</italic>-ClC<sub>6</sub>H<sub>5</sub>): m.p. 236-237&#xb0;C <sup>1</sup>H NMR: ppm 8.59 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M94"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7, 1.8&#x2009;Hz, 1H), 8.49-8.48 (m, 1H), 7.73&#x2013;7.75 (m, 1H), 7.68&#x2013;7.66 (m, 1H), 7.49&#x2013;7.46 (m, 3H), 7.37-7.36 (m, 2H), 7.13&#x2013;7.09 (m, 1H), 6.89 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M95"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.8, 1.5&#x2009;Hz, 1H); <sup>13</sup>C NMR: ppm 151.2, 148.5, 142.7, 142.2, 132.9, 131.9, 130.9, 130.6, 130.4, 130.3, 129.3, 128.5, 127.3, 126.5, 125.7, 124.9, 124.3, 122.9, 118.9; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M96"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>ClN<sub>4</sub>O (M + H)<sup>+</sup> calc: 347.0700 obs: 347.0700.</p>
+            <p>
+              <bold>10</bold>: yellow oil. <sup>1</sup>H NMR: ppm 8.57 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M97"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.7, 1.8&#x2009;Hz, 1H), 8.48 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M98"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.8, 1.8&#x2009;Hz, 1H), 7.79&#x2013;7.77 (m, 1H), 7.63 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M99"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 7.04&#x2013;7.02 (m, 1H), 6.87&#x2013;6.85 (m, 1H), 3.87 (s, 2H), 2.25 (s, 6H); <sup>13</sup>C NMR: ppm 159.9, 150.9, 149.2, 146.1, 135.6, 132.1, 131.9, 131.6, 126.6, 124.6, 123.9, 123.7, 115.3, 62.1, 46.4 HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M100"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>16</sub>H<sub>15</sub>ClN<sub>5</sub>O (M + H)<sup>+</sup> calc: 328.0965 obs: 328.0958.</p>
+            <p>
+              <bold>12</bold>: m.p. 217&#x2013;219&#xb0;C; <sup>1</sup>H NMR: ppm 8.77&#x2013;8.75 (m, 1H), 8.48&#x2013;8.43 (m, 2H), 7.54 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M101"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 1H), 7.42&#x2013;7.38 (m, 2H), 3.72 (s, 2H), 2.83&#x2013;2.80 (m, 4H), 2.57&#x2013;2.55 (m, 4H), 2.34 (s, 3H) <sup>13</sup>C NMR: ppm 161.6, 151.6, 151.1, 150.1, 149.0, 139.9, 131.9, 129.9, 128.3, 126.1, 124.9, 123.0, 115.3, 55.1, 52.5, 51.7, 46.1; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M102"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>20</sub>ClN<sub>6</sub>O (M + H)<sup>+</sup> calc: 383.1387 obs: 383.1391.</p>
+            <p>
+              <bold>13</bold>: m.p 191&#x2013;193&#xb0;C; <sup>1</sup>H-NMR: <italic>&#x3b4;</italic> 8.57&#x2013;8.54 (m, 2H), 7.92 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M103"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 5.0, 0.8&#x2009;Hz, 1H), 7.69 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M104"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.8&#x2009;Hz, 1H), 7.63&#x2013;7.58 (m, 2H), 7.37 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M105"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 3.5, 0.7&#x2009;Hz, 1H), 7.29 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M106"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 2.4&#x2009;Hz, 1H), 7.24 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M107"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.9, 3.8&#x2009;Hz, 1H); <sup>13</sup>C-NMR: <italic>&#x3b4;</italic> 160.3, 151.3, 149.4, 148.7, 139.5, 130.4, 130.4, 130.0, 129.9, 128.2, 127.7, 126.4, 125.6, 124.8, 123.6, 123.6, 114.0. HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M108"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>17</sub>H<sub>9</sub>ClN<sub>4</sub>OS (M + H)<sup>+</sup> calc: 353.0263 obs: 353.0257.</p>
+            <p>
+              <bold>14</bold>: m.p. 201&#x2013;203&#xb0;C; <sup>1</sup>H-NMR: <italic>&#x3b4;</italic> 8.58&#x2013;8.55 (m, 2H), 7.98 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M109"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 1.1&#x2009;Hz, 1H), 7.67 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M110"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.8&#x2009;Hz, 1H), 7.64&#x2013;7.59 (m, 2H), 7.19 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M111"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 3.3, 0.5&#x2009;Hz, 1H), 7.17 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M112"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 2.5&#x2009;Hz, 1H), 6.81 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M113"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 3.5, 1.8&#x2009;Hz, 1H). <sup>13</sup>C-NMR: <italic>&#x3b4;</italic> 160.3, 151.3, 149.4, 148.3, 145.8, 140.0, 139.6, 130.3, 130.1, 127.7, 125.1, 124.6, 123.6, 119.8, 114.2, 113.9, 112.3. HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M114"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>17</sub>H<sub>9</sub>ClN<sub>4</sub>O<sub>2</sub>; (M + H)<sup>+</sup> calc: 337.0492 obs: 337.0486.</p>
+            <p>
+              <bold>15</bold>: m.p 221&#x2013;223&#xb0;C; <sup>1</sup>H-NMR: <italic>&#x3b4;</italic> 8.58 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M115"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.6, 1.9&#x2009;Hz, 1H), 8.46 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M116"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.8, 1.9&#x2009;Hz, 1H), 7.57 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M117"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.8&#x2009;Hz, 1H), 7.43&#x2013;7.38 (m, 3H), 7.33 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M118"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.7, 2.4&#x2009;Hz, 1H), 6.98 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M119"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 2.4&#x2009;Hz, 1H), 6.73 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M120"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.5&#x2009;Hz, 2H), 4.07 (s, 2H). <sup>13</sup>C-NMR: <italic>&#x3b4;</italic> 161.0, 154.6, 150.7, 149.9, 149.0, 148.7, 139.6, 131.5, 130.4, 129.8, 128.8, 125.6, 125.0, 123.0, 115.2, 115.1, 115.0. HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M121"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>ClN<sub>5</sub>O (M + H)<sup>+</sup> calc: 362.0809 obs: 362.0804.</p>
+            <p>
+              <bold>16</bold>: m.p. 177&#x2013;179&#xb0;C; <sup>1</sup>H NMR: ppm 8.59 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M122"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.3, 1.5&#x2009;Hz, 1H), 8.49 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M123"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 4.81, 1.8&#x2009;Hz, 1H), 7.60&#x2013;7.56 (m, 3H), 7.45 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M124"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8&#x2009;Hz, 2H), 7.43&#x2013;7.40 (m, 1H), 7.34 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M125"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.8, 2.9&#x2009;Hz, 1H), 6.78 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M126"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 2.2&#x2009;Hz, 1H), 3.60 (s, 2H), 2.74&#x2013;2.50 (m, 8H), 2.46 (s, 3H); <sup>13</sup>C NMR: ppm 163.6, 153.5, 153.2, 145.2, 138.8, 136.3, 133.5, 133.2, 131.4, 131.1, 129.6, 128.9, 125.8, 125.3, 123.4, 122.9, 118.9, 62.3, 59.8, 54.7, 46.8; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M127"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>25</sub>H<sub>24</sub>ClN<sub>6</sub>O (M + H)<sup>+</sup> calc: 459.1700 obs: 459.1701.</p>
+            <p>
+              <bold>17</bold>: m.p. 241&#x2013;243&#xb0;C; <sup>1</sup>H NMR: ppm 8.57&#x2013;8.62 (m, 1H), 8.45 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M128"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 1.5&#x2009;Hz, 1H), 8.38-8.37 (m, 1H), 7.97 (d, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M129"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.1&#x2009;Hz, 1H), 7.73-7.72 (m, 1H), 7.65-7.64 (m, 1H), 7.59-7.58 (m, 1H), 7.49-7.48 (m, 1H), 7.17-7.16 (m, 1H), 7.01 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M130"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8, 1.5&#x2009;Hz, 1H), 6.86 (t, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M131"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2&#x2009;Hz, 1H); <sup>13</sup>C NMR: ppm 157.9, 153.4, 152.6, 151.0, 150.6, 148.2, 140.3, 135.8, 133.4, 133.2, 132.4, 132.0, 131.4, 128.7, 127.3, 126.7, 125.7, 124.5, 114.8; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M132"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>N<sub>5</sub>O<sub>3</sub> (M + H)<sup>+</sup> calc: 358.0940 obs: 358.0949.</p>
+            <p>
+              <bold>18</bold>: m.p. 251-252&#xb0;C; <sup>1</sup>H NMR: ppm 8.57 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M133"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 7.2, 1.8&#x2009;Hz, 1H), 8.37 (dd, <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M134"><mml:mrow><mml:mi>J</mml:mi></mml:mrow></mml:math></inline-formula> = 8.2, 2&#x2009;Hz, 1H), 7.87-7.86 (m, 1H), 7.66&#x2013;7.63 (m, 1H), 7.52&#x2013;7.49 (m, 1H), 7.46&#x2013;7.44 (m, 2H), 7.32&#x2013;7.29 (m, 1H), 7.21&#x2013;7.18 (m, 2H), 6.90&#x2013;6.88 (m, 1H); <sup>13</sup>C NMR: ppm 167.2, 165.2, 163.3, 160.9, 153.0, 148.6, 143.1, 138.0, 131.5, 131.0, 129.6, 127.2. 127.1, 126.3, 125.4, 124.3, 122.5, 121.0, 120.8; HRMS (ESI+), <inline-formula><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="M135"><mml:mi>m</mml:mi><mml:mo>/</mml:mo><mml:mi>z</mml:mi></mml:math></inline-formula> C<sub>19</sub>H<sub>12</sub>FN<sub>4</sub>O (M + H)<sup>+</sup> calc: 331.0995 obs: 331.0992.</p>
+          </sec></sec>
+      </app></app-group>
+    <sec>
+      <title>Conflicts of Interest</title>
+      <p>The authors report no conflicts of interest.</p></sec>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Graham B. Jones acknowledges financial support from the National Institutes of Health (UL1TR001064).</p></ack>
+    <ref-list>
+      <ref id="B1a" content-type="book">
+        <label>1</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sch&#xfc;tz</surname>
+              <given-names>H.</given-names></name>
+          </person-group>
+          <source>
+            <italic>Benzodiazepines II</italic></source>
+          <year>1989</year>
+          <publisher-loc>Berlin, Heidelberg</publisher-loc>
+          <publisher-name>Springer Berlin Heidelberg</publisher-name></element-citation>
+      </ref>
+      <ref id="B1b" content-type="article">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hollister</surname>
+              <given-names>L. E.</given-names></name>
+            <name>
+              <surname>M&#xfc;ller-Oerlinghausen</surname>
+              <given-names>B.</given-names></name>
+            <name>
+              <surname>Rickels</surname>
+              <given-names>K.</given-names></name>
+            <name>
+              <surname>Shader</surname>
+              <given-names>R. I. J.</given-names></name>
+          </person-group>
+          <article-title>Clinical uses of benzodiazepines</article-title>
+          <source>
+            <italic>Journal of Clinical Psychopharmacology</italic></source>
+          <year>1993</year>
+          <volume>13</volume>
+          <fpage>1S</fpage>
+          <lpage>169S</lpage></element-citation>
+      </ref>
+      <ref id="B2a" content-type="article">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li&#xe9;geois</surname>
+              <given-names>J.-F.</given-names></name>
+            <name>
+              <surname>Deville</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Dilly</surname>
+              <given-names>S.</given-names></name>
+            <name>
+              <surname>Lamy</surname>
+              <given-names>C.</given-names></name>
+            <name>
+              <surname>Mangin</surname>
+              <given-names>F.</given-names></name>
+            <name>
+              <surname>R&#xe9;simont</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Tarazi</surname>
+              <given-names>F. I.</given-names></name>
+          </person-group>
+          <article-title>New pyridobenzoxazepine derivatives derived from 5-(4-methylpiperazin-1-yl) -8-chloro-pyrido[2,3-b][1,5]benzoxazepine (JL13): Chemical synthesis and pharmacological evaluation</article-title>
+          <source>
+            <italic>Journal of Medicinal Chemistry</italic></source>
+          <year>2012</year>
+          <volume>55</volume>
+          <issue>4</issue>
+          <fpage>1572</fpage>
+          <lpage>1582</lpage>
+          <pub-id pub-id-type="doi">10.1021/jm2013419</pub-id>
+          <pub-id pub-id-type="other">2-s2.0-84857410638</pub-id></element-citation>
+      </ref>
+      <ref id="B2b" content-type="article">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellenbroek</surname>
+              <given-names>B. A.</given-names></name>
+            <name>
+              <surname>Li&#xe9;geois</surname>
+              <given-names>J.-F.</given-names></name>
+          </person-group>
+          <article-title>JL 13, an atypical antipsychotic: A preclinical review</article-title>
+          <source>
+            <italic>CNS Drug Reviews</italic></source>
+          <year>2003</year>
+          <volume>9</volume>
+          <issue>1</issue>
+          <fpage>41</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0037361223</pub-id>
+          <pub-id pub-id-type="doi">10.1111/j.1527-3458.2003.tb00243.x</pub-id></element-citation>
+      </ref>
+      <ref id="B2c" content-type="article">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liegeois</surname>
+              <given-names>J. F.</given-names></name>
+            <name>
+              <surname>Rogister</surname>
+              <given-names>F. A.</given-names></name>
+            <name>
+              <surname>Bruhwyler</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Damas</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T. P.</given-names></name>
+            <name>
+              <surname>Inarejos</surname>
+              <given-names>M. O.</given-names></name>
+            <name>
+              <surname>Chleide</surname>
+              <given-names>E. M.</given-names></name>
+            <name>
+              <surname>Mercier</surname>
+              <given-names>M. G.</given-names></name>
+            <name>
+              <surname>Delarge</surname>
+              <given-names>J. E.</given-names></name>
+          </person-group>
+          <article-title>Pyridobenzoxazepine and Pyridobenzothiazepine Derivatives as Potential Central Nervous System Agents: Synthesis and Neurochemical Study</article-title>
+          <source>
+            <italic>Journal of Medicinal Chemistry</italic></source>
+          <year>1994</year>
+          <volume>37</volume>
+          <issue>4</issue>
+          <fpage>519</fpage>
+          <lpage>525</lpage>
+          <pub-id pub-id-type="doi">10.1021/jm00030a011</pub-id></element-citation>
+      </ref>
+      <ref id="B3" content-type="article">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahid</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>G. B.</given-names></name>
+            <name>
+              <surname>Zorn</surname>
+              <given-names>S. H.</given-names></name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>E. H. F.</given-names></name>
+          </person-group>
+          <article-title>Asenapine: A novel psychopharmacologic agent with a unique human receptor signature</article-title>
+          <source>
+            <italic>Journal of Psychopharmacology</italic></source>
+          <year>2009</year>
+          <volume>23</volume>
+          <issue>1</issue>
+          <fpage>65</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="other">2-s2.0-58649100010</pub-id>
+          <pub-id pub-id-type="doi">10.1177/0269881107082944</pub-id></element-citation>
+      </ref>
+      <ref id="B4a" content-type="article">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li&#xe9;geois</surname>
+              <given-names>J.-F.</given-names></name>
+            <name>
+              <surname>Mouithys-Mickalad</surname>
+              <given-names>A.</given-names></name>
+            <name>
+              <surname>Bruhwyler</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Delarge</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Petit</surname>
+              <given-names>C.</given-names></name>
+            <name>
+              <surname>Kauffmann</surname>
+              <given-names>J.-M.</given-names></name>
+            <name>
+              <surname>Lamy</surname>
+              <given-names>M.</given-names></name>
+          </person-group>
+          <article-title>JL 13, a potential successor to clozapine, is less sensitive to oxidative phenomena</article-title>
+          <source>
+            <italic>Biochemical and Biophysical Research Communications</italic></source>
+          <year>1997</year>
+          <volume>238</volume>
+          <issue>1</issue>
+          <fpage>252</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0031559876</pub-id>
+          <pub-id pub-id-type="doi">10.1006/bbrc.1997.7270</pub-id></element-citation>
+      </ref>
+      <ref id="B4b" content-type="article">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ellenbroek</surname>
+              <given-names>B. A.</given-names></name>
+            <name>
+              <surname>Li&#xe9;geois</surname>
+              <given-names>J. F.</given-names></name>
+            <name>
+              <surname>Bruhwyler</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Cools</surname>
+              <given-names>A. R. J.</given-names></name>
+          </person-group>
+          <article-title>Effects of JL13, a pyridobenzoxazepine with potential atypical antipsychotic activity, in animal models for schizophrenia</article-title>
+          <source>
+            <italic>Journal of Pharmacology and Experimental Therapeutics</italic></source>
+          <year>2001</year>
+          <volume>298</volume>
+          <fpage>386</fpage>
+          <lpage>391</lpage></element-citation>
+      </ref>
+      <ref id="B4c" content-type="article">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casey</surname>
+              <given-names>D. E.</given-names></name>
+            <name>
+              <surname>Bruhwyler</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Delarge</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>G&#xe9;czy</surname>
+              <given-names>J.</given-names></name>
+            <name>
+              <surname>Li&#xe9;geois</surname>
+              <given-names>J.-F.</given-names></name>
+          </person-group>
+          <article-title>The behavioral effects of acute and chronic JL 13, a putative antipsychotic, in Cebus non-human primates</article-title>
+          <source>
+            <italic>Psychopharmacology</italic></source>
+          <year>2001</year>
+          <volume>157</volume>
+          <issue>3</issue>
+          <fpage>228</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="other">2-s2.0-0034813515</pub-id>
+          <pub-id pub-id-type="doi">10.1007/s002130100808</pub-id></element-citation>
+      </ref>
+      <ref id="B5a" content-type="article">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sadler</surname>
+              <given-names>S.</given-names></name>
+            <name>
+              <surname>Moeller</surname>
+              <given-names>A. R.</given-names></name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>G. B.</given-names></name>
+          </person-group>
+          <article-title>Microwave and continuous flow technologies in drug discovery</article-title>
+          <source>
+            <italic>Expert Opinion on Drug Discovery</italic></source>
+          <year>2012</year>
+          <volume>7</volume>
+          <issue>12</issue>
+          <fpage>1107</fpage>
+          <lpage>1128</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84870233134</pub-id>
+          <pub-id pub-id-type="doi">10.1517/17460441.2012.727393</pub-id></element-citation>
+      </ref>
+      <ref id="B5b" content-type="article">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>da Costa</surname>
+              <given-names>J. F.</given-names></name>
+            <name>
+              <surname>Garc&#xed;a-Mera</surname>
+              <given-names>X.</given-names></name>
+            <name>
+              <surname>Caamano</surname>
+              <given-names>O.</given-names></name>
+            <name>
+              <surname>Brea</surname>
+              <given-names>J. M.</given-names></name>
+            <name>
+              <surname>Loza</surname>
+              <given-names>M. I.</given-names></name>
+            <name>
+              <surname>Med</surname>
+              <given-names>J.</given-names></name>
+          </person-group>
+          <article-title>Synthesis by microwave-assisted 1,3-dipolar cycloaddition of 1,2,3-triazole 1&#x2019;-homo-3&#x2019;-isoazanucleosides and evaluation of their anticancer activity</article-title>
+          <source>
+            <italic>European Journal of Medicinal Chemistry</italic></source>
+          <year>2015</year>
+          <volume>98</volume>
+          <fpage>212</fpage>
+          <lpage>220</lpage></element-citation>
+      </ref>
+      <ref id="B6" content-type="article">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al-Masoudi</surname>
+              <given-names>I. A.</given-names></name>
+            <name>
+              <surname>Al-Soud</surname>
+              <given-names>Y. A.</given-names></name>
+            <name>
+              <surname>Al-Salihi</surname>
+              <given-names>N. J.</given-names></name>
+            <name>
+              <surname>Al-Masoudi</surname>
+              <given-names>N. A.</given-names></name>
+          </person-group>
+          <article-title>1,2,4-Triazoles: Synthetic approaches and pharmacological importance. (Review)</article-title>
+          <source>
+            <italic>Chemistry of Heterocyclic Compounds</italic></source>
+          <year>2006</year>
+          <volume>42</volume>
+          <issue>11</issue>
+          <fpage>1377</fpage>
+          <lpage>1403</lpage>
+          <pub-id pub-id-type="other">2-s2.0-33846906736</pub-id>
+          <pub-id pub-id-type="doi">10.1007/s10593-006-0255-3</pub-id></element-citation>
+      </ref>
+      <ref id="B7" content-type="article">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pellizzari</surname>
+              <given-names>G.</given-names></name>
+          </person-group>
+          <article-title>Triazolo e suoi derivati</article-title>
+          <source>
+            <italic>Gazzetta Chimica Italiana</italic></source>
+          <year>1911</year>
+          <volume>41</volume>
+          <fpage>20</fpage></element-citation>
+      </ref>
+      <ref id="B9" content-type="article">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sadler</surname>
+              <given-names>S.</given-names></name>
+            <name>
+              <surname>Sebeika</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Kern</surname>
+              <given-names>N.</given-names></name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>D.</given-names></name>
+            <name>
+              <surname>Laverack</surname>
+              <given-names>C.</given-names></name>
+            <name>
+              <surname>Wilkins</surname>
+              <given-names>D.</given-names></name>
+            <name>
+              <surname>Moeller</surname>
+              <given-names>A.</given-names></name>
+            <name>
+              <surname>Nicolaysen</surname>
+              <given-names>B.</given-names></name>
+            <name>
+              <surname>Kozlowski</surname>
+              <given-names>P.</given-names></name>
+            <name>
+              <surname>Wiles</surname>
+              <given-names>C.</given-names></name>
+            <name>
+              <surname>Tinder</surname>
+              <given-names>R.</given-names></name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>G.</given-names></name>
+          </person-group>
+          <article-title>A facile route to triazolopyrimidines using a [3+2] cycloaddition and continuous-flow chemistry</article-title>
+          <source>
+            <italic>Journal of Flow Chemistry</italic></source>
+          <year>2014</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>140</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84907205567</pub-id>
+          <pub-id pub-id-type="doi">10.1556/JFC-D-14-00019</pub-id></element-citation>
+      </ref>
+      <ref id="B10a" content-type="article">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kanagarajadurai</surname>
+              <given-names>K.</given-names></name>
+            <name>
+              <surname>Malini</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Bhattacharya</surname>
+              <given-names>A.</given-names></name>
+            <name>
+              <surname>Panicker</surname>
+              <given-names>M. M.</given-names></name>
+            <name>
+              <surname>Sowdhamini</surname>
+              <given-names>R.</given-names></name>
+          </person-group>
+          <article-title>Molecular modeling and docking studies of human 5-hydroxytryptamine 2A (5-HT2A) receptor for the identification of hotspots for ligand binding</article-title>
+          <source>
+            <italic>Molecular BioSystems</italic></source>
+          <year>2009</year>
+          <volume>5</volume>
+          <issue>12</issue>
+          <fpage>1877</fpage>
+          <lpage>1888</lpage>
+          <pub-id pub-id-type="other">2-s2.0-72949087747</pub-id>
+          <pub-id pub-id-type="doi">10.1039/b906391a</pub-id></element-citation>
+      </ref>
+      <ref id="B10b" content-type="article">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jadhav</surname>
+              <given-names>M. N.</given-names></name>
+            <name>
+              <surname>Kokil</surname>
+              <given-names>G. R.</given-names></name>
+            <name>
+              <surname>Harak</surname>
+              <given-names>S. S.</given-names></name>
+            <name>
+              <surname>Wagh</surname>
+              <given-names>S. B.</given-names></name>
+          </person-group>
+          <article-title>Direct and indirect drug design approaches for the development of novel tricyclic antipsychotics: Potential 5-HT2A antagonist</article-title>
+          <source>
+            <italic>Journal of Chemistry</italic></source>
+          <year>2013</year>
+          <volume>2013</volume>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="publisher-id">930354</pub-id>
+          <pub-id pub-id-type="doi">10.1155/2013/930354</pub-id>
+          <pub-id pub-id-type="other">2-s2.0-84890043172</pub-id></element-citation>
+      </ref>
+      <ref id="B11" content-type="article">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meltzer</surname>
+              <given-names>H. Y.</given-names></name>
+            <name>
+              <surname>Matsubara</surname>
+              <given-names>S.</given-names></name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J. C.</given-names></name>
+            <name>
+              <surname>Pharmacol</surname>
+              <given-names>J.</given-names></name>
+          </person-group>
+          <article-title>Classification of typical and atypical antipsychotic drugs on the basis of dopamine D-1, D-2 and serotonin2 pKi values</article-title>
+          <source>
+            <italic>Journal of Pharmacology and Experimental Therapeutics</italic></source>
+          <year>1989</year>
+          <volume>251</volume>
+          <issue>1</issue>
+          <fpage>238</fpage>
+          <lpage>246</lpage></element-citation>
+      </ref>
+      <ref id="B12" content-type="article">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Booth</surname>
+              <given-names>R. G.</given-names></name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>L.</given-names></name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names></name>
+            <name>
+              <surname>Wilczynski</surname>
+              <given-names>A.</given-names></name>
+            <name>
+              <surname>Sivendran</surname>
+              <given-names>S.</given-names></name>
+          </person-group>
+          <article-title>For binding protocols see:</article-title>
+          <source>
+            <italic>European Journal of Pharmacology</italic></source>
+          <year>2009</year>
+          <volume>1</volume>
+          <issue>3</issue>
+          <fpage>1</fpage>
+          <lpage>9</lpage></element-citation>
+      </ref>
+      <ref id="B13" content-type="article">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>LaBeaume</surname>
+              <given-names>P.</given-names></name>
+            <name>
+              <surname>Placzek</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Daniels</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Kendrick</surname>
+              <given-names>I.</given-names></name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>P.</given-names></name>
+            <name>
+              <surname>McNeel</surname>
+              <given-names>M.</given-names></name>
+            <name>
+              <surname>Afroze</surname>
+              <given-names>R.</given-names></name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>A.</given-names></name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>R.</given-names></name>
+            <name>
+              <surname>Kallmerten</surname>
+              <given-names>A. E.</given-names></name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>G. B.</given-names></name>
+          </person-group>
+          <article-title>Microwave-accelerated fluorodenitrations and nitrodehalogenations: expeditious routes to labeled PET ligands and fluoropharmaceuticals</article-title>
+          <source>
+            <italic>Tetrahedron Letters</italic></source>
+          <year>2010</year>
+          <volume>51</volume>
+          <issue>14</issue>
+          <fpage>1906</fpage>
+          <lpage>1909</lpage>
+          <pub-id pub-id-type="other">2-s2.0-77549088534</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.tetlet.2010.02.042</pub-id></element-citation>
+      </ref>
+      <ref id="B14a" content-type="article">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elvira</surname>
+              <given-names>K. S.</given-names></name>
+            <name>
+              <surname>Casadevali i Solvas</surname>
+              <given-names>X.</given-names></name>
+            <name>
+              <surname>Wootton</surname>
+              <given-names>R. C.</given-names></name>
+            <name>
+              <surname>deMello</surname>
+              <given-names>A. J.</given-names></name>
+          </person-group>
+          <article-title>For additional applications of flow chemistry see:</article-title>
+          <source>
+            <italic>Nature Chemistry</italic></source>
+          <year>2013</year>
+          <volume>5</volume>
+          <fpage>905</fpage>
+          <lpage>915</lpage></element-citation>
+      </ref>
+      <ref id="B14b" content-type="article">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ley</surname>
+              <given-names>S. V.</given-names></name>
+            <name>
+              <surname>Fitzpatrick</surname>
+              <given-names>D. E.</given-names></name>
+            <name>
+              <surname>Myers</surname>
+              <given-names>R. M.</given-names></name>
+            <name>
+              <surname>Battilocchio</surname>
+              <given-names>C.</given-names></name>
+            <name>
+              <surname>Ingham</surname>
+              <given-names>R. J.</given-names></name>
+          </person-group>
+          <article-title>Machine-Assisted Organic Synthesis</article-title>
+          <source>
+            <italic>Angewandte Chemie International Edition</italic></source>
+          <year>2015</year>
+          <volume>54</volume>
+          <issue>35</issue>
+          <fpage>10122</fpage>
+          <lpage>10136</lpage>
+          <pub-id pub-id-type="other">2-s2.0-84939567633</pub-id>
+          <pub-id pub-id-type="doi">10.1002/anie.201501618</pub-id></element-citation>
+      </ref></ref-list>
+  </back></article>

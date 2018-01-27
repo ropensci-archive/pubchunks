@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" dtd-version="1.1">
+   <front>
+      <journal-meta>
+         <journal-id journal-id-type="publisher-id">peerj</journal-id>
+         <journal-id journal-id-type="pmc">peerj</journal-id>
+         <journal-id journal-id-type="nlm-ta">PeerJ</journal-id>
+         <journal-title-group>
+            <journal-title>PeerJ</journal-title>
+            <abbrev-journal-title abbrev-type="publisher">PeerJ</abbrev-journal-title>
+         </journal-title-group>
+         <issn pub-type="epub">2167-8359</issn>
+         <publisher>
+            <publisher-name>PeerJ Inc.</publisher-name>
+            <publisher-loc>San Francisco, USA</publisher-loc>
+         </publisher>
+      </journal-meta>
+      <article-meta>
+         <article-id pub-id-type="publisher-id">3360</article-id>
+         <article-id pub-id-type="doi">10.7717/peerj.3360</article-id>
+         <article-categories>
+            <subj-group subj-group-type="categories">
+               <subject>Biodiversity</subject>
+              <subject>Biosphere Interactions</subject>
+               <subject>Conservation Biology</subject>
+               <subject>Marine Biology</subject>
+               <subject>Natural Resource Management</subject>
+            </subj-group>
+         </article-categories>
+         <title-group>
+            <article-title>Storm effects on intertidal invertebrates: increased beta diversity of few individuals and species</article-title>
+         </title-group>
+         <contrib-group content-type="authors">
+            <contrib id="author-1" contrib-type="author" corresp="yes" equal-contrib="yes">
+               <name>
+                  <surname>Corte</surname>
+                  <given-names>Guilherme N.</given-names>
+               </name>
+               <email>guilhermecorte@yahoo.com.br</email><xref ref-type="aff" rid="aff-1">1</xref></contrib>
+            <contrib id="author-2" contrib-type="author" equal-contrib="yes">
+               <name>
+                  <surname>Schlacher</surname>
+                  <given-names>Thomas A.</given-names>
+               </name><xref ref-type="aff" rid="aff-2">2</xref></contrib>
+            <contrib id="author-3" contrib-type="author">
+               <name>
+                  <surname>Checon</surname>
+                  <given-names>Helio H.</given-names>
+               </name><xref ref-type="aff" rid="aff-1">1</xref></contrib>
+            <contrib id="author-4" contrib-type="author">
+               <name>
+                  <surname>Barboza</surname>
+                  <given-names>Carlos A.M.</given-names>
+               </name><xref ref-type="aff" rid="aff-3">3</xref></contrib>
+            <contrib id="author-5" contrib-type="author">
+               <name>
+                  <surname>Siegle</surname>
+                  <given-names>Eduardo</given-names>
+               </name><xref ref-type="aff" rid="aff-4">4</xref></contrib>
+            <contrib id="author-6" contrib-type="author">
+               <name>
+                  <surname>Coleman</surname>
+                  <given-names>Ross A.</given-names>
+               </name><xref ref-type="aff" rid="aff-5">5</xref></contrib>
+            <contrib id="author-7" contrib-type="author">
+               <name>
+                  <surname>Amaral</surname>
+                  <given-names>Antonia Cecília Z.</given-names>
+               </name><xref ref-type="aff" rid="aff-1">1</xref></contrib>
+            <aff id="aff-1"><label>1</label><institution>Departamento de Biologia Animal, Universidade Estadual de Campinas</institution>, <city>Campinas</city>, <state>São Paulo</state>, <country>Brasil</country></aff>
+            <aff id="aff-2"><label>2</label><institution>School of Science and Engineering, University of the Sunshine Coast</institution>, <city>Maroochydore DC</city>, <state>Queensland</state>, <country>Australia</country></aff>
+            <aff id="aff-3"><label>3</label><institution>Núcleo em Ecologia e Desenvolvimento, Universidade Federal do Rio de Janeiro</institution>, <city>Macaé</city>, <state>Rio de Janeiro</state>, <country>Brasil</country></aff>
+            <aff id="aff-4"><label>4</label><institution>Instituto Oceanográfico, Universidade de São Paulo</institution>, <city>São Paulo</city>, <state>São Paulo</state>, <country>Brasil</country></aff>
+            <aff id="aff-5"><label>5</label><institution>School of Life and Environmental Science, University of Sydney</institution>, <city>Sydney</city>, <state>New South Wales</state>, <country>Australia</country></aff>
+         </contrib-group>
+         <contrib-group content-type="editors">
+            <contrib contrib-type="editor">
+               <name>
+                  <surname>Reimer</surname>
+                  <given-names>James</given-names>
+               </name>
+            </contrib>
+         </contrib-group>
+         <pub-date pub-type="epub" date-type="pub" iso-8601-date="2017-05-23">
+            <day>23</day>
+            <month>5</month>
+            <year iso-8601-date="2017">2017</year>
+         </pub-date>
+         <volume>5</volume>
+         <elocation-id>e3360</elocation-id>
+         <history>
+            <date date-type="received" iso-8601-date="2017-01-25">
+               <day>25</day>
+               <month>1</month>
+               <year iso-8601-date="2017">2017</year>
+            </date>
+            <date date-type="accepted" iso-8601-date="2017-04-26">
+               <day>26</day>
+               <month>4</month>
+               <year iso-8601-date="2017">2017</year>
+            </date>
+         </history>
+         <permissions>
+            <copyright-statement>©2017 Corte et al.</copyright-statement>
+            <copyright-year>2017</copyright-year>
+            <copyright-holder>Corte et al.</copyright-holder>
+            <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+               <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source (PeerJ) and either DOI or URL of the article must be cited.</license-p>
+            </license>
+         </permissions>
+         <self-uri xlink:href="https://peerj.com/articles/3360"/>
+         <abstract>
+            <p>Climate change is predicted to lead to more extreme weather events, including changes to storm frequency, intensity and location. Yet the ecological responses to storms are incompletely understood for sandy shorelines, the globe’s longest land-ocean interface. Here we document how storms of different magnitude impacted the invertebrate assemblages on a tidal flat in Brazil. We specifically tested the relationships between wave energy and spatial heterogeneity, both for habitat properties (habitat heterogeneity) and fauna (β-diversity), predicting that larger storms redistribute sediments and hence lead to spatially less variable faunal assemblages. The sediment matrix tended to become less heterogeneous across the flat after high-energy wave events, whereas β-diversity increased after storms. This higher β-diversity was primarily driven by species losses. Significantly fewer species at a significantly lower density occurred within days to weeks after storms. Negative density and biomass responses to storm events were most prominent in crustaceans. Invertebrate assemblages appeared to recover within a short time (weeks to months) after storms, highlighting that most species typical of sedimentary shorelines are, to some degree, resilient to short-term changes in wave energy. Given that storm frequency and intensity are predicted to change in the coming decades, identifying properties that determine resilience and recovery of ecosystems constitute a research priority for sedimentary shorelines and beyond.</p>
+         </abstract>
+         <kwd-group kwd-group-type="author">
+            <kwd>Benthos</kwd>
+            <kwd>Soft-bottom</kwd>
+            <kwd>Extreme events</kwd>
+            <kwd>Habitat heterogeneity</kwd>
+            <kwd>Araçá bay</kwd>
+            <kwd>Macrofauna</kwd>
+            <kwd>Climate change</kwd>
+         </kwd-group>
+         <funding-group>
+            <award-group id="fund-1">
+               <funding-source>São Paulo Research Foundation</funding-source>
+               <award-id>2011/10130-3</award-id>
+               <award-id>2011/50317-5</award-id>
+               <award-id>2016/10810-8</award-id>
+            </award-group>
+            <award-group id="fund-2">
+               <funding-source>Coordination for the Improvement of Higher Education Personnel</funding-source>
+               <award-id>14796/13-9</award-id>
+            </award-group>
+            <award-group id="fund-3">
+               <funding-source>CNPq research fellowships</funding-source>
+            </award-group>
+            <funding-statement>Financial support was provided by the São Paulo Research Foundation (Grants 2011/10130-3, 2011/50317-5 and 2016/10810-8) and by Coordination for the Improvement of Higher Education Personnel (Grant 14796/13-9). ES and ACZA are sponsored by CNPq research fellowships. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+         </funding-group>
+      </article-meta>
+   </front>
+   <body>
+      <sec sec-type="intro">
+         <title>Introduction</title>
+         <p>Extreme weather events, including changes to storm frequency and intensity, are predicted to increase over the 21st century (<xref ref-type="bibr" rid="ref-26">IPCC, 2013</xref>; <xref ref-type="bibr" rid="ref-30">Lin &amp; Emanuel, 2016</xref>; <xref ref-type="bibr" rid="ref-59">Walsh et al., 2016</xref>). These global changes to ecosystem physical and chemical conditions are having numerous and widespread biological impacts in the sea and on land (<xref ref-type="bibr" rid="ref-60">Weatherdon et al., 2016</xref>). In the global oceans, climate change is expected to substantially alter the provision of ecosystems services critical to humankind, such as coastal protection and capture fisheries (<xref ref-type="bibr" rid="ref-21">Gattuso et al., 2015</xref>), but many responses in marine ecoystems still remain incompletely understood (<xref ref-type="bibr" rid="ref-23">Hauser et al., 2016</xref>; <xref ref-type="bibr" rid="ref-39">Nagelkerken &amp; Munday, 2016</xref>).</p>
+         <p>Storms may cause massive changes to coastal environments, particularly on sedimentary shorelines (<xref ref-type="bibr" rid="ref-35">Mateo &amp; Garcia-Rubies, 2012</xref>), often causing the translocation of sediment from the beach and dunes, and the landwards movement of the coastline (<xref ref-type="bibr" rid="ref-34">Masselink et al., 2016</xref>). These large habitat changes are usually accompanied by impacts to faunal assemblages, best documented for benthic invertebrates, seagrass meadows, and algal communities (<xref ref-type="bibr" rid="ref-32">Lucrezi, Schlacher &amp; Robinson, 2010</xref>; <xref ref-type="bibr" rid="ref-28">Jaramillo et al., 2012</xref>; <xref ref-type="bibr" rid="ref-35">Mateo &amp; Garcia-Rubies, 2012</xref>).</p>
+         <p>The unpredictable nature of storms generally precludes the use of a rigorous experimental design to specifically test for storm effects, meaning that nearly all published ‘storm studies’ are largely opportunistic (<xref ref-type="bibr" rid="ref-22">Harris et al., 2011</xref>). In addition, often only a few or no data points are available immediately before a storm, post-storm sampling can be truncated, and for large storms it is challenging or impossible to find control areas that were not affected by the event (<xref ref-type="bibr" rid="ref-46">Posey et al., 1996</xref>); arguably, this makes attribution of ecological patterns to storm effects somewhat weak. An alternative is to make <italic>a priori</italic> predictive hypotheses based on knowledge of the biology of species and their likely response to large disturbance events in their habitat (<xref ref-type="bibr" rid="ref-22">Harris et al., 2011</xref>).</p>
+         <p>Here, we combine oceanographic, sedimentary and biological data to investigate how storms can affect the sedimentary habitat of a tidal flat in Southeast Brazil and the macrobenthic assemblages inhabiting it. Specifically, we tested four complementary, predictive hypotheses:</p>
+         <list id="list-1" list-type="order">
+            <list-item><label> 1.</label><p>Higher wave energy during storms may translocate and disperse large sediment volumes (<xref ref-type="bibr" rid="ref-34">Masselink et al., 2016</xref>). We therefore predict that habitat heterogeneity (i.e., the spatial variation in seafloor properties amongst sampling sites) would be reduced after storms.</p>
+            </list-item>
+            <list-item><label> 2.</label><p>Habitat heterogeneity can be a major determinant for ecological assemblages, typically promoting beta diversity (i.e., variability in species composition among sampling units for a given area) (<xref ref-type="bibr" rid="ref-5">Anderson, Ellingsen &amp; McArdle, 2006</xref>, <xref ref-type="bibr" rid="ref-51">Schlacher et al., 2007</xref>, <xref ref-type="bibr" rid="ref-36">McClain &amp; Barry, 2010</xref>; <xref ref-type="bibr" rid="ref-38">Meager, Schlacher &amp; Green, 2011</xref>). Therefore, we expect that storms lower beta diversity of the fauna.</p>
+            </list-item>
+            <list-item><label> 3.</label><p>Disturbance caused by storms has been reported to detrimentally affect populations of benthic species (<xref ref-type="bibr" rid="ref-27">Jaramillo, Croker &amp; Hatfield, 1987</xref>; <xref ref-type="bibr" rid="ref-35">Mateo &amp; Garcia-Rubies, 2012</xref>). Accordingly, we expect lower species richness, abundance, and biomass of invertebrates after storms.</p>
+            </list-item>
+            <list-item><label> 4.</label><p>Given that we expect lower β-diversity (prediction 2) and reduced number of species after storms (prediction 3), we predict that changes in β-diversity may be mainly attributable to species losses rather than species replacement.</p>
+            </list-item>
+         </list>
+         <sec>
+            <title>Material and Methods</title>
+         </sec>
+         <sec>
+            <title>Study area</title>
+            <p>This study was done on the intertidal flats of Araçá Bay (Brazil, 23°49′S, 45°24′W; <xref ref-type="fig" rid="fig-1">Fig. 1</xref>), a sheltered and heterogeneous intertidal flat adjacent to the São Sebastião Channel, Southeast Brazil (<xref ref-type="bibr" rid="ref-3">Amaral et al., 2010</xref>). The area is relatively small (ca. 750 m wide and long) and protected from the prevailing swell by São Sebastião Island (<xref ref-type="fig" rid="fig-1">Fig. 1</xref>). It is one of few tide-dominated environments along the southeastern coast of Brazil (<xref ref-type="bibr" rid="ref-16">Dottori, Siegle &amp; Castro, 2015</xref>). Hydrographic properties of Araçá Bay are subject to physical forcing by frontal systems, when current speeds can increase eightfold (<xref ref-type="bibr" rid="ref-17">Fo, 1990</xref>). At the region, the highest storm waves are associated to cold fronts and reaching offshore significant wave heights of 6.4 m (<xref ref-type="bibr" rid="ref-44">Pianca, Mazzini &amp; Siegle, 2010</xref>).</p>
+            <fig id="fig-1">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/fig-1</object-id><label>Figure 1</label><caption>
+                  <title>Map showing the location of the study area (A) and the sampling sites in the intertidal area of Araçá Bay (B).</title>
+               </caption>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/fig-1.png"/>
+            </fig>
+         </sec>
+         <sec>
+            <title>Field sampling</title>
+            <p>Field work was done during spring tides on four times, at ca. three month intervals, from September 2011 to July 2012 (25 September 2011, 5 February 2012, 7 May 2012, and 29 July 2012). Three storm events occurred during the study (22 November 2011, 06 May 2012, 18 July 2012; <xref ref-type="fig" rid="fig-2">Fig. 2</xref>), all accompanied by torrential rain, strong winds, flooding, and building damages. We sampled on the first spring tide after the storms in May and July 2012 (one-day lag in May and 11 days in July).</p>
+            <p>During each sampling event, field work was done early in the morning of two consecutive days, collecting fauna from 34 sites. The sampling sites were positioned to encompass habitat diversity of the tidal flat (i.e., different sediment types over a range of depths), and to achieve a reasonable dispersion and spatial coverage (<xref ref-type="fig" rid="fig-1">Fig. 1</xref>). The position of each sampling site was recorded with a GPS (Garmin eTrex Legend, <italic>datum</italic> WGS84) and the same locations (±1 m) were sampled during each of the four sampling events. Three faunal samples (corer: 20 cm inner diameter, 20 cm depth) and one sediment sample (corer: 3 cm inner diameter, 20 cm deep) were collected per site and event.</p>
+            <fig id="fig-2">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/fig-2</object-id><label>Figure 2</label><caption>
+                  <title>Wave height (A) and wave power (B) during the study period (sampling events are shown by dots. Red dots correspond to storm sampling events).</title>
+               </caption>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/fig-2.png"/>
+            </fig>
+         </sec>
+         <sec>
+            <title>Biological and environmental data</title>
+            <p>Fauna cores were washed on the same day of collection through a 0.3 mm mesh sieve, and the retained fauna was fixed in 70% ethanol. Sediment granulometric analysis was performed with standard dry sieving described by <xref ref-type="bibr" rid="ref-56">Suguio (1973)</xref>. Sediment statistics were calculated with SysGran software (<xref ref-type="bibr" rid="ref-7">Camargo, 2006</xref>) using the parameters of <xref ref-type="bibr" rid="ref-18">Folk &amp; Ward (1957)</xref>. Organic matter content was determined by weight losses of dried samples (60 °C for 24 h) after incineration (550 °C for 6 h). Calcium carbonate content was determined by 10% HCl digestion.</p>
+            <p>Sediment temperature and interstitial water salinity were measured <italic>in situ</italic> with a digital thermometer and an analog refractometer (precision of 0.01 and 0.1 units, respectively). Wave height and period for the region were obtained for 24.5 S and 45.5 W from the global wave generation model WaveWatch III (NCEP/NOAA). Wave power (<italic>P</italic><sub><italic>w</italic></sub>) was calculated as: <italic>P</italic><sub><italic>w</italic></sub> = <italic>ρg</italic><sup>2</sup><italic>H</italic><sup>2</sup><italic>T</italic>∕32<italic>π</italic>, where <italic>ρ</italic> is water density (1,027 kg/m<sup>3</sup>), g the acceleration due to gravity (9.81 m/s<sup>2</sup>), H the wave height (m), and T the wave period (s) (<xref ref-type="bibr" rid="ref-24">Herbich, 2000</xref>). We considered wave height and power for the three days before each sampling event. This time lag was found to show the strongest correlation between wave height/power and changes in macrobenthic species in the area (<xref ref-type="bibr" rid="ref-57">Turra et al., 2016</xref>).</p>
+            <p>All work was done in accordance with permit No. 19887-1 issued by the federal environmental agency, Ministério do Meio Ambiente, Instituto Chico Mendes de Conservação da Biodiversidade (ICM-Bio).</p>
+         </sec>
+         <sec>
+            <title>Data analysis</title>
+            <p>We tested for differences in habitat heterogeneity and fauna β-diversity amongst times with permutational analysis of multivariate dispersion (PERMDISP, <xref ref-type="bibr" rid="ref-4">Anderson, 2006</xref>). In this analysis, higher multivariate dispersion is an indication of higher variability (i.e., higher habitat heterogeneity and β-diversity) among sampling sites (<xref ref-type="bibr" rid="ref-4">Anderson, 2006</xref>). For habitat heterogeneity, the test was based on Euclidean distances calculated from normalized sediment data. For fauna β-diversity, the test was based on Hellinger transformation (<xref ref-type="bibr" rid="ref-29">Legendre &amp; De Cáceres, 2013</xref>) calculated from abundance data for the full suite of species. PERMDISP analysis was done using Primer 6 software (<xref ref-type="bibr" rid="ref-10">Clarke &amp; Gorley, 2006</xref>). Ordination plots (nMDS) were computed with the vegan package in R (<xref ref-type="bibr" rid="ref-42">Oksanen et al., 2007</xref>) to illustrate differences in habitat heterogeneity and β-diversity (i.e., dispersion of sampling sites) between sampling events.</p>
+            <p>We tested for differences in species richness, abundance and biomass of invertebrate assemblages amongst times using general linear models with ‘Time’ as fixed factors. Models were adjusted using the negative binomial distributions for count data (species richness and abundance) and gamma distributions for continuous data (biomass). We used Tukey post-hoc tests to examine differences among sampling times using the MASS package in R (<xref ref-type="bibr" rid="ref-47">Ripley et al., 2013</xref>). This framework was used to investigate differences in the whole assemblage and also in the main groups of intertidal macrofauna (i.e., molluscs, polychaetes and crustaceans) separately.</p>
+            <p>We used the Similarity percentage analysis (SIMPER) based on Bray-Curtis distance to investigate the contribution of each individual species to the differences in species assemblages among sampling periods. Data was log(<italic>x</italic> + 1) transformed before analysis to reduce influence of abundant species. SIMPER was done in Primer 6 software (<xref ref-type="bibr" rid="ref-10">Clarke &amp; Gorley, 2006</xref>).</p>
+            <p>We used the β-diversity partitioning framework of <xref ref-type="bibr" rid="ref-45">Podani &amp; Schmera (2011)</xref> and <xref ref-type="bibr" rid="ref-9">Carvalho, Cardoso &amp; Gomes (2012)</xref> to investigate compositional changes of macrobenthos (i.e., β-diversity) over time. This framework calculates compositional differences among communities (β<sub>total</sub>) and partitions it into βdiversity attributed to species replacement (β<sub>repl</sub>) and βdiversity attributed to species loss or gain (β<sub>rich</sub>). This analysis was done with the R package BAT (<xref ref-type="bibr" rid="ref-8">Cardoso, Rigal &amp; Carvalho, 2015</xref>).</p>
+         </sec>
+      </sec>
+      <sec sec-type="results">
+         <title>Results</title>
+         <p>Seawater temperature varied seasonally, whereas salinity and organic matter content of the sediment changed relatively little over time (<xref ref-type="table" rid="table-1">Table 1</xref>). The silt, clay, and fine sand fraction of the sediment increased between Sep. 2011 and July 2012 (<xref ref-type="table" rid="table-1">Table 1</xref>). Waves were higher and more powerful before samplings in May and July 2012 (<xref ref-type="table" rid="table-1">Table 1</xref>, <xref ref-type="fig" rid="fig-2">Fig. 2</xref>).</p>
+         <table-wrap id="table-1">
+            <object-id pub-id-type="doi">10.7717/peerj.3360/table-1</object-id><label>Table 1</label><caption>
+               <title>Environmental parameters recorded.</title>
+            </caption>
+            <alternatives>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/table-1.png"/>
+               <table>
+                  <colgroup>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                  </colgroup>
+                  <thead>
+                     <tr>
+                        <th/>
+                        <th>September 2011</th>
+                        <th>February 2012</th>
+                        <th>May 2012</th>
+                        <th>July 2012</th>
+                     </tr>
+                     <tr>
+                        <th/>
+                        <th>mean (se)</th>
+                        <th>mean (se)</th>
+                        <th>mean (se)</th>
+                        <th>mean (se)</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Temperature (°C)</td>
+                        <td>21.9 (0.2)</td>
+                        <td>27.4 (0.2)</td>
+                        <td>25.0 (0.2)</td>
+                        <td>20.4 (0.1)</td>
+                     </tr>
+                     <tr>
+                        <td>Salinity</td>
+                        <td>32.3 (0.3)</td>
+                        <td>31.7 (0.9)</td>
+                        <td>30.6 (0.7)</td>
+                        <td>29.9 (0.6)</td>
+                     </tr>
+                     <tr>
+                        <td>Mean grain size (<italic>ϕ</italic>)</td>
+                        <td>2.5 (0.7)</td>
+                        <td>2.7 (0.7)</td>
+                        <td>2.7 (0.5)</td>
+                        <td>2.8 (0.64)</td>
+                     </tr>
+                     <tr>
+                        <td>Silt and clay (%)</td>
+                        <td>4.2 (0.6)</td>
+                        <td>4.7 (0.6)</td>
+                        <td>4.8 (0.6)</td>
+                        <td>5.7 (0.9)</td>
+                     </tr>
+                     <tr>
+                        <td>Fine sand (%)</td>
+                        <td>68.4 (3.2)</td>
+                        <td>73.5 (3.2)</td>
+                        <td>74.1 (3.8)</td>
+                        <td>74.7 (3.1)</td>
+                     </tr>
+                     <tr>
+                        <td>Coarse sand (%)</td>
+                        <td>10.7 (1.6)</td>
+                        <td>9.5 (1.7)</td>
+                        <td>7.9 (1.3)</td>
+                        <td>7.3 (1.6)</td>
+                     </tr>
+                     <tr>
+                        <td>Pebbles (%)</td>
+                        <td>6.2 (1.4)</td>
+                        <td>3.7 (1.1)</td>
+                        <td>3.2 (0.9)</td>
+                        <td>3.2 (1.0)</td>
+                     </tr>
+                     <tr>
+                        <td>Organic matter (%)</td>
+                        <td>1.6 (0.1)</td>
+                        <td>1.7 (0.2)</td>
+                        <td>1.7 (0.2)</td>
+                        <td>1.9 (0.2)</td>
+                     </tr>
+                     <tr>
+                        <td>CaCO<sub>3</sub> (%)</td>
+                        <td>4.9 (0.4)</td>
+                        <td>4.4 (0.4)</td>
+                        <td>3.8 (0.5)</td>
+                        <td>3.5 (0.3)</td>
+                     </tr>
+                     <tr>
+                        <td>Height of waves (m)</td>
+                        <td>1.5 (0.06)</td>
+                        <td>1.6 (0.04)</td>
+                        <td>2.1 (0.11)</td>
+                        <td>1.7 (0.04)</td>
+                     </tr>
+                     <tr>
+                        <td>Power of waves (10<sup>4</sup> W/s)</td>
+                        <td>20.1 (1.7)</td>
+                        <td>18.1 (7.3)</td>
+                        <td>42.8 (5.3)</td>
+                        <td>30.4 (3.4)</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </alternatives>
+         </table-wrap>
+         <p>We recorded 126 species from 33,320 individuals during the study (<xref ref-type="supplementary-material" rid="supp-1">Data S1</xref>). Polychaetes, molluscs and crustaceans made up 94% of species (polychaetes: 67 species; molluscs: 34 species; crustaceans: 18 species). Crustaceans were the most abundant group, comprising 56.5% of all individuals, mainly because of the high number of the tanaidacean <italic>Monokalliapseudes schubartti</italic> (Mañé-Garzón, 1949); polychaetes made up 39.6%, and molluscs 3.7% of catches (<xref ref-type="supplementary-material" rid="supp-1">Data S1</xref>).</p>
+         <sec>
+            <title>H1: lower habitat heterogeneity after storms</title>
+            <p>Sediment properties were spatially more homogeneous after periods of higher wave power (<xref ref-type="fig" rid="fig-3">Fig. 3A</xref>), but differences between sampling times were not significant (<xref ref-type="fig" rid="fig-4">Fig. 4A</xref>; PERMDISP <italic>P</italic> = 0.586).</p>
+            <fig id="fig-3">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/fig-3</object-id><label>Figure 3</label><caption>
+                  <title>nMDS biplot of Euclidean distance based normalized environmental data (A) and nMDS biplot of Hellinger disimilarity matrix based on macrobenthic abundance data (B).</title>
+                  <p>Samples from September 2011 are located inside the polygon plotted in red, from February 2012 in yellow, from May 2012 in blue, and from July 2012 in green. Stress for these ordination are 0.10 (A) and 0.19 (B).</p>
+               </caption>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/fig-3.png"/>
+            </fig>
+            <fig id="fig-4">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/fig-4</object-id><label>Figure 4</label><caption>
+                  <title>Habitat heterogeneity (A) and β-diversity of macrobenthic assemblages (B) during four sampling events associated with significant variation in wave energy preceding each event.</title>
+                  <p>Measure of habitat heterogeneity and β-diversity is the distance from centroids across all sites at a time. Letters and colours denote different groups (<italic>P</italic> &lt; 0.05) in permutational analysis of multivariate dispersion (PERMDISP). Error bars denote standard errors.</p>
+               </caption>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/fig-4.png"/>
+            </fig>
+         </sec>
+         <sec>
+            <title>H2: B-diversity declines after storms due to more homogenous sediment matrix</title>
+            <p>Macrobenthic assemblages showed a significantly higher βdiversity following periods of higher wave power (<xref ref-type="fig" rid="fig-3">Figs. 3B</xref> and <xref ref-type="fig" rid="fig-4">4B</xref>; PERMDISP <italic>P</italic> = 0.001). Species that contributed most to differences in macrobenthic assemblages among sampling periods are listed in <xref ref-type="table" rid="table-2">Tables 2</xref> and <xref ref-type="table" rid="table-3">3</xref>. Storm effects appear to be driven mainly by large declines in the abundance of the tanaid <italic>Monokalliapseudes schubartti</italic>, whereas polychaetes (i.e., <italic>Capitella</italic> sp.C, <italic>Heteromastus filiformis, Armandia hossfeldi</italic>) tended to increase in abundance following storm events (<xref ref-type="table" rid="table-2">Tables 2</xref> and <xref ref-type="table" rid="table-3">3</xref>).</p>
+            <table-wrap id="table-2">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/table-2</object-id><label>Table 2</label><caption>
+                  <title>Similarity percentage (SIMPER) analysis showing the contribution (%) of the five most important species to differences in species assemblages among sampling periods.</title>
+               </caption>
+               <alternatives>
+                  <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/table-2.png"/>
+                  <table>
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th/>
+                           <th><italic>Monokalliapseudes Schubarti</italic></th>
+                           <th><italic>Capitella</italic> sp. C</th>
+                           <th><italic>Heteromastus filiformis</italic></th>
+                           <th><italic>Scoloplos</italic> sp1</th>
+                           <th><italic>Armandia hossfeldi</italic></th>
+                           <th>Mean dissimilarity</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>Sep. vs. Feb.</td>
+                           <td>10.98</td>
+                           <td>4.96</td>
+                           <td>n/a</td>
+                           <td>5.34</td>
+                           <td>n/a</td>
+                           <td>68.1</td>
+                        </tr>
+                        <tr>
+                           <td>Sep. vs. May</td>
+                           <td>11.14</td>
+                           <td>6.55</td>
+                           <td>n/a</td>
+                           <td>5.46</td>
+                           <td>n/a</td>
+                           <td>74.9</td>
+                        </tr>
+                        <tr>
+                           <td>Sep. vs. July</td>
+                           <td>9.65</td>
+                           <td>6.85</td>
+                           <td>5.51</td>
+                           <td>5.27</td>
+                           <td>6.47</td>
+                           <td>69.3</td>
+                        </tr>
+                        <tr>
+                           <td>Feb. vs. May</td>
+                           <td>16.03</td>
+                           <td>8.17</td>
+                           <td>5.04</td>
+                           <td>5.44</td>
+                           <td>n/a</td>
+                           <td>75.3</td>
+                        </tr>
+                        <tr>
+                           <td>Feb. vs. July</td>
+                           <td>12.75</td>
+                           <td>7.9</td>
+                           <td>5.9</td>
+                           <td>5.37</td>
+                           <td>7.24</td>
+                           <td>71.6</td>
+                        </tr>
+                        <tr>
+                           <td>May vs. July</td>
+                           <td>8.29</td>
+                           <td>8.97</td>
+                           <td>6.63</td>
+                           <td>6.22</td>
+                           <td>8.04</td>
+                           <td>69.9</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+            </table-wrap>
+            <table-wrap id="table-3">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/table-3</object-id><label>Table 3</label><caption>
+                  <title>Temporal variation in the density (ind.m<sup>−2</sup>) of species that accounted for most of the assemblage-wide differences in macrobenthic assemblages among sampling events (cf. <xref ref-type="table" rid="table-2">Table 2</xref>).</title>
+               </caption>
+               <alternatives>
+                  <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/table-3.png"/>
+                  <table>
+                     <colgroup>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                     </colgroup>
+                     <thead>
+                        <tr>
+                           <th/>
+                           <th>September 2011</th>
+                           <th>February 2012</th>
+                           <th>May 2012</th>
+                           <th>July 2012</th>
+                        </tr>
+                        <tr>
+                           <th/>
+                           <th>mean (se)</th>
+                           <th>mean (se)</th>
+                           <th>mean (se)</th>
+                           <th>mean (se)</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><italic>Monokalliapseudes schubartii</italic></td>
+                           <td>2,151 (635)</td>
+                           <td>3,264 (571)</td>
+                           <td>1,776 (79)</td>
+                           <td>538 (276)</td>
+                        </tr>
+                        <tr>
+                           <td><italic>Capitella</italic> sp.C</td>
+                           <td>114 (68)</td>
+                           <td>521 (257)</td>
+                           <td>667 (428)</td>
+                           <td>768 (336)</td>
+                        </tr>
+                        <tr>
+                           <td><italic>Heteromastus filiformis</italic></td>
+                           <td>23 (9)</td>
+                           <td>32 (11)</td>
+                           <td>47 (12)</td>
+                           <td>133 (36)</td>
+                        </tr>
+                        <tr>
+                           <td><italic>Scoloplos</italic> sp1</td>
+                           <td>112 (30)</td>
+                           <td>63 (14)</td>
+                           <td>35 (10)</td>
+                           <td>87 (19)</td>
+                        </tr>
+                        <tr>
+                           <td><italic>Armandia hossfeldi</italic></td>
+                           <td>50 (25)</td>
+                           <td>7 (4)</td>
+                           <td>47 (19)</td>
+                           <td>224 (74)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </alternatives>
+            </table-wrap>
+         </sec>
+         <sec>
+            <title>H3: storm disturbance results in lower abundance, biomass, and species richness</title>
+            <p>Abundance, species richness and biomass were significantly lower in samples taken shortly after high-energy wave events (<xref ref-type="fig" rid="fig-5">Fig. 5</xref>). The mean number of species per site was lowest at 9.82 species after the strongest wave event, compared with 11.82 to 14.35 species at other times (<xref ref-type="fig" rid="fig-5">Fig. 5A</xref>). Abundance peaked at 4,126 ind.m<sup>−2</sup> in Feb. 2012, declining to 1,195 ind.m<sup>−2</sup> after the storm in May 2012 (<xref ref-type="fig" rid="fig-5">Fig. 5B</xref>). Biomass declined from 6.5 to 3.5 gAFDW.m<sup>−2</sup> between September 2011 and May 2012 (<xref ref-type="fig" rid="fig-5">Fig. 5C</xref>).</p>
+            <fig id="fig-5">
+               <object-id pub-id-type="doi">10.7717/peerj.3360/fig-5</object-id><label>Figure 5</label><caption>
+                  <title>Variation in the mean number of species per site (A), mean abundance (B) and mean biomass (C) of macrobenthic assemblages at four sampling events associated with significant variation in wave energy preceding each event.</title>
+                  <p>Letters and colours denote different groups in generalized linear models (<italic>P</italic> &lt; 0.05). Error bars denote standard errors.</p>
+               </caption>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/fig-5.png"/>
+            </fig>
+            <p>All major groups of intertidal macrofauna (i.e., molluscs, polychaetes, crustaceans) were affected by storms (<xref ref-type="fig" rid="fig-6">Fig. 6</xref>). The mean number of species per site of all groups was significantly lower after the strongest wave event (<italic>P</italic> &lt; 0.05) (<xref ref-type="fig" rid="fig-6">Figs. 6A</xref>–<xref ref-type="fig" rid="fig-6">6C</xref>). Temporal patterns of changes in abundance and biomass did, however, differ between groups. Crustaceans showed the most pronounced density (<xref ref-type="fig" rid="fig-6">Fig. 6F</xref>) and biomass (<xref ref-type="fig" rid="fig-6">Fig. 6I</xref>) response, declining strongly after storms. Molluscs showed a broadly similar density pattern to crustaceans, albeit being less pronounced (<xref ref-type="fig" rid="fig-6">Figs. 6D</xref> and <xref ref-type="fig" rid="fig-6">6G</xref>), whereas the abundance of polychaetes tended to increase following periods of higher wave energy (<xref ref-type="fig" rid="fig-6">Figs. 6E</xref> and <xref ref-type="fig" rid="fig-6">6H</xref>).</p>
+         </sec>
+         <sec>
+            <title>H4: species losses drive most of the change in β-diversity</title>
+            <p>Declines in species numbers accounted for most of temporal β-diversity in the macrobenthos, and its contribution was higher shortly after storms (<xref ref-type="table" rid="table-4">Table 4</xref>). By contrast, species replacement was less important.</p>
+         </sec>
+      </sec>
+      <sec sec-type="discussion">
+         <title>Discussion</title>
+         <p>Significant changes in macrobenthic species richness, abundance and biomass in a tropical tidal flat were associated with storms. This resulted in significant changes to fauna β-diversity over time that was mainly attributable to species losses, but not strongly linked to variation in habitat heterogeneity.</p>
+         <p>Previous studies about the influence of storms on coastal soft-sediment ecosystems have shown that storms may have stronger impacts on environmental features than on the fauna (e.g., <xref ref-type="bibr" rid="ref-49">Saloman &amp; Naughton, 1984</xref>; <xref ref-type="bibr" rid="ref-12">Cochôa, Lorenzi &amp; Borzone, 2006</xref>; <xref ref-type="bibr" rid="ref-2">Alves &amp; Pezzuto, 2009</xref>; <xref ref-type="bibr" rid="ref-22">Harris et al., 2011</xref>), and that offshore sediment transport is the dominant geo-morphological response of sedimentary shores to increased wave energy (<xref ref-type="bibr" rid="ref-34">Masselink et al., 2016</xref>). These studies were, however, mostly done on exposed ocean beaches, habitats with fewer species that are well adapted to high-energy conditions (<xref ref-type="bibr" rid="ref-6">Brown, 1996</xref>; <xref ref-type="bibr" rid="ref-52">Schlacher et al., 2008</xref>). By contrast, our results showed that under more sheltered conditions, storm impacts were more evident for the fauna than for the environment.</p>
+         <fig id="fig-6">
+            <object-id pub-id-type="doi">10.7717/peerj.3360/fig-6</object-id><label>Figure 6</label><caption>
+               <title>Variation in the mean number of species, abundance, and biomass of molluscs (A, D and G), polychaetes (B, E and H), and crustaceans (C, F and I) at four sampling events associated with significant variation in wave energy preceding each event.</title>
+               <p>Letters and colours denote different groups in generalized linear models (<italic>P</italic> &lt; 0.05). Error bars denote standard errors.</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/fig-6.png"/>
+         </fig>
+         <table-wrap id="table-4">
+            <object-id pub-id-type="doi">10.7717/peerj.3360/table-4</object-id><label>Table 4</label><caption>
+               <title>B-diversity and β-diversity partitioning among sampling periods.</title>
+               <p>Higher values of β-diversity denote greater differences in the composition of species and number of individuals between two consecutive sampling times. Percentages indicate the amount of variation between periods attributable to species losses or species replacement.</p>
+            </caption>
+            <alternatives>
+               <graphic mimetype="image" mime-subtype="png" xlink:href="https://peerj.com/articles/3360/table-4.png"/>
+               <table>
+                  <colgroup>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                  </colgroup>
+                  <thead>
+                     <tr>
+                        <th/>
+                        <th>Total β diversity (β<sub>total</sub>)</th>
+                        <th>Species replacement/ substitution (β<sub>repl</sub>)</th>
+                        <th>Species loss/gain richness differences (β<sub>rich</sub>)</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td>Sep. vs Feb.</td>
+                        <td>0.45</td>
+                        <td>44.4%</td>
+                        <td>56.4%</td>
+                     </tr>
+                     <tr>
+                        <td>Feb. vs May</td>
+                        <td>0.79</td>
+                        <td>16.4 %</td>
+                        <td>83.6 %</td>
+                     </tr>
+                     <tr>
+                        <td>May vs July</td>
+                        <td>0.47</td>
+                        <td>11.7 %</td>
+                        <td>89.3 %</td>
+                     </tr>
+                     <tr>
+                        <td><bold>mean</bold></td>
+                        <td>0.57</td>
+                        <td>24.2 %</td>
+                        <td>76.4 %</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </alternatives>
+         </table-wrap>
+         <p>The observed decrease in the number of species, individuals and biomass of macrobenthic assemblages may have been caused by accretion and redistribution of sediments, burying fauna at some site and winnowing them from others. Waves and currents may suspend fine-grained sediments (<xref ref-type="bibr" rid="ref-31">Lohrer, Hewitt &amp; Thrush, 2006</xref>), and alongshore sediment distribution within the same system or accretion of sediment in washover deposit can occur after storms (<xref ref-type="bibr" rid="ref-34">Masselink et al., 2016</xref>). Moreover, <xref ref-type="bibr" rid="ref-1">Alcántara-Carrió et al. (2017)</xref> showed that the seaward transport of terrigenous sediment after intense rains in combination with resuspension of sediments by storm waves and transport by wind-driven currents alter the sedimentary features in the São Sebastião Channel. These hypothesized mechanisms of fauna change are functionally supported by studies showing significant changes to the macrobenthos following sediment deposition and substantial alterations in hydrodynamic regimes (<xref ref-type="bibr" rid="ref-28">Jaramillo et al., 2012</xref>; <xref ref-type="bibr" rid="ref-15">Cummings et al., 2003</xref>; <xref ref-type="bibr" rid="ref-48">Rodil et al., 2011</xref>; <xref ref-type="bibr" rid="ref-50">Schlacher et al., 2012</xref>).</p>
+         <p>Whilst storms were followed by decreases in species richness in all major groups of the macrobenthos, changes in species richness were more pronounced in crustaceans, which also declined strongly in abundance and biomass. This was mainly a consequence of massive (−95%) declines of the tanaid <italic>Monokalliapseudes schubarti. M. schubarti</italic> is small (ca. 5 mm) and builds tubes that rarely extend for more than 5 cm into the sediment, possibly making it more susceptible to sediment erosion (<xref ref-type="bibr" rid="ref-41">Nucci, Turra &amp; Morgado, 2001</xref>). In fact, morphological traits of benthic invertebrates have been suggested to modulate storms impacts (<xref ref-type="bibr" rid="ref-35">Mateo &amp; Garcia-Rubies, 2012</xref>), with small-bodied individuals and those with low mobility thought to be more susceptible to storms (<xref ref-type="bibr" rid="ref-40">Negrello Filho &amp; Lana, 2013</xref>; <xref ref-type="bibr" rid="ref-58">Urabe et al., 2013</xref>).</p>
+         <p>Fewer species of polychaetes were recorded at lower biomass after storm events. Some species, mostly small and tubiculous forms such as <italic>Isolda pulchella</italic> (Müller in Grube, 1858), were less numerous after storms. By contrast, opportunistic polychaete species (e.g., <italic>Capitella</italic> spp, <italic>Heteromastus filiformis</italic> (<xref ref-type="bibr" rid="ref-43">Pearson &amp; Rosenberg, 1978</xref>)) increased in abundance after storms. We did not reccord significant changes in the biomass of molluscs, possibly a consequence of heavier, shelled forms of the macrobenthos being less likely to be displaced by turbublent currents associated with storms.</p>
+         <p>The relationship between wave power and changes in macrobenthic fauna metrics approximated in several cases a bell-shaped curve, suggesting a resemblance with the “intermediate disturbance hypothesis” (IDH, <xref ref-type="bibr" rid="ref-13">Connell, 1978</xref>); a core prediction of IDH is that at high disturbance levels species intolerant of the disturbance become locally extirpated whereas more intense competition limits species numbers at low disturbance intensity and frequency. Consequently, the highest number of species is expected to occur at intermediate levels of disturbance (but see <xref ref-type="bibr" rid="ref-19">Fox (2013)</xref>, <xref ref-type="bibr" rid="ref-55">Sheil &amp; Burslem (2013)</xref>, and <xref ref-type="bibr" rid="ref-25">Huston (2014)</xref> for discussions on the validity of the IDH). Arguably, disturbance by wave energy at intermediate levels may have enhanced species richness and productivity at sedimentary coastal ecosystem by reducing competition. Nevertheless, as pointed out by <xref ref-type="bibr" rid="ref-25">Huston (2014)</xref>, the causes of high diversity go beyond the simple effects of disturbances slowing the process of competitive exclusion and must include multiple ecological and evolutionary processes. In sedimentary shorelines, especially in sheltered environments, intermediate disturbance caused by waves is expected to increase water circulation processes and may also enhance biodiversity and productivity of macrobenthic assemblages by increasing the amount of food available in the water column, and/or reducing the concentration of nutrients in the sediment, resulting in lower eutrophication processes (<xref ref-type="bibr" rid="ref-11">Cloern, 2001</xref>; <xref ref-type="bibr" rid="ref-14">Corte, Coleman &amp; Amaral, 2017</xref>).</p>
+         <p>Storm effects appeared to be influenced by the timing of a storm in relation to the tidal regime. <xref ref-type="bibr" rid="ref-34">Masselink et al. (2016)</xref> found that storms impacts on the south-west coast of England were highest when the peak storm waves coincided with spring high tides. In our study, this was likely the case in May 2012 when the height of the storm passed during a spring tide. The observed effects of storms on the macrobenthic fauna of Araçá Bay also appeared to be stronger during a short time after storms. We found that differences in environmental and biotic characteristics were most pronounced in May 2012, when samples were taken one day after the storm had passed.</p>
+         <p>Most species typical of sedimentary shorelines are, to some degree, adapted to high-energy conditions and hence may recover relatively quickly (e.g., within days to weeks) from most storm events (<xref ref-type="bibr" rid="ref-22">Harris et al., 2011</xref>; <xref ref-type="bibr" rid="ref-53">Schlacher &amp; Thompson, 2013</xref>; <xref ref-type="bibr" rid="ref-33">Machado et al., 2016</xref>). For example, in a subtropical coastal soft-sediment ecosystem in South Brazil, <xref ref-type="bibr" rid="ref-20">Gallucci &amp; Netto (2004)</xref> found that abundance and number of species of macrobenthic organisms declined during the passage of a cold front, but all values were back to pre-frontal conditions within a day. Similarly, <xref ref-type="bibr" rid="ref-33">Machado et al. (2016)</xref> found recovery of macrobenthic assemblages inhabiting tropical ocean exposed beaches within seven weeks of a storm. It is important to emphasize, however, that recovery depends on the magnitude, spatial scale and return frequency of the disturbance events in soft-sediment environments and other marine systems (<xref ref-type="bibr" rid="ref-32">Lucrezi, Schlacher &amp; Robinson, 2010</xref>; <xref ref-type="bibr" rid="ref-58">Urabe et al., 2013</xref>; <xref ref-type="bibr" rid="ref-37">McClain &amp; Schlacher, 2015</xref>; <xref ref-type="bibr" rid="ref-54">Schlacher et al., 2015</xref>). The most powerful storms may cause ecological changes that require years to recover and may compromise the spatial and trophic structure of the ecosystems (<xref ref-type="bibr" rid="ref-27">Jaramillo, Croker &amp; Hatfield, 1987</xref>; <xref ref-type="bibr" rid="ref-35">Mateo &amp; Garcia-Rubies, 2012</xref>).</p>
+      </sec>
+      <sec>
+         <title>Conclusion</title>
+         <p>Here we show that storms can cause significant changes to macrobenthic assemblages inhabiting a tidal flat. Decreases in species richness, abundance, and biomass of invertebrate assemblages were related to increases in wave power. Species losses drove changes towards higher β-diversity, but the fauna appeared to recover within a few weeks. Changes in habitat features were comparatively smaller. Given that storm activity, location and intensity are predicted to change over the coming decades in a warming world (<xref ref-type="bibr" rid="ref-30">Lin &amp; Emanuel, 2016</xref>; <xref ref-type="bibr" rid="ref-59">Walsh et al., 2016</xref>), ecological changes attributed to altered storm properties are likely. Unfortunately, the functional consequences of altered storm regimes for coastal ecosystems are largely unknown, including the continued provision of ecosystem services such as coastal protection and capture fisheries. Thus, future work shall prioritise investigations of how ecological processes in coastal ecosystems respond to extreme events and which features may determine their resilience and recovery.</p>
+      </sec>
+      <sec sec-type="supplementary-material" id="supplemental-information">
+         <title> Supplemental Information</title>
+         <supplementary-material id="supp-1" mimetype="application" mime-subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet" xlink:href="https://peerj.com/articles/3360/data.xlsx">
+            <object-id pub-id-type="doi">10.7717/peerj.3360/supp-1</object-id><label>Data S1</label><caption>
+               <title>Supplementary data</title>
+            </caption>
+         </supplementary-material>
+      </sec>
+   </body>
+   <back>
+      <ack>
+         <p>We thank Elizabeth Eddy, Daniel Martin, Paulo Paiva, André Garraffoni, Maikon Di Domenico, David Schoeman, and Ronaldo Christofoletti for comments and suggestions. We are also grateful to two anonymous referees that provided very constructive comments on the manuscript. Special thanks to Angélica Godoy, Camila Silva, Nathalia Padovanni, Rachel Daolio, Décio Filho, and Renata Alitto who helped with field work and species identifications.</p>
+      </ack>
+      <sec sec-type="additional-information">
+         <title>Additional Information and Declarations</title>
+         <fn-group content-type="competing-interests">
+            <title>Competing Interests</title><fn id="conflict-1" fn-type="conflict"><p>The authors declare there are no competing interests.</p></fn></fn-group>
+         <fn-group content-type="author-contributions">
+            <title>Author Contributions</title><fn id="contribution-1" fn-type="con"><p><xref ref-type="contrib" rid="author-1">Guilherme N. Corte</xref> conceived and designed the experiments, performed the experiments, analyzed the data, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper.</p></fn><fn id="contribution-2" fn-type="con"><p><xref ref-type="contrib" rid="author-2">Thomas A. Schlacher</xref> conceived and designed the experiments, analyzed the data, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper.</p></fn><fn id="contribution-3" fn-type="con"><p><xref ref-type="contrib" rid="author-3">Helio H. Checon</xref> performed the experiments, reviewed drafts of the paper.</p></fn><fn id="contribution-4" fn-type="con"><p><xref ref-type="contrib" rid="author-4">Carlos A.M. Barboza</xref> analyzed the data, contributed reagents/materials/analysis tools, reviewed drafts of the paper.</p></fn><fn id="contribution-5" fn-type="con"><p><xref ref-type="contrib" rid="author-5">Eduardo Siegle</xref> and <xref ref-type="contrib" rid="author-7">Antonia Cecília Z. Amaral</xref> performed the experiments, contributed reagents/materials/analysis tools, reviewed drafts of the paper.</p></fn><fn id="contribution-6" fn-type="con"><p><xref ref-type="contrib" rid="author-6">Ross A. Coelman</xref> contributed reagents/materials/analysis tools, reviewed drafts of the paper.</p></fn></fn-group>
+         <fn-group content-type="other">
+            <title>Field Study Permissions</title><fn id="addinfo-1"><p>The following information was supplied relating to field study approvals (i.e., approving body and any reference numbers):</p>
+            <p>All activities complied with the license from the appropriate federal environmental agency (Ministério do Meio Ambiente (MMA)—Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio) No. 19887-1; acronyms for, in English: Ministry of the Environment—Chico Mendes Biodiversity Conservation Institute).</p></fn></fn-group>
+         <fn-group content-type="other">
+            <title>Data Availability</title><fn id="addinfo-2"><p>The following information was supplied regarding data availability:</p>
+            <p>The raw data has been supplied as <xref ref-type="supplementary-material" rid="supp-1">Data S1</xref>.</p></fn></fn-group>
+      </sec>
+      <ref-list content-type="authoryear">
+         <title>References</title>
+         <ref id="ref-1"><label>Alcántara-Carrió et al. (2017)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Alcántara-Carrió</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Sasaki</surname>
+                     <given-names>DK</given-names>
+                  </name>
+                  <name>
+                     <surname>De Mahique</surname>
+                     <given-names>MM</given-names>
+                  </name>
+                  <name>
+                     <surname>Taborda</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>De Souza</surname>
+                     <given-names>LAP</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2017">2017</year>
+               <article-title>Sedimentary constraints on the development of a narrow deep strait (São Sebastião Channel, SE Brazil)</article-title>
+               <source>Geo-Marine Letters</source>
+               <comment>Epub ahead of print Feb 17 2017</comment>
+            </element-citation>
+         </ref>
+         <ref id="ref-2"><label>Alves &amp; Pezzuto (2009)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Alves</surname>
+                     <given-names>ES</given-names>
+                  </name>
+                  <name>
+                     <surname>Pezzuto</surname>
+                     <given-names>PR</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2009">2009</year>
+               <article-title>Effect of cold fronts on the benthic macrofauna of exposed sandy beaches with contrasting morphodynamics</article-title>
+               <source>Brazilian Journal of Oceanography</source>
+               <volume>57</volume>
+               <fpage>73</fpage>
+               <lpage>94</lpage>
+               <pub-id pub-id-type="doi">10.1590/S1679-87592009000200001</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-3"><label>Amaral et al. (2010)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Amaral</surname>
+                     <given-names>ACZ</given-names>
+                  </name>
+                  <name>
+                     <surname>Migotto</surname>
+                     <given-names>AE</given-names>
+                  </name>
+                  <name>
+                     <surname>Turra</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Schaeffer-Novelli</surname>
+                     <given-names>Y</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Araçá: biodiversidade, impactos e ameaças</article-title>
+               <source>Biota Neotropica</source>
+               <volume>10</volume>
+               <fpage>219</fpage>
+               <lpage>264</lpage>
+               <pub-id pub-id-type="doi">10.1590/S1676-06032010000100022</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-4"><label>Anderson (2006)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Anderson</surname>
+                     <given-names>MJ</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <article-title>Distance-based tests for homogeneity of multivariate dispersions</article-title>
+               <source>Biometrics</source>
+               <volume>62</volume>
+               <fpage>245</fpage>
+               <lpage>253</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1541-0420.2005.00440.x</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-5"><label>Anderson, Ellingsen &amp; McArdle (2006)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Anderson</surname>
+                     <given-names>MJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Ellingsen</surname>
+                     <given-names>KE</given-names>
+                  </name>
+                  <name>
+                     <surname>McArdle</surname>
+                     <given-names>BH</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <article-title>Multivariate dispersion as a measure of beta diversity</article-title>
+               <source>Ecology Letters</source>
+               <volume>9</volume>
+               <fpage>683</fpage>
+               <lpage>693</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1461-0248.2006.00926.x</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-6"><label>Brown (1996)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Brown</surname>
+                     <given-names>AC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1996">1996</year>
+               <article-title>Behavioural plasticity as a key factor in the survival and evolution of the macrofauna on exposed sandy beaches</article-title>
+               <source>Revista Chilena de Historia Natural</source>
+               <volume>69</volume>
+               <fpage>469</fpage>
+               <lpage>474</lpage>
+               <pub-id pub-id-type="doi">10.1071/MF11127</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-7"><label>Camargo (2006)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Camargo</surname>
+                     <given-names>MG</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <article-title>Sysgran: um sistema de código aberto para análises granulométricas do sedimento</article-title>
+               <source>Revista Brasileira de Geociências</source>
+               <volume>36</volume>
+               <fpage>371</fpage>
+               <lpage>378</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-8"><label>Cardoso, Rigal &amp; Carvalho (2015)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cardoso</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Rigal</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Carvalho</surname>
+                     <given-names>JC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2015">2015</year>
+               <article-title>BAT—Biodiversity Assessment Tools, an R package for the measurement and estimation of alpha and beta taxon, phylogenetic and functional diversity</article-title>
+               <source>Methods in Ecology and Evolution</source>
+               <volume>6</volume>
+               <fpage>232</fpage>
+               <lpage>236</lpage>
+               <pub-id pub-id-type="doi">10.1111/2041-210X.12310</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-9"><label>Carvalho, Cardoso &amp; Gomes (2012)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Carvalho</surname>
+                     <given-names>JC</given-names>
+                  </name>
+                  <name>
+                     <surname>Cardoso</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Gomes</surname>
+                     <given-names>P</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2012">2012</year>
+               <article-title>Determining the relative roles of species replacement and species richness differences in generating beta-diversity patterns</article-title>
+               <source>Global Ecology and Biogeography</source>
+               <volume>21</volume>
+               <fpage>760</fpage>
+               <lpage>771</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1466-8238.2011.00694.x</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-10"><label>Clarke &amp; Gorley (2006)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Clarke</surname>
+                     <given-names>KR</given-names>
+                  </name>
+                  <name>
+                     <surname>Gorley</surname>
+                     <given-names>RN</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <source>PRIMER V6: user manual-tutorial</source>
+               <publisher-name>Plymouth Marine Laboratory</publisher-name>
+               <publisher-loc>Plymouth</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-11"><label>Cloern (2001)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cloern</surname>
+                     <given-names>JE</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2001">2001</year>
+               <article-title>Our evolving conceptual model of the coastal eutrophication problem</article-title>
+               <source>Marine Ecology Progress Series</source>
+               <volume>210</volume>
+               <fpage>223</fpage>
+               <lpage>253</lpage>
+               <pub-id pub-id-type="doi">10.3354/meps210223</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-12"><label>Cochôa, Lorenzi &amp; Borzone (2006)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cochôa</surname>
+                     <given-names>AR</given-names>
+                  </name>
+                  <name>
+                     <surname>Lorenzi</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Borzone</surname>
+                     <given-names>ACAA</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <article-title>A Influência da Passagem de uma Frente Meteorológica na Distribuição da Macrofauna Bentônica Mesolitoral de uma Praia Arenosa Exposta</article-title>
+               <source>Tropical Oceanography</source>
+               <volume>34</volume>
+               <fpage>59</fpage>
+               <lpage>71</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-13"><label>Connell (1978)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Connell</surname>
+                     <given-names>JH</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1978">1978</year>
+               <article-title>Diversity in tropical rain forests and coral reefs</article-title>
+               <source>Science</source>
+               <volume>199</volume>
+               <fpage>1302</fpage>
+               <lpage>1310</lpage>
+               <pub-id pub-id-type="doi">10.1126/science.199.4335.1302</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-14"><label>Corte, Coleman &amp; Amaral (2017)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Corte</surname>
+                     <given-names>GN</given-names>
+                  </name>
+                  <name>
+                     <surname>Coleman</surname>
+                     <given-names>RA</given-names>
+                  </name>
+                  <name>
+                     <surname>Amaral</surname>
+                     <given-names>AC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2017">2017</year>
+               <article-title>Environmental influence on population dynamics of the bivalve Anomalocardia brasiliana</article-title>
+               <source>Estuarine, Coastal and Shelf Science</source>
+               <volume>187</volume>
+               <fpage>241</fpage>
+               <lpage>248</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.ecss.2017.01.016</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-15"><label>Cummings et al. (2003)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Cummings</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Thrush</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Hewitt</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Norkko</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Pickmere</surname>
+                     <given-names>S</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2003">2003</year>
+               <article-title>Terrestrial deposits on intertidal sandflats: sediment characteristics as indicators of habitat suitability for recolonising macrofauna</article-title>
+               <source>Marine Ecology Progress Series</source>
+               <volume>253</volume>
+               <fpage>39</fpage>
+               <lpage>54</lpage>
+               <pub-id pub-id-type="doi">10.3354/meps253039</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-16"><label>Dottori, Siegle &amp; Castro (2015)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Dottori</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Siegle</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Castro</surname>
+                     <given-names>BM</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2015">2015</year>
+               <article-title>Hydrodynamics and water properties at the entrance of Araçá Bay, Brazil</article-title>
+               <source>Ocean Dynamics</source>
+               <volume>65</volume>
+               <fpage>1731</fpage>
+               <lpage>1741</lpage>
+               <pub-id pub-id-type="doi">10.1007/s10236-015-0900-4</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-17"><label>Fo (1990)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fo</surname>
+                     <given-names>C</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1990">1990</year>
+               <article-title>Wind driven currents in the Channel of São Sebastião: winter, 1979</article-title>
+               <source>Boletim do Instituto Oceanográfico</source>
+               <volume>38</volume>
+               <fpage>111</fpage>
+               <lpage>132</lpage>
+               <pub-id pub-id-type="doi">10.1590/S0373-55241990000200002</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-18"><label>Folk &amp; Ward (1957)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Folk</surname>
+                     <given-names>RL</given-names>
+                  </name>
+                  <name>
+                     <surname>Ward</surname>
+                     <given-names>WC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1957">1957</year>
+               <article-title>Brazos River Bar: a study in the significance of grain-size parameters</article-title>
+               <source>Journal of Sedimentary Petrology</source>
+               <volume>27</volume>
+               <fpage>3</fpage>
+               <lpage>26</lpage>
+               <pub-id pub-id-type="doi">10.1306/74D70646-2B21-11D7-8648000102C1865D</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-19"><label>Fox (2013)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Fox</surname>
+                     <given-names>JW</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>The intermediate disturbance hypothesis should be abandoned</article-title>
+               <source>Trends in Ecology and Evolution</source>
+               <volume>28</volume>
+               <fpage>86</fpage>
+               <lpage>92</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.tree.2012.08.014</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-20"><label>Gallucci &amp; Netto (2004)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Gallucci</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Netto</surname>
+                     <given-names>SA</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2004">2004</year>
+               <article-title>Effects of the passage of cold fronts over a coastal site: an ecosystem approach</article-title>
+               <source>Marine Ecology Progress Series</source>
+               <volume>281</volume>
+               <fpage>79</fpage>
+               <lpage>92</lpage>
+               <pub-id pub-id-type="doi">10.3354/meps281079</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-21"><label>Gattuso et al. (2015)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Gattuso</surname>
+                     <given-names>JP</given-names>
+                  </name>
+                  <name>
+                     <surname>Magnan</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Billé</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Cheung</surname>
+                     <given-names>WWL</given-names>
+                  </name>
+                  <name>
+                     <surname>Howes</surname>
+                     <given-names>EL</given-names>
+                  </name>
+                  <name>
+                     <surname>Joos</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Allemand</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Bopp</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Cooley</surname>
+                     <given-names>SR</given-names>
+                  </name>
+                  <name>
+                     <surname>Eakin</surname>
+                     <given-names>CM</given-names>
+                  </name>
+                  <name>
+                     <surname>Hoegh-Guldberg</surname>
+                     <given-names>O</given-names>
+                  </name>
+                  <name>
+                     <surname>Kelly</surname>
+                     <given-names>RP</given-names>
+                  </name>
+                  <name>
+                     <surname>Pörtner</surname>
+                     <given-names>HO</given-names>
+                  </name>
+                  <name>
+                     <surname>Rogers</surname>
+                     <given-names>AD</given-names>
+                  </name>
+                  <name>
+                     <surname>Baxter</surname>
+                     <given-names>JM</given-names>
+                  </name>
+                  <name>
+                     <surname>Laffoley</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Osborn</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Rankovic</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Rochette</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Sumaila</surname>
+                     <given-names>UR</given-names>
+                  </name>
+                  <name>
+                     <surname>Treyer</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Turley</surname>
+                     <given-names>C</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2015">2015</year>
+               <article-title>Contrasting futures for ocean and society from different anthropogenic CO2 emissions scenarios</article-title>
+               <source>Science</source>
+               <volume>349</volume>
+               <issue>6243</issue>
+               <comment>aac4722</comment>
+               <pub-id pub-id-type="doi">10.1126/science.aac4722</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-22"><label>Harris et al. (2011)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Harris</surname>
+                     <given-names>L</given-names>
+                  </name>
+                  <name>
+                     <surname>Nel</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Smale</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Schoeman</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2011">2011</year>
+               <article-title>Swashed away? Storm impacts on sandy beach macrofaunal communities</article-title>
+               <source>Estuarine Coastal and Shelf Science</source>
+               <volume>94</volume>
+               <fpage>210</fpage>
+               <lpage>221</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.ecss.2011.06.013</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-23"><label>Hauser et al. (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Hauser</surname>
+                     <given-names>DDW</given-names>
+                  </name>
+                  <name>
+                     <surname>Tobin</surname>
+                     <given-names>ED</given-names>
+                  </name>
+                  <name>
+                     <surname>Feifel</surname>
+                     <given-names>KM</given-names>
+                  </name>
+                  <name>
+                     <surname>Shah</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Pietri</surname>
+                     <given-names>DM</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Disciplinary reporting affects the interpretation of climate change impacts in global oceans</article-title>
+               <source>Global Change Biology</source>
+               <volume>22</volume>
+               <fpage>25</fpage>
+               <lpage>43</lpage>
+               <pub-id pub-id-type="doi">10.1111/gcb.12978</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-24"><label>Herbich (2000)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Herbich</surname>
+                     <given-names>JB</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2000">2000</year>
+               <source>Handbook of coastal engineering</source>
+               <publisher-name>McGraw-Hill</publisher-name>
+               <publisher-loc>New York</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-25"><label>Huston (2014)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Huston</surname>
+                     <given-names>MA</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2014">2014</year>
+               <article-title>Disturbance, productivity, and species diversity: empiricism vs. logic in ecological theory</article-title>
+               <source>Ecology</source>
+               <volume>95</volume>
+               <fpage>2382</fpage>
+               <lpage>2396</lpage>
+               <pub-id pub-id-type="doi">10.1890/13-1397.1</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-26"><label>IPCC (2013)</label><element-citation publication-type="book">
+               <year iso-8601-date="2013">2013</year>
+               <person-group person-group-type="author">
+                  <collab>IPCC</collab>
+               </person-group>
+               <article-title>Climate change 2013: the physical science basis</article-title>
+               <person-group person-group-type="editor">
+                  <name>
+                     <surname>Stocker</surname>
+                     <given-names>TF</given-names>
+                  </name>
+                  <name>
+                     <surname>Qin</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Plattner</surname>
+                     <given-names>G-K</given-names>
+                  </name>
+                  <name>
+                     <surname>Tignor</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Allen</surname>
+                     <given-names>SK</given-names>
+                  </name>
+                  <name>
+                     <surname>Boschung</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Nauels</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Xia</surname>
+                     <given-names>Y</given-names>
+                  </name>
+                  <name>
+                     <surname>Bex</surname>
+                     <given-names>V</given-names>
+                  </name>
+                  <name>
+                     <surname>Midgley</surname>
+                     <given-names>PM</given-names>
+                  </name>
+               </person-group>
+               <source>Contribution of working group I to the fifth assessment report of the intergovernmental panel on climate change</source>
+               <publisher-name>Cambridge University Press</publisher-name>
+               <publisher-loc>Cambridge</publisher-loc>
+            </element-citation>
+         </ref>
+         <ref id="ref-27"><label>Jaramillo, Croker &amp; Hatfield (1987)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Jaramillo</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Croker</surname>
+                     <given-names>RA</given-names>
+                  </name>
+                  <name>
+                     <surname>Hatfield</surname>
+                     <given-names>EB</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1987">1987</year>
+               <article-title>Long-term structure, disturbance, and recolonization of macroinfauna in a New Hampshire sand beach</article-title>
+               <source>Canadian Journal of Zoology</source>
+               <volume>65</volume>
+               <fpage>3024</fpage>
+               <lpage>3031</lpage>
+               <pub-id pub-id-type="doi">10.1139/z87-458</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-28"><label>Jaramillo et al. (2012)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Jaramillo</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Dugan</surname>
+                     <given-names>JE</given-names>
+                  </name>
+                  <name>
+                     <surname>Hubbard</surname>
+                     <given-names>DM</given-names>
+                  </name>
+                  <name>
+                     <surname>Melnick</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Manzano</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Duarte</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Campos</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Sanchez</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2012">2012</year>
+               <article-title>Ecological implications of extreme events: footprints of the 2010 earthquake along the Chilean coast</article-title>
+               <source>PLOS ONE</source>
+               <volume>7</volume>
+               <elocation-id>e35348</elocation-id>
+               <pub-id pub-id-type="doi">10.1371/journal.pone.0035348</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-29"><label>Legendre &amp; De Cáceres (2013)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Legendre</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>De Cáceres</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Beta diversity as the variance of community data: dissimilarity coefficients and partitioning</article-title>
+               <source>Ecology Letters</source>
+               <volume>16</volume>
+               <issue>8</issue>
+               <fpage>951</fpage>
+               <lpage>963</lpage>
+               <pub-id pub-id-type="doi">10.1111/ele.12141</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-30"><label>Lin &amp; Emanuel (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lin</surname>
+                     <given-names>N</given-names>
+                  </name>
+                  <name>
+                     <surname>Emanuel</surname>
+                     <given-names>K</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Grey swan tropical cyclones</article-title>
+               <source>Nature Climate Change</source>
+               <volume>6</volume>
+               <fpage>106</fpage>
+               <lpage>111</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-31"><label>Lohrer, Hewitt &amp; Thrush (2006)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lohrer</surname>
+                     <given-names>A M</given-names>
+                  </name>
+                  <name>
+                     <surname>Hewitt</surname>
+                     <given-names>JE</given-names>
+                  </name>
+                  <name>
+                     <surname>Thrush</surname>
+                     <given-names>SF</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2006">2006</year>
+               <article-title>Assessing far-field effects of terrigenous sediment loading in the coastal marine environment</article-title>
+               <source>Marine Ecology Progress Series</source>
+               <volume>315</volume>
+               <fpage>13</fpage>
+               <lpage>18</lpage>
+               <pub-id pub-id-type="doi">10.3354/meps315013</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-32"><label>Lucrezi, Schlacher &amp; Robinson (2010)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Lucrezi</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Robinson</surname>
+                     <given-names>W</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Can storms and shore armouring exert additive effects on sandy-beach habitats and biota?</article-title>
+               <source>Marine and Freshwater Research</source>
+               <volume>61</volume>
+               <fpage>951</fpage>
+               <lpage>962</lpage>
+               <pub-id pub-id-type="doi">10.1071/MF09259</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-33"><label>Machado et al. (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Machado</surname>
+                     <given-names>PM</given-names>
+                  </name>
+                  <name>
+                     <surname>Costa</surname>
+                     <given-names>LL</given-names>
+                  </name>
+                  <name>
+                     <surname>Suciu</surname>
+                     <given-names>MC</given-names>
+                  </name>
+                  <name>
+                     <surname>Tavares</surname>
+                     <given-names>DC</given-names>
+                  </name>
+                  <name>
+                     <surname>Zalmon</surname>
+                     <given-names>IR</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Extreme storm wave influence on sandy beach macrofauna with distinct human pressures</article-title>
+               <source>Marine Pollution Bulletin</source>
+               <volume>107</volume>
+               <issue>1</issue>
+               <fpage>125</fpage>
+               <lpage>135</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-34"><label>Masselink et al. (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Masselink</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Scott</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Poate</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Russell</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>Davidson</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Conley</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>The extreme 2013/2014 winter storms: hydrodynamic forcing and coastal response along the southwest coast of England</article-title>
+               <source>Earth Surface Processes and Landforms</source>
+               <volume>41</volume>
+               <fpage>378</fpage>
+               <lpage>391</lpage>
+               <pub-id pub-id-type="doi">10.1002/esp.3836</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-35"><label>Mateo &amp; Garcia-Rubies (2012)</label><element-citation publication-type="report">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Mateo</surname>
+                     <given-names>MA</given-names>
+                  </name>
+                  <name>
+                     <surname>Garcia-Rubies</surname>
+                     <given-names>T</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2012">2012</year>
+               <article-title>Assessment of the ecological impact of the extreme storm of Sant Esteve’s Day (26 December 2008) on the littoral ecosystems of the north Mediterranean Spanish coasts</article-title>
+               <source>Final Report (PIEC 200430E599)</source>
+            </element-citation>
+         </ref>
+         <ref id="ref-36"><label>McClain &amp; Barry (2010)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McClain</surname>
+                     <given-names>CR</given-names>
+                  </name>
+                  <name>
+                     <surname>Barry</surname>
+                     <given-names>JP</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Habitat heterogeneity, disturbance, and productivity work in concert to regulate biodiversity in deep submarine canyons</article-title>
+               <source>Ecology</source>
+               <volume>91</volume>
+               <fpage>964</fpage>
+               <lpage>976</lpage>
+               <pub-id pub-id-type="doi">10.1890/09-0087.1</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-37"><label>McClain &amp; Schlacher (2015)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>McClain</surname>
+                     <given-names>CR</given-names>
+                  </name>
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2015">2015</year>
+               <article-title>On some hypotheses of diversity of animal life at great depths on the sea floor</article-title>
+               <source>Marine Ecology</source>
+               <volume>36</volume>
+               <fpage>849</fpage>
+               <lpage>872</lpage>
+               <pub-id pub-id-type="doi">10.1111/maec.12288</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-38"><label>Meager, Schlacher &amp; Green (2011)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Meager</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Green</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2011">2011</year>
+               <article-title>Topographic complexity and landscape temperature patterns create a dynamic habitat structure on a rocky intertidal shore</article-title>
+               <source>Marine Ecology Progress Series</source>
+               <volume>428</volume>
+               <fpage>1</fpage>
+               <lpage>12</lpage>
+               <pub-id pub-id-type="doi">10.3354/meps09124</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-39"><label>Nagelkerken &amp; Munday (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nagelkerken</surname>
+                     <given-names>I</given-names>
+                  </name>
+                  <name>
+                     <surname>Munday</surname>
+                     <given-names>PL</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Animal behaviour shapes the ecological effects of ocean acidification and warming: moving from individual to community-level responses</article-title>
+               <source>Global Change Biology</source>
+               <volume>22</volume>
+               <fpage>974</fpage>
+               <lpage>989</lpage>
+               <pub-id pub-id-type="doi">10.1111/gcb.13167</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-40"><label>Negrello Filho &amp; Lana (2013)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Negrello Filho</surname>
+                     <given-names>OA</given-names>
+                  </name>
+                  <name>
+                     <surname>Lana</surname>
+                     <given-names>PC</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Short-term stability of estuarine benthic assemblages: are storms pattern-defining events?</article-title>
+               <source>Zoologia</source>
+               <volume>30</volume>
+               <fpage>266</fpage>
+               <lpage>272</lpage>
+               <pub-id pub-id-type="doi">10.1590/S1984-46702013000300003</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-41"><label>Nucci, Turra &amp; Morgado (2001)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Nucci</surname>
+                     <given-names>PR</given-names>
+                  </name>
+                  <name>
+                     <surname>Turra</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Morgado</surname>
+                     <given-names>EH</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2001">2001</year>
+               <article-title>Diversity and distribution of crustaceans from 13 sheltered sandy beaches along Sao Sebastiao Channel, south-eastern Brazil</article-title>
+               <source>Journal of the Marine Biological Association of the United Kingdom</source>
+               <volume>81</volume>
+               <fpage>475</fpage>
+               <lpage>484</lpage>
+               <pub-id pub-id-type="doi">10.1017/S0025315401004118</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-42"><label>Oksanen et al. (2007)</label><element-citation publication-type="software">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Oksanen</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Kindt</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Legendre</surname>
+                     <given-names>P</given-names>
+                  </name>
+                  <name>
+                     <surname>O’Hara</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Stevens</surname>
+                     <given-names>MHH</given-names>
+                  </name>
+                  <name>
+                     <surname>Oksanen</surname>
+                     <given-names>MJ</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2007">2007</year>
+               <data-title>The vegan package</data-title>
+               <source>Community ecology package</source>
+               <uri>http://vegan.r-forge.r-project.org/</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-43"><label>Pearson &amp; Rosenberg (1978)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Pearson</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Rosenberg</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <article-title>Macrobenthic succession in relation to organic enrichment and pollution of the marine environment</article-title>
+               <source>Oceanography and Marine Biology Annual Review</source>
+               <year iso-8601-date="1978">1978</year>
+               <volume>16</volume>
+               <fpage>229</fpage>
+               <lpage>311</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-44"><label>Pianca, Mazzini &amp; Siegle (2010)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Pianca</surname>
+                     <given-names>C</given-names>
+                  </name>
+                  <name>
+                     <surname>Mazzini</surname>
+                     <given-names>PL</given-names>
+                  </name>
+                  <name>
+                     <surname>Siegle</surname>
+                     <given-names>E</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2010">2010</year>
+               <article-title>Brazilian offshore wave climate based on NWW3 reanalysis</article-title>
+               <source>Brazilian Journal of Oceanography</source>
+               <volume>58</volume>
+               <fpage>53</fpage>
+               <lpage>70</lpage>
+               <pub-id pub-id-type="doi">10.1590/S1679-87592010000100006</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-45"><label>Podani &amp; Schmera (2011)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Podani</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Schmera</surname>
+                     <given-names>D</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2011">2011</year>
+               <article-title>A new conceptual and methodological framework for exploring and explaining pattern in presence – absence data</article-title>
+               <source>Oikos</source>
+               <volume>120</volume>
+               <fpage>1625</fpage>
+               <lpage>1638</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1600-0706.2011.19451.x</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-46"><label>Posey et al. (1996)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Posey</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Lindberg</surname>
+                     <given-names>W</given-names>
+                  </name>
+                  <name>
+                     <surname>Alphin</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Vose</surname>
+                     <given-names>F</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1996">1996</year>
+               <article-title>Influence of storm disturbance on an offshore benthic community</article-title>
+               <source>Bulletin of Marine Science</source>
+               <volume>59</volume>
+               <fpage>523</fpage>
+               <lpage>529</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-47"><label>Ripley et al. (2013)</label><element-citation publication-type="software">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Ripley</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Venables</surname>
+                     <given-names>B</given-names>
+                  </name>
+                  <name>
+                     <surname>Bates</surname>
+                     <given-names>DM</given-names>
+                  </name>
+                  <name>
+                     <surname>Hornik</surname>
+                     <given-names>K</given-names>
+                  </name>
+                  <name>
+                     <surname>Gebhardt</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Firth</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Ripley</surname>
+                     <given-names>MB</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <data-title>Package ‘MASS’</data-title>
+               <uri>https://cran.r-project.org/web/packages/MASS/index.html</uri>
+            </element-citation>
+         </ref>
+         <ref id="ref-48"><label>Rodil et al. (2011)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Rodil</surname>
+                     <given-names>IF</given-names>
+                  </name>
+                  <name>
+                     <surname>Lohrer</surname>
+                     <given-names>AM</given-names>
+                  </name>
+                  <name>
+                     <surname>Chiaroni</surname>
+                     <given-names>LD</given-names>
+                  </name>
+                  <name>
+                     <surname>Hewitt</surname>
+                     <given-names>JE</given-names>
+                  </name>
+                  <name>
+                     <surname>Thrush</surname>
+                     <given-names>SF</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2011">2011</year>
+               <article-title>Disturbance of sandflats by thin terrigenous sediment deposits: consequences for primary production and nutrient cycling</article-title>
+               <source>Ecological Applications</source>
+               <volume>21</volume>
+               <fpage>416</fpage>
+               <lpage>426</lpage>
+               <pub-id pub-id-type="doi">10.1890/09-1845.1</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-49"><label>Saloman &amp; Naughton (1984)</label><element-citation publication-type="report">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Saloman</surname>
+                     <given-names>CH</given-names>
+                  </name>
+                  <name>
+                     <surname>Naughton</surname>
+                     <given-names>SP</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="1984">1984</year>
+               <article-title>Beach restoration with offshore dredged sand: effects on nearshore macroinfauna</article-title>
+               <source>NOOA Technical Memorandum NMFS-SEFC-133</source>
+            </element-citation>
+         </ref>
+         <ref id="ref-50"><label>Schlacher et al. (2012)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Noriega</surname>
+                     <given-names>R</given-names>
+                  </name>
+                  <name>
+                     <surname>Jones</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Dye</surname>
+                     <given-names>T</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2012">2012</year>
+               <article-title>The effects of beach nourishment on benthic invertebrates in eastern Australia: impacts and variable recovery</article-title>
+               <source>Science of the Total Environment</source>
+               <volume>435</volume>
+               <fpage>411</fpage>
+               <lpage>417</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.scitotenv.2012.06.071</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-51"><label>Schlacher et al. (2007)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Schlacher-Hoenlinger</surname>
+                     <given-names>MA</given-names>
+                  </name>
+                  <name>
+                     <surname>Williams</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Althaus</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>Hooper</surname>
+                     <given-names>JA</given-names>
+                  </name>
+                  <name>
+                     <surname>Kioser</surname>
+                     <given-names>R</given-names>
+                  </name>
+               </person-group>
+               <article-title>Richness and distribution of sponge megabenthos in continental margin canyons off southeastern Australia</article-title>
+               <source>Marine Ecology Progress Series</source>
+               <year iso-8601-date="2007">2007</year>
+               <volume>340</volume>
+               <fpage>73</fpage>
+               <lpage>78</lpage>
+            </element-citation>
+         </ref>
+         <ref id="ref-52"><label>Schlacher et al. (2008)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Schoeman</surname>
+                     <given-names>DS</given-names>
+                  </name>
+                  <name>
+                     <surname>Dugan</surname>
+                     <given-names>JE</given-names>
+                  </name>
+                  <name>
+                     <surname>Lastra</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Jones</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Scapini</surname>
+                     <given-names>F</given-names>
+                  </name>
+                  <name>
+                     <surname>McLachlan</surname>
+                     <given-names>A</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2008">2008</year>
+               <article-title>Sandy beach ecosystems: key features, sampling issues, management challenges and climate change impacts</article-title>
+               <source>Marine Ecology</source>
+               <volume>29</volume>
+               <issue>S1</issue>
+               <fpage>70</fpage>
+               <lpage>90</lpage>
+               <pub-id pub-id-type="doi">10.1111/j.1439-0485.2007.00204.x</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-53"><label>Schlacher &amp; Thompson (2013)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Thompson</surname>
+                     <given-names>L</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Environmental control of community organisation on ocean-exposed sandy beaches</article-title>
+               <source>Marine and Freshwater Research</source>
+               <volume>64</volume>
+               <fpage>119</fpage>
+               <lpage>129</lpage>
+               <pub-id pub-id-type="doi">10.1071/MF12172</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-54"><label>Schlacher et al. (2015)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Schlacher</surname>
+                     <given-names>TA</given-names>
+                  </name>
+                  <name>
+                     <surname>Weston</surname>
+                     <given-names>MA</given-names>
+                  </name>
+                  <name>
+                     <surname>Schoeman</surname>
+                     <given-names>DS</given-names>
+                  </name>
+                  <name>
+                     <surname>Olds</surname>
+                     <given-names>AD</given-names>
+                  </name>
+                  <name>
+                     <surname>Huijbers</surname>
+                     <given-names>CM</given-names>
+                  </name>
+                  <name>
+                     <surname>Connolly</surname>
+                     <given-names>RM</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2015">2015</year>
+               <article-title>Golden opportunities: a horizon scan to expand sandy beach ecology</article-title>
+               <source>Estuarine, Coastal and Shelf Science</source>
+               <volume>157</volume>
+               <fpage>1</fpage>
+               <lpage>6</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.ecss.2015.02.002</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-55"><label>Sheil &amp; Burslem (2013)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Sheil</surname>
+                     <given-names>D</given-names>
+                  </name>
+                  <name>
+                     <surname>Burslem</surname>
+                     <given-names>DF</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Defining and defending Connell’s intermediate disturbance hypothesis: a response to Fox</article-title>
+               <source>Trends in Ecology and Evolution</source>
+               <volume>28</volume>
+               <fpage>571</fpage>
+               <lpage>572</lpage>
+               <pub-id pub-id-type="doi">10.1016/j.tree.2013.07.006</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-56"><label>Suguio (1973)</label><element-citation publication-type="book">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Suguio</surname>
+                     <given-names>K</given-names>
+                  </name>
+               </person-group>
+               <source>Introducāo a sedimentologia</source>
+               <year iso-8601-date="1973">1973</year>
+               <publisher-loc>Sāo Paulo</publisher-loc>
+               <publisher-name>EDUSP</publisher-name>
+            </element-citation>
+         </ref>
+         <ref id="ref-57"><label>Turra et al. (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Turra</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Pombo</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Petracco</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Siegle</surname>
+                     <given-names>E</given-names>
+                  </name>
+                  <name>
+                     <surname>Fonseca</surname>
+                     <given-names>M</given-names>
+                  </name>
+                  <name>
+                     <surname>Denadai</surname>
+                     <given-names>MR</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Frequency, magnitude, and possible causes of stranding and mass-mortality events of the beach clam Tivela mactroides (Bivalvia: Veneridae)</article-title>
+               <source>PLOS ONE</source>
+               <volume>11</volume>
+               <issue>1</issue>
+               <elocation-id>e0146323</elocation-id>
+               <pub-id pub-id-type="doi">10.1371/journal.pone.0146323</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-58"><label>Urabe et al. (2013)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Urabe</surname>
+                     <given-names>J</given-names>
+                  </name>
+                  <name>
+                     <surname>Suzuki</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Nishita</surname>
+                     <given-names>T</given-names>
+                  </name>
+                  <name>
+                     <surname>Makino</surname>
+                     <given-names>W</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2013">2013</year>
+               <article-title>Immediate ecological impacts of the 2011 Tohoku earthquake tsunami on intertidal flat communities</article-title>
+               <source>PLOS ONE</source>
+               <volume>8</volume>
+               <issue>5</issue>
+               <elocation-id>e62779</elocation-id>
+               <pub-id pub-id-type="doi">10.1371/journal.pone.0062779</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-59"><label>Walsh et al. (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Walsh</surname>
+                     <given-names>KJE</given-names>
+                  </name>
+                  <name>
+                     <surname>McBride</surname>
+                     <given-names>JL</given-names>
+                  </name>
+                  <name>
+                     <surname>Klotzbach</surname>
+                     <given-names>PJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Balachandran</surname>
+                     <given-names>S</given-names>
+                  </name>
+                  <name>
+                     <surname>Camargo</surname>
+                     <given-names>SJ</given-names>
+                  </name>
+                  <name>
+                     <surname>Holland</surname>
+                     <given-names>G</given-names>
+                  </name>
+                  <name>
+                     <surname>Knutson</surname>
+                     <given-names>TR</given-names>
+                  </name>
+                  <name>
+                     <surname>Kossin</surname>
+                     <given-names>JP</given-names>
+                  </name>
+                  <name>
+                     <surname>Lee</surname>
+                     <given-names>TC</given-names>
+                  </name>
+                  <name>
+                     <surname>Sobel</surname>
+                     <given-names>A</given-names>
+                  </name>
+                  <name>
+                     <surname>Sugi</surname>
+                     <given-names>M</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Tropical cyclones and climate change</article-title>
+               <source>Wiley Interdisciplinary Reviews: Climate Change</source>
+               <volume>7</volume>
+               <fpage>65</fpage>
+               <lpage>89</lpage>
+               <pub-id pub-id-type="doi">10.1038/ngeo779</pub-id>
+            </element-citation>
+         </ref>
+         <ref id="ref-60"><label>Weatherdon et al. (2016)</label><element-citation publication-type="journal">
+               <person-group person-group-type="author">
+                  <name>
+                     <surname>Weatherdon</surname>
+                     <given-names>LV</given-names>
+                  </name>
+                  <name>
+                     <surname>Magnan</surname>
+                     <given-names>AK</given-names>
+                  </name>
+                  <name>
+                     <surname>Rogers</surname>
+                     <given-names>AD</given-names>
+                  </name>
+                  <name>
+                     <surname>Sumaila</surname>
+                     <given-names>UR</given-names>
+                  </name>
+                  <name>
+                     <surname>Cheung</surname>
+                     <given-names>WWL</given-names>
+                  </name>
+               </person-group>
+               <year iso-8601-date="2016">2016</year>
+               <article-title>Observed and projected impacts of climate change on marine fisheries, aquaculture, coastal tourism, and human health: an update</article-title>
+               <source>Frontiers in Marine Science</source>
+               <comment>Epub ahead of print April 19 2016</comment>
+               <pub-id pub-id-type="doi">10.3389/fmars.2016.00048</pub-id>
+            </element-citation>
+         </ref>
+      </ref-list>
+   </back>
+</article>

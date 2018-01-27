@@ -5,7 +5,10 @@ title <- function(b, from){
          entrez = f1txt(b, "//title-group/article-title"),
          elsevier = f1txt(b, "//dc:title"),
          hindawi = f1txt(b, "//article-title"),
-         pensoft = f1txt(b, "//article-title")
+         pensoft = f1txt(b, "//article-title"),
+         peerj = f1txt(b, "//article-title"),
+         copernicus = f1txt(b, "//article-title"),
+         frontiers = f1txt(b, "//article-title")
   )
 }
 
@@ -14,7 +17,9 @@ doi <- function(b, from){
          elife = f1txt(b, "//article-id[@pub-id-type='doi']"),
          plos = f1txt(b, "//article-id[@pub-id-type='doi']"),
          entrez = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         elsevier = f1txt(b, "//dc:identifier")
+         elsevier = f1txt(b, "//dc:identifier"),
+         copernicus = f1txt(b, "//article-id[@pub-id-type='doi']"),
+         frontiers = f1txt(b, "//article-id[@pub-id-type='doi']")
   )
 }
 
@@ -23,7 +28,8 @@ categories <- function(b, from){
          elife = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
          plos = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
          entrez = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         elsevier = falltxt(b, "//dcterms:subject")
+         elsevier = falltxt(b, "//dcterms:subject"),
+         frontiers = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject"))
   )
 }
 
@@ -42,7 +48,10 @@ authors <- function(b, from){
     entrez = get_auth(b),
     elsevier = falltxt(b, "//dc:creator"),
     hindawi = get_auth(b),
-    pensoft = get_auth(b)
+    pensoft = get_auth(b),
+    peerj = get_auth(b),
+    copernicus = get_auth(b),
+    frontiers = get_auth(b)
   )
 }
 
@@ -79,7 +88,10 @@ abstract <- function(b, from){
     entrez = falltxt(b, "//abstract"),
     elsevier = f1txt(b, "//dc:description"),
     hindawi = f1txt(b, "//abstract"),
-    pensoft = f1txt(b, "//abstract")
+    pensoft = f1txt(b, "//abstract"),
+    peerj = f1txt(b, "//abstract"),
+    copernicus = f1txt(b, "//abstract"),
+    frontiers = f1txt(b, "//abstract")
   )
 }
 
@@ -118,7 +130,10 @@ refs <- function(b, from){
     entrez = falltxt(b, "//ref-list/ref"),
     elsevier = falltxt(b, "//ce:bib-reference"),
     hindawi = falltxt(b, "//ref-list/ref"),
-    pensoft = falltxt(b, "//ref-list/ref")
+    pensoft = falltxt(b, "//ref-list/ref"),
+    peerj = falltxt(b, "//ref-list/ref"),
+    copernicus = falltxt(b, "//ref-list/ref"),
+    frontiers = falltxt(b, "//ref-list/ref")
   )
 }
 
@@ -128,7 +143,9 @@ publisher <- function(b, from){
     elife = falltxt(b, "//publisher"),
     plos = falltxt(b, "//publisher"),
     entrez = falltxt(b, "//publisher"),
-    elsevier = f1txt(b, "//prism:publisher")
+    elsevier = f1txt(b, "//prism:publisher"),
+    copernicus = f1txt(b, "//publisher"),
+    frontiers = f1txt(b, "//publisher")
   )
 }
 
@@ -138,7 +155,9 @@ journal_meta <- function(b, from){
     elife = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
     plos = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
     entrez = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
-    elsevier = NULL
+    elsevier = NULL,
+    copernicus = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
+    frontiers = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse)
   )
 }
 
@@ -148,7 +167,9 @@ article_meta <- function(b, from){
     elife = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
     plos = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
     entrez = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
-    elsevier = NULL
+    elsevier = NULL,
+    copernicus = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
+    frontiers = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse)
   )
 }
 
@@ -172,7 +193,9 @@ permissions <- function(b, from){
               copyright_text = f1txt(tmp, "xocs:cp-license-lines"),
               copyright_notice = f1txt(tmp, "xocs:cp-notices")
             )
-         }
+         },
+         copernicus = getperms(b),
+         frontiers = getperms(b)
   )
 }
 
@@ -189,7 +212,9 @@ front <- function(b, from){
          elife = get_forb(b, "//front"),
          plos = get_forb(b, "//front"),
          entrez = get_forb(b, "//front"),
-         elsevier = NULL
+         elsevier = NULL,
+         copernicus = get_forb(b, "//front"),
+         frontiers = get_forb(b, "//front")
   )
 }
 
@@ -198,7 +223,9 @@ back <- function(b, from){
          elife = get_forb(b, "//back"),
          plos = get_forb(b, "//back"),
          entrez = get_forb(b, "//back"),
-         elsevier = NULL
+         elsevier = NULL,
+         copernicus = get_forb(b, "//back"),
+         frontiers = get_forb(b, "//back")
   )
 }
 
@@ -214,7 +241,8 @@ history <- function(b, from){
          elife = history2date(b),
          plos = history2date(b),
          entrez = history2date(b),
-         elsevier = NULL
+         elsevier = NULL,
+         frontiers = history2date(b)
   )
 }
 
