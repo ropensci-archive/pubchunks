@@ -8,17 +8,20 @@ pubchunks
 
 __Get chunks of XML articles__
 
-... still working through whether this will be a package or not and how it would work ...
-
 
 ## Supported publishers/sources
 
 - eLife
 - PLOS
-- Entrez
+- Entrez/Pubmed
 - Elsevier
 - Hindawi
 - Pensoft
+- PeerJ
+- Copernicus
+- Frontiers
+
+If you know of other publishers or sources that provide XML let us know by [opening an issue](https://github.com/ropensci/pubchunks/issues).
 
 
 ## Installation
@@ -27,8 +30,6 @@ Development version from GitHub
 
 
 ```r
-# get latest fulltext
-install.packages("fulltext")
 devtools::install_github("ropensci/pubchunks")
 ```
 
@@ -96,6 +97,11 @@ pub_chunks(xml, "elsevier", "title")
 
 
 ```r
+install.packages("fulltext")
+```
+
+
+```r
 library("fulltext")
 x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
 pub_chunks(fulltext::ft_collect(x), sections="authors")
@@ -134,9 +140,6 @@ pub_chunks(fulltext::ft_collect(x), sections="authors")
 #> [1] "Bradford"
 ```
 
-## Contributors
-
-* Scott Chamberlain <http://github.com/sckott>
 
 ## Meta
 
