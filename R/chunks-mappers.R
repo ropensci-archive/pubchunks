@@ -140,12 +140,12 @@ refs <- function(b, from){
 publisher <- function(b, from){
   switch(
     from,
-    elife = falltxt(b, "//publisher"),
-    plos = falltxt(b, "//publisher"),
-    entrez = falltxt(b, "//publisher"),
+    elife = falltxt(b, "//publisher/publisher-name"),
+    plos = falltxt(b, "//publisher/publisher-name"),
+    entrez = falltxt(b, "//publisher/publisher-name"),
     elsevier = f1txt(b, "//prism:publisher"),
-    copernicus = f1txt(b, "//publisher"),
-    frontiers = f1txt(b, "//publisher")
+    copernicus = f1txt(b, "//publisher/publisher-name"),
+    frontiers = f1txt(b, "//publisher/publisher-name")
   )
 }
 
