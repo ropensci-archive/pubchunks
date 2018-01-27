@@ -50,16 +50,16 @@ x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml",
 
 
 ```r
-pub_chunks(x, "elsevier", "abstract")
+pub_chunks(x, "abstract")
 #> $abstract
 #> [1] "Abstract\n               \n                  This paper is concerned with the study of the problem of a field of steady-state vibrations excited in an elastic half-space by means of a rigid circular piston with an infinite rigid and smooth collar. Formulas for the active and reactive resistance of the connection between the field of wave propagation and the piston are obtained in terms of tabulated functions. Results of the analysis are presented for the case of driving a piston into an elastic Poisson medium."
-pub_chunks(x, "elsevier", "title")
+pub_chunks(x, "title")
 #> $title
 #> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
-pub_chunks(x, "elsevier", "authors")
+pub_chunks(x, "authors")
 #> $authors
 #> [1] "Chetaev, D.N"
-pub_chunks(x, "elsevier", c("title", "refs"))
+pub_chunks(x, c("title", "refs"))
 #> $title
 #> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
 #> 
@@ -77,7 +77,7 @@ pub_chunks(x, "elsevier", c("title", "refs"))
 
 ```r
 xml <- paste0(readLines(x), collapse = "")
-pub_chunks(xml, "elsevier", "title")
+pub_chunks(xml, "title")
 #> $title
 #> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
 ```
@@ -88,7 +88,7 @@ pub_chunks(xml, "elsevier", "title")
 ```r
 xml <- paste0(readLines(x), collapse = "")
 xml <- xml2::read_xml(xml)
-pub_chunks(xml, "elsevier", "title")
+pub_chunks(xml, "title")
 #> $title
 #> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
 ```

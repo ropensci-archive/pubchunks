@@ -53,17 +53,17 @@ x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml",
 ```
 
 ```{r}
-pub_chunks(x, "elsevier", "abstract")
-pub_chunks(x, "elsevier", "title")
-pub_chunks(x, "elsevier", "authors")
-pub_chunks(x, "elsevier", c("title", "refs"))
+pub_chunks(x, "abstract")
+pub_chunks(x, "title")
+pub_chunks(x, "authors")
+pub_chunks(x, c("title", "refs"))
 ```
 
 ## Working with the xml already in a string
 
 ```{r}
 xml <- paste0(readLines(x), collapse = "")
-pub_chunks(xml, "elsevier", "title")
+pub_chunks(xml, "title")
 ```
 
 ## Working with xml2 class object
@@ -71,7 +71,7 @@ pub_chunks(xml, "elsevier", "title")
 ```{r}
 xml <- paste0(readLines(x), collapse = "")
 xml <- xml2::read_xml(xml)
-pub_chunks(xml, "elsevier", "title")
+pub_chunks(xml, "title")
 ```
 
 ## Working with output of fulltext::ft_get()
