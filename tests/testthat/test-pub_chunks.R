@@ -2,7 +2,7 @@ context("pub_chunks")
 
 x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
 
-test_that("pub_chunks returns...", {
+test_that("pub_chunks works", {
   skip_on_cran()
 
   # single sections
