@@ -27,6 +27,9 @@
 #' (x <- system.file("examples/elsevier_1.xml", package = "pubchunks"))
 #' pub_guess_publisher(x)
 pub_guess_publisher <- function(x) {
+  if (!class(x)[[1L]] %in% c("character", "xml_document")) {
+    stop("x must be of class character or xml_document")
+  }
   x <- check_xml(x)
   tmp <- falltxt(x, "//publisher/publisher-name")
   if (length(tmp) == 0) tmp <- f1txt(x, "//prism:publisher")

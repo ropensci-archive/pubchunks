@@ -19,5 +19,5 @@ pub_tabularize <- function(x){
     # })
   # })
   # lapply(out, rbl)
-  lapply(x, rbind_fill)
+  lapply(x, data.table::rbindlist)
 }
