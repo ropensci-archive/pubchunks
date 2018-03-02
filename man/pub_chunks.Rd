@@ -43,6 +43,7 @@ references
 \item doi - Article DOI
 \item categories - Publisher's categories, if any
 \item authors - Authors
+\item aff - Affiliation (includes author names)
 \item keywords - Keywords
 \item abstract - Article abstract
 \item executive_summary - Article executive summary
@@ -79,29 +80,42 @@ pub_chunks(xml, "title")
 # Hindawi
 x <- system.file("examples/hindawi_1.xml", package = "pubchunks")
 pub_chunks(x, "abstract")
+pub_chunks(x, "authors")
+pub_chunks(x, "aff")
 pub_chunks(x, "title")
 pub_chunks(x, c("abstract", "title", "authors", "refs"))
 
 # Pensoft
 x <- system.file("examples/pensoft_1.xml", package = "pubchunks")
 pub_chunks(x, "abstract")
+pub_chunks(x, "aff")
 pub_chunks(x, "title")
 pub_chunks(x, c("abstract", "title", "authors", "refs"))
 
 # Peerj
 x <- system.file("examples/peerj_1.xml", package = "pubchunks")
 pub_chunks(x, "abstract")
+pub_chunks(x, "authors")
+pub_chunks(x, "aff")
 pub_chunks(x, "title")
 pub_chunks(x, c("abstract", "title", "authors", "refs"))
 
 # Copernicus
-x <- system.file("examples/copernicus_2.xml", package = "pubchunks")
+x <- system.file("examples/copernicus_1.xml", package = "pubchunks")
 pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))
+pub_chunks(x, "aff")
 
 # Frontiers
 x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
-pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"), "frontiers")
+pub_chunks(x, "authors")
+pub_chunks(x, "aff")
 pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))
+
+# eLife
+x <- system.file("examples/elife_1.xml", package = "pubchunks")
+pub_chunks(x, "authors")
+pub_chunks(x, "aff")
+pub_chunks(x, c("doi", "title", "authors", "refs"))
 
 \dontrun{
 # using output of fulltext::ft_get()

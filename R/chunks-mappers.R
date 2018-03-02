@@ -55,6 +55,53 @@ authors <- function(b, from){
   )
 }
 
+aff <- function(b, from){
+  get_aff <- function(v){
+    # affiliations
+    affs <- xml2::xml_find_all(v, "//aff")
+    affs_ <- merge_node_groups(affs)
+    
+    # authors
+    auths <- xml2::xml_find_all(v, "//contrib[@contrib-type='author']")
+    auths_ <- lapply(auths, function(z){
+      list(
+        given_names = f1txt(z, "name/given-names"),
+        surname = f1txt(z, "name/surname"),
+        id = xml2::xml_attr(
+          xml2::xml_find_first(z, "xref[@ref-type=\"aff\"]"), "rid")
+      )
+    })
+    apply(merge(rbl(affs_), rbl(auths_), by = "id"), 1, as.list)
+  }
+  switch(
+    from,
+    elife = get_aff(b),
+    plos = get_aff(b),
+    entrez = get_aff(b),
+    elsevier = NULL,
+    hindawi = get_aff(b),
+    pensoft = get_aff(b),
+    peerj = get_aff(b),
+    copernicus = NULL,
+    frontiers = get_aff(b)
+  )
+}
+
+merge_node_groups <- function(x) {
+  lapply(x, function(z) {
+    nms <- xml2::xml_name(xml2::xml_children(z))
+    nms <- grep("sup", nms, invert = TRUE, value = TRUE)
+    nms <- unique(nms)
+    c(
+      stats::setNames(
+        lapply(nms, function(w) paste0(falltxt(z, w), collapse = ", ")), 
+        nms),
+      id = xml2::xml_attr(z, "id")
+    )
+
+  })
+}
+
 keywords <- function(b, from){
   switch(
     from,
@@ -125,7 +172,7 @@ refs_dois <- function(b, from){
 refs <- function(b, from){
   switch(
     from,
-    elife = NULL,
+    elife = falltxt(b, "//ref-list/ref"),
     plos = falltxt(b, "//ref-list/ref/mixed-citation"),
     entrez = falltxt(b, "//ref-list/ref"),
     elsevier = falltxt(b, "//ce:bib-reference"),

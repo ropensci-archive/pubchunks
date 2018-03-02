@@ -11,6 +11,7 @@ get_what <- function(data, what, from){
            doi = doi(data, from),
            categories = categories(data, from),
            authors = authors(data, from),
+           aff = aff(data, from),
            keywords = keywords(data, from),
            refs_dois = refs_dois(data, from),
            refs = refs(data, from),

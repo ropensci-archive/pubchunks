@@ -7,5 +7,5 @@
 #' @examples
 #' pub_providers()
 pub_providers <- function() {
-  c("elife", "plos", "entrez", "elsevier")
+  c("elife", "plos", "entrez", "elsevier", "frontiers")
 }

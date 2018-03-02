@@ -1,7 +1,7 @@
 Package: pubchunks
 Title: Get chunks of XML articles
 Description: Get chunks of XML articles.
-Version: 0.0.3.92310
+Version: 0.0.3.9631
 License: MIT + file LICENSE
 Authors@R: c(
     person("Scott", "Chamberlain",
