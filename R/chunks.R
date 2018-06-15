@@ -6,9 +6,13 @@
 #' output downstream for visualization and analysis.
 #'
 #' @export
-#' @param x A file path for an XML file, or a character string of XML, 
-#' or an object of class `fulltext::ft_data`, the output from a call to
-#' [fulltext::ft_get()]
+#' @param x one of the following:
+#' 
+#' - file path for an XML file
+#' - a character string of XML, a list (of file paths, or XML in a character 
+#'   string, or `xml_document` objects)
+#' - or an object of class `fulltext::ft_data`, the output from a call to
+#'   [fulltext::ft_get()]
 #' @param sections (character) What elements to get, can be one or more in 
 #' a vector or list. See [pub_sections()] for options. optional. Default is 
 #' to get all sections. See Details.
@@ -130,6 +134,11 @@ pub_chunks.character <- function(x, sections = 'all', provider = NULL) {
 #' @export
 pub_chunks.xml_document <- function(x, sections = 'all', provider = NULL) {
   get_what(data = x, sections, pgp(x, provider))
+}
+
+#' @export
+pub_chunks.list <- function(x, sections = 'all', provider = NULL) {
+  lapply(x, pub_chunks, sections = sections, provider = provider)
 }
 
 #' @export

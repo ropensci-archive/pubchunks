@@ -3,6 +3,7 @@
 S3method(pub_chunks,character)
 S3method(pub_chunks,default)
 S3method(pub_chunks,ft_data)
+S3method(pub_chunks,list)
 S3method(pub_chunks,xml_document)
 export(pub_chunks)
 export(pub_guess_publisher)

@@ -7,9 +7,14 @@
 pub_chunks(x, sections = "all", provider = NULL)
 }
 \arguments{
-\item{x}{A file path for an XML file, or a character string of XML,
-or an object of class \code{fulltext::ft_data}, the output from a call to
-\code{\link[fulltext:ft_get]{fulltext::ft_get()}}}
+\item{x}{one of the following:
+\itemize{
+\item file path for an XML file
+\item a character string of XML, a list (of file paths, or XML in a character
+string, or \code{xml_document} objects)
+\item or an object of class \code{fulltext::ft_data}, the output from a call to
+\code{\link[fulltext:ft_get]{fulltext::ft_get()}}
+}}
 
 \item{sections}{(character) What elements to get, can be one or more in
 a vector or list. See \code{\link[=pub_sections]{pub_sections()}} for options. optional. Default is
