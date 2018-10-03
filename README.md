@@ -96,6 +96,10 @@ pub_chunks(x, c("title", "refs"))
 #>   sections: title, refs
 ```
 
+The output of `pub_chunks()` is a list with an S3 class `pub_chunks` to make 
+internal work in the package easier. You can easily see the list structure 
+by using `unclass()`.
+
 ## Working with the xml already in a string
 
 
@@ -143,8 +147,23 @@ pub_chunks(fulltext::ft_collect(x), sections="authors")
 
 
 ```r
-pub_tabularize()
-#> Error in assert(x, "pub_chunks"): argument "x" is missing, with no default
+x <- system.file("examples/elife_1.xml", package = "pubchunks")
+res <- pub_chunks(x, c("doi", "title", "keywords"))
+pub_tabularize(res)
+#>                   doi                                          title
+#> 1 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
+#> 2 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
+#> 3 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
+#> 4 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
+#> 5 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
+#> 6 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
+#>                       keywords publisher
+#> 1                     microRNA     elife
+#> 2            nonsense mutation     elife
+#> 3 nonsense-mediated mRNA decay     elife
+#> 4                          APC     elife
+#> 5             intron retention     elife
+#> 6  premature termination codon     elife
 ```
 
 

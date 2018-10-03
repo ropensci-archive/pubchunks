@@ -80,6 +80,10 @@ pub_chunks(x, "authors")
 pub_chunks(x, c("title", "refs"))
 ```
 
+The output of `pub_chunks()` is a list with an S3 class `pub_chunks` to make 
+internal work in the package easier. You can easily see the list structure 
+by using `unclass()`.
+
 ## Working with the xml already in a string
 
 ```{r}
@@ -110,7 +114,9 @@ pub_chunks(fulltext::ft_collect(x), sections="authors")
 ## Coerce pub_chunks output into data.frame's
 
 ```{r}
-pub_tabularize()
+x <- system.file("examples/elife_1.xml", package = "pubchunks")
+res <- pub_chunks(x, c("doi", "title", "keywords"))
+pub_tabularize(res)
 ```
 
 
