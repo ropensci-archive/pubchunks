@@ -13,6 +13,7 @@
 #'   string, or `xml_document` objects)
 #' - or an object of class `fulltext::ft_data`, the output from a call to
 #'   [fulltext::ft_get()]
+#' 
 #' @param sections (character) What elements to get, can be one or more in 
 #' a vector or list. See [pub_sections()] for options. optional. Default is 
 #' to get all sections. See Details.
