@@ -1,6 +1,11 @@
 Package: pubchunks
-Title: Get chunks of XML articles
-Description: Get chunks of XML articles.
+Title: Fetch Sections of XML Scholarly Articles
+Description: Get chunks of XML scholarly articles without 
+    having to know how to work with XML. Custom mappers
+    for each publisher and for each article section pull 
+    out the information you want. Works with outputs from 
+    package fulltext, xml2 package documents, and file paths to 
+    XML documents.
 Version: 0.0.4.9210
 License: MIT + file LICENSE
 Authors@R: c(
@@ -21,3 +26,6 @@ Suggests:
     fulltext (>= 1.0.1),
     testthat
 RoxygenNote: 6.1.0
+X-schema.org-applicationCategory: Literature 
+X-schema.org-keywords: text-ming, literature, pdf, xml, publications, citations, full-text, TDM
+X-schema.org-isPartOf: https://ropensci.org
