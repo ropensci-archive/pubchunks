@@ -13,9 +13,6 @@ addons:
 after_success:
   - Rscript -e 'covr::codecov()'
 
-before_script:
-  - Rscript -e "install.packages('Rcampdf', repos = 'http://datacube.wu.ac.at/', type = 'source')"
-
 notifications:
   email:
     on_success: change
