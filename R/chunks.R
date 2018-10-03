@@ -128,17 +128,20 @@ pub_chunks.default <- function(x, sections = 'all', provider = NULL) {
 #' @export
 pub_chunks.character <- function(x, sections = 'all', provider = NULL) {
   xml <- xml2::read_xml(x)
-  get_what(data = xml, sections, pgp(xml, provider))
+  out <- get_what(data = xml, sections, pgp(xml, provider))
+  pccat(out, 'character', sections)
 }
 
 #' @export
 pub_chunks.xml_document <- function(x, sections = 'all', provider = NULL) {
-  get_what(data = x, sections, pgp(x, provider))
+  out <- get_what(data = x, sections, pgp(x, provider))
+  pccat(out, 'xml_document', sections)
 }
 
 #' @export
 pub_chunks.list <- function(x, sections = 'all', provider = NULL) {
-  lapply(x, pub_chunks, sections = sections, provider = provider)
+  out <- lapply(x, pub_chunks, sections = sections, provider = provider)
+  pccat(out, 'list', sections)
 }
 
 #' @export
@@ -156,5 +159,32 @@ pub_chunks.ft_data <- function(x, sections = 'all', provider = NULL) {
       })
     }
   }
-  out
+  pccat(out, 'ft_data', sections)
+}
+
+
+# helpers ------
+#' @export
+print.pub_chunks <- function(x, ...) {
+  cat("<pub chunks>", sep = "\n")
+  cat(paste0("  from: ", attr(x, "from")), sep = "\n")
+  cat(paste0("  count: ", paste0(countem(x), collapse = ", ")), sep = "\n")
+  cat(paste0("  sections: ", paste0(attr(x, "sections"), collapse = ", ")),
+    sep = "\n")
+}
+
+pccat <- function(x, from, sections) {
+  class(x) <- "pub_chunks"
+  attr(x, "from") <- from
+  attr(x, "sections") <- sections
+  return(x)
+}
+
+countem <- function(x) {
+  fr <- attr(x, "from")
+  switch(fr, 
+    character = length(x) - 1,
+    list = vapply(x, length, 1) - 1,
+    ft_data = lapply(x, function(z) vapply(z, length, 1) - 1)
+  )
 }

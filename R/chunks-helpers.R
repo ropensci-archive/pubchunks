@@ -1,6 +1,6 @@
 get_what <- function(data, what, from){
   if ( any(what == "all") ) what <- pub_sections()
-  stats::setNames(lapply(what, function(z){
+  res <- stats::setNames(lapply(what, function(z){
     switch(z,
            front = front(data, from),
            body = body(data, from),
@@ -23,4 +23,6 @@ get_what <- function(data, what, from){
            history = history(data, from)
     )
   }), what)
+  res$publisher <- from
+  return(res)
 }

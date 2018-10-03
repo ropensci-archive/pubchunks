@@ -47,8 +47,17 @@ names_lower <- function(x) {
 `%||%` <- function(x, y) if (is.null(x)) y else x
 `%<|>%` <- function(x, y) if (length(x) == 0) y else x
 
-rbl <- function(x) {
+rbl <- function(x, idcol = FALSE) {
   (xxxxx <- data.table::setDF(
-    data.table::rbindlist(x, use.names = TRUE, fill = TRUE)
+    data.table::rbindlist(x, use.names = TRUE, fill = TRUE, idcol = idcol)
   ))
+}
+
+assert <- function(x, y) {
+  if (!is.null(x)) {
+    if (!inherits(x, y)) {
+      stop(deparse(substitute(x)), " must be of class ",
+           paste0(y, collapse = ", "), call. = FALSE)
+    }
+  }
 }
