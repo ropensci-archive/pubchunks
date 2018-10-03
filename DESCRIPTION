@@ -11,7 +11,6 @@ Authors@R: c(
     )
 URL: https://github.com/ropensci/pubchunks
 BugReports: https://github.com/ropensci/pubchunks/issues
-LazyLoad: yes
 Roxygen: list(wrap = FALSE, markdown = TRUE)
 Encoding: UTF-8
 Language: en-US
