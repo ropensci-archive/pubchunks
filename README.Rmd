@@ -16,8 +16,18 @@ pubchunks
 [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/metacran/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/pubchunks)](https://cran.r-project.org/package=pubchunks)
 
-__Get chunks of XML articles__
+## Get chunks of XML articles
 
+
+## Package API
+
+```{r echo=FALSE, comment=NA, results='asis'}
+cat(paste(" -", paste(getNamespaceExports("pubchunks"), collapse = "\n - ")))
+```
+
+The main workhorse function is `pub_chunks()`. It allows you to pull out sections of articles from many different publishers (see next section below) WITHOUT having to know how to parse/navigate XML. XML has a steep learning curve, and can require quite a bit of Googling to sort out how to get to different parts of an XML document. 
+
+The other main function is `pub_tabularize()` - which takes the output of `pub_chunks()` and coerces into a data.frame for easier downstream processing.
 
 ## Supported publishers/sources
 
@@ -33,8 +43,16 @@ __Get chunks of XML articles__
 
 If you know of other publishers or sources that provide XML let us know by [opening an issue](https://github.com/ropensci/pubchunks/issues).
 
+We'll continue adding additional publishers.
+
 
 ## Installation
+
+Stable version
+
+```{r eval=FALSE}
+install.packages("pubchunks")
+```
 
 Development version from GitHub
 
@@ -87,6 +105,12 @@ install.packages("fulltext")
 library("fulltext")
 x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
 pub_chunks(fulltext::ft_collect(x), sections="authors")
+```
+
+## Coerce pub_chunks output into data.frame's
+
+```{r}
+pub_tabularize()
 ```
 
 

@@ -9,8 +9,20 @@ pubchunks
 [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/metacran/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/pubchunks)](https://cran.r-project.org/package=pubchunks)
 
-__Get chunks of XML articles__
+## Get chunks of XML articles
 
+
+## Package API
+
+ - pub_tabularize
+ - pub_guess_publisher
+ - pub_sections
+ - pub_chunks
+ - pub_providers
+
+The main workhorse function is `pub_chunks()`. It allows you to pull out sections of articles from many different publishers (see next section below) WITHOUT having to know how to parse/navigate XML. XML has a steep learning curve, and can require quite a bit of Googling to sort out how to get to different parts of an XML document. 
+
+The other main function is `pub_tabularize()` - which takes the output of `pub_chunks()` and coerces into a data.frame for easier downstream processing.
 
 ## Supported publishers/sources
 
@@ -26,8 +38,17 @@ __Get chunks of XML articles__
 
 If you know of other publishers or sources that provide XML let us know by [opening an issue](https://github.com/ropensci/pubchunks/issues).
 
+We'll continue adding additional publishers.
+
 
 ## Installation
+
+Stable version
+
+
+```r
+install.packages("pubchunks")
+```
 
 Development version from GitHub
 
@@ -54,25 +75,25 @@ x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml",
 
 ```r
 pub_chunks(x, "abstract")
-#> $abstract
-#> [1] "Abstract\n               \n                  This paper is concerned with the study of the problem of a field of steady-state vibrations excited in an elastic half-space by means of a rigid circular piston with an infinite rigid and smooth collar. Formulas for the active and reactive resistance of the connection between the field of wave propagation and the piston are obtained in terms of tabulated functions. Results of the analysis are presented for the case of driving a piston into an elastic Poisson medium."
+#> <pub chunks>
+#>   from: character
+#>   count: 1
+#>   sections: abstract
 pub_chunks(x, "title")
-#> $title
-#> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
+#> <pub chunks>
+#>   from: character
+#>   count: 1
+#>   sections: title
 pub_chunks(x, "authors")
-#> $authors
-#> [1] "Chetaev, D.N"
+#> <pub chunks>
+#>   from: character
+#>   count: 1
+#>   sections: authors
 pub_chunks(x, c("title", "refs"))
-#> $title
-#> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
-#> 
-#> $refs
-#> [1] "1.G.N.WatsonTeoriia besselevykh funktsiiTheory of Bessel Functions1949Izd-vo inostr. litMoscowChap. 1."                                                                                                                                                     
-#> [2] "2.G.B.Strett(Lord Rayleigh)Teoriia zvukaThe Theory of SoundVol. 21955GostekhizdatMoscow"                                                                                                                                                                    
-#> [3] "3.G.HardyRaskhodiashchiesia riadyDiverging Series1951Izd-vo inostran. litMoscow"                                                                                                                                                                            
-#> [4] "4.D.N.ChetaevOb akusticheskom soprotivlenii dvizhushchegosia ploskogo izluchateliaOn the acoustic resistance of a moving plane driverDokl. Akad. Nauk SSSRVol. 90No. 31953355358"                                                                           
-#> [5] "5.D.N.ChetaevO vliianii skorosti dozvukovogo potoka na soprotivlenie izlucheniia porshniia s beskonechnym flantsemOn the influence of a subsonic flow upon the resistance to the driving by a piston with an infinite collarAkust. zh.Vol. 2No. 31956302309"
-#> [6] "6.F.MorseKolebaniia i zvukVibrations and Sound1949GostekhizdatMoscow-Leningrad"
+#> <pub chunks>
+#>   from: character
+#>   count: 2
+#>   sections: title, refs
 ```
 
 ## Working with the xml already in a string
@@ -81,8 +102,10 @@ pub_chunks(x, c("title", "refs"))
 ```r
 xml <- paste0(readLines(x), collapse = "")
 pub_chunks(xml, "title")
-#> $title
-#> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
+#> <pub chunks>
+#>   from: character
+#>   count: 1
+#>   sections: title
 ```
 
 ## Working with xml2 class object
@@ -92,8 +115,10 @@ pub_chunks(xml, "title")
 xml <- paste0(readLines(x), collapse = "")
 xml <- xml2::read_xml(xml)
 pub_chunks(xml, "title")
-#> $title
-#> [1] "On the driving of a piston with a rigid collar into an elastic half-space"
+#> <pub chunks>
+#>   from: xml_document
+#>   count: 
+#>   sections: title
 ```
 
 ## Working with output of fulltext::ft_get()
@@ -108,39 +133,18 @@ install.packages("fulltext")
 library("fulltext")
 x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
 pub_chunks(fulltext::ft_collect(x), sections="authors")
-#> $plos
-#> $plos$`10.1371/journal.pone.0086169`
-#> $plos$`10.1371/journal.pone.0086169`$authors
-#> $plos$`10.1371/journal.pone.0086169`$authors[[1]]
-#> $plos$`10.1371/journal.pone.0086169`$authors[[1]]$given_names
-#> [1] "Katie"
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[1]]$surname
-#> [1] "Hinde"
-#> 
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[2]]
-#> $plos$`10.1371/journal.pone.0086169`$authors[[2]]$given_names
-#> [1] "Abigail J."
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[2]]$surname
-#> [1] "Carpenter"
-#> 
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[3]]
-#> $plos$`10.1371/journal.pone.0086169`$authors[[3]]$given_names
-#> [1] "John S."
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[3]]$surname
-#> [1] "Clay"
-#> 
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[4]]
-#> $plos$`10.1371/journal.pone.0086169`$authors[[4]]$given_names
-#> [1] "Barry J."
-#> 
-#> $plos$`10.1371/journal.pone.0086169`$authors[[4]]$surname
-#> [1] "Bradford"
+#> <pub chunks>
+#>   from: ft_data
+#>   count: c(`10.1371/journal.pone.0086169` = 1)
+#>   sections: authors
+```
+
+## Coerce pub_chunks output into data.frame's
+
+
+```r
+pub_tabularize()
+#> Error in assert(x, "pub_chunks"): argument "x" is missing, with no default
 ```
 
 
