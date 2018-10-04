@@ -3,7 +3,7 @@
 #' @export
 #' @param x the output of [pub_chunks()]
 #' @param bind (logical) whether to bind list of data.frames or not. 
-#' ignored unless `list` input to `x`
+#' ignored unless `list` input to `x`. default: `FALSE`
 #' @return a data.frame or list
 #' @examples
 #' # one at a time

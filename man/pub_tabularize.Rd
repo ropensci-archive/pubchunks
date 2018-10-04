@@ -10,7 +10,7 @@ pub_tabularize(x, bind = FALSE)
 \item{x}{the output of \code{\link[=pub_chunks]{pub_chunks()}}}
 
 \item{bind}{(logical) whether to bind list of data.frames or not.
-ignored unless \code{list} input to \code{x}}
+ignored unless \code{list} input to \code{x}. default: \code{FALSE}}
 }
 \value{
 a data.frame or list

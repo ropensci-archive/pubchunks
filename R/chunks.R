@@ -50,7 +50,9 @@
 #' @return A list, named by the section selected. sections not found or
 #' not in accepted list return `NULL` or zero length list. A ".publisher"
 #' list element gets attached to each list output, even when no 
-#' data is found.
+#' data is found. When `fulltext::ft_get` output is passed in here, the 
+#' list is named by the publisher, then within each publisher is a list 
+#' of articles named by their identifiers (e.g. DOIs). 
 #' 
 #' @examples
 #' # a file path to an XML file

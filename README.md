@@ -35,6 +35,7 @@ The other main function is `pub_tabularize()` - which takes the output of `pub_c
 - PeerJ
 - Copernicus
 - Frontiers
+- F1000 Research
 
 If you know of other publishers or sources that provide XML let us know by [opening an issue](https://github.com/ropensci/pubchunks/issues).
 
@@ -77,23 +78,26 @@ x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml",
 pub_chunks(x, "abstract")
 #> <pub chunks>
 #>   from: character
-#>   count: 1
 #>   sections: abstract
+#>    abstract (n=1): Abstract
+#>                
+#>                   This pa ...
 pub_chunks(x, "title")
 #> <pub chunks>
 #>   from: character
-#>   count: 1
 #>   sections: title
+#>    title (n=1): On the driving of a piston with a rigid collar int ...
 pub_chunks(x, "authors")
 #> <pub chunks>
 #>   from: character
-#>   count: 1
 #>   sections: authors
+#>    authors (n=1): Chetaev, D.N
 pub_chunks(x, c("title", "refs"))
 #> <pub chunks>
 #>   from: character
-#>   count: 2
 #>   sections: title, refs
+#>    title (n=1): On the driving of a piston with a rigid collar int ...
+#>    refs (n=6): 1.G.N.WatsonTeoriia besselevykh funktsiiTheory of
 ```
 
 The output of `pub_chunks()` is a list with an S3 class `pub_chunks` to make 
@@ -108,8 +112,8 @@ xml <- paste0(readLines(x), collapse = "")
 pub_chunks(xml, "title")
 #> <pub chunks>
 #>   from: character
-#>   count: 1
 #>   sections: title
+#>    title (n=1): On the driving of a piston with a rigid collar int ...
 ```
 
 ## Working with xml2 class object
@@ -121,8 +125,8 @@ xml <- xml2::read_xml(xml)
 pub_chunks(xml, "title")
 #> <pub chunks>
 #>   from: xml_document
-#>   count: 
 #>   sections: title
+#>    title (n=1): On the driving of a piston with a rigid collar int ...
 ```
 
 ## Working with output of fulltext::ft_get()
@@ -137,10 +141,16 @@ install.packages("fulltext")
 library("fulltext")
 x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
 pub_chunks(fulltext::ft_collect(x), sections="authors")
+#> $plos
+#> $plos$`10.1371/journal.pone.0086169`
 #> <pub chunks>
-#>   from: ft_data
-#>   count: c(`10.1371/journal.pone.0086169` = 1)
+#>   from: xml_document
 #>   sections: authors
+#>    authors (n=4): nested list
+#> 
+#> 
+#> attr(,"ft_data")
+#> [1] TRUE
 ```
 
 ## Coerce pub_chunks output into data.frame's
@@ -157,13 +167,13 @@ pub_tabularize(res)
 #> 4 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
 #> 5 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
 #> 6 10.7554/eLife.03032 MicroRNA-mediated repression of nonsense mRNAs
-#>                       keywords publisher
-#> 1                     microRNA     elife
-#> 2            nonsense mutation     elife
-#> 3 nonsense-mediated mRNA decay     elife
-#> 4                          APC     elife
-#> 5             intron retention     elife
-#> 6  premature termination codon     elife
+#>                       keywords .publisher
+#> 1                     microRNA      elife
+#> 2            nonsense mutation      elife
+#> 3 nonsense-mediated mRNA decay      elife
+#> 4                          APC      elife
+#> 5             intron retention      elife
+#> 6  premature termination codon      elife
 ```
 
 
