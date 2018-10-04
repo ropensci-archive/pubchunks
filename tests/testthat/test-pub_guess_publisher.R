@@ -16,6 +16,9 @@ test_that("pub_guess_publisher works", {
   x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
   ee <- pub_guess_publisher(x)
 
+  x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+  ff <- pub_guess_publisher(x)
+
   expect_is(aa, "list")
   expect_named(aa, c('full_name', 'short_name'))
   expect_is(aa$full_name, "character")
@@ -45,6 +48,12 @@ test_that("pub_guess_publisher works", {
   expect_is(ee$full_name, "character")
   expect_is(ee$short_name, "character")
   expect_equal(ee$short_name, "frontiers")
+
+  expect_is(ff, "list")
+  expect_named(ff, c('full_name', 'short_name'))
+  expect_is(ff$full_name, "character")
+  expect_is(ff$short_name, "character")
+  expect_equal(ff$short_name, "f1000research")
 })
 
 test_that("pub_guess_publisher fails well", {
