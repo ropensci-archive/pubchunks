@@ -93,7 +93,7 @@
   "contIntegration": "https://travis-ci.org/ropensci/pubchunks",
   "developmentStatus": "concept",
   "readme": "https://github.com/ropensci/pubchunks/blob/master/README.md",
-  "fileSize": "226.269KB",
+  "fileSize": "226.2KB",
   "applicationCategory": "Literature",
   "isPartOf": "https://ropensci.org",
   "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "text-mining", "open-access", "rstats", "r", "r-package"],
