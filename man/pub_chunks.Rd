@@ -29,7 +29,9 @@ in a name.}
 }
 \value{
 A list, named by the section selected. sections not found or
-not in accepted list return \code{NULL} or zero length list
+not in accepted list return \code{NULL} or zero length list. A ".publisher"
+list element gets attached to each list output, even when no
+data is found.
 }
 \description{
 \code{pub_chunks} makes it easy to extract sections of an article.
@@ -65,8 +67,6 @@ references
 \examples{
 # a file path to an XML file
 x <- system.file("examples/elsevier_1.xml", package = "pubchunks")
-pub_chunks(x, "abstract")
-cat(pub_chunks(x, "abstract")[[1]])
 pub_chunks(x, "title")
 pub_chunks(x, "authors")
 pub_chunks(x, "acknowledgments")
@@ -122,10 +122,29 @@ pub_chunks(x, "authors")
 pub_chunks(x, "aff")
 pub_chunks(x, c("doi", "title", "authors", "refs"))
 
+# f1000research
+x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+pub_chunks(x, "title")
+pub_chunks(x, "aff")
+pub_chunks(x, c("doi", "title", "authors", "keywords", "refs"))
+
+# Many inputs at once
+x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
+y <- system.file("examples/elife_1.xml", package = "pubchunks")
+z <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+pub_chunks(list(x, y, z), c("doi", "title", "authors", "refs"))
+
 \dontrun{
 # using output of fulltext::ft_get()
 if (requireNamespace("fulltext", quietly = TRUE)) {
-  x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
+  # single
+  x <- fulltext::ft_get('10.7554/eLife.03032')
+  pub_chunks(fulltext::ft_collect(x), sections="authors")
+
+  # many
+  dois <- c('10.1371/journal.pone.0086169', '10.1371/journal.pone.0155491', 
+    '10.7554/eLife.03032')
+  x <- fulltext::ft_get(dois)
   pub_chunks(fulltext::ft_collect(x), sections="authors")
 }
 }

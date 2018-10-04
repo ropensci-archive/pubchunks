@@ -38,4 +38,7 @@ pub_guess_publisher(x)
 
 (x <- system.file("examples/elsevier_1.xml", package = "pubchunks"))
 pub_guess_publisher(x)
+
+x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+pub_guess_publisher(x)
 }

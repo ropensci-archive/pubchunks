@@ -26,6 +26,9 @@
 #' 
 #' (x <- system.file("examples/elsevier_1.xml", package = "pubchunks"))
 #' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
 pub_guess_publisher <- function(x) {
   if (!class(x)[[1L]] %in% c("character", "xml_document")) {
     stop("x must be of class character or xml_document")
@@ -52,7 +55,6 @@ check_xml <- function(x) {
 }
 
 pull_name <- function(z) {
-  # if (grepl("pensoft", x)) "pensoft"
-  pubs <- "pensoft|copernicus|peerj|hindawi|frontiers|elife|elsevier"
-  tolower(strextract(z, pubs, ignore.case = TRUE))
+  pubs <- "pensoft|copernicus|peerj|hindawi|frontiers|elife|elsevier|f1000 research"
+  gsub("\\s", "", tolower(strextract(z, pubs, ignore.case = TRUE)))
 }

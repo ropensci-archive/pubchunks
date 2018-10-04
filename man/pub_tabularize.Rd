@@ -4,10 +4,13 @@
 \alias{pub_tabularize}
 \title{Tabularize chunks output}
 \usage{
-pub_tabularize(x)
+pub_tabularize(x, bind = FALSE)
 }
 \arguments{
 \item{x}{the output of \code{\link[=pub_chunks]{pub_chunks()}}}
+
+\item{bind}{(logical) whether to bind list of data.frames or not.
+ignored unless \code{list} input to \code{x}}
 }
 \value{
 a data.frame or list
@@ -28,15 +31,20 @@ y <- system.file("examples/frontiers_1.xml", package = "pubchunks")
 pub_tabularize(res2)
 
 # > 1, a list of file paths
+x <- system.file("examples/elife_1.xml", package = "pubchunks")
+y <- system.file("examples/frontiers_1.xml", package = "pubchunks")
 (res <- pub_chunks(list(x, y), c("doi", "title", "keywords")))
 pub_tabularize(res)
+pub_tabularize(res, bind = TRUE)
 
 \dontrun{
 # using output of fulltext::ft_get()
 if (requireNamespace("fulltext", quietly = TRUE)) {
-  dois <- c('10.1371/journal.pone.0086169', '10.1371/journal.pone.0155491')
-  x <- fulltext::ft_get(dois, from='plos')
+  dois <- c('10.1371/journal.pone.0086169', '10.1371/journal.pone.0155491', 
+    '10.7554/eLife.03032')
+  x <- fulltext::ft_get(dois)
   (tmp <- pub_chunks(fulltext::ft_collect(x), sections=c("doi","title")))
   pub_tabularize(tmp)
+  pub_tabularize(tmp, bind = TRUE)
 }}
 }

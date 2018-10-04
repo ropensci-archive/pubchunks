@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.14334.1</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Research Article</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Comparative study of the environmental impact of models of conventional agricultural and agro-ecological agriculture in the agricultural phase of tomato cultivation</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 1; referees: 1 approved with reservations, 1 not approved]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Taipe Velasco</surname>
+                        <given-names>Carina Maribel</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Visualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Lizano Acevedo</surname>
+                        <given-names>Ronnie Xavier</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Investigation</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-9490-8882</uri>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>M&#x00e1;ty&#x00e1;s</surname>
+                        <given-names>Bence</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Formal Analysis</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-2694-1848</uri>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Ingenier&#x00ed;a Ambiental, Universidad Polit&#x00e9;cnica Salesiana, Quito, 170702, Ecuador</aff>
+                <aff id="a2">
+                    <label>2</label>Grupo de Investigaci&#x00f3;n en Ciencias Ambientales, Universidad Polit&#x00e9;cnica Salesiana, Quito, 170702, Ecuador</aff>
+                <aff id="a3">
+                    <label>3</label>Grupo de Investigaci&#x00f3;n Mentoria y Gesti&#x00f3;n del Cambio, Universidad Polit&#x00e9;cnica Salesiana, Cuenca, 010102, Ecuador</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:rlizano@ups.edu.ec">rlizano@ups.edu.ec</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>25</day>
+                <month>5</month>
+                <year>2018</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2018</year>
+            </pub-date>
+            <volume>7</volume>
+            <elocation-id>666</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>15</day>
+                    <month>5</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Taipe Velasco CM et al.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-7-15597.pdf"/>
+            <abstract>
+                <p>
+                    <bold>Background:</bold> In this study, the water footprint and the carbon footprint were calculated during the activities of the agricultural phase of tomato cultivation, comparing agro-ecological production systems with conventional production systems.</p>
+                <p> 
+                    <bold>Methods:</bold> We examined with six plots in total: 3 agro-ecological plots and 3 conventional plots in la Esperanza and Tabacundo, Pedro Moncayo canton, Ecuador. The water footprint was calculated according to Hoekstra&#x2019;s method. For the greenhouse gas emissions calculation, due to the production of fertilisers, the activity data was multiplied by the emission factor. Phytosanitary emissions were calculated using the factor given by BioGrace.</p>
+                <p> 
+                    <bold>Results:</bold> For the conventional system the most representative footprint is that of blue water with 44.19 litres of water/kg of tomatoes, followed by the green water footprint with 14.42 litres of water/kg of tomato whilst the lowest value is 0.96 litres of water/kg of tomatoes for the grey water footprint.</p>
+                <p> 
+                    <bold>Conclusions:</bold> The results obtained show that an agro-ecological system is the most efficient in terms of consumption of resources. Its produce also have an added value for promoting sustainability, responsible consumption and a healthier diet. The generation of eco-labels can encourage the consumption of these by expanding markets for this production system.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>life cycle assesment</kwd>
+                <kwd>food systems</kwd>
+                <kwd>agriculture</kwd>
+                <kwd>environmental impacts</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund-1" xlink:href="http://dx.doi.org/10.13039/501100004299">
+                    <funding-source>Secretar&#x00ed;a de Educaci&#x00f3;n Superior, Ciencia, Tecnolog&#x00ed;a e Innovaci&#x00f3;n</funding-source>
+                    <award-id>PIC-16-BENS-005</award-id>
+                </award-group>
+                <award-group id="fund-2">
+                    <funding-source>Universidad Polit&#x00e9;cnica Salesiana</funding-source>
+                </award-group>
+                <funding-statement>The present research was supported by Universidad Polit&#x00e9;cnica Salesiana and Secretar&#x00ed;a de Educaci&#x00f3;n Superior, Ciencia, Tecnolog&#x00ed;a e Innovaci&#x00f3;n (SENESCYT) [PIC-16-BENS-005].</funding-statement>
+            </funding-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>Greenhouse gas emissions from agriculture continue to rise on a global scale, although not as fast as emissions from other human activities. Having better information at a national level on emissions from agriculture
+                <sup>
+                    <xref ref-type="bibr" rid="ref-1">1</xref>,
+                    <xref ref-type="bibr" rid="ref-2">2</xref>
+                </sup>, live-stock, fisheries and forestry can help countries identify opportunities to reduce them, whilst pursuing objectives of food security, resilience and rural development and gaining access to global financing for implementation
+                <sup>
+                    <xref ref-type="bibr" rid="ref-3">3</xref>
+                </sup>. The agricultural sector is the sector that uses the most water, globally representing around 69% of all extraction, with household consumption at approximately 10% and industry at 21%
+                <sup>
+                    <xref ref-type="bibr" rid="ref-4">4</xref>
+                </sup> The water footprint of a product is the total amount of water used to produce the goods or the service we use. In this study we calculated the green, blue and grey water footprint. The green water footprint is the amount of water in the root zone of the soil and evaporated, transpired or incorporated by plants. The blue water footprint is the amount of water that comes from surface or groundwater and is evaporated, incorporated into a product or taken from one body of water (for example irrigated agriculture have a blue water footprint). The grey water footprint "is the amount of fresh water required to assimilate pollutants to meet specific water quality standards" 
+                <ext-link ext-link-type="uri" xlink:href="http://waterfootprint.org/en/water-footprint/what-is-water-footprint/">(see Water Footprint Network website)</ext-link>. The agro-ecological agriculture is farming that &#x201c;centers on food production that makes the best use of nature&#x2019;s goods and services while not damaging these resources&#x201d; 
+                <ext-link ext-link-type="uri" xlink:href="http://www.moreandbetter.org/en/news/a-viable-food-future">(see More and Better report on a viable food future)</ext-link>. It links ecology, culture, economics and society to create healthy environments, food production and communities in order to maintain the sustainable development 
+                <ext-link ext-link-type="uri" xlink:href="https://www.groundswellinternational.org/approach/agroecological-farming/">(see Groundswell international page on agroecological farming)</ext-link>. While the conventional agriculture also known as industrial agriculture, "refers to farming systems which include the use of synthetic chemical fertilizers, pesticides, herbicides and other continual inputs, genetically modified organisms, concentrated animal feeding operations, heavy irrigation, intensive tillage, or concentrated monoculture production. Thus conventional agriculture is typically highly resource and energy intensive, but also highly productive" 
+                <ext-link ext-link-type="uri" xlink:href="https://www.usda.gov/sites/default/files/documents/coexistence-conventional-farming-factsheet.pdf">see USDA factsheet on conventional farming</ext-link> In this study, emissions and water requirements for tomato cultivation in conventional production systems and agro-ecological production systems were calculated in the La Esperanza and Tabacundo parishes, Pedro Moncayo canton.</p>
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <p>The present study examines the carbon and water footprint of product during the activities of the agricultural phase of tomato cultivation (between 2nd June and 5th of September 2017) in La Esperanza and Tabacundo, Pedro Moncayo canton, Ecuador. The average temperature was 20 &#x00b0;C, the humidity was 66% and the total precipitation was 320,8 mm in the examined period (
+                <ext-link ext-link-type="uri" xlink:href="https://en.climate-data.org/location/719640/">https://en.climate-data.org/location/719640/</ext-link>). Three agro-ecologically managed plots (GPS decimal degrees: Plot 1: Latitude: -0.811193, Longitude: -78.6955; Plot 2: Latitude: -0.809214, Longitude: -78.6362; Plot 3: Latitude: -0.811429, Longitude: -78.6318) and three conventionally managed plots (GPS decimal degrees: Plot 4: Latitude: -0.809021, Longitude: -78.6273; Plot 5: Latitude: -0.805316, Longitude: -78.6114; Plot 6: Latitude: -0.805312, Longitude: -78.6114) were analyzed in this study. For information about the size of the experimental areas and the applied fertilizers please see 
+                <xref ref-type="other" rid="DS0">Dataset 1</xref>. The water footprint was calculated as established by Hoekstra 
+                <italic>et al.</italic> (2011)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-5">5</xref>
+                </sup>. For agro-ecological production systems, the green water footprint and blue water footprint were calculated. They lack a grey water footprint since they do not incorporate synthetic fertilisers, whereas for the conventional system the green water footprint, blue water footprint and the grey water footprint were calculated. Agro-ecological systems:</p>
+            <p>
+                <italic>Water footprint</italic> = 
+                <italic>Green Water Footprint</italic> + 
+                <italic>Blue Water Footprint</italic>(
+                <italic>m</italic>
+                <sup>3</sup>
+                <italic>/ton</italic>)</p>
+            <p>Conventional case:</p>
+            <p>
+                <italic>Water Footprint</italic> = 
+                <italic>Green Water Footprint</italic> + 
+                <italic>Blue Water Footprint	</italic> + 
+                <italic>Grey Water	Footprint</italic>(
+                <italic>m</italic>
+                <sup>3</sup>
+                <italic>/ton</italic>) (
+                <italic>Hoekstraetal</italic>., 2011)</p>
+            <p>For the Carbon Footprint calculation, the equation given by greenhouse gases (GHG) Protocol, World Resources Institute and wbcsd (2011)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-6">6</xref>
+                </sup> was used:</p>
+            <p>
+                <italic>kgCO</italic>
+                <sub>2</sub>
+                <sub>
+                    <italic>eq</italic>
+                </sub> = 
+                <italic>Activity Data*Emission Factor x GWP</italic>
+            </p>
+            <p>For the (GHG) calculation in the conventional plots, due to the use of fuels, the equation given by the IPCC
+                <sup>
+                    <xref ref-type="bibr" rid="ref-7">7</xref>
+                </sup> belonging to the all-terrain category was used. This equation allows one to obtain CO2 emissions according to the type of fuel- be it diesel or petrol- as applicable for each case.</p>
+            <p>
+                <mml:math display="block" id="M1">
+                    <mml:mrow>
+                        <mml:mi>E</mml:mi>
+                        <mml:mi>m</mml:mi>
+                        <mml:mi>i</mml:mi>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>s</mml:mi>
+                        <mml:mi>i</mml:mi>
+                        <mml:mi>o</mml:mi>
+                        <mml:mi>n</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:mstyle displaystyle="true">
+                            <mml:munder>
+                                <mml:mo>&#x2211;</mml:mo>
+                                <mml:mi>j</mml:mi>
+                            </mml:munder>
+                            <mml:mrow>
+                                <mml:mi>F</mml:mi>
+                                <mml:mi>u</mml:mi>
+                                <mml:mi>e</mml:mi>
+                                <mml:msub>
+                                    <mml:mi>l</mml:mi>
+                                    <mml:mi>j</mml:mi>
+                                </mml:msub>
+                                <mml:mo>*</mml:mo>
+                                <mml:mi>E</mml:mi>
+                                <mml:msub>
+                                    <mml:mi>F</mml:mi>
+                                    <mml:mi>j</mml:mi>
+                                </mml:msub>
+                            </mml:mrow>
+                        </mml:mstyle>
+                    </mml:mrow>
+                </mml:math>
+            </p>
+            <p>Source: IPCC (2006a)</p>
+            <p>where:</p>
+            <p>Emission: total emissions expressed in 
+                <italic>KgCO</italic>
+                <sub>2</sub>
+                <sub>
+                    <italic>eq</italic>
+                </sub>
+            </p>
+            <p>Fuel: fuel consumption TJ</p>
+            <p>EF: Emission factor (
+                <italic>KgCO</italic>
+                <sub>2</sub>
+                <sub>
+                    <italic>eq</italic>
+                </sub> 
+                <italic>TJ</italic>)</p>
+            <p>j: fuel type</p>
+            <p>For the greenhouse gas emissions calculation, due to the production of fertilisers, the activity data was multiplied by the emission factor. Phytosanitary emissions were calculated using the factor given by BioGrace
+                <sup>
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup>. Regarding greenhouse gases, due to direct emissions of 
+                <italic>N</italic>
+                <sub>2</sub>
+                <italic>O</italic>, the contributions of nitrogen in managed soils were taken into account and for the study the equation given by the IPCC
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup> was adapted so that for the case studies it was applied as follows.</p>
+            <p>For the conventional systems, the equation was reduced to:</p>
+            <p>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;
+                <italic>N</italic>
+                <sub>2</sub>0 
+                <italic>&#x2212; N
+                    <sub>
+                        <italic>Ncontributions</italic>
+                    </sub>
+                </italic> = (
+                <italic>F</italic>
+                <sub>
+                    <italic>S</italic>
+                </sub>
+                <italic>N</italic> + 
+                <italic>F</italic>
+                <sub>
+                    <italic>C</italic>
+                </sub>
+                <italic>R</italic>) * 
+                <italic>EF</italic>
+                <sub>1</sub>
+            </p>
+            <p>Source: IPCC (2006c)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup>
+            </p>
+            <p>And for the agro-ecological systems:</p>
+            <p>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;
+                <italic>N</italic>2
+                <italic>O</italic>&#x2212; 
+                <italic>N</italic>
+                <sub>
+                    <italic>Ncontributions</italic>
+                </sub> = (
+                <italic>F</italic>
+                <sub>
+                    <italic>O</italic>
+                </sub>
+                <italic>N</italic> + 
+                <italic>F</italic>
+                <sub>
+                    <italic>C</italic>
+                </sub>
+                <italic>R</italic>) * 
+                <italic>EF</italic>
+                <sub>1</sub>
+            </p>
+            <p>Source: IPCC (2006c)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup>
+            </p>
+            <p>The calculation of indirect emissions of N2O for managed soils was carried out by means of adapting equation 11.9 of the manual (IPCC, 2006c)7 to the case study, thus the applied equation was: Conventional systems:</p>
+            <p>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;
+                <italic>N</italic>
+                <sub>2</sub>
+                <italic>O</italic>
+                <sub>(
+                    <italic>ADT</italic>)</sub> 
+                <italic>&#x2212; N</italic> = (
+                <italic>F</italic>
+                <italic>
+                    <sub>SN</sub>
+                </italic> * 
+                <italic>Frac</italic>
+                <sub>
+                    <italic>GASF</italic>
+                </sub>) * 
+                <italic>EF</italic>
+                <sub>4</sub>
+            </p>
+            <p>Source: IPCC (2006c)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup>
+            </p>
+            <p>Agro-ecological systems:</p>
+            <p>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x00a0;
+                <italic>N</italic>
+                <sub>2</sub>
+                <italic>O</italic>
+                <sub>(
+                    <italic>ADT</italic>)</sub> 
+                <italic>&#x2212; N</italic> = (
+                <italic>F</italic>
+                <italic>
+                    <sub>ON</sub>
+                </italic> * 
+                <italic>Frac</italic>
+                <sub>
+                    <italic>GASM</italic>
+                </sub>) * 
+                <italic>EF</italic>
+                <sub>4</sub>
+            </p>
+            <p>Source: IPCC (2006c)
+                <sup>
+                    <xref ref-type="bibr" rid="ref-9">9</xref>
+                </sup>
+            </p>
+            <p>For the calculation of greenhouse gas emissions due to the use of fertilisers, the results of direct and indirect emissions of 
+                <italic>N</italic>
+                <sub>2</sub>
+                <italic>O</italic> were taken into account. Regarding the emissions from applying phytosanitary products, this section was considered only in the conventional plots since they apply pesticides for the prevention of pests, such as fungicides and insecticides. To perform the calculation, the amount employed in kg/hectare (ha) and the emission factor given by BioGrace
+                <sup>
+                    <xref ref-type="bibr" rid="ref-8">8</xref>
+                </sup> were taken into account.</p>
+        </sec>
+        <sec sec-type="results">
+            <title>Results</title>
+            <sec>
+                <title>Water footprint</title>
+                <p>
+                    <xref ref-type="fig" rid="f1">Figure 1</xref> shows the water requirements for each plot. Regarding the conventional system, the highest values of green and blue water footprints corresponded to plot 5 with 34.42 and 87.54 litres of water/kg of tomatoes, re-spectively. For the agro-ecological systems, the plot with the highest green and blue water footprint was plot number 1 with 16.46 and 42.54 litres of water/kg of tomatoes, respectively. In relation to the grey water footprint, the highest value was found for plot 5 with 2.59 litres of water/kg of tomato.</p>
+                <fig fig-type="figure" id="f1" position="float">
+                    <label>Figure 1. </label>
+                    <caption>
+                        <title>Results of water footprint per plot.</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-15597-g0000.gif"/>
+                </fig>
+                <p>In relation to the green water footprint, on average an agro-ecological system requires 9.07 litres of water/kg of tomatoes. For the blue water footprint, it requires 32.04 litres of water/kg of tomatoes (
+                    <xref ref-type="fig" rid="f2">Figure 2</xref>). For the conventional system the most representative footprint is that of blue water with 44.19 litres of water/kg of tomatoes, followed by the green water footprint with 14.42 litres of water/kg of tomato whilst the lowest value is 0.96 litres of water/kg of tomatoes for the grey water footprint.</p>
+                <fig fig-type="figure" id="f2" position="float">
+                    <label>Figure 2. </label>
+                    <caption>
+                        <title>Averages Water Footprint per component: conventional or agro-ecological system.</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-15597-g0001.gif"/>
+                </fig>
+                <p>These results show that conventional cultivation consumes 18.45 litres more water for every 1 kg of tomatoes in the La Esperanza and Tabacundo parishes of the Pedro Moncayo canton (
+                    <xref ref-type="fig" rid="f3">Figure 3</xref>).</p>
+                <fig fig-type="figure" id="f3" position="float">
+                    <label>Figure 3. </label>
+                    <caption>
+                        <title>Total water footprint based on a conventional system or agro-ecological system.</title>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-15597-g0002.gif"/>
+                </fig>
+            </sec>
+            <sec>
+                <title>Carbon footprint results</title>
+                <p>
+                    <xref ref-type="table" rid="T1">Table 1</xref> shows that the highest generation of emissions was in plot 2 for the agro-ecological system and plot 4 for the conventional system The average emissions for the agro-ecological system in the study area was 757.83kg of 
+                    <italic>CO</italic>
+                    <sub>2</sub>
+                    <italic>/ha</italic> whilst it was 830.96kg of 
+                    <italic>CO</italic>
+                    <sub>2</sub>
+                    <italic>/ha</italic> for the conventional system. In the agro-ecological system, the greatest generation of emissions is due to the use of biofertilisers with an average of 426.68kg 
+                    <italic>CO</italic>
+                    <sub>2</sub>
+                    <italic>/ha</italic>, whilst for the conventional system it is due to the use of fuel with a 552.32kg 
+                    <italic>CO</italic>
+                    <sub>2</sub>
+                    <italic>/ha</italic> on average.</p>
+                <table-wrap id="T1" position="anchor">
+                    <label>Table 1. </label>
+                    <caption>
+                        <title>Carbon Footprint Results (GHG - green house gases).</title>
+                    </caption>
+                    <table content-type="article-table" frame="hsides">
+                        <thead>
+                            <tr>
+                                <th/>
+                                <th align="center" colspan="3" valign="top">Agro-ecological system</th>
+                                <th align="center" colspan="3" valign="top">Conventional system</th>
+                            </tr>
+                            <tr>
+                                <th align="left" valign="top">kg CO_2/ha</th>
+                                <th align="center" valign="top">Plot 1</th>
+                                <th align="center" valign="top">Plot 2</th>
+                                <th align="center" valign="top">Plot 3</th>
+                                <th align="center" valign="top">Plot 4</th>
+                                <th align="center" valign="top">Plot 5</th>
+                                <th align="center" valign="top">Plot 6</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="left" valign="top">Fuel (diesel or petrol)</td>
+                                <td align="center" valign="top">0</td>
+                                <td align="center" valign="top">0</td>
+                                <td align="center" valign="top">0</td>
+                                <td align="center" valign="top">616.57</td>
+                                <td align="center" valign="top">274.45</td>
+                                <td align="center" valign="top">765.93</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">GHG fertilisers (production)</td>
+                                <td align="center" valign="top">184.61</td>
+                                <td align="center" valign="top">767.60</td>
+                                <td align="center" valign="top">41.25</td>
+                                <td align="center" valign="top">278.62</td>
+                                <td align="center" valign="top">278.62</td>
+                                <td align="center" valign="top">30.43</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">GHG fertilisers (use)</td>
+                                <td align="center" valign="top">546.98</td>
+                                <td align="center" valign="top">584.63</td>
+                                <td align="center" valign="top">148.42</td>
+                                <td align="center" valign="top">47.52</td>
+                                <td align="center" valign="top">129.21</td>
+                                <td align="center" valign="top">17.20</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">Phytosanitary control</td>
+                                <td align="center" valign="top">0</td>
+                                <td align="center" valign="top">0</td>
+                                <td align="center" valign="top">0</td>
+                                <td align="center" valign="top">2.92</td>
+                                <td align="center" valign="top">13.27</td>
+                                <td align="center" valign="top">38.13</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">
+                                    <bold>Total kg CO_2/ha</bold>
+                                </td>
+                                <td align="center" valign="top">731.59</td>
+                                <td align="center" valign="top">1352.23</td>
+                                <td align="center" valign="top">189.67</td>
+                                <td align="center" valign="top">945.63</td>
+                                <td align="center" valign="top">695.55</td>
+                                <td align="center" valign="top">851.69</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+                <supplementary-material id="DS0" xlink:href="https://f1000researchdata.s3.amazonaws.com/datasets/14334/e03f3ef2-d15c-4900-b104-4c9c5b082e51_Dataset_1_Tomato.xlsx">
+                    <label>Experimental setup</label>
+                    <caption>
+                        <p>Area of the lands, total crop production (Kg), fertilizer application rate on total crop production, concentration of NPK in each solid fertilizer, mount of NPK (Kg), Liquid fertilizer application rate on the total crop production, Concentration of NPK in each liquid fertilizer, Amount of NPK in liquid fertilizer (Kg), GPS coordinates.</p>
+                    </caption>
+                </supplementary-material>
+                <supplementary-material id="DS1" xlink:href="https://f1000researchdata.s3.amazonaws.com/datasets/14334/2ccf9762-0877-43ea-bcd6-e56bcadcf58f_Dataset_2_WaterFootprint.xlsx">
+                    <label>Calculated water footprint for each plot</label>
+                    <caption>
+                        <p>Green, blue and grey water footprint in l (water)/kg(tomato).</p>
+                    </caption>
+                </supplementary-material>
+                <supplementary-material id="DS2" xlink:href="https://f1000researchdata.s3.amazonaws.com/datasets/14334/bc1f4103-d4b3-46c0-a2a5-2eb8fef0dccf_Dataset_3_GHG.xlsx">
+                    <label>Calculated carbon footprint for each plots</label>
+                    <caption>
+                        <p>Total GHG emission (kg CO2 eq): Fuel (CO2, N2O), fertiliser production (N, K2O, P2O) fertiliser use, photosanitary.</p>
+                    </caption>
+                </supplementary-material>
+            </sec>
+        </sec>
+        <sec sec-type="discussion">
+            <title>Discussion</title>
+            <p>In the La Esperanza and Tabacundo parishes an agro-ecological system requires less water compared to a conventional system, since the latter consumes 18.45 litres more water to produce a kilogram of tomatoes. In terms of emissions, the agro-ecological system obviously generates less, since it does not include the use of fuels because all the activities are carried out manually.</p>
+            <p>In relation to the Water Footprint, we used the values provided by Villavicencio 
+                <italic>et al.</italic>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-10">10</xref>
+                </sup> as a referential Water Footprint for fresh tomatoes (grown in the Coquimbo Region in the Choapa basin in Chile). They found a total water footprint of 84.2l/kg for the central region whilst we found a total water footprint of 59.57l/kg of tomatoes in the conventional system and 41.11l/kg in the agro-ecological system. Our values reflect the characteristics of the study area.</p>
+            <p>As a whole, an agro-ecological system emits on average of 757.83kg 
+                <italic>CO</italic>
+                <sub>2
+                    <italic>eq</italic>
+                </sub>
+                <italic>/ha</italic> whilst a conventional system emits on average 830.96kg 
+                <italic>CO</italic>
+                <sub>2
+                    <italic>eq</italic>
+                </sub>
+                <italic>/ha</italic>. In the latter system, the greatest generation of emissions corresponded to the use of fuel, with an average of 552.32kg 
+                <italic>CO</italic>
+                <sub>2
+                    <italic>eq</italic>
+                </sub>
+                <italic>/ha</italic> whilst for the agro-ecological system the greatest generation of emissions corresponded to the use of biofertilisers with 426.68kg
+                <italic>CO</italic>
+                <sub>2
+                    <italic>eq</italic>
+                </sub>
+                <italic>/ha</italic>.</p>
+            <p>The results obtained show that an agro-ecological system is the most efficient in terms of consumption of resources. Its produce also have an added value for promoting sustainability, responsible consumption and a healthier diet. The generation of eco-labels can encourage the consumption of these by expanding markets for this production system.</p>
+        </sec>
+        <sec>
+            <title>Data availability</title>
+            <p>The data referenced by this article are under copyright with the following copyright statement: Copyright: &#x00a9; 2018 Taipe Velasco CM et al.</p>
+            <p>Data associated with the article are available under the terms of the Creative Commons Zero "No rights reserved" data waiver (CC0 1.0 Public domain dedication).
+                <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/"/>
+            </p>
+            <p>Dataset 1: Experimental setup. Area of the lands, total crop production (Kg), fertilizer application rate on total crop production, concentration of NPK in each solid fertilizer, mount of NPK (Kg), Liquid fertilizer application rate on the total crop production, Concentration of NPK in each liquid fertilizer, Amount of NPK in liquid fertilizer (Kg), GPS coordinates 
+                <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.14334.d203750">10.5256/f1000research.14334.d203750</ext-link>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-11">11</xref>
+                </sup>
+            </p>
+            <p>Dataset 2: Calculated water footprint for each plot. Green, blue and grey water footprint in l (water)/kg(tomato). 
+                <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.14334.d203751">10.5256/f1000research.14334.d203751</ext-link>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-12">12</xref>
+                </sup>
+            </p>
+            <p>Dataset 3: Calculated carbon footprint for each plots. Total GHG emission (kg CO2 eq): Fuel (CO2, N2O), fertiliser production (N, K2O, P2O) fertiliser use, photosanitary. 
+                <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.14334.d203752">10.5256/f1000research.14334.d203752</ext-link>
+                <sup>
+                    <xref ref-type="bibr" rid="ref-13">13</xref>
+                </sup>
+            </p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <ref id="ref-1">
+                <label>1</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>M&#x00e1;ty&#x00e1;s</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Chiluisa Andrade</surname>
+                            <given-names>ME</given-names>
+                        </name>
+                        <name>
+                            <surname>Yandun Chida</surname>
+                            <given-names>NC</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>Comparing organic versus conventional soil management on soil respiration [version 1; referees: 2 approved].</article-title>
+                    <source>
+			
+                        <italic>F1000Res.</italic>
+		</source>
+                    <year>2018</year>;<volume>7</volume>:<fpage>258</fpage>.
+                    <pub-id pub-id-type="pmid">29623193</pub-id>
+                    <pub-id pub-id-type="doi">10.12688/f1000research.13852.1</pub-id>
+                    <pub-id pub-id-type="pmcid">5861514</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <label>2</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Bautista</surname>
+                            <given-names>G</given-names>
+                        </name>
+                        <name>
+                            <surname>M&#x00e1;ty&#x00e1;s</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Carpio</surname>
+                            <given-names>I</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>Unexpected results in Chernozem soil respiration while measuring the effect of a bio-fertilizer on soil microbial activity [version 2; referees: 2 approved].</article-title>
+                    <source>
+			
+                        <italic>F1000Res.</italic>
+		</source>
+                    <year>2017</year>;<volume>6</volume>:<fpage>1950</fpage>.
+                    <pub-id pub-id-type="pmid">29333243</pub-id>
+                    <pub-id pub-id-type="doi">10.12688/f1000research.12936.2</pub-id>
+                    <pub-id pub-id-type="pmcid">5747331</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <label>3</label>
+                <mixed-citation publication-type="journal">
+                    <article-title>Emisiones de gases de efecto invernadero de la agricultura, silvicultura y otros usos de la tierra America Latina y el Caribe</article-title>. FAO.<year>2014</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/resources/infographics/infographics-details/es/c/238841/">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <label>4</label>
+                <mixed-citation publication-type="journal">
+                    <collab>FAO. (s.f)</collab>:
+                    <article-title>Agua y cultivos uso agr&#x00ed;cola del agua</article-title>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/docrep/005/Y3918S/y3918s03.htm">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <label>5</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Hoekstra</surname>
+                            <given-names>AY</given-names>
+                        </name>
+                        <name>
+                            <surname>Chapagain</surname>
+                            <given-names>AK</given-names>
+                        </name>
+                        <name>
+                            <surname>Aldaya</surname>
+                            <given-names>MM</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>The Water Footprint Assessment Manual: Setting the Global Standar</article-title>.<year>2011</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://waterfootprint.org/media/downloads/TheWaterFootprintAssessmentManual_2.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <label>6</label>
+                <mixed-citation publication-type="journal">
+                    <collab>GHG Protocol, World Resources Institute y wbcsd</collab>:
+                    <article-title>Greenhouse Gas Protocol. Product Life Cycle Accounting and Reporting Standard</article-title>. World Resources Institute. Washington DC, USA: Greenhouse Gas Protocol.<year>2011</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://pdf.wri.org/ghgp_product_life_cycle_standard.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <label>7</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Davies</surname>
+                            <given-names>W</given-names>
+                        </name>
+                        <name>
+                            <surname>Harnisch</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Lucon</surname>
+                            <given-names>O</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>CAP&#x00cd;TULO 3: Combusti&#x00f3;n M&#x00f3;vil</article-title>. En Directrices del IPCC de 2006 para los inventarios nacionales de gases de efecto invernadero, Energ&#x00ed;a. Jap&#x00f3;n:IGES.<year>2006a</year>;<volume>2</volume>:<fpage>1</fpage>&#x2013;<lpage>78</lpage>.
+                    <ext-link ext-link-type="uri" xlink:href="https://www.ipcc-nggip.iges.or.jp/public/2006gl/spanish/pdf/2_Volume2/V2_3_Ch3_Mobile_Combustion.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <label>8</label>
+                <mixed-citation publication-type="journal">
+                    <collab>BioGrace</collab>:
+                    <article-title>BioGrace complete list of standar values version Public</article-title>.<year>2011</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.biograce.net/content/ghgcalculationtools/standardvalues">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <label>9</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Eggleston</surname>
+                            <given-names>ES</given-names>
+                        </name>
+                        <name>
+                            <surname>Buendia</surname>
+                            <given-names>L</given-names>
+                        </name>
+                        <name>
+                            <surname>Miwa</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>CAPITULO 11: Emisiones de N
+                        <sub>2</sub>O de los suelos gestionados y emisiones de CO
+                        <sub>2</sub> derivadas de la aplicaci&#x00f3;n de cal y urea.</article-title>Directrices del IPCC 2006 para los Inventarios Nacionales de Gases de Efecto Invernadero, Agricultura, Silvicultura y Otros Usos de la Tierra. Jap&#x00f3;n: IGES<year>2006c</year>;<volume>4</volume>:<fpage>1</fpage>&#x2013;<lpage>56</lpage>.
+                    <ext-link ext-link-type="uri" xlink:href="https://www.ipcc-nggip.iges.or.jp/public/2006gl/spanish/pdf/4_Volume4/V4_11_Ch11_N2O&amp;CO2.pdf">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <label>10</label>
+                <mixed-citation publication-type="journal">
+                    <collab>Villavicencio, Riquelme y P&#x00e9;rez</collab>:
+                    <article-title>Huella h&#x00ed;drica en Tomate Fresco</article-title>. En Osorio U., Alfonso (ed). Determinaci&#x00f3;n de la huella del agua y estrategias de manejo de recursos h&#x00ed;dricos. Serie Actas
+                    <italic>N&#x00b0;</italic>50. Instituto de Investigaciones Agropecuarias, Centro Regional de Investigaci&#x00f3;n Intihuasi, La Serena, Chile,<year>2013</year>;<fpage>211</fpage>.</mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <label>11</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Taipe Velasco</surname>
+                            <given-names>CM</given-names>
+                        </name>
+                        <name>
+                            <surname>Lizano Acevedo</surname>
+                            <given-names>RX</given-names>
+                        </name>
+                        <name>
+                            <surname>M&#x00e1;ty&#x00e1;s</surname>
+                            <given-names>B</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>Dataset 1 in: Comparative study of the environmental impact of models of conventional agricultural and agro-ecological agriculture in the agricultural phase of tomato cultivation.</article-title>
+                    <source>
+			
+                        <italic>F1000Research.</italic>
+		</source>
+                    <year>2018</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.14334.d203750">Data Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <label>12</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Taipe Velasco</surname>
+                            <given-names>CM</given-names>
+                        </name>
+                        <name>
+                            <surname>Lizano Acevedo</surname>
+                            <given-names>RX</given-names>
+                        </name>
+                        <name>
+                            <surname>M&#x00e1;ty&#x00e1;s</surname>
+                            <given-names>B</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>Dataset 2 in: Comparative study of the environmental impact of models of conventional agricultural and agro-ecological agriculture in the agricultural phase of tomato cultivation.</article-title>
+                    <source>
+			
+                        <italic>F1000Research.</italic>
+		</source>
+                    <year>2018</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.14334.d203751">Data Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-13">
+                <label>13</label>
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Taipe Velasco</surname>
+                            <given-names>CM</given-names>
+                        </name>
+                        <name>
+                            <surname>Lizano Acevedo</surname>
+                            <given-names>RX</given-names>
+                        </name>
+                        <name>
+                            <surname>M&#x00e1;ty&#x00e1;s</surname>
+                            <given-names>B</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>Dataset 3 in: Comparative study of the environmental impact of models of conventional agricultural and agro-ecological agriculture in the agricultural phase of tomato cultivation.</article-title>
+                    <source>
+			
+                        <italic>F1000Research.</italic>
+		</source>
+                    <year>2018</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5256/f1000research.14334.d203752">Data Source</ext-link>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report36276">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15597.r36276</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Tobon</surname>
+                        <given-names>Conrado</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r36276a1">1</xref>
+                    <role>Referee</role>
+                </contrib>
+                <aff id="r36276a1">
+                    <label>1</label>Department of Forestry Science, National University of Colombia, Medell&#x00ed;n, Colombia</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>28</day>
+                <month>8</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport36276" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14334.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>reject</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>
+                <bold>Title and introduction</bold>
+            </p>
+            <p> The title of the manuscript does not provide a precise summary of the&#x00a0;paper's content, which is, it does not condense the paper's content, since this refers to environmental impacts of two types of land use, while the content is totally related to water footprint.</p>
+            <p> </p>
+            <p> I suggest to change the title for a better descriptive name, although simple and brief, but including both: Carbon and water footprint.</p>
+            <p> 
+                <bold>Methods.</bold>
+            </p>
+            <p> The authors failed to present a comprehensive methodology to calculate the components of total footprints: Green, blue and grey. A full description of the methods used to calculate these specific footprints is required in order to understand results, and whenever necessary, compare results. Moreover, they should explain why is not necessary to calculate Grey water footprint, for this specific case.</p>
+            <p> </p>
+            <p> Authors should complete the methodology.</p>
+            <p> 
+                <bold>Figures.</bold>
+            </p>
+            <p> Figures 1, 2, and 3 should be more clear, and do not requires number on the bars. That&#x00b4;s why the Y axis exists.</p>
+            <p> 
+                <bold>Discussion</bold>
+            </p>
+            <p> In the first paragraph of the discussion the authors again present the results, which in fact belong more to the results than to properly to the discussion component. As for the other paragraphs, the presented discussion is far too poor, and do not
+                <italic> </italic>interpret and describe the significance of the findings in light of&#x00a0;what&#x00a0;was already known in this field of the science. It needs to be completed.</p>
+            <p> </p>
+            <p> The authors should present a new discussion based on: 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Authors should demonstrate their ability to think critically about the reported and formulate through the discussion session a more profound understanding of the research problem under investigation,</p>
+                    </list-item>
+                    <list-item>
+                        <p>To denote possible implications of the results and explore possible improvements that can be made in order to further develop the research topic</p>
+                    </list-item>
+                    <list-item>
+                        <p>To state how the findings from this study revealed new gaps in the literature that had not been previously exposed or adequately described.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>I have read this submission. I believe that I have an appropriate level of expertise to state that I do not consider it to be of an acceptable scientific standard, for reasons outlined above.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report36277">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15597.r36277</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>C&#x00e1;rdenas</surname>
+                        <given-names>Mar&#x00ed;a Fernanda</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r36277a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-1804-6280</uri>
+                </contrib>
+                <aff id="r36277a1">
+                    <label>1</label>National University of Colombia, Medell&#x00ed;n, Colombia</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>27</day>
+                <month>7</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport36277" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14334.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve-with-reservations</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>In the abstract, the presented results refer only to the water footprint calculated for the conventional system. Without the missing information, is not possible to follow your conclusions, presented in the abstract but not in the document.</p>
+            <p> The introduction of the manuscript does not provide the reader a context to understand the importance of this study. This is, for example, the relevance of agroecology, the current politics about it, or the significance of tomatoes in particular or agriculture in general for the region where the study was carried out. I believe the earlier would enhance the study.</p>
+            <p> The study sites and their location would be clearer presented in a table or in a figure. In a table would be interesting add, besides the coordinates, some information about the field characteristics, since I suspect it has a relationship with the results obtained. Particularly, it would be interesting if helps to explain the huge differences you found among plots.</p>
+            <p> Also, and related to the earlier, it would be necessary to justify why you decided to work with 3 plots in each assessed system. This is a big concern to me due to the differences presented in fig. 1... there is no explanation in the document and is it must be statistically supported.</p>
+            <p> Fig 2. and Fig. 3 are not relevant since they are not showing new information.</p>
+            <p> Finally, it is important to review the references. I.e, #9 says IPCCc, but it actually refers to Eggleston et al. Also, the letter c does not have sense if there is no a or b.</p>
+            <p> In general, English needs to be reviewed.</p>
+            <p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above.</p>
+        </body>
+    </sub-article>
+</article>

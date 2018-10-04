@@ -23,6 +23,6 @@ get_what <- function(data, what, from){
            history = history(data, from)
     )
   }), what)
-  res$publisher <- from
+  res$.publisher <- from
   return(res)
 }

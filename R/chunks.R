@@ -48,13 +48,13 @@
 #' * history - Dates, recieved, published, accepted, etc.
 #'
 #' @return A list, named by the section selected. sections not found or
-#' not in accepted list return `NULL` or zero length list
+#' not in accepted list return `NULL` or zero length list. A ".publisher"
+#' list element gets attached to each list output, even when no 
+#' data is found.
 #' 
 #' @examples
 #' # a file path to an XML file
 #' x <- system.file("examples/elsevier_1.xml", package = "pubchunks")
-#' pub_chunks(x, "abstract")
-#' cat(pub_chunks(x, "abstract")[[1]])
 #' pub_chunks(x, "title")
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "acknowledgments")
@@ -110,10 +110,29 @@
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, c("doi", "title", "authors", "refs"))
 #' 
+#' # f1000research
+#' x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+#' pub_chunks(x, "title")
+#' pub_chunks(x, "aff")
+#' pub_chunks(x, c("doi", "title", "authors", "keywords", "refs"))
+#' 
+#' # Many inputs at once
+#' x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
+#' y <- system.file("examples/elife_1.xml", package = "pubchunks")
+#' z <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+#' pub_chunks(list(x, y, z), c("doi", "title", "authors", "refs"))
+#' 
 #' \dontrun{
 #' # using output of fulltext::ft_get()
 #' if (requireNamespace("fulltext", quietly = TRUE)) {
-#'   x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
+#'   # single
+#'   x <- fulltext::ft_get('10.7554/eLife.03032')
+#'   pub_chunks(fulltext::ft_collect(x), sections="authors")
+#' 
+#'   # many
+#'   dois <- c('10.1371/journal.pone.0086169', '10.1371/journal.pone.0155491', 
+#'     '10.7554/eLife.03032')
+#'   x <- fulltext::ft_get(dois)
 #'   pub_chunks(fulltext::ft_collect(x), sections="authors")
 #' }
 #' }
@@ -141,8 +160,8 @@ pub_chunks.xml_document <- function(x, sections = 'all', provider = NULL) {
 
 #' @export
 pub_chunks.list <- function(x, sections = 'all', provider = NULL) {
-  out <- lapply(x, pub_chunks, sections = sections, provider = provider)
-  pccat(out, 'list', sections)
+  tmp <- lapply(x, pub_chunks, sections = sections, provider = provider)
+  structure(tmp, ft_data = FALSE)
 }
 
 #' @export
@@ -156,11 +175,11 @@ pub_chunks.ft_data <- function(x, sections = 'all', provider = NULL) {
       out[[names(x[i])]] <-
       lapply(x[[i]]$data$data, function(q){
         qparsed <- if (inherits(q, "xml_document")) q else xml2::read_xml(q)
-        get_what(data = qparsed, sections, names(x[i]))
+        pub_chunks(qparsed, sections, names(x[i]))
       })
     }
   }
-  pccat(out, 'ft_data', sections)
+  structure(out, ft_data = TRUE)
 }
 
 
@@ -169,9 +188,9 @@ pub_chunks.ft_data <- function(x, sections = 'all', provider = NULL) {
 print.pub_chunks <- function(x, ...) {
   cat("<pub chunks>", sep = "\n")
   cat(paste0("  from: ", attr(x, "from")), sep = "\n")
-  cat(paste0("  count: ", paste0(countem(x), collapse = ", ")), sep = "\n")
   cat(paste0("  sections: ", paste0(attr(x, "sections"), collapse = ", ")),
     sep = "\n")
+  print_one(x)
 }
 
 pccat <- function(x, from, sections) {
@@ -189,3 +208,31 @@ countem <- function(x) {
     ft_data = lapply(x, function(z) vapply(z, length, 1) - 1)
   )
 }
+
+print_one <- function(x) {
+  for (i in seq_along(x[1:min(5, length(x))])) {
+    if (names(x)[i] != ".publisher") {
+      val <- x[[i]] %||% ""
+      cnt <- length(val)
+      if (inherits(val[[1]], "list")) {
+        val <- "nested list"
+      } else if (all(is.na(val)) || all(is.null(val)) || all(!nzchar(val))) {
+        cnt <- 0
+        val <- ""
+      } else {
+        if (length(val) > 1) {
+          if (inherits(val, "list")) val <- val[[1]]
+          val <- paste0(val, collapse = ", ")
+          if (nchar(val[1]) > 50) {
+            val <- substring(val[1], 1, 50)
+          }
+        }
+        if (nchar(val) > 50) {
+          val <-  paste0(substring(val, 1, 50), " ...")
+        }
+      }
+      cat(sprintf("   %s (n=%s): %s", names(x)[i], cnt, val), sep = "\n")
+    }
+  }
+}
+

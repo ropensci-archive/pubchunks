@@ -40,6 +40,7 @@ The other main function is `pub_tabularize()` - which takes the output of `pub_c
 - PeerJ
 - Copernicus
 - Frontiers
+- F1000 Research
 
 If you know of other publishers or sources that provide XML let us know by [opening an issue](https://github.com/ropensci/pubchunks/issues).
 

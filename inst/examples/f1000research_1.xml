@@ -1,0 +1,2107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="software-tool">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="pmc">F1000Research</journal-id>
+            <journal-title-group>
+                <journal-title>F1000Research</journal-title>
+            </journal-title-group>
+            <issn pub-type="epub">2046-1402</issn>
+            <publisher>
+                <publisher-name>F1000 Research Limited</publisher-name>
+                <publisher-loc>London, UK</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.12688/f1000research.14013.2</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Software Tool Article</subject>
+                </subj-group>
+                <subj-group>
+                    <subject>Articles</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Taxa: An R package implementing data standards and methods for taxonomic data</article-title>
+                <fn-group content-type="pub-status">
+                    <fn>
+                        <p>[version 2; referees: 3 approved, 1 approved with reservations]</p>
+                    </fn>
+                </fn-group>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Foster</surname>
+                        <given-names>Zachary S.L.</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <role content-type="http://credit.casrai.org/">Software</role>
+                    <role content-type="http://credit.casrai.org/">Validation</role>
+                    <role content-type="http://credit.casrai.org/">Visualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <name>
+                        <surname>Chamberlain</surname>
+                        <given-names>Scott</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Project Administration</role>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <role content-type="http://credit.casrai.org/">Software</role>
+                    <role content-type="http://credit.casrai.org/">Validation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <xref ref-type="aff" rid="a2">2</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="yes">
+                    <name>
+                        <surname>Gr&#x00fc;nwald</surname>
+                        <given-names>Niklaus J.</given-names>
+                    </name>
+                    <role content-type="http://credit.casrai.org/">Conceptualization</role>
+                    <role content-type="http://credit.casrai.org/">Funding Acquisition</role>
+                    <role content-type="http://credit.casrai.org/">Methodology</role>
+                    <role content-type="http://credit.casrai.org/">Project Administration</role>
+                    <role content-type="http://credit.casrai.org/">Resources</role>
+                    <role content-type="http://credit.casrai.org/">Supervision</role>
+                    <role content-type="http://credit.casrai.org/">Validation</role>
+                    <role content-type="http://credit.casrai.org/">Visualization</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Original Draft Preparation</role>
+                    <role content-type="http://credit.casrai.org/">Writing &#x2013; Review &amp; Editing</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-1656-7602</uri>
+                    <xref ref-type="corresp" rid="c1">a</xref>
+                    <xref ref-type="aff" rid="a3">3</xref>
+                </contrib>
+                <aff id="a1">
+                    <label>1</label>Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR, 97331, USA</aff>
+                <aff id="a2">
+                    <label>2</label>rOpenSci, University of California, Berkeley, CA, 94720, USA</aff>
+                <aff id="a3">
+                    <label>3</label>Horticultural Crops Research Laboratory, USDA Agricultural Research Service, Corvallis, OR, 97330, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="c1">
+                    <label>a</label>
+                    <email xlink:href="mailto:grunwaln@oregonstate.edu">grunwaln@oregonstate.edu</email>
+                </corresp>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>The authors have declared that no competing interests exist. The use of trade, firm, or corporation names in this publication is for the information and convenience of the reader. Such use does not constitute an official endorsement or approval by the United States Department of Agriculture or the Agricultural Research Service of any product or service to the exclusion of others that may be suitable.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>11</day>
+                <month>9</month>
+                <year>2018</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2018</year>
+            </pub-date>
+            <volume>7</volume>
+            <elocation-id>272</elocation-id>
+            <history>
+                <date date-type="accepted">
+                    <day>5</day>
+                    <month>9</month>
+                    <year>2018</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Copyright: &#x00a9; 2018 Foster ZSL et al.</copyright-statement>
+                <copyright-year>2018</copyright-year>
+                <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="pdf" xlink:href="f1000research-7-17689.pdf"/>
+            <abstract>
+                <p>The&#x00a0;taxa R package provides a set of tools for defining and manipulating taxonomic data. The recent and widespread application of DNA sequencing to community composition studies is making large data sets with taxonomic information commonplace. However, compared to typical tabular data, this information is encoded in many different ways and the hierarchical nature of taxonomic classifications makes it difficult to work with. There are many R packages that use taxonomic data to varying degrees but there is currently no cross-package standard for how this information is encoded and manipulated. We developed the R package&#x00a0;taxa to provide a robust and flexible solution to storing and manipulating taxonomic data in R and any application-specific information associated with it.&#x00a0;Taxa provides parsers that can read common sources of taxonomic information (taxon IDs, sequence IDs, taxon names, and classifications) from nearly any format while preserving associated data. Once parsed, the taxonomic data and any associated data can be manipulated using a cohesive set of functions modeled after the popular R package&#x00a0;dplyr. These functions take into account the hierarchical nature of taxa and can modify the taxonomy or associated data in such a way that both are kept in sync.&#x00a0;Taxa is currently being used by the&#x00a0;metacoder and&#x00a0;taxize packages, which provide broadly useful functionality that we hope will speed adoption by users and developers.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>R language</kwd>
+                <kwd>taxonomy</kwd>
+                <kwd>taxa</kwd>
+                <kwd>R package</kwd>
+                <kwd>rOpenSci</kwd>
+                <kwd>metacoder</kwd>
+                <kwd>taxize</kwd>
+            </kwd-group>
+            <funding-group>
+                <award-group id="fund-1">
+                    <funding-source>rOpenSci</funding-source>
+                </award-group>
+                <award-group id="fund-2" xlink:href="http://dx.doi.org/10.13039/100007917">
+                    <funding-source>Agricultural Research Service</funding-source>
+                    <award-id>2027-22000-039-00</award-id>
+                    <award-id>2072-22000-039-15-S</award-id>
+                </award-group>
+                <funding-statement>This work was supported in part by funds from USDA Agricultural Research Service Projects 2027-22000-039-00 and 2072-22000-039-15-S to NG and an rOpenSci grant to ZF. </funding-statement>
+                <funding-statement>
+                    <italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic>
+                </funding-statement>
+            </funding-group>
+        </article-meta>
+        <notes>
+            <sec sec-type="version-changes">
+                <label>Revised</label>
+                <title>Amendments from Version 1</title>
+                <p>In this revision we addressed all the comments from the reviewers. Major points addressed include: 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>We addressed the fact that various R packages handle taxonomic information differently and provide background on why taxa is useful as a low level taxonomy tool.</p>
+                        </list-item>
+                        <list-item>
+                            <p>We provide examples of how various databases (e.g., greengenes, SILVA, RDP) handle taxonomic information.&#x00a0;</p>
+                        </list-item>
+                        <list-item>
+                            <p>We provide examples of how the database class handles database associated information using the example of NCBI.</p>
+                        </list-item>
+                        <list-item>
+                            <p>We provide examples of how the taxon_name, taxon_id and taxon_rank classes handle database associated information using the example of NCBI.</p>
+                        </list-item>
+                        <list-item>
+                            <p>We provide more detail on the hierarchy&#x2019;s class and taxonomy as a more memory-efficient alternative.&#x00a0;</p>
+                        </list-item>
+                        <list-item>
+                            <p>We explain&#x00a0;non-standard evaluation.</p>
+                        </list-item>
+                        <list-item>
+                            <p>We discuss use of the drop_obs and reassing_obs options.&#x00a0;</p>
+                        </list-item>
+                        <list-item>
+                            <p>We discuss in detail how taxa can be used to implement flexible parsers for other higher level packages.</p>
+                        </list-item>
+                        <list-item>
+                            <p>We also added some issues to Github that are either resolved or pending future updates where feasible.&#x00a0;</p>
+                        </list-item>
+                        <list-item>
+                            <p>We added reference for the databases included as examples.</p>
+                        </list-item>
+                    </list>
+                </p>
+            </sec>
+        </notes>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>Introduction</title>
+            <p>The R statistical computing language is rapidly becoming the leading tool for scientific data analysis in academic research programs (
+                <xref ref-type="bibr" rid="ref-12">Tippmann, 2015</xref>). One of the reasons for R&#x2019;s popularity is how easy it is to develop and install extensions called R packages, relative to other programming languages. There are now more than 10,000 packages on the Comprehensive R Archive Network (CRAN), over 1,300 packages on Bioconductor (
+                <xref ref-type="bibr" rid="ref-5">Gentleman 
+                    <italic>et al.</italic>, 2004</xref>), and countless more on GitHub.</p>
+            <p>The recent increases in the affordability and effectiveness of high-throughput sequencing has led to a large number of ecological datasets of unprecedented size and complexity. The R community has responded with the creation of numerous packages for ecological data analysis and visualization, such as 
+                <monospace>vegan</monospace> (
+                <xref ref-type="bibr" rid="ref-11">Oksanen 
+                    <italic>et al.</italic>, 2013</xref>), 
+                <monospace>phyloseq</monospace> (
+                <xref ref-type="bibr" rid="ref-9">McMurdie &amp; Holmes, 2013</xref>), 
+                <monospace>taxize</monospace> (
+                <xref ref-type="bibr" rid="ref-3">Chamberlain &amp; Sz&#x00f6;cs, 2013</xref>), and 
+                <monospace>metacoder</monospace> (
+                <xref ref-type="bibr" rid="ref-7">Foster 
+                    <italic>et al.</italic>, 2017</xref>). Taxonomic information is often associated with these large data sets and each package encodes this information differently. Some store taxonomic classification as a table with ranks as columns (e.g. 
+                <monospace>phyloseq</monospace>), some store it as simple character vectors (i.e. plain text) or column/row names, leaving it up to the user to decide on the details on how taxa in the classification are distinguished (e.g. 
+                <monospace>vegan</monospace>), and some store it as a list of tables with one classification in each table (e.g. 
+                <monospace>taxize</monospace>). Since each package tends to have a unique focus, it is common to use multiple packages on the same data set but converting between formats can be difficult. Considering how recently these large taxonomic data sets have become commonplace, it is likely that many more packages that use taxonomic information will be created.</p>
+            <p>Without a common data standard, using multiple packages with the same data set requires constant reformatting, which complicates analyses and increases the chance of errors. Package maintainers often add functions to convert between the formats of other popular packages, but this practice will become unsustainable as the number of packages dealing with taxonomic data increases. Even if a conversion function exists, doing the conversion can significantly increase the time needed to analyze very large data sets, like those generated by high-throughput sequencing. In addition, not all formats accommodate the same types of information, so conversion can force a loss of information.</p>
+            <p>The sources of taxonomic data, typically online databases, also vary in how they are encoded. Reference sequence databases used in ecology research often have taxon names in the headers separated by some character, but the details differ. For example, the popular Greengenes database (
+                <xref ref-type="bibr" rid="ref-10">McDonald 
+                    <italic>et al.</italic>, 2012</xref>) for prokaryotic 16S sequences encodes classifications as follows:</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#000000;">k__Bacteria; p__Cyanobacteria; c__Synechococcophycideae...</styled-content>
+                </preformat>
+            </p>
+            <p>In contrast, the SILVA database (
+                <xref ref-type="bibr" rid="ref-14">Yilmaz 
+                    <italic>et al.</italic>, 2014</xref>) uses:</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#000000;">Bacteria;Proteobacteria;Gammaproteobacteria...</styled-content>
+                </preformat>
+            </p>
+            <p>And the Ribosomal Database Project (RDP) (
+                <xref ref-type="bibr" rid="ref-4">Cole 
+                    <italic>et al.</italic>, 2014</xref>) has the ranks and taxon names intermixed with the same separator:</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#000000;">Root;rootrank;Fungi;domain;Ascomycota...</styled-content>
+                </preformat>
+            </p>
+            <p>These minor differences, while not a problem for humans to understand, mean that different code must be used to read each type. Also, this information is often intermixed with other information in the same header, like the sequence ID or description of the organism further complicating parsing. In other cases, a classification might not be supplied at all, but just a taxon name (e.g. 
+                <italic>Homo sapiens</italic>), sequence ID, or taxon ID, as is done in sequences downloaded from GenBank:</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#000000;">&gt;AC005336.1 Homo sapien chromosome 19</styled-content>
+                </preformat>
+            </p>
+            <p>In this case the classification must be looked up using tools like the 
+                <monospace>taxize</monospace> package, but to do that the relevant information must be extracted from the rest of the header.</p>
+            <p>
+
+                <monospace>Taxa</monospace> is a new R package that defines classes and functions for storing and manipulating taxonomic data. It is meant to provide a solid foundation on which to build an ecosystem of packages that will be able to interact seamlessly with minimal hassle for developers and users. It also provides highly flexible functions to read in data (i.e. parsers) from diverse formats, allowing it to be used with the ever-changing and proliferating selection of file formats used by biologists. The classes in 
+                <monospace>taxa</monospace> are designed to be as flexible as possible so they can be used in all cases involving taxonomic information. Complexity ranges from low level classes used to store the names of taxa, ranks, and databases to high-level classes that can store multiple data sets associated with a taxonomy. In particular, the 
+                <monospace>taxmap</monospace> class is designed to hold any type of arbitrary, user-defined data associated with taxonomic information, making its applications limitless. In addition to the classes, there are associated functions for manipulating data based on the 
+                <monospace>dplyr</monospace> philosophy (
+                <xref ref-type="bibr" rid="ref-13">Wickham &amp; Francois, 2015</xref>). These functions provide an intuitive way of filtering and manipulating both taxonomic and user-defined data simultaneously. In combination with flexible parsers and classes, this allows for taxa to be used to subset complicated data/files based on their associated taxonomic information.</p>
+        </sec>
+        <sec sec-type="methods">
+            <title>Methods</title>
+            <sec>
+                <title>Implementation</title>
+                <p>
+                    <bold>
+                        <italic>The basic classes</italic>.</bold> 
+                    <monospace>Taxa</monospace> defines some basic taxonomic classes and functions to manipulate them (
+                    <xref ref-type="fig" rid="f1">Figure 1</xref>). The goal is to use these as low-level building blocks that other R packages can use. The 
+                    <monospace>database</monospace> class stores the name of a database and any associated information, such as a description, its URL, and a regular expression matching the format of valid taxon identifiers (IDs):</p>
+                <p>
+                    <preformat preformat-type="computer code">
+                        <styled-content style="font-size:15px;color:#000000;">taxon_database(
+  name = "ncbi",
+  url = "
+                            <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/taxonomy">http://www.ncbi.nlm.nih.gov/taxonomy</ext-link>",
+  description = "NCBI Taxonomy Database",
+  id_regex = "*")
+#&gt; &lt;database&gt; ncbi
+#&gt;   url: 
+                            <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/taxonomy">http://www.ncbi.nlm.nih.gov/taxonomy</ext-link>
+#&gt;   description: NCBI Taxonomy Database
+#&gt;   id regex: *</styled-content>
+                    </preformat>
+                </p>
+                <fig fig-type="figure" id="f1" position="float">
+                    <label>Figure 1. </label>
+                    <caption>
+                        <title>A class diagram representing the relationship between classes implemented in the 
+                            <monospace>taxa</monospace> package.</title>
+                        <p>Diamond-tipped arrows indicate that objects of a lower class are used in a higher class. For example, a 
+                            <monospace>database</monospace> object can be stored in the 
+                            <monospace>taxon_rank</monospace>, 
+                            <monospace>taxon_name</monospace>, or 
+                            <monospace>taxon_id objects</monospace>. A standard arrow indicates that the lower class is inherited by the higher class. For example, the 
+                            <monospace>taxmap</monospace> class inherits the 
+                            <monospace>taxonomy</monospace> class. An asterisk indicates that an object (e.g. a 
+                            <monospace>database</monospace> object) can be replaced by a simple character vector. A question mark indicates that the information is optional.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-17689-g0000.gif"/>
+                </fig>
+                <p>The classes 
+                    <monospace>taxon_name,</monospace> 
+                    <monospace>taxon_id</monospace>, and 
+                    <monospace>taxon_rank</monospace> store the names, IDs, and ranks of taxa and can include a 
+                    <monospace>database</monospace> object indicating their source:</p>
+                <p>
+                    <preformat preformat-type="computer code">
+                        <styled-content style="font-size:15px;color:#000000;">taxon_name("Poa", database = "ncbi")
+#&gt; &lt;TaxonName&gt; Poa
+#&gt;   database: ncbi
+taxon_rank(name = "species", database = "ncbi")
+#&gt; &lt;TaxonRank&gt; species
+#&gt;   database: ncbi
+taxon_id(12345, database = "ncbi")
+#&gt; &lt;TaxonId&gt; 12345
+#&gt;   database: ncbi</styled-content>
+                    </preformat>
+                </p>
+                <p> All of the classes mentioned so far can be replaced with character vectors in the higher-level classes that use them. This is convenient for users who do not have or need database information. However, using these classes allows for greater flexibility and rigor as the 
+                    <monospace>taxa</monospace> develops; new kinds of information can be added to these classes without affecting backwards compatibility and the database objects stored in the 
+                    <monospace>taxon_name</monospace>, 
+                    <monospace>taxon_id</monospace>, and 
+                    <monospace>taxon_rank</monospace> classes can be used to verify the integrity of data, even if data from multiple databases are combined. These classes are used to create the 
+                    <monospace>taxon</monospace> class, which is the main building block of the package. It stores the name, ID, and rank of a taxon using the 
+                    <monospace>taxon_name</monospace>, 
+                    <monospace>taxon_id</monospace>, and 
+                    <monospace>taxon_rank</monospace> classes. The 
+                    <monospace>taxa</monospace> class is simply a list of 
+                    <monospace>taxon</monospace> objects with a custom print method (i.e. the function controlling how it is displayed when printed to the console).</p>
+                <p>
+                    <bold>
+                        <italic>The hierarchy and taxonomy classes.</italic>
+                    </bold> The 
+                    <monospace>taxon</monospace> class is used in the 
+                    <monospace>hierarchy</monospace> and 
+                    <monospace>taxonomy</monospace> classes, which store multiple taxa (
+                    <xref ref-type="fig" rid="f1">Figure 1</xref>). The 
+                    <monospace>hierarchy</monospace> class stores a taxonomic classification composed of nested taxa of different ranks (e.g. 
+                    <italic>Animalia</italic>, 
+                    <italic>Chordata</italic>, 
+                    <italic>Mammalia</italic>, 
+                    <italic>Primates</italic>, 
+                    <italic>Hominidae</italic>, 
+                    <italic>Homo</italic>, 
+                    <italic>sapiens</italic>). Each taxon is stored as a 
+                    <monospace>taxon</monospace> object in a list in the order they appear in the classification, from most inclusive to most specific. The 
+                    <monospace>hierarchies</monospace> class is simply a list of 
+                    <monospace>hierarchy</monospace> objects with a custom print method. The 
+                    <monospace>hierarchies</monospace> class has the convenience of each hierarchy being independent, making it easy to subset by index or name, but it could also waste memory by storing multiple copies of the more coarse taxa (e.g. 
+                    <italic>Animalia</italic>) that are likely to appear in many 
+                    <monospace>hierarchy</monospace> objects. The 
+                    <monospace>taxonomy</monospace> class is a more memory-efficient alternative that can store the same information.</p>
+                <p>The 
+                    <monospace>taxonomy</monospace> class stores multiple taxa in a tree structure representing a taxonomy. The individual taxa are stored as a list of 
+                    <monospace>taxon</monospace> objects and the tree structure is stored as an edge list representing subtaxa-supertaxa relationships. The edge list is a two-column table of taxon IDs that are automatically generated for each taxon. Using automatically generated taxon IDs, as opposed to taxon names, allows for multiple taxa with identical names. For example, 
+                    <italic>Achlya</italic> is the name of an oomycete genus as well as a moth genus. It is also preferable to using taxon IDs from particular databases, since users might combine data from multiple databases and the same ID might correspond to different taxa in different databases. For example, &#x201c;180092&#x201d; is the ID for 
+                    <italic>Homo sapiens</italic> in the Integrated Taxonomic Information System, but is the ID for 
+                    <italic>Acianthera teres</italic> (an orchid) in the NCBI taxonomy database. The tree structure of the 
+                    <monospace>taxonomy</monospace> class uses less memory than the same information saved as a table of ranks by taxa, since the information for each taxon occurs in only one instance. It also does not require explicit rank information (e.g. &#x201c;genus&#x201d; or &#x201c;family&#x201d;).</p>
+                <p>
+                    <bold>
+                        <italic>The taxmap class.</italic>
+                    </bold> The 
+                    <monospace>taxmap</monospace> class inherits the 
+                    <monospace>taxonomy</monospace> class and is used to store any number of data sets associated with taxa in a taxonomy (
+                    <xref ref-type="fig" rid="f1">Figure 1</xref>). A list called &#x201c;data&#x201d; stores any number of lists, tables, or vectors that are mapped to all or a subset of the taxa at any rank in the taxonomy. Therefore, the raw data used to make the object (and any other data associated with it) can be included in the 
+                    <monospace>taxmap</monospace> object itself in its original form. In the case of tables, the presence of a &#x201c;taxon_id&#x201d; column containing unique taxon IDs indicates which rows correspond to which taxa. Lists and vectors can be named by taxon IDs to indicate which taxa their elements correspond to. When a 
+                    <monospace>taxmap</monospace> object is subset or otherwise manipulated, these IDs allow for the taxonomy and associated data to remain in sync. The 
+                    <monospace>taxmap</monospace> also contains a list called &#x201c;funcs&#x201d; that stores functions that return information based on the content of the 
+                    <monospace>taxmap</monospace> object. In most functions that operate on 
+                    <monospace>taxmap</monospace> objects, the results of built-in functions (e.g. 
+                    <monospace>n_obs</monospace>), user-defined functions, and the user-defined content of lists, vectors, or columns of tables can be referenced as if they are variables on their own, using non-standard evaluation (NSE). NSE is a technique used to make functions more convenient to use by interpreting things like variable names in a function call differently than they would be outside the function call or in other functions not using NSE. Any value returned by the 
+                    <monospace>all_names</monospace> function can be used in this way. This greatly reduces the amount of typing needed and makes the code easier to read.</p>
+                <p>
+                    <bold>
+                        <italic>Manipulation functions.</italic>
+                    </bold> The 
+                    <monospace>hierarchy</monospace>, 
+                    <monospace>hierarchies</monospace>, and 
+                    <monospace>taxa</monospace> classes have a relatively simple structure that is easily manipulated using standard indexing (i.e. using 
+                    <monospace>[</monospace>, 
+                    <monospace>[[</monospace>, or 
+                    <monospace>$</monospace>), but the 
+                    <monospace>taxonomy</monospace> and 
+                    <monospace>taxmap</monospace> classes are hierarchical, making them much harder to modify. To make manipulating these classes easier, we have developed a set of functions based on the 
+                    <monospace>dplyr</monospace> data manipulation philosophy. The 
+                    <monospace>dplyr</monospace> framework provides a consistent, intuitive, and chain-able set of commands that is easy for new users to understand. For example, 
+                    <monospace>filter_taxa</monospace> and 
+                    <monospace>filter_obs</monospace> are analogs of the 
+                    <monospace>dplyr filter</monospace> function used to subset tables.</p>
+                <p>One aspect that makes 
+                    <monospace>dplyr</monospace> convenient is the use of NSE to allow users to refer to column names as if they are variables on their own. The 
+                    <monospace>taxa</monospace> package builds on this idea. Since 
+                    <monospace>taxmap</monospace> objects can store any number of user-defined tables, vectors, lists, and functions, the values accessible by NSE are more diverse. All columns from any table and the contents of lists/vectors are available. There are also built-in and user-defined functions whose results are available via NSE. Referring to the name of the function as if it were an independent variable will run the function and return its results. This is useful for data that is dependent on the characteristics of other data and allows for convenient use of the 
+                    <monospace>magrittr %&gt;%</monospace> piping operator. For example, the built-in 
+                    <monospace>n_subtaxa</monospace> function returns the number of subtaxa for each taxon. If this was run once and the result was stored in a static column, it would have to be updated each time taxa are filtered. If there are multiple filtering steps piped together using 
+                    <monospace>%&gt;%</monospace>, a static &#x201c;n_subtaxa&#x201d; column would have to be recalculated after each filtering to keep it up to date. Using a function that is automatically called when needed eliminates this hassle. The user still has the option of using a static column if it is preferable to avoid redundant calculations with large data sets.</p>
+                <p>Unlike 
+                    <monospace>dplyr</monospace>&#x2019;s 
+                    <monospace>filter</monospace> function, 
+                    <monospace>filter_taxa</monospace> works on a hierarchical structure and, optionally, on associated data simultaneously. By default, the hierarchical nature of the data is not considered; taxa that meet some criterion are preserved regardless of their place in the hierarchy. When the 
+                    <monospace>subtaxa</monospace> option is 
+                    <monospace>TRUE</monospace>, all of the subtaxa of taxa that pass the filter are also preserved and when 
+                    <monospace>supertaxa</monospace> is 
+                    <monospace>TRUE</monospace>, all of the supertaxa are likewise preserved. For example,</p>
+                <p>
+                    <preformat preformat-type="computer code">
+                        <styled-content style="font-size:15px;color:#000000;">filter_taxa(my_taxmap, taxon_names == 'Fungi', subtaxa = TRUE)</styled-content>
+                    </preformat>
+                </p>
+                <p>would remove any taxa that are not named &#x201c;Fungi&#x201d; or are not a subtaxon of a taxon named &#x201c;Fungi&#x201d;. By default, steps are taken to ensure that the hierarchy remains intact when taxa are removed and that user-defined data are remapped to remaining taxa. When the 
+                    <monospace>reassign_taxa</monospace> option is 
+                    <monospace>TRUE</monospace> (the default), the subtaxa of removed taxa are reassigned to any supertaxa that were not removed, keeping the tree intact. When the 
+                    <monospace>reassign_obs</monospace> option is 
+                    <monospace>TRUE</monospace> (the default), any user-defined data assigned to removed taxa are reassigned to the closest supertaxa that passed the filter if such a taxon exists. This makes it easy to remove parts of the taxonomy without losing associated information. Finally, if the 
+                    <monospace>drop_obs</monospace> option is 
+                    <monospace>TRUE</monospace> (the default), any user-defined data assigned to removed taxa are also removed, allowing for subsetting of user-defined data based on taxon characteristics. The many combinations of these powerful options make 
+                    <monospace>filter_taxa</monospace> a flexible tool and make it easier for new users to deal with the hierarchical nature of taxonomic data. For example, if the 
+                    <monospace>drop_obs</monospace> option is 
+                    <monospace>TRUE</monospace> (the default) and the 
+                    <monospace>reassign_obs</monospace> option is 
+                    <monospace>FALSE</monospace>, then any user-defined data assigned to taxa are removed even if a supertaxon is preserved. If the 
+                    <monospace>drop_obs</monospace> option is 
+                    <monospace>FALSE,</monospace> and the 
+                    <monospace>reassign_obs</monospace> option 
+                    <monospace>is FALSE</monospace>, then data associated with removed taxa is assigned a taxon ID placeholder of 
+                    <monospace>NA</monospace>, but not removed. The function 
+                    <monospace>sample_n_taxa</monospace> is a wrapper for 
+                    <monospace>filter_taxa</monospace> that randomly samples some number of taxa. All of the options of 
+                    <monospace>filter_taxa</monospace> can also be used for 
+                    <monospace>sample_n_taxa</monospace>, in addition to options that influence the relative probability of each taxon being sampled.</p>
+                <p>Other dplyr analogs that help users manipulate their data include 
+                    <monospace>filter_obs</monospace>, 
+                    <monospace>sample_n_obs</monospace>, and 
+                    <monospace>mutate_obs.filter_obs</monospace> is similar to running the 
+                    <monospace>dplyr</monospace> function 
+                    <monospace>filter</monospace> on a tabular, user-defined dataset, except that there are more values available to NSE and lists and vectors can also be subset. The 
+                    <monospace>drop_taxa</monospace> option can be used to remove any taxa whose only observations have been removed during the filtering. The 
+                    <monospace>sample_n_obs</monospace> function is a wrapper for 
+                    <monospace>filter_obs</monospace> that randomly samples some number of observations. Like 
+                    <monospace>sample_n_taxa</monospace>, there are options to weight the relative probability that each observation will be sampled. The 
+                    <monospace>mutate_obs</monospace> function simply adds columns to tables of user-defined data.</p>
+                <p>
+                    <bold>
+                        <italic>Mapping functions.</italic>
+                    </bold> There are also a few functions that create mappings between different parts of the data contained in 
+                    <monospace>taxmap</monospace> or 
+                    <monospace>taxonomy</monospace> objects. These are heavily used internally in the functions described already, but are also useful for the user. The 
+                    <monospace>subtaxa</monospace> and 
+                    <monospace>supertaxa</monospace> functions return the taxon IDs (or other values) associated with all subtaxa or supertaxa of each taxon. They return one value per taxon. The 
+                    <monospace>recursive</monospace> option controls how many ranks below or above each taxon are traversed. For example, 
+                    <monospace>subtaxa(obj, recursive = 3)</monospace> will return information for all subtaxa and their immediate subtaxa for each taxon. The 
+                    <monospace>recursive</monospace> option also accepts a simple 
+                    <monospace>TRUE/FALSE</monospace>, with 
+                    <monospace>TRUE</monospace> indicating all subtaxa of subtaxa, etc., and 
+                    <monospace>FALSE</monospace> only returning immediate subtaxa, but not their descendants. By default, 
+                    <monospace>subtaxa</monospace> and 
+                    <monospace>supertaxa</monospace> return taxon IDs, but the 
+                    <monospace>value</monospace> option allows the user to choose what information to return for each taxon. For example, 
+                    <monospace>subtaxa(obj, value = "taxon_names")</monospace> will return the names of taxa instead of their IDs. Any data available to NSE (i.e. in the result of 
+                    <monospace>all_names(obj)</monospace>) can be returned in this way.</p>
+                <p>The functions 
+                    <monospace>roots</monospace>, 
+                    <monospace>stems</monospace>, 
+                    <monospace>branches</monospace>, and 
+                    <monospace>leaves</monospace> are a conceptual set of functions that return different subsets of a taxonomy. A &#x201c;root&#x201d; is any taxon that does not have a supertaxon. A &#x201c;stem&#x201d; is a root plus all subtaxa before the first split in the tree. A &#x201c;branch&#x201d; is any taxon that has only one subtaxon and one supertaxon. Stems and branches are useful to identify since they can be removed without losing information on the relative relationship among the remaining taxa. &#x201c;Leaves&#x201d; are taxa with no subtaxa. By default, these options return taxon IDs, but also have the 
+                    <monospace>value</monospace> option like 
+                    <monospace>subtaxa</monospace> and 
+                    <monospace>supertaxa</monospace>, so they can return other information as well. For example, 
+                    <monospace>leaves(obj, value = "taxon_names")</monospace> will return the names of taxa on the tips of the tree.</p>
+                <p>In the case of 
+                    <monospace>taxmap</monospace> objects, the 
+                    <monospace>obs</monospace> function returns information for observations associated with each taxon and its subtaxa. The observations could be rows in a table or elements in a list/vector that are named by taxon IDs. This is used to easily map between user-supplied information and taxa. For example, assuming a taxonomy with a single root, the value returned by 
+                    <monospace>obs</monospace> for the root taxon will contain information for all observations, since they will all be assigned to a subtaxon of the root taxon. By default, row/element indices of observations will be returned, but the 
+                    <monospace>obs</monospace> function also accepts the 
+                    <monospace>value</monospace> option, so the contents of any column or other information associated with taxa can be returned as well.</p>
+                <p>
+                    <bold>
+                        <italic>The parsers.</italic>
+                    </bold> Taxonomic data appear in many different forms depending on the source of the data, making parsing a challenge. There are two main sources of variation in how taxonomic data are typically stored: the type of information supplied (e.g. a taxon name vs. a taxon ID) and how it is encoded (e.g. in a table vs. as part of a string). In addition, there might be additional user-specific data associated with the taxa that need to be parsed. These data might be associated with each taxon in a classification (e.g the taxon ranks) or might be associated with each classification (e.g. a sequence ID). In many cases, both types are present. This complexity makes implementing a generic parser for all types of taxonomic data difficult, so parsers are typically only available for specific formats. The 
+                    <monospace>taxa</monospace> package introduces a set of three parsing functions that can parse the vast majority of taxonomic data as well as any associated data and return a 
+                    <monospace>taxmap</monospace> object.</p>
+                <p>The 
+                    <monospace>parse_tax_data</monospace> function is used to parse taxonomic classifications stored as vectors in tables that have already been read into R. In the case of tables, the classification can be spread over multiple columns or in a single column with character separators (e.g. &#x201c;
+                    <italic>Primates</italic>;
+                    <italic>Hominidae</italic>;
+                    <italic>Homo</italic>;
+                    <italic>sapiens</italic>&#x201d;) or a combination of the two. Other columns are preserved in the output and the rows are mapped to the taxon IDs (e.g. the ID assigned to &#x201c;sapiens&#x201d; in the above example). For both tables and vectors, additional lists, vectors or tables can be included and are assigned taxon IDs based on some shared attribute with the source of the taxonomic data (e.g. a shared element ID or the same order). This makes it possible to parse many data sets at once and have them all mapped to the same taxonomy in the resultant 
+                    <monospace>taxmap</monospace> object. Data associated with each taxon in each classification can also be parsed and included in the output using regular expressions with capture groups identifying the information to be stored and a key corresponding to the capture groups that identifies what each piece of information is. For example, 
+                    <monospace>Hominidae_f_2;Homo_g_3;sapiens_s_4</monospace> would use the separator 
+                    <monospace>";"</monospace>, the regular expression 
+                    <monospace>"(.+)_(.+)_(.+)"</monospace>, and the key 
+                    <monospace>c(my_taxon = "taxon_name", my_rank = "taxon_rank", my_id = "info")</monospace>. The values of the key indicate what the information is (a taxon name and two arbitrary pieces of information) and the names of the key (e.g. &#x201c;my_rank&#x201d;) determine the names of columns in the output.</p>
+                <p>If only a taxon name (e.g. &#x201c;Primates&#x201d;) or a taxon ID for a reference database (e.g. the NCBI taxon ID for 
+                    <italic>Homo sapiens</italic> is &#x201c;180092&#x201d;) is available in a table or vector, then the classification information must be queried from online databases and the function 
+                    <monospace>lookup_tax_data</monospace> is used. 
+                    <monospace>lookup_tax_data</monospace> has all the same functionality of 
+                    <monospace>parse_taxa_data</monospace> in addition to being able to look up taxonomic classifications associated with taxon names, taxon IDs, and NCBI sequence IDs. If the data are embedded in a string (e.g. a FASTA header), then the function 
+                    <monospace>extract_tax_data</monospace> is used instead. 
+                    <monospace>extract_tax_data</monospace> has the functionality of 
+                    <monospace>parse_tax_data</monospace> and 
+                    <monospace>lookup_tax_data</monospace>, except that the information is extracted from raw strings using a regular expression and a corresponding key, the same way that data for each taxon in a classification is extracted by 
+                    <monospace>parse_tax_data</monospace>. Together, these three parsing functions can handle every combination of data type and format presented in 
+                    <xref ref-type="fig" rid="f2">Figure 2</xref> and many variations of those formats.</p>
+                <fig fig-type="figure" id="f2" position="float">
+                    <label>Figure 2. </label>
+                    <caption>
+                        <title>A table for determining how to parse different sources of taxonomic information using the 
+                            <monospace>taxa</monospace> package.</title>
+                        <p>The rows correspond to the common sources of taxonomic information: full taxonomic classifications encoded in text, taxon IDs from a database, taxon names (a single rank), and NCBI sequence IDs. The columns correspond to the different formats the information can be encoded in: as a simple vector, as columns in a table, and as a piece of a complex string (e.g. a FASTA header). In the case of tables and complex strings, other information associated with the taxa can be preserved in the parsed result, as is done in the &#x201c;use cases&#x201d; example below. Any one cell in the table shows how to parse a given taxonomic information source in a given format using one of the three parsing functions: 
+                            <monospace>parse_tax_data</monospace>, 
+                            <monospace>lookup_tax_data</monospace>, 
+                            <monospace>extract_tax_data</monospace>.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-17689-g0001.gif"/>
+                </fig>
+            </sec>
+            <sec>
+                <title>Operation</title>
+                <p>
+                    <monospace>Taxa</monospace> is an R package hosted on CRAN, so only an R installation and internet connection are needed to install and use 
+                    <monospace>taxa</monospace>. Once installed, most of the functionality of the package can be used without an internet connection. R can be installed on nearly any operating system, including most UNIX systems, MacOS, and Windows. The minimum system requirements of R and the 
+                    <monospace>taxa</monospace> package are easily met by most personal computers. The amount of resources needed will depend on the size of data being used and the complexity of analyses being conducted. The package can be installed by entering 
+                    <monospace>install.packages("taxa")</monospace> in an interactive R session. The development version can be installed from GitHub using the 
+                    <monospace>devtools</monospace> package:</p>
+                <p>
+                    <preformat preformat-type="computer code">
+                        <styled-content style="font-size:15px;color:#0000FF;">library</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">(devtools)</styled-content>
+
+                        <styled-content style="font-size:15px;color:#000000;">install_github(</styled-content>
+                        <styled-content style="font-size:15px;color:#9400D2;">"ropensci/taxa"</styled-content>
+                        <styled-content style="font-size:15px;color:#000000;">)</styled-content>
+                    </preformat>
+                </p>
+                <p>For users, the typical operation of the software will involve parsing some kind of input data into a 
+                    <monospace>taxmap</monospace> object using a method demonstrated in 
+                    <xref ref-type="fig" rid="f2">Figure 2</xref>. Alternatively, a dependent package, such as 
+                    <monospace>metacoder</monospace>, might provide a parser that wraps one of the taxa parsers or otherwise returns a 
+                    <monospace>taxmap</monospace> object. Once the data is in a 
+                    <monospace>taxmap</monospace> object, the majority of a user&#x2019;s interaction with the 
+                    <monospace>taxa</monospace> package would typically involve filtering and manipulating the data using functions described in 
+                    <xref ref-type="table" rid="T1">Table 1</xref> and applying application-specific functions in other packages, such as 
+                    <monospace>metacoder</monospace> (
+                    <xref ref-type="fig" rid="f3">Figure 3</xref>).</p>
+                <table-wrap id="T1" position="anchor">
+                    <label>Table 1. </label>
+                    <caption>
+                        <title>Primary classes and functions found in 
+                            <monospace>taxa</monospace>.</title>
+                    </caption>
+                    <table content-type="article-table" frame="hsides">
+                        <thead>
+                            <tr>
+                                <th align="left" valign="top">Function</th>
+                                <th align="left" valign="top">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>taxon</monospace>
+                                </td>
+                                <td align="left" valign="top">A class that combines the classes containing the name, rank, and ID for a taxon.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>taxa</monospace>
+                                </td>
+                                <td align="left" valign="top">A simple list of taxon objects in an arbitrary order.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>hierarchy</monospace>
+                                </td>
+                                <td align="left" valign="top">A class that stores a list of nested taxa constituting a classification.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>hierarchies</monospace>
+                                </td>
+                                <td align="left" valign="top">A simple list of hierarchy objects in an arbitrary order.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>taxonomy</monospace>
+                                </td>
+                                <td align="left" valign="top">A class that stores a list of unique taxon objects and a tree structure.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>taxmap</monospace>
+                                </td>
+                                <td align="left" valign="top">A class that combines a taxonomy with user-defined, tables, lists, or vectors
+                                    <break/>associated with taxa in the taxonomy. The taxonomic tree and the associated data
+                                    <break/>can then be manipulated such that the two remain in sync.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>supertaxa</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>subtaxa</monospace>
+                                </td>
+                                <td align="left" valign="top">A "supertaxon" is a taxon of a coarser rank that encompasses the taxon of interest
+                                    <break/>(e.g. 
+                                    <italic>Homo</italic> is a supertaxon of 
+                                    <italic>Homo sapiens</italic>). The "subtaxa" of a taxon are all
+                                    <break/>those of a finer rank encompassed by that taxon. For example, 
+                                    <italic>Homo sapiens</italic> is a
+                                    <break/>subtaxon of 
+                                    <italic>Homo</italic>. The supertaxa/subtaxa function returns the supertaxa/subtaxa
+                                    <break/>of all or a subset of the taxa in a taxonomy object. By default, these functions
+                                    <break/>return taxon IDs, but they can also return any data associated with taxa.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>roots</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>leaves</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>stems</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>branches</monospace>
+                                </td>
+                                <td align="left" valign="top">Roots are taxa that lack a supertaxon. Likewise, leaves are taxa that lack
+                                    <break/>a subtaxon. Stems are those taxa from the roots to the first split in the tree.
+                                    <break/>Branches are taxa with exactly one supertaxon and one subtaxon. In general,
+                                    <break/>stems and branches can be filtered out without changing the relative relationship
+                                    <break/>between the remaining taxa. By default, these functions return taxon IDs, but they
+                                    <break/>can also return any data associated with taxa.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>obs</monospace>
+                                </td>
+                                <td align="left" valign="top">Returns the information about every observation from an user-defined data set for
+                                    <break/>each taxon and their subtaxa. By default, indices of a list, vector, or table mapped
+                                    <break/>to taxa are returned.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>filter_taxa</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>filter_obs</monospace>
+                                </td>
+                                <td align="left" valign="top">Subset taxa or associated data in 
+                                    <monospace>taxmap</monospace> objects based on arbitrary conditions.
+                                    <break/>Hierarchical relationships among taxa and mappings between taxa and
+                                    <break/>observations are taken into account.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>arrange_taxa</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>arrange_obs</monospace>
+                                </td>
+                                <td align="left" valign="top">Order taxon or observation data in 
+                                    <monospace>taxmap</monospace> objects.</td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top">&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>sample_n_taxa</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>sample_n_obs</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>sample_frac_taxa</monospace>
+                                    <break/>&#x00a0;&#x00a0;&#x00a0;&#x00a0;&#x2022;&#x00a0;&#x00a0;&#x00a0;
+                                    <monospace>sample_frac_obs</monospace>
+                                </td>
+                                <td align="left" valign="top">Randomly sample taxa or observation data in 
+                                    <monospace>taxmap</monospace> objects. Weights can
+                                    <break/>be applied that take into account the taxonomic hierarchy and associated
+                                    <break/>data. Hierarchical relationships among taxa and mappings between taxa and
+                                    <break/>associated data are taken into account.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </table-wrap>
+                <fig fig-type="figure" id="f3" position="float">
+                    <label>Figure 3. </label>
+                    <caption>
+                        <title>The result of the example analysis shown in the text.</title>
+                        <p>Records of plant species occurrences in Oregon are downloaded from the Global Biodiversity Information Facility (GBIF) using the 
+                            <monospace>rgbif</monospace> package (
+                            <xref ref-type="bibr" rid="ref-1">Chamberlain, 2017</xref>). Then a 
+                            <monospace>taxa</monospace> parser is used to parse the table of GBIF data into a 
+                            <monospace>taxmap</monospace> object. A series of filters are then applied. First, all occurrences that are not from preserved specimens as well any 
+                            <monospace>taxa</monospace> that have no occurrences from preserved specimens are removed. Then, all taxa at the species level are removed, but their occurrences are reassigned to the genus level. All taxa without names are then removed. In the final two filters, only orders within Tracheophyta with greater than 10 subtaxa are preserved. The 
+                            <monospace>metacoder</monospace> package is then used to create a heat tree (i.e. taxonomic tree) with color and size used to display the number of occurrences associated with each taxon at each level of the hierarchy.</p>
+                    </caption>
+                    <graphic xlink:href="f1000research-7-17689-g0002.gif"/>
+                </fig>
+                <p>Since 
+                    <monospace>taxa</monospace> provides highly flexible parsers, it is usually possible to convert data from other packages to 
+                    <monospace>taxa</monospace> classes, enabling manipulation of that data by 
+                    <monospace>taxa</monospace> functions or packages that build upon 
+                    <monospace>taxa</monospace>, like 
+                    <monospace>metacoder</monospace>. For example, using the general-use parsers provided by the 
+                    <monospace>taxa</monospace> package, 
+                    <monospace>metacoder</monospace> supplies specialized and easy to use parsers for the following formats: taxonomy files produced by mothur, biom files produced by QIIME and MEGAN, newick files, objects from the 
+                    <monospace>phyloseq</monospace> package, 
+                    <monospace>phylo</monospace> objects from the 
+                    <monospace>ape</monospace> package, and fasta files from the Greengenes (
+                    <xref ref-type="bibr" rid="ref-10">McDonald 
+                        <italic>et al.</italic>, 2012</xref>), RDP (
+                    <xref ref-type="bibr" rid="ref-4">Cole 
+                        <italic>et al.</italic>, 2014</xref>), SILVA (
+                    <xref ref-type="bibr" rid="ref-14">Yilmaz 
+                        <italic>et al.</italic>, 2014</xref>), and UNITE databases (
+                    <xref ref-type="bibr" rid="ref-8">K&#x00f5;ljalg 
+                        <italic>et al.</italic>, 2013</xref>). We have not encountered any text-based file format containing taxonomic information that can be described using regular expressions that the taxa parsers cannot read. For classes from other packages that inherit 
+                    <monospace>list</monospace>, 
+                    <monospace>vector</monospace>, or 
+                    <monospace>data.frame</monospace>, conversion is not needed to include that information in a taxmap object, since the manipulation functions such as 
+                    <monospace>filter_taxa</monospace> will handle them correctly as is.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>Use case</title>
+            <p>
+                <monospace>Taxa</monospace> is currently being used by 
+                <monospace>metacoder</monospace> and we are working on refactoring parts of 
+                <monospace>taxize</monospace> to work seamlessly with 
+                <monospace>taxa</monospace> as well. Both 
+                <monospace>taxize</monospace> and 
+                <monospace>metacoder</monospace> provide broadly useful functions such as querying databases with taxonomic information and plotting taxonomic information, respectively. We hope that having these two packages adopt the 
+                <monospace>taxa</monospace> framework will encourage developers of new packages to do so as well. Regardless, the flexible parsers implemented in 
+                <monospace>taxa</monospace> (
+                <xref ref-type="fig" rid="f2">Figure 2</xref>) allow for data from nearly any source to be used. The example analysis below uses data from the package 
+                <monospace>rgbif</monospace> (
+                <xref ref-type="bibr" rid="ref-1">Chamberlain, 2017</xref>; 
+                <xref ref-type="bibr" rid="ref-2">Chamberlain &amp; Boettiger, 2017</xref>), even though 
+                <monospace>rgbif</monospace> was not designed to work with 
+                <monospace>taxa</monospace>. This example shows a few of the benefits of using 
+                <monospace>taxa</monospace>. The function 
+                <monospace>occ_data</monospace> from the 
+                <monospace>rgbif</monospace> package returns a 
+                <monospace>data.frame</monospace> (i.e. table) of occurrence data for species from the Global Biodiversity Information Facility (GBIF) with one row per occurrence. The table has one column per taxonomic rank from kingdom to species.</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#009A00;"># Look up plant occurrence data for Oregon</styled-content>
+
+                    <styled-content style="font-size:15px;color:#0000FF;">library</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(rgbif)</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">occ</styled-content> 
+                    <styled-content style="font-size:15px;color:#0000FF;">&lt;-</styled-content> 
+                    <styled-content style="font-size:15px;color:#000000;">rgbif::</styled-content>
+                    <styled-content style="font-size:15px;color:#0000FF;">occ_data</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(stateProvince =</styled-content> 
+                    <styled-content style="font-size:15px;color:#9400D2;">"Oregon"</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">,</styled-content>
+                        
+                    <styled-content style="font-size:15px;color:#000000;"> scientificName =</styled-content>
+                    <styled-content style="font-size:15px;color:#9400D2;">"Plantae"</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">)</styled-content>
+                </preformat>
+            </p>
+            <p>This format returned by 
+                <monospace>rgbif::occ_data</monospace> is a variant on the format described in 
+                <xref ref-type="fig" rid="f2">Figure 2</xref>, row 1, column 2, except that there is only one rank per column instead of all ranks being concatenated in the same column (the parser accepts any number of columns, each of which could contain multiple ranks delineated by a separator).</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#009A00;"># Parse data with taxa</styled-content>
+
+                    <styled-content style="font-size:15px;color:#0000FF;">library</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(taxa)</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">obj</styled-content> 
+                    <styled-content style="font-size:15px;color:#0000FF;">&lt;- parse_tax_data</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(occ</styled-content>
+                    <styled-content style="font-size:15px;color:#0000FF;">$</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">data, class_cols =</styled-content> 
+                    <styled-content style="font-size:15px;color:#0000FF;">c</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(22:26, 28),</styled-content>           
+ 
+                    <styled-content style="font-size:15px;color:#000000;">                     named_by_rank = TRUE)</styled-content>
+                </preformat>
+            </p>
+            <p>In the 
+                <monospace>taxmap</monospace> object returned by 
+                <monospace>parse_tax_data</monospace>, the original table returned by 
+                <monospace>occ_data</monospace> is stored as 
+                <monospace>obj$data$tax_data</monospace>, but an extra column with taxon IDs for each row is prepended.</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#000000;">&gt;</styled-content> 
+                    <styled-content style="font-size:15px;color:#0000FF;">print</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(obj)</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">&lt;Taxmap&gt;</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">626 taxa: aab. Plantae ... ayc. NA</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">626 edges: NA-&gt;aab, aab-&gt;aac ... aml-&gt;ayc</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">1</styled-content> 
+                    <styled-content style="font-size:15px;color:#0000FF;">data</styled-content> 
+                    <styled-content style="font-size:15px;color:#000000;">sets:</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#000000;">tax_data:</styled-content>
+    
+                    <styled-content style="font-size:15px;color:#009A00;"># A tibble: 500 x 103</styled-content>
+    
+                    <styled-content style="font-size:15px;color:#000000;">taxon_id name          key    decimalLatitude
+      &lt;chr&gt;  &lt;chr&gt;         &lt;int&gt;  &lt;dbl&gt;
+    1 amm    Racomitriu... 1.70e9 44.2
+    2 amn    Orthotrich... 1.68e9 NA
+    3 amo    Didymodon ... 1.67e9 45.7</styled-content>
+
+                    <styled-content style="font-size:15px;color:#009A00;"># ... with 497 more rows, and 99 more</styled-content>
+
+                    <styled-content style="font-size:15px;color:#009A00;"># &lt;&lt;&lt; List of additional columns ommited &gt;&gt;&gt;</styled-content>
+                </preformat>
+            </p>
+            <p>The data are then passed through a series of filters piped together. The 
+                <monospace>filter_obs</monospace> command removes rows from the occurrence data table not corresponding to preserved specimens, as well as any corresponding taxa that no longer have occurrences due to this filtering. The multiple calls to 
+                <monospace>filter_taxa</monospace> that follow demonstrate some of the different parameterizations of this powerful function. By default, taxa that don&#x2019;t pass the filter are simply removed and any occurrences assigned to them are reassigned to supertaxa that did pass the filter (e.g. occurrences for a deleted species would be assigned to the species&#x2019; genus). When the 
+                <monospace>supertaxa</monospace> option is set to 
+                <monospace>TRUE</monospace>, all the supertaxa of taxa that pass the filter will also be preserved. The 
+                <monospace>subtaxa</monospace> option works the same way. Finally, the filtered data are passed to a plotting function from the 
+                <monospace>metacoder</monospace> package that accepts the 
+                <monospace>taxmap</monospace> format. The plot is a taxonomic tree with color and size used to display the number of occurrences associated with each taxon (
+                <xref ref-type="fig" rid="f3">Figure 3</xref>).</p>
+            <p>
+                <preformat preformat-type="computer code">
+                    <styled-content style="font-size:15px;color:#009A00;"># Plot number of occurrences for each taxon</styled-content>
+
+                    <styled-content style="font-size:15px;color:#0000FF;">library</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(metacoder)</styled-content>
+
+                    <styled-content style="font-size:15px;color:#000000;">obj %&gt;%</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#0000FF;">filter_obs</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(</styled-content>
+                    <styled-content style="font-size:15px;color:#9400D2;">"tax_data"</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">,</styled-content>
+              
+                    <styled-content style="font-size:15px;color:#000000;">basisOfRecord ==</styled-content> 
+                    <styled-content style="font-size:15px;color:#9400D2;">"PRESERVED_SPECIMEN"</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">,</styled-content>
+              
+                    <styled-content style="font-size:15px;color:#000000;">drop_taxa = TRUE) %&gt;%</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#0000FF;">filter_taxa</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(taxon_ranks</styled-content> 
+                    <styled-content style="font-size:15px;color:#0000FF;">!=</styled-content> 
+                    <styled-content style="font-size:15px;color:#9400D2;">"specificEpithet"</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">) %&gt;%</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#0000FF;">filter_taxa</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(</styled-content>
+                    <styled-content style="font-size:15px;color:#0000FF;">! is.na</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(taxon_names)) %&gt;%</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#0000FF;">filter_taxa</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(taxon_names ==</styled-content> 
+                    <styled-content style="font-size:15px;color:#9400D2;">"Tracheophyta"</styled-content>,
+               
+                    <styled-content style="font-size:15px;color:#000000;">subtaxa = TRUE) %&gt;%</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#0000FF;">filter_taxa</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(taxon_ranks ==</styled-content> 
+                    <styled-content style="font-size:15px;color:#9400D2;">"order"</styled-content>,
+               
+                    <styled-content style="font-size:15px;color:#000000;">n_subtaxa &gt; 10, subtaxa = TRUE,</styled-content>
+               
+                    <styled-content style="font-size:15px;color:#000000;">supertaxa = TRUE) %&gt;%</styled-content>
+  
+                    <styled-content style="font-size:15px;color:#0000FF;">heat_tree</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">(node_label = taxon_names,</styled-content>
+             
+                    <styled-content style="font-size:15px;color:#000000;">node_color = n_obs,</styled-content>
+             
+                    <styled-content style="font-size:15px;color:#000000;">node_size = n_obs,</styled-content>
+             
+                    <styled-content style="font-size:15px;color:#000000;">node_color_axis_label =</styled-content> 
+                    <styled-content style="font-size:15px;color:#9400D2;">"# occurrences"</styled-content>
+                    <styled-content style="font-size:15px;color:#000000;">)</styled-content>
+                </preformat>
+            </p>
+            <p>Note the use of columns in the original input table like 
+                <monospace>basisOfRecord</monospace> being used as if they were independent variables. This is implemented by NSE as a convenience to users, but they could also have been included by typing the full path to the variable (e.g. 
+                <monospace>obj$data$tax_data$basisOfRecord or occ$data$basisOfRecord</monospace>). This is similar to the use of 
+                <monospace>taxon_ranks</monospace> and 
+                <monospace>taxon_names</monospace>, which are actually functions included in the class (e.g. 
+                <monospace>obj$taxon_ranks()</monospace>). The benefit of using NSE is that they are reevaluated each time their name is referenced. This means that the first time 
+                <monospace>taxon_ranks</monospace> is referenced in the example code it returns a different value than the second time it is referenced, because some taxa were filtered out. If 
+                <monospace>obj$taxon_ranks()</monospace> is used instead, it would fail on the second call because it would return information for taxa that have been filtered out already.</p>
+        </sec>
+        <sec sec-type="conclusions">
+            <title>Conclusions</title>
+            <p>While 
+                <monospace>taxa</monospace> is useful on its own, its full potential will be realized after being adopted by the community as a standard for interacting with taxonomic information in R. A robust standard for the commonplace problems of data parsing and manipulation will free developers to focus on specific novel functionality. The 
+                <monospace>taxa</monospace> package already serves as the foundation of another package called 
+                <monospace>metacoder</monospace>, which provides functions for plotting taxonomic information and parsing common file formats used in metagenomics research. 
+                <monospace>Taxize</monospace>, the primary package for querying taxonomic information from internet sources, is also being refactored to be compatible with 
+                <monospace>taxa</monospace>. We hope the broadly useful functionality of these two packages will jump start adoption of 
+                <monospace>taxa</monospace> as the standard for taxonomic data manipulation in R.</p>
+        </sec>
+        <sec>
+            <title>Data and software availability</title>
+            <p>Install in R as 
+                <monospace>install.packages("taxa")</monospace>
+            </p>
+            <p>Software available from: 
+                <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/taxa/index.html">https://cran.r-project.org/web/packages/taxa/index.html</ext-link>
+            </p>
+            <p>Source code available from: 
+                <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa">https://github.com/ropensci/taxa</ext-link>
+            </p>
+            <p>Archived source code available from: 
+                <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5281/zenodo.1183667">https://doi.org/10.5281/zenodo.1183667</ext-link> (
+                <xref ref-type="bibr" rid="ref-6">Foster 
+                    <italic>et al.</italic>, 2017</xref>)</p>
+            <p>License: MIT</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <ref id="ref-1">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Chamberlain</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>rgbif: Interface to the Global &#x2018;Biodiversity&#x2019; Information Facility &#x2018;API&#x2019;</article-title>. R package version 0.9.8.<year>2017</year>.
+                    <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=rgbif">Reference Source</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-2">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Chamberlain</surname>
+                            <given-names>SA</given-names>
+                        </name>
+                        <name>
+                            <surname>Boettiger</surname>
+                            <given-names>C</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>R Python, and Ruby clients for GBIF species occurrence data.</article-title>
+                    <source>
+
+                        <italic>PeerJ Preprints.</italic>
+</source>
+                    <year>2017</year>;<volume>5</volume>:<fpage>e3304v1</fpage>.
+                    <pub-id pub-id-type="doi">10.7287/peerj.preprints.3304v1</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-3">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Chamberlain</surname>
+                            <given-names>SA</given-names>
+                        </name>
+                        <name>
+                            <surname>Sz&#x00f6;cs</surname>
+                            <given-names>E</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>taxize: taxonomic search and retrieval in R [Version 1; Referees: 3 Approved].</article-title>
+                    <source>
+
+                        <italic>F1000Res.</italic>
+</source>
+                    <year>2013</year>;<volume>2</volume>:<fpage>191</fpage>.
+                    <pub-id pub-id-type="pmid">24555091</pub-id>
+                    <pub-id pub-id-type="doi">10.12688/f1000research.2-191.v2</pub-id>
+                    <pub-id pub-id-type="pmcid">3901538</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-4">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Cole</surname>
+                            <given-names>JR</given-names>
+                        </name>
+                        <name>
+                            <surname>Wang</surname>
+                            <given-names>Q</given-names>
+                        </name>
+                        <name>
+                            <surname>Fish</surname>
+                            <given-names>JA</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>Ribosomal Database Project: data and tools for high throughput rRNA analysis.</article-title>
+                    <source>
+
+                        <italic>Nucleic Acids Res.</italic>
+</source>
+                    <year>2014</year>;<volume>42</volume>(<issue>Database issue</issue>):<fpage>D633</fpage>&#x2013;<lpage>42</lpage>.
+                    <pub-id pub-id-type="pmid">24288368</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/nar/gkt1244</pub-id>
+                    <pub-id pub-id-type="pmcid">3965039</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-5">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Gentleman</surname>
+                            <given-names>RC</given-names>
+                        </name>
+                        <name>
+                            <surname>Carey</surname>
+                            <given-names>VJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Bates</surname>
+                            <given-names>DM</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>Bioconductor: open software development for computational biology and bioinformatics.</article-title>
+                    <source>
+
+                        <italic>Genome Biol.</italic>
+</source>
+                    <year>2004</year>;<volume>5</volume>(<issue>10</issue>):<fpage>R80</fpage>.
+                    <pub-id pub-id-type="pmid">15461798</pub-id>
+                    <pub-id pub-id-type="doi">10.1186/gb-2004-5-10-r80</pub-id>
+                    <pub-id pub-id-type="pmcid">545600</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-6">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Foster</surname>
+                            <given-names>Z</given-names>
+                        </name>
+                        <name>
+                            <surname>Chamberlain</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Grunwald</surname>
+                            <given-names>N</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>taxa v0.2.0 (Version 0.2.0).</article-title>
+                    <source>
+
+                        <italic>Zenodo.</italic>
+</source>
+                    <year>2017</year>.
+                    <ext-link ext-link-type="uri" xlink:href="http://www.doi.org/10.5281/zenodo.1183667">http://www.doi.org/10.5281/zenodo.1183667</ext-link>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-7">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Foster</surname>
+                            <given-names>ZS</given-names>
+                        </name>
+                        <name>
+                            <surname>Sharpton</surname>
+                            <given-names>TJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Gr&#x00fc;nwald</surname>
+                            <given-names>NJ</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>Metacoder: An R package for visualization and manipulation of community taxonomic diversity data.</article-title>
+                    <source>
+
+                        <italic>PLoS Comput Biol.</italic>
+</source>
+                    <year>2017</year>;<volume>13</volume>(<issue>2</issue>):<fpage>e1005404</fpage>.
+                    <pub-id pub-id-type="pmid">28222096</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pcbi.1005404</pub-id>
+                    <pub-id pub-id-type="pmcid">5340466</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-8">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>K&#x00f5;ljalg</surname>
+                            <given-names>U</given-names>
+                        </name>
+                        <name>
+                            <surname>Nilsson</surname>
+                            <given-names>RH</given-names>
+                        </name>
+                        <name>
+                            <surname>Abarenkov</surname>
+                            <given-names>K</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>Towards a unified paradigm for sequence-based identification of Fungi.</article-title>
+                    <source>
+
+                        <italic>Mol Ecol.</italic>
+</source>
+                    <year>2013</year>;<volume>22</volume>(<issue>21</issue>):<fpage>5271</fpage>&#x2013;<lpage>7</lpage>.
+                    <pub-id pub-id-type="pmid">24112409</pub-id>
+                    <pub-id pub-id-type="doi">10.1111/mec.12481</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-9">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>McMurdie</surname>
+                            <given-names>PJ</given-names>
+                        </name>
+                        <name>
+                            <surname>Holmes</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data.</article-title>
+                    <source>
+
+                        <italic>PLoS One.</italic>
+</source>
+                    <year>2013</year>;<volume>8</volume>(<issue>4</issue>):<fpage>e61217</fpage>.
+                    <pub-id pub-id-type="pmid">23630581</pub-id>
+                    <pub-id pub-id-type="doi">10.1371/journal.pone.0061217</pub-id>
+                    <pub-id pub-id-type="pmcid">3632530</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-10">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>McDonald</surname>
+                            <given-names>D</given-names>
+                        </name>
+                        <name>
+                            <surname>Price</surname>
+                            <given-names>MN</given-names>
+                        </name>
+                        <name>
+                            <surname>Goodrich</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>An improved Greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea.</article-title>
+                    <source>
+
+                        <italic>ISME J.</italic>
+</source>
+                    <year>2012</year>;<volume>6</volume>(<issue>3</issue>):<fpage>610</fpage>&#x2013;<lpage>8</lpage>.
+                    <pub-id pub-id-type="pmid">22134646</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/ismej.2011.139</pub-id>
+                    <pub-id pub-id-type="pmcid">3280142</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-11">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Oksanen</surname>
+                            <given-names>J</given-names>
+                        </name>
+                        <name>
+                            <surname>Blanchet</surname>
+                            <given-names>FG</given-names>
+                        </name>
+                        <name>
+                            <surname>Kindt</surname>
+                            <given-names>R</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>Package &#x2018;Vegan&#x2019;</article-title>. Community Ecology Package, Version.<year>2013</year>;<volume>2</volume>(<issue>9</issue>).</mixed-citation>
+            </ref>
+            <ref id="ref-12">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Tippmann</surname>
+                            <given-names>S</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>Programming Tools: Adventures with R.</article-title>
+                    <source>
+
+                        <italic>Nature.</italic>
+</source>
+                    <year>2015</year>;<volume>517</volume>(<issue>7532</issue>):<fpage>109</fpage>&#x2013;<lpage>10</lpage>.
+                    <pub-id pub-id-type="pmid">25557714</pub-id>
+                    <pub-id pub-id-type="doi">10.1038/517109a</pub-id>
+                </mixed-citation>
+            </ref>
+            <ref id="ref-13">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Wickham</surname>
+                            <given-names>H</given-names>
+                        </name>
+                        <name>
+                            <surname>Francois</surname>
+                            <given-names>R</given-names>
+                        </name>
+                    </person-group>:
+                    <article-title>&#x201c;Dplyr: A Grammar of Data Manipulation&#x201d;</article-title>. R Package Version 0.4.<year>2015</year>;<volume>1</volume>:<fpage>20</fpage>.</mixed-citation>
+            </ref>
+            <ref id="ref-14">
+                <mixed-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Yilmaz</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <name>
+                            <surname>Parfrey</surname>
+                            <given-names>LW</given-names>
+                        </name>
+                        <name>
+                            <surname>Yarza</surname>
+                            <given-names>P</given-names>
+                        </name>
+                        <etal/>
+                    </person-group>:
+                    <article-title>The SILVA and &#x201c;All-species Living Tree Project (LTP)&#x201d; taxonomic frameworks.</article-title>
+                    <source>
+
+                        <italic>Nucleic Acids Res.</italic>
+</source>
+                    <year>2014</year>;<volume>42</volume>(<issue>Database issue</issue>):<fpage>D643</fpage>&#x2013;<lpage>8</lpage>.
+                    <pub-id pub-id-type="pmid">24293649</pub-id>
+                    <pub-id pub-id-type="doi">10.1093/nar/gkt1209</pub-id>
+                    <pub-id pub-id-type="pmcid">3965112</pub-id>
+                </mixed-citation>
+            </ref>
+        </ref-list>
+    </back>
+    <sub-article article-type="ref-report" id="report38170">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.17689.r38170</article-id>
+            <title-group>
+                <article-title>Referee response for version 2</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Bik</surname>
+                        <given-names>Holly M.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r38170a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-4356-3837</uri>
+                </contrib>
+                <aff id="r38170a1">
+                    <label>1</label>Department of Nematology, University of California, Riverside, Riverside, CA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>20</day>
+                <month>9</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport38170" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14013.2"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The authors have satisfactorily clarified all of my outstanding questions and added useful improvements to the text - additional explanations/discussions that makes this article informative for a broader audience were much appreciated.</p>
+            <p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report38173">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.17689.r38173</article-id>
+            <title-group>
+                <article-title>Referee response for version 2</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>White</surname>
+                        <given-names>Ethan P.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r38173a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0001-6728-7745</uri>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Riemer</surname>
+                        <given-names>Kristina</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r38173a2">2</xref>
+                    <role>Co-referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-3802-3331</uri>
+                </contrib>
+                <aff id="r38173a1">
+                    <label>1</label>Department of Wildlife Ecology and Conservation and Informatics Institute, University of Florida, Gainesville, FL, USA</aff>
+                <aff id="r38173a2">
+                    <label>2</label>Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>11</day>
+                <month>9</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport38173" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14013.2"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>This revision addresses all of our suggestions. Thanks!</p>
+            <p>We have read this submission. We believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report31496">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15231.r31496</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Bik</surname>
+                        <given-names>Holly M.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31496a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-4356-3837</uri>
+                </contrib>
+                <aff id="r31496a1">
+                    <label>1</label>Department of Nematology, University of California, Riverside, Riverside, CA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>19</day>
+                <month>4</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport31496" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14013.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve-with-reservations</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The authors present a framework named "taxa", designed to serve as a new standard package for interacting with taxonomy data in R. This package aims to address the ongoing difficulties in dealing with hierarchical taxonomy strings and numerical IDs in R, and I commend the authors on developing an exciting new framework that will simplify the manipulation and filtering of taxonomic data.</p>
+            <p> </p>
+            <p> Overall, I thought this was a well written manuscript that did a fairly comprehensive job at explaining the functions and classes within the taxa package. However, I have a few comments that would further clarify the package functionality and inputs, and help make this manuscript accessible to a more general audience of computational biologists and ecologists (e.g. with novice to intermediate knowledge of R). 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Currently, this manuscript is geared towards&#x00a0;a technical audience who are experts in R programming and package development. I would incorporate some more&#x00a0;generalized explanations of the taxa package and its purpose (e.g. that assume a novice level of knowledge in R). For example, the use case using GBIF data frames assumes that readers are familiar with the field of biodiversity informatics and the format/information content of GBIF species occurrence data.</p>
+                    </list-item>
+                    <list-item>
+                        <p>What is the ideal input file for the taxa package? A basic tab-delimited taxonomy mapping file (e.g. with Accession IDs and taxonomic hierarchies only), a metabarcoding&#x00a0;OTU table (e.g. JSON formatted or tab-delimited from QIIME where taxonomy strings are embedded along with study-specific data), or a full database with accessions and associated&#x00a0;taxonomic information such as SILVA or NCBI? This package seems like it offers powerful tools for parsing and manipulating taxonomic information but it is not entirely clear what end users could (or should) be using as input files.</p>
+                    </list-item>
+                    <list-item>
+                        <p>It would be useful to explain how the "taxa" package can be integrated and linked to the other ecological R packages. Specific explanations or use cases involving vegan or phyloseq would be useful here. The link to&#x00a0;metacoder and taxize is much more&#x00a0;clearly laid out, probably due to the fact that the authors also developed these packages.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Related to&#x00a0;the previous point, how would you use taxa as a standalone package? The use case examples presented here make it seem like the "taxa" package&#x00a0;is much more&#x00a0;useful when used in conjunction with metacoder or taxize. However, given the diverse functionality it seems like there are many other (very common) use cases for taxa that are not clearly presented here.</p>
+                    </list-item>
+                    <list-item>
+                        <p>How does "taxa" deal with (or allow manipulation / correction of) taxonomic hierarchies with non-homologous taxonomic levels. For example, a set of input hierarchies where level 4 represents "Order" level in Fungi but "Subclass" level in protists. This is a very common scenario for metabarcoding datasets - ideally you want to introduce gaps/placeholders for hierarchies that do not contain a certain level, so that users can automatically or manually standardize their taxonomic levels all rows in a dataset (e.g. making Level 7 correspond to "Family" level across all taxa).</p>
+                    </list-item>
+                    <list-item>
+                        <p>Does "taxa" (or related packages like taxize) contain any Taxonomic Name Resolution Service (TNRS) functionality? If not, is this planned for future releases?</p>
+                    </list-item>
+                    <list-item>
+                        <p>Page 5, paragraph 3: I found the description of the "reassign_taxa" option to be confusing. It was not clear to me what the purpose or result of&#x00a0; this reassignment function would be. Clarifying the wording and adding a real world&#x00a0;example&#x00a0;would be useful here.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Table 1: The description of "arrange_taxa" and "arrange_obs" is fairly vague. Do these functions rearrange data within a file or object (e.g. sorting or filtering)? If so, what are the options for ordering data (e.g. by abundance, alphabetical sorting, etc.)</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however I have significant reservations, as outlined above.</p>
+        </body>
+        <sub-article article-type="response" id="comment3942">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Grunwald</surname>
+                            <given-names>Niklaus</given-names>
+                        </name>
+                        <aff>USDA ARS, USA</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>31</day>
+                    <month>8</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thank very much for your detailed, constructive review that much improved this manuscript. We addressed all your comments as follows: 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Currently, this manuscript is geared towards a technical audience who are experts in R programming and package development. I would incorporate some more generalized explanations of the taxa package and its purpose (e.g. that assume a novice level of knowledge in R). For example, the use case using GBIF data frames assumes that readers are familiar with the field of biodiversity informatics and the format/information content of GBIF species occurrence data.&#x201d;</p>
+                        </list-item>
+                    </list> The paper was written mostly to package developers, but we agree that it would be valuable to make it more accessible. We added some more explanation of technical concepts, including the GBIF data. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;What is the ideal input file for the taxa package? A basic tab-delimited taxonomy mapping file (e.g. with Accession IDs and taxonomic hierarchies only), a metabarcoding OTU table (e.g. JSON formatted or tab-delimited from QIIME where taxonomy strings are embedded along with study-specific data), or a full database with accessions and associated taxonomic information such as SILVA or NCBI? This package seems like it offers powerful tools for parsing and manipulating taxonomic information but it is not entirely clear what end users could (or should) be using as input files.&#x201d;</p>
+                        </list-item>
+                    </list> The taxa package has no ideal input format and provides flexibility for many formats, but there are some formats that are much easier to parse than others. Tabular data is usually easy to read, as are delimited taxonomy strings (e.g. taxa separated by ;). The taxa parsers do not read files directly. Instead they parse data already in R, so the different transformations/subsets of data from the same file could be parsed differently. For this reason, taxa does not read JSON/BIOM files from QIIME. Instead, it provides highly abstracted parsers to handle most formats and provides the foundation for more specialized (and easier to use) parsers, like those found in metacoder, which wrap the taxa parsers. There is a parser for JSON/BIOM QIIME files (parse_qiime_biom) in metacoder that uses the taxa parsers internally. The other examples you listed are easily handled by the taxa parsers after reading the file into R using something like read.table. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;It would be useful to explain how the "taxa" package can be integrated and linked to the other ecological R packages. Specific explanations or use cases involving vegan or phyloseq would be useful here. The link to metacoder and taxize is much more clearly laid out, probably due to the fact that the authors also developed these packages.&#x201d;</p>
+                        </list-item>
+                    </list> `taxa` is primarily intended as a foundation for future packages rather than a way of interacting with existing packages, but it can use the data from other packages in some cases. For data structures from other packages that inherit lists, vectors, or data.frames, the taxa filtering functions should be able to manipulate them correctly as is. For other data structures with one or two dimensions with arbitrary row/column/item names, like vegan&#x2019;s distance matrix or ape&#x2019;s DNAbin objects, these can be included as is in the taxmap object&#x2019;s `data` list, the same way standard data.frames/lists are, although the filtering functions do not currently support these and they will be ignored. We would like to add the ability to natively handle these classes in the future, so that, for example, a DNAbin could be included in a `taxmap` object and filtered using `filter_taxa` the same way a list can be now. This should not be too hard to implement, but we have not gotten to it yet. For complicated objects like phyloseq objects that hold many fields themselves, the best solution would be to convert them to `taxmap` objects, manipulate them with the taxa functions, and convert them back. The conversion should be lossless since the `taxmap` class should be able to store all the information in a phyloseq object. There is a function in metacoder called `parse_phyloseq` to convert a phyloseq object to a taxmap object and this uses the `taxa` parsers internally. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Related to the previous point, how would you use taxa as a standalone package? The use case examples presented here make it seem like the "taxa" package is much more useful when used in conjunction with metacoder or taxize. However, given the diverse functionality it seems like there are many other (very common) use cases for taxa that are not clearly presented here.&#x201d;</p>
+                        </list-item>
+                    </list> Good point! Yes, `taxa` can be quite useful on its own. A few examples we can think of include: 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>Looking up taxonomic classifications from sequence IDs, taxon IDs, and taxon names from a variety of databases (using taxize internally).</p>
+                        </list-item>
+                        <list-item>
+                            <p>Subsetting data to a specific taxon</p>
+                        </list-item>
+                        <list-item>
+                            <p>Removing ranks or specific taxa from classification strings</p>
+                        </list-item>
+                        <list-item>
+                            <p>Combining taxonomic data from multiple sources into the same taxonomy</p>
+                        </list-item>
+                        <list-item>
+                            <p>Getting lists of all the subtaxa/supertaxa for each taxon or other data associated with all of the subtaxa/supertaxa.</p>
+                        </list-item>
+                    </list> </p>
+                <p> We added a few of these examples to the paper. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;How does "taxa" deal with (or allow manipulation / correction of) taxonomic hierarchies with non-homologous taxonomic levels. For example, a set of input hierarchies where level 4 represents "Order" level in Fungi but "Subclass" level in protists. This is a very common scenario for metabarcoding datasets - ideally you want to introduce gaps/placeholders for hierarchies that do not contain a certain level, so that users can automatically or manually standardize their taxonomic levels all rows in a dataset (e.g. making Level 7 correspond to "Family" level across all taxa).&#x201d;</p>
+                        </list-item>
+                    </list> In the `taxonomy` and `taxmap` classes, the taxonomy is stored as a tree structure, not a table, so rank information is not needed, although it is supported when present. The absence of a rank has no placeholder, it simply does not exist in the tree. If the user wanted to subset the tree to only taxa of a specific set of ranks, they could do something like `filter_taxa(obj, taxon_ranks %in% c(&#x201c;family&#x201d;, &#x201c;genus&#x201d;, &#x201c;species&#x201d;))` and the tree would remain intact, although there would be missing levels in the tree if some tips did not have a &#x201c;family&#x201d; supertaxon, for example. There is not currently a way to enforce that each rank exists at a fixed depth/level from the root of the tree, but we could add a function to add placeholder taxa to force that to the case (we added an issue to github at: https://github.com/ropensci/taxa/issues/169). 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Does "taxa" (or related packages like taxize) contain any Taxonomic Name Resolution Service (TNRS) functionality? If not, is this planned for future releases?&#x201d;</p>
+                        </list-item>
+                    </list> Yes, the parsing functions can optionally preprocess taxon names using the &#x201c;Global Names Resolver&#x201d; service via `taxize::gnr_resolve`. You just set the `type` option in `lookup_tax_data` or `extract_tax_data` to `&#x201d;fuzzy_name&#x201d;` instead of `&#x201d;taxon_name&#x201d;` to make this happen. This was a recent addition so it was not in the paper, but added it now. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Page 5, paragraph 3: I found the description of the "reassign_taxa" option to be confusing. It was not clear to me what the purpose or result of &#x00a0;this reassignment function would be. Clarifying the wording and adding a real world example would be useful here.&#x201d;</p>
+                        </list-item>
+                    </list> Ok, we added some more explanation. The basic idea is that if you remove a taxon in the middle of the tree (say a family), it will assign any genera below that family to the order the family was in if reassign_taxa is set to TRUE (the default). 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Table 1: The description of "arrange_taxa" and "arrange_obs" is fairly vague. Do these functions rearrange data within a file or object (e.g. sorting or filtering)? If so, what are the options for ordering data (e.g. by abundance, alphabetical sorting, etc.)&#x201d;</p>
+                        </list-item>
+                    </list> "arrange_taxa" sorts the order of the taxa stored in `taxonomy` or `taxmap` objects. The order of taxa has little effect on most operations on these objects besides ordering the results of functions that return per-taxon information, like `supertaxa`. "arrange_obs" orders data stored in a `taxmap` objects (e.g. the row in an OTU table) based on some characteristics of that data. The options for ordering the data are therefore any piece of information associated with elements in that data set, such as the contents of columns in that data set (e.g. the name of OTUs, the counts of OTUs, etc). We added some more descriptions of this to the paper.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report32711">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15231.r32711</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Desmet</surname>
+                        <given-names>Peter</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r32711a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0002-8442-8025</uri>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Oldoni</surname>
+                        <given-names>Damiano</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r32711a1">1</xref>
+                    <role>Co-referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-3445-7562</uri>
+                </contrib>
+                <aff id="r32711a1">
+                    <label>1</label>Research Institute for Nature and Forest (INBO), Brussels, Belgium</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>4</day>
+                <month>4</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport32711" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14013.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The article is well written. Its structure is clear and the goals are well defined. Here below some minor issues.</p>
+            <p> </p>
+            <p> 
+                <bold>General Issue</bold> 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>What is the reason taxa functionalities&#x00a0;are&#x00a0;not implemented in taxize, which already seems a general purpose package to work with taxonomic information?</p>
+                    </list-item>
+                </list> </p>
+            <p> 
+                <bold>Introduction</bold> 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>We found citation numbers for R to be very low. Does &#x201c;its extensions&#x201d; include all packages? Overall, it would be better to drop the sentence with citation numbers and keep it to R + easy development of packages, thus going&#x00a0;fast to paragraph 2 which is more important to provide context for the taxa package</p>
+                    </list-item>
+                    <list-item>
+                        <p>&#x201c;Database&#x201d; is a very generic (technical) term. Would have expected &#x201c;source&#x201d;, or similar for source of taxonomic information, cf. 
+                            <ext-link ext-link-type="uri" xlink:href="http://dublincore.org/documents/dcmi-terms/#elements-source">
+                                <bold>http://dublincore.org/documents/dcmi-terms/#elements-source</bold>
+                            </ext-link>
+                        </p>
+                    </list-item>
+                </list> </p>
+            <p> 
+                <bold>Methods</bold>
+            </p>
+            <p> </p>
+            <p> Implementation 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Figure 1: we&#x00a0;found ourselves&#x00a0;drawing examples of the classes presented in figure 1. Would maybe be useful to add those&#x00a0;to figure? If it is not possible for graphic issues, maybe could be useful to add them in the text, more or less as done in vignette of the package.</p>
+                    </list-item>
+                    <list-item>
+                        <p>In &#x201c;manipulation functions&#x201d; : &#x201c;Finally, if the drop_obs option is TRUE (the default), any user-defined data assigned to removed taxa are also removed, ...&#x201d; With the reassign_taxa and reassign_obs discussed above, it wasn&#x2019;t immediately clear how taxa can be removed. Maybe update to &#x201c;... data assigned to removed taxa (those without supertaxa matching the criteria) are also removed ...&#x201d;</p>
+                    </list-item>
+                </list> </p>
+            <p> 
+                <bold>Use Cases</bold> 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Use cases: one use case presented. Update title to &#x201c;Use case&#x201d;. The presented use case&#x00a0;is very informative, no need to add more use cases</p>
+                    </list-item>
+                    <list-item>
+                        <p>Use case might have been stronger if taxonomic information from 2 sources was combined (e.g. GBIF and &#x2026;)</p>
+                    </list-item>
+                </list> </p>
+            <p> Here below some minor issues about the package: 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Consider moving CONDUCT.md to .github directory, as that directory is already used for CONTRIBUTING.md</p>
+                    </list-item>
+                    <list-item>
+                        <p>Add proper MIT License in LICENSE file</p>
+                    </list-item>
+                    <list-item>
+                        <p>README.md is now a combination of 
+                            <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/blob/master/vignettes/taxa-introduction.Rmd">https://github.com/ropensci/taxa/blob/master/vignettes/taxa-introduction.Rmd</ext-link> and 
+                            <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/blob/master/README.Rmd">https://github.com/ropensci/taxa/blob/master/README.Rmd</ext-link>. Would keep README shorter (based on README.Rmd), with links to vignettes instead.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Consider adding a pkgdown website, with references for functions + the two vignettes. Site can be build in docs/ folder and hosted on GitHub pages, cf. 
+                            <ext-link ext-link-type="uri" xlink:href="https://inbo.github.io/wateRinfo/">https://inbo.github.io/wateRinfo/</ext-link>
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>Add website to repo description in repo settings.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Consider moving vignette figures to &#x201c;vignettes/figures&#x201d; subdirectory for clarity</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>We have read this submission. We believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment3939">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Grunwald</surname>
+                            <given-names>Niklaus</given-names>
+                        </name>
+                        <aff>USDA ARS, USA</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>31</day>
+                    <month>8</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thank very much for your detailed, constructive review that much improved this manuscript. &#x00a0;We addressed all your comments as follows: 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;What is the reason taxa functionalities are not implemented in taxize, which already seems a general purpose package to work with taxonomic information?&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> The main focus of taxize is to download taxonomic information from online databases. Since there are many sources of taxonomic data, taxize is already a large and complicated package. The R community provides restrictions on the size of packages. Also, not all applications where a class system for taxonomic data is needed require the ability to download taxonomic information. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;We found citation numbers for R to be very low. Does &#x201c;its extensions&#x201d; include all packages? Overall, it would be better to drop the sentence with citation numbers and keep it to R + easy development of packages, thus going fast to paragraph 2 which is more important to provide context for the taxa package&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> It should include all packages. It does not seem low to us, considering that many people do not cite software, but we see your point. We removed it. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;&#x201c;Database&#x201d; is a very generic (technical) term. Would have expected &#x201c;source&#x201d;, or similar for source of taxonomic information, cf.
+                                <ext-link ext-link-type="uri" xlink:href="http://dublincore.org/documents/dcmi-terms/#elements-source"> http://dublincore.org/documents/dcmi-terms/#elements-source</ext-link>&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> We agree that &#x201c;Source&#x201d; would be a good term, although we hesitate to change the code at this point. We would have to rename the `taxon_database` to `taxon_source` (it is shorter, which is nice) and many option names that have some reference to &#x201c;database&#x201d;. Changing our references to &#x201c;database&#x201d; to &#x201c;source&#x201d; in the paper is easy enough, but then the different words used for the same thing in the paper and the code might confuse some people. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Figure 1: we found ourselves drawing examples of the classes presented in figure 1. Would maybe be useful to add those to figure? If it is not possible for graphic issues, maybe could be useful to add them in the text, more or less as done in vignette of the package.&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> Good idea. We assume you are talking about the classes&#x2019; print methods. Some would fit well in Figure 1, but the `taxmap` and `taxonomy` print methods would be too big. We added some examples to the body of the paper. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In &#x201c;manipulation functions&#x201d; : &#x201c;Finally, if the drop_obs option is TRUE (the default), any user-defined data assigned to removed taxa are also removed, ...&#x201d; With the reassign_taxa and reassign_obs discussed above, it wasn&#x2019;t immediately clear how taxa can be removed. Maybe update to &#x201c;... data assigned to removed taxa (those without supertaxa matching the criteria) are also removed ...&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> Yes, we see why that is confusing; thanks for the suggestion. Observations are only removed if they cannot be reassigned to something else. That could happen when &#x201c;reassign_obs&#x201d; is FALSE or there are no taxa left they could be reassigned to (as you say). We added some clarification about this. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Use cases: one use case presented. Update title to &#x201c;Use case&#x201d;. The presented use case is very informative, no need to add more use cases&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> Good point, thanks! 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Use case might have been stronger if taxonomic information from 2 sources was combined (e.g. GBIF and &#x2026;)&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> We like that idea, but we can't think of a way to do it that would keep the example simple. We could look up the taxonomic hierarchy from NCBI or ITIS using the species binomial, but it would be an odd thing to do when the full classification is already available, so it might make the example confusing. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Consider moving CONDUCT.md to .github directory, as that directory is already used for CONTRIBUTING.md&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> Done, see: 
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/issues/149">https://github.com/ropensci/taxa/issues/149</ext-link> 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Add proper MIT License in LICENSE file&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> To conform with CRAN guidelines we could not do this. See: 
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/issues/150">https://github.com/ropensci/taxa/issues/150</ext-link> 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;README.md is now a combination of
+                                <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/blob/master/vignettes/taxa-introduction.Rmd"> https://github.com/ropensci/taxa/blob/master/vignettes/taxa-introduction.Rmd</ext-link> and
+                                <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/blob/master/README.Rmd"> https://github.com/ropensci/taxa/blob/master/README.Rmd</ext-link>. Would keep README shorter (based on README.Rmd), with links to vignettes instead.&#x201d; and &#x201c;Consider adding a pkgdown website, with references for functions + the two vignettes. Site can be build in docs/ folder and hosted on GitHub pages, cf.
+                                <ext-link ext-link-type="uri" xlink:href="https://inbo.github.io/wateRinfo/"> https://inbo.github.io/wateRinfo/</ext-link>&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> Good idea! We would like to add a website, but we will probably wait until we have one or two more vignettes done &#x00a0;(the second is still being worked on). Any additional vignettes will be added with links. We would be ok with reducing the readme once we have a website up with documentation up that we can link to.</p>
+                <p> 
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/issues/151">https://github.com/ropensci/taxa/issues/151</ext-link> 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Consider moving vignette figures to &#x201c;vignettes/figures&#x201d; subdirectory for clarity&#x201d;</p>
+                        </list-item>
+                    </list> </p>
+                <p> We will do so and have &#x00a0;pending issue on github: 
+                    <ext-link ext-link-type="uri" xlink:href="https://github.com/ropensci/taxa/issues/151">https://github.com/ropensci/taxa/issues/152</ext-link>
+                </p>
+            </body>
+        </sub-article>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report31493">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15231.r31493</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Brown</surname>
+                        <given-names>Titus</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31493a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0001-6001-2677</uri>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Reiter</surname>
+                        <given-names>Taylor</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31493a2">2</xref>
+                    <role>Co-referee</role>
+                </contrib>
+                <aff id="r31493a1">
+                    <label>1</label>Department of Population Health and Reproduction, University of California, Davis, Davis, CA, USA</aff>
+                <aff id="r31493a2">
+                    <label>2</label>Food Science and Technology, University of California, Davis, CA, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>26</day>
+                <month>3</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport31493" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14013.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve-with-reservations</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The authors present the R package taxa, which provides a set of datatypes and functions for working with taxonomic data. The authors hope that they have contributed a strong base from which the taxonomic data ecosystem can build in R. The authors have also included a particularly useful set of parsers, and dplyr-like functionality within their package. The packages metacoder and rgbif are included as being compatible with taxa, and the authors mention that the popular package taxize is being refactored for compatibility.&#x00a0;</p>
+            <p> </p>
+            <p> Major points 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>There is no discussion of the limitations of the software, or an specific discussion of incompatibility issues. If the authors have never encountered incompatibility issues, it would be helpful if they stated other packages or formats for which they have not encountered issues with.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>The introduction does not provide a concrete discussion of the challenges that the package taxa addresses.&#x00a0;</p>
+                    </list-item>
+                </list> </p>
+            <p> Minor points 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>In paragraph one, the authors note the ease with which one can develop an R package. I recommend adding "relative" somewhere in there.</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph two, it's not clear what is meant by "each package encodes this information differently."&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph four, "Complexity ranges from simple," "simple" is perhaps not the right word</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph five, "However, using these classes allows for greater flexibility and rigor as the package develops," it is not clear what is meant by "the package."</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph six, "(e.g. Animalia, Chordata, Mammalia, Primates, Hominidae, Homo, sapiens)" and &#x201c;Achlya&#x201d; should be italicized.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>I paragraph eight, "for the average user" should be removed. The clause, "that is easier for new users to understand than equivalent base R commands, which have accumulated some idiosyncrasies over the last 40 years" should also be rephrased to celebrate dplyr without cutting down base R.&#x00a0;</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph 10, "The many combinations of these powerful options make filter_taxa a flexible tool and make it easier for new users to deal with the hierarchical nature of taxonomic data," "make" should be "makes."</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph 11, the sentence "Other dplyr analogs that help users manipulate their data include filter_obs, sample_n_obs, and mutate_obs, filter_obs is similar to running the dplyr function filter on a tabular, user-defined dataset, except that there are more values available to NSE and lists and vectors can also be subset," is confusing.</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph 15, sentence 1, "for many users" should be removed.</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph 16, &#x201c;Primates;Hominidae;Homo;sapiens,&#x201d; &#x201c;sapiens,&#x201d; and "Primates" should be italicized</p>
+                    </list-item>
+                    <list-item>
+                        <p>In paragraph 17, "Together, these three parsing functions can handle every combination of data type and format (Figure 2)," every is a strong assertion.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>We have read this submission. We believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard, however we have significant reservations, as outlined above.</p>
+        </body>
+        <sub-article article-type="response" id="comment3940">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Grunwald</surname>
+                            <given-names>Niklaus</given-names>
+                        </name>
+                        <aff>USDA ARS, USA</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>31</day>
+                    <month>8</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thank very much for your detailed, constructive review that much improved this manuscript. &#x00a0;We addressed all your comments as follows: 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;There is no discussion of the limitations of the software, or an specific discussion of incompatibility issues. If the authors have never encountered incompatibility issues, it would be helpful if they stated other packages or formats for which they have not encountered issues with.&#x201d;</p>
+                        </list-item>
+                    </list> We think adding some information of limitations of the software is a good idea, but we are not sure what you had in mind exactly. In regards to limitations on data set size and speed, we have not explored this systematically yet, although we plan to identify parts of the code to port to C++ to increase speed where needed. We are also not sure what you mean specifically by &#x201c;incompatibility issues&#x201d;. It is certainly true that few packages are designed to work seamlessly with `taxa` currently, but `taxa` was designed with this in mind and the parsers can be used to import data from other formats not designed for use with `taxa`, as was done in the use case. We added some examples of packages we have used with `taxa` to demonstrate compatibility and will mention if we find any that are not compatible in some way.</p>
+                <p> In regards to formats, in our own work and when helping others, we have used the taxa parsers with numerous ( &gt; 20 maybe) different formats of taxonomic data and have never encountered a raw-text-based format that the current parsers cannot handle, but of course there might be some cases we have have not encountered/considered. We like the idea of adding a list of formats for which we have used taxa to read. We added this to the paper. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;The introduction does not provide a concrete discussion of the challenges that the package taxa addresses.&#x201d;</p>
+                        </list-item>
+                    </list> We do mention the lack of a &#x00a0;standard set of classes for packages to build on, which is the main challenge `taxa` is trying to address, and we added some more background on data parsing and manipulation, which are the other goals taxa` tries to address. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph one, the authors note the ease with which one can develop an R package. I recommend adding "relative" somewhere in there.&#x201d;</p>
+                        </list-item>
+                    </list> Good point! We did that. We remember it did not appear easy when we started. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph two, it's not clear what is meant by "each package encodes this information differently.&#x201d;&#x201d;</p>
+                        </list-item>
+                    </list> Ok, we added some examples. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph four, "Complexity ranges from simple," "simple" is perhaps not the right word&#x201d;</p>
+                        </list-item>
+                    </list> Agreed. The low-level classes are quite simple currently, little more than containers for a few variables, but we removed the word &#x201c;simple&#x201d;, since it is not all that descriptive anyway. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph five, "However, using these classes allows for greater flexibility and rigor as the package develops," it is not clear what is meant by "the package."&#x201d;</p>
+                        </list-item>
+                    </list> We meant `taxa`. We reworded that, thanks! 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph six, "(e.g. Animalia, Chordata, Mammalia, Primates, Hominidae, Homo, sapiens)" and &#x201c;Achlya&#x201d; should be italicized.&#x201d;</p>
+                        </list-item>
+                    </list> Agreed. Done. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;I paragraph eight, "for the average user" should be removed. The clause, "that is easier for new users to understand than equivalent base R commands, which have accumulated some idiosyncrasies over the last 40 years" should also be rephrased to celebrate dplyr without cutting down base R.&#x201d;</p>
+                        </list-item>
+                    </list> Agreed, we made those changes. We did not mean to berate base R, but rather point out a lack of consistency relative to dplyr, but we can see how people could get that impression. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph 10, "The many combinations of these powerful options make filter_taxa a flexible tool and make it easier for new users to deal with the hierarchical nature of taxonomic data," "make" should be "makes."&#x201d;</p>
+                        </list-item>
+                    </list> &#x201c;The many combinations&#x201d; is plural, so we think it should be &#x201c;make&#x201d;. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph 11, the sentence "Other dplyr analogs that help users manipulate their data include filter_obs, sample_n_obs, and mutate_obs, filter_obs is similar to running the dplyr function filter on a tabular, user-defined dataset, except that there are more values available to NSE and lists and vectors can also be subset," is confusing.&#x201d;</p>
+                        </list-item>
+                    </list> Thanks for catching that! That comma between &#x201c;mutate_obs&#x201d; and &#x201c;filter_obs&#x201d; was supposed to be a period, which we think makes it significantly less confusing. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph 15, sentence 1, "for many users" should be removed.&#x201d;</p>
+                        </list-item>
+                    </list> Ok, we did that. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph 16, &#x201c;Primates;Hominidae;Homo;sapiens,&#x201d; &#x201c;sapiens,&#x201d; and "Primates" should be italicized&#x201d;</p>
+                        </list-item>
+                    </list> Agreed. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In paragraph 17, "Together, these three parsing functions can handle every combination of data type and format (Figure 2)," every is a strong assertion.&#x201d;</p>
+                        </list-item>
+                    </list> We meant every combination of data type and format covered in the preceding paragraphs and the figure, and we clarified that further.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+    <sub-article article-type="ref-report" id="report31494">
+        <front-stub>
+            <article-id pub-id-type="doi">10.5256/f1000research.15231.r31494</article-id>
+            <title-group>
+                <article-title>Referee response for version 1</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>White</surname>
+                        <given-names>Ethan P.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31494a1">1</xref>
+                    <role>Referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0001-6728-7745</uri>
+                </contrib>
+                <contrib contrib-type="author">
+                    <name>
+                        <surname>Riemer</surname>
+                        <given-names>Kristina</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="r31494a2">2</xref>
+                    <role>Co-referee</role>
+                    <uri content-type="orcid">https://orcid.org/0000-0003-3802-3331</uri>
+                </contrib>
+                <aff id="r31494a1">
+                    <label>1</label>Department of Wildlife Ecology and Conservation and Informatics Institute, University of Florida, Gainesville, FL, USA</aff>
+                <aff id="r31494a2">
+                    <label>2</label>Department of Wildlife Ecology and Conservation, University of Florida, Gainesville, FL, USA</aff>
+            </contrib-group>
+            <author-notes>
+                <fn fn-type="conflict">
+                    <p>
+                        <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>26</day>
+                <month>3</month>
+                <year>2018</year>
+            </pub-date>
+            <related-article ext-link-type="doi" id="relatedArticleReport31494" related-article-type="peer-reviewed-article" xlink:href="10.12688/f1000research.14013.1"/>
+            <custom-meta-group>
+                <custom-meta>
+                    <meta-name>recommendation</meta-name>
+                    <meta-value>approve</meta-value>
+                </custom-meta>
+            </custom-meta-group>
+        </front-stub>
+        <body>
+            <p>The software described in this paper provides useful tools for working with taxonomic data in R by providing a standard approach for storing and manipulating this hierarchically structured data. Taxonomic data is prevalent in many biological disciplines. As result, this package fills an important niche and has the potential to become widely used by other packages dealing with biological data.</p>
+            <p> </p>
+            <p> The software itself follows good development practices including modularization, documentation, version control, and automated testing. The package is available through CRAN &#x2013; the main repository for R packages. Both the CRAN release and the development version of the package install smoothly. The use case examples given in the paper all run as expected on the development version, but they include functionality that is not present in the most recent release. This means that readers of the paper who have not installed the development version will encounter issues with the examples. We recommend a new minor version release so that the existing functionality is reflected in the latest release. Alternatively in-development functionality could be removed from the examples in the paper.</p>
+            <p> </p>
+            <p> The paper does a nice job of motivating the need for the package and the use case section nicely demonstrates some of the core functionality. However, there are improvements that could be made to help the paper communicate with a broader audience. Specifically we recommend changes to the Introduction and Methods sections.</p>
+            <p> </p>
+            <p> In the Introduction we suggest either expanding the second paragraph or adding a new paragraph to describe the other kinds of datasets that this will be helpful for. There are many large and small ecological and evolutionary datasets beyond high-throughput sequencing that involve lots of taxonomic data (e.g., museum records, citizen science projects, compilations of literature data) and broadening the context will help more readers understand why this package might be useful to them. We also suggest adding an additional paragraph, following the third paragraph, that describes typical taxonomic data, including an example, and that mentions the specific challenges of this kind of hierarchical data. This will help readers less familiar with these issues understand the value of the software and help set up the technical details in the last paragraph of the Introduction. To make room for these additions we suggest removing the first paragraph, which currently states that R is &#x201c;becoming the leading tool for scientific data analysis in academic research.&#x201d; This specific interpretation isn&#x2019;t justified by the associated citation and it is broadly understood that R is an important language so a paragraph explaining this isn&#x2019;t really necessary.</p>
+            <p> </p>
+            <p> In the Methods we suggest moving the parsing section to the beginning, and using the examples from that section throughout the descriptions of classes. This will help ground the descriptions of the classes and how they are related, which currently reads as somewhat abstract. The current second paragraph (&#x201c;The hierarchy and taxonomy class&#x201d;) would benefit from having the hierarchy class defined more and the differences between the hierarchy and taxonomy classes clarified. For example, it is stated later that the hierarchy class is simpler and the taxonomy class is more hierarchical; it would be helpful to include this information earlier. Moving the last two sentences of this paragraph to the beginning might address this issue. The taxon IDs information could be its own paragraph, starting with &#x201c;Using automatically generated taxon IDs&#x201d;. The examples in that section are really helpful. In the beginning of the third paragraph of the methods (&#x201c;The taxmap class&#x201d;), it would be helpful to emphasize that this class combines the rest of the original data (including an example of original data, e.g., mass) back with the taxon class. Finally, a figure of an example taxonomic hierarchy that illustrates the operation of the filtering, mapping, and roots/stems/branches/leaves functions would be useful.</p>
+            <p> </p>
+            <p> 
+                <bold>Minor suggestions</bold> 
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Define the following phrases to broaden communication 
+                            <list list-type="bullet">
+                                <list-item>
+                                    <p>&#x201c;character vectors&#x201d;, first paragraph of methods</p>
+                                </list-item>
+                                <list-item>
+                                    <p>&#x201c;custom print method&#x201d;, first paragraph of methods</p>
+                                </list-item>
+                                <list-item>
+                                    <p>&#x201c;non-standard evaluation&#x201d;, third paragraph of methods</p>
+                                </list-item>
+                                <list-item>
+                                    <p>&#x201c;parsing&#x201d;, paragraph 11 of methods</p>
+                                </list-item>
+                            </list> </p>
+                    </list-item>
+                    <list-item>
+                        <p>Cite Wickham &amp; Francois (2015) for the dplyr philosophy in the fourth Methods paragraph</p>
+                    </list-item>
+                    <list-item>
+                        <p>Consider color coding the boxes in Fig. 1 to match the three classes paragraphs</p>
+                    </list-item>
+                    <list-item>
+                        <p>Define R6 and S3 in the Fig. 1 legend</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>We have read this submission. We believe that we have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p>
+        </body>
+        <sub-article article-type="response" id="comment3941">
+            <front-stub>
+                <contrib-group>
+                    <contrib contrib-type="author">
+                        <name>
+                            <surname>Grunwald</surname>
+                            <given-names>Niklaus</given-names>
+                        </name>
+                        <aff>USDA ARS, USA</aff>
+                    </contrib>
+                </contrib-group>
+                <author-notes>
+                    <fn fn-type="conflict">
+                        <p>
+                            <bold>Competing interests: </bold>No competing interests were disclosed.</p>
+                    </fn>
+                </author-notes>
+                <pub-date pub-type="epub">
+                    <day>31</day>
+                    <month>8</month>
+                    <year>2018</year>
+                </pub-date>
+            </front-stub>
+            <body>
+                <p>Thank very much for your detailed, constructive review that much improved this manuscript. &#x00a0;We addressed all your comments as follows: 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x2018;The use case examples given in the paper all run as expected on the development version, but they include functionality that is not present in the most recent release. This means that readers of the paper who have not installed the development version will encounter issues with the examples. We recommend a new minor version release so that the existing functionality is reflected in the latest release.&#x201d;</p>
+                        </list-item>
+                    </list> Thanks for catching this! We have released a version on CRAN with this functionality. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In the Introduction we suggest either expanding the second paragraph or adding a new paragraph to describe the other kinds of datasets that this will be helpful for. There are many large and small ecological and evolutionary datasets beyond high-throughput sequencing that involve lots of taxonomic data (e.g., museum records, citizen science projects, compilations of literature data) and broadening the context will help more readers understand why this package might be useful to them&#x201d;</p>
+                        </list-item>
+                    </list> Good idea! We added a section on this. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;We also suggest adding an additional paragraph, following the third paragraph, that describes typical taxonomic data, including an example, and that mentions the specific challenges of this kind of hierarchical data. This will help readers less familiar with these issues understand the value of the software and help set up the technical details in the last paragraph of the Introduction&#x201d;</p>
+                        </list-item>
+                    </list> Ok, good idea, we added some examples of diverse formats that we have used. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;To make room for these additions we suggest removing the first paragraph, which currently states that R is &#x201c;becoming the leading tool for scientific data analysis in academic research.&#x201d; This specific interpretation isn&#x2019;t justified by the associated citation and it is broadly understood that R is an important language so a paragraph explaining this isn&#x2019;t really necessary.&#x201d;</p>
+                        </list-item>
+                    </list> Yes, we had a similar comment from another reviewer, so we removed part of this. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In the Methods we suggest moving the parsing section to the beginning, and using the examples from that section throughout the descriptions of classes. This will help ground the descriptions of the classes and how they are related, which currently reads as somewhat abstract.&#x201d;</p>
+                        </list-item>
+                    </list> The parsers only returns `taxmap` objects so far, and `taxmap` is built upon the previous classes, so that is why we ordered it that way. However, we agree that it is not immediately clear what the importance of the first classes described are. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;The current second paragraph (&#x201c;The hierarchy and taxonomy class&#x201d;) would benefit from having the hierarchy class defined more and the differences between the hierarchy and taxonomy classes clarified. &#x201c;</p>
+                        </list-item>
+                    </list> Agreed, we will clarify this. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;In the beginning of the third paragraph of the methods (&#x201c;The taxmap class&#x201d;), it would be helpful to emphasize that this class combines the rest of the original data (including an example of original data, e.g., mass) back with the taxon class. &#x201c;</p>
+                        </list-item>
+                    </list> Good point. This is a key aspect of the class. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Finally, a figure of an example taxonomic hierarchy that illustrates the operation of the filtering, mapping, and roots/stems/branches/leaves functions would be useful.&#x201d;</p>
+                        </list-item>
+                    </list> We like this idea. This is something we have considered in the past. We will add this to one of our vignettes in the future:</p>
+                <p> https://github.com/ropensci/taxa/issues/170&#x00a0; 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Define the following phrases to broaden communication</p>
+                        </list-item>
+                        <list-item>
+                            <p>&#x201c;character vectors&#x201d;, first paragraph of methods</p>
+                        </list-item>
+                        <list-item>
+                            <p>&#x201c;custom print method&#x201d;, first paragraph of methods</p>
+                        </list-item>
+                        <list-item>
+                            <p>&#x201c;non-standard evaluation&#x201d;, third paragraph of methods</p>
+                        </list-item>
+                        <list-item>
+                            <p>&#x201c;parsing&#x201d;, paragraph 11 of methods</p>
+                        </list-item>
+                    </list> Agreed, we made those changes. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Cite Wickham &amp; Francois (2015) for the dplyr philosophy in the fourth Methods paragraph&#x201d;</p>
+                        </list-item>
+                    </list> We cited it in the introduction. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Consider color coding the boxes in Fig. 1 to match the three classes paragraphs&#x201d;</p>
+                        </list-item>
+                    </list> We are not sure what you mean here. 
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>&#x201c;Define R6 and S3 in the Fig. 1 legend&#x201d;</p>
+                        </list-item>
+                    </list> Agreed.</p>
+            </body>
+        </sub-article>
+    </sub-article>
+</article>
