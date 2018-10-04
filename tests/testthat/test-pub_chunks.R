@@ -29,9 +29,9 @@ test_that("pub_chunks works", {
   expect_equal(attr(cc, "from"), "character")
   expect_equal(attr(cc, "sections"), c("title", "abstract"))
   
-  expect_named(aa, c("title", "publisher"))
-  expect_named(bb, c("abstract", "publisher"))
-  expect_named(cc, c("title", "abstract", "publisher"))
+  expect_named(aa, c("title", ".publisher"))
+  expect_named(bb, c("abstract", ".publisher"))
+  expect_named(cc, c("title", "abstract", ".publisher"))
 })
 
 test_that("pub_chunks fails well", {
