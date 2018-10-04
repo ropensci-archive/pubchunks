@@ -13,7 +13,7 @@ pub_chunks(x, sections = "all", provider = NULL)
 \item a character string of XML, a list (of file paths, or XML in a character
 string, or \code{xml_document} objects)
 \item or an object of class \code{fulltext::ft_data}, the output from a call to
-\code{\link[fulltext:ft_get]{fulltext::ft_get()}}
+\code{fulltext::ft_get()}
 }}
 
 \item{sections}{(character) What elements to get, can be one or more in
