@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st June 2018//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_180601.dtd">
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">25612652</PMID>
+      <DateCompleted>
+        <Year>2015</Year>
+        <Month>08</Month>
+        <Day>25</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>2015</Year>
+        <Month>04</Month>
+        <Day>21</Day>
+      </DateRevised>
+      <Article PubModel="Print-Electronic">
+        <Journal>
+          <ISSN IssnType="Print">0001-5547</ISSN>
+          <JournalIssue CitedMedium="Print">
+            <Volume>59</Volume>
+            <Issue>1</Issue>
+            <PubDate>
+              <Year>2015</Year>
+            </PubDate>
+          </JournalIssue>
+          <Title>Acta cytologica</Title>
+          <ISOAbbreviation>Acta Cytol.</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Thyroid cytopathology with an emphasis on the 'atypical cells of uncertain significance' category: a 3-year audit with cytohistologic correlation.</ArticleTitle>
+        <Pagination>
+          <MedlinePgn>17-25</MedlinePgn>
+        </Pagination>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1159/000369331</ELocationID>
+        <Abstract>
+          <AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">The National Cancer Institute meeting of 2007 resulted in the reporting terminology for thyroid cytopathology. The Bethesda System for Reporting Thyroid Cytopathology (TBSRTC) aims to standardise thyroid cytopathology reporting for cytology centres and clinicians alike.</AbstractText>
+          <AbstractText Label="STUDY OBJECTIVE" NlmCategory="OBJECTIVE">To compare our laboratory's performance against TBSRTC. The second aim was to determine our laboratory's atypia of undetermined significance/follicular cells of undetermined significance (AUS/FLUS) reporting rate and malignant outcomes. Our laboratory subclassifies the AUS/FLUS category into AUS/FLUS not otherwise specified (NOS) and AUS/FLUS cannot exclude malignancy.</AbstractText>
+          <AbstractText Label="MATERIALS" NlmCategory="METHODS">All thyroid reports were retrieved from our computerised database for the period of January 1, 2008 to March 31, 2011. Histologic correlation was obtained where available, and cases were classified according to their original diagnosis into 1 of the 6 categories of TBSRTC.</AbstractText>
+          <AbstractText Label="RESULTS" NlmCategory="RESULTS">A total of 1,767 cases were retrieved. The categories were as follows: inadequate (n=415; 23%), benign (n=1,063; 60%), AUS/FLUS (n=141; 8%) [NOS (n=93; 5%) and cannot exclude malignancy (n=48; 3%)] suspicious for follicular/Hürthle cell neoplasm (n=68; 4%), suspicious for malignancy (n=37; 2%) and malignant (n=43; 2%). The malignant rates for the categories were as follows: -6 (26%), 0 (0%), 8 (40%), 9 (38%), 11 (42%), 15 (62.5%), and 15 (94%), respectively.</AbstractText>
+          <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">We have shown that the AUS category carries a higher malignant rate than that of the AUS category in TBSRTC of 5-15%. We conclude that subclassifying the AUS/FLUS category into NOS and cannot exclude malignancy helps to better identify patients with an increased risk of malignancy in the AUS/FLUS cannot exclude malignancy category.</AbstractText>
+          <CopyrightInformation>© 2015 S. Karger AG, Basel.</CopyrightInformation>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Fatman</LastName>
+            <ForeName>Luvo</ForeName>
+            <Initials>L</Initials>
+            <AffiliationInfo>
+              <Affiliation>Cytopathology Unit, Department of Anatomical Pathology, Faculty of Health Sciences, University of the Witwatersrand and National Health Laboratory Service, Johannesburg, South Africa.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Michelow</LastName>
+            <ForeName>Pamela</ForeName>
+            <Initials>P</Initials>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+        <ArticleDate DateType="Electronic">
+          <Year>2015</Year>
+          <Month>01</Month>
+          <Day>22</Day>
+        </ArticleDate>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>Switzerland</Country>
+        <MedlineTA>Acta Cytol</MedlineTA>
+        <NlmUniqueID>0370307</NlmUniqueID>
+        <ISSNLinking>0001-5547</ISSNLinking>
+      </MedlineJournalInfo>
+      <CitationSubset>IM</CitationSubset>
+      <MeshHeadingList>
+        <MeshHeading>
+          <DescriptorName UI="D002291" MajorTopicYN="N">Carcinoma, Papillary</DescriptorName>
+          <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D054869" MajorTopicYN="Y">Clinical Audit</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D005189" MajorTopicYN="N">False Positive Reactions</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D017410" MajorTopicYN="N">Practice Guidelines as Topic</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D011237" MajorTopicYN="N">Predictive Value of Tests</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D058028" MajorTopicYN="N">Research Report</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D012307" MajorTopicYN="N">Risk Factors</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D013019" MajorTopicYN="N" Type="Geographic">South Africa</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D013961" MajorTopicYN="N">Thyroid Gland</DescriptorName>
+          <QualifierName UI="Q000473" MajorTopicYN="Y">pathology</QualifierName>
+        </MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="received">
+          <Year>2014</Year>
+          <Month>05</Month>
+          <Day>20</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="accepted">
+          <Year>2014</Year>
+          <Month>10</Month>
+          <Day>27</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>2015</Year>
+          <Month>1</Month>
+          <Day>24</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>2015</Year>
+          <Month>1</Month>
+          <Day>24</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>2015</Year>
+          <Month>8</Month>
+          <Day>26</Day>
+          <Hour>6</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>ppublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">25612652</ArticleId>
+        <ArticleId IdType="pii">000369331</ArticleId>
+        <ArticleId IdType="doi">10.1159/000369331</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>
