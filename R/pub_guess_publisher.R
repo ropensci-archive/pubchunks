@@ -29,13 +29,35 @@
 #' 
 #' x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
 #' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/plos_1.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
 pub_guess_publisher <- function(x) {
   if (!class(x)[[1L]] %in% c("character", "xml_document")) {
     stop("x must be of class character or xml_document")
   }
   x <- check_xml(x)
   tmp <- falltxt(x, "//publisher/publisher-name")
-  if (length(tmp) == 0) tmp <- f1txt(x, "//prism:publisher")
+  if (length(tmp) == 0 || is.na(tmp)) {
+    tmp <- tryCatch(f1txt(x, "//prism:publisher"), 
+      error = function(e) e, warning = function(w) w)
+  }
+  if (
+    length(tmp) == 0 || is.na(tmp) || 
+    inherits(tmp, "error") || inherits(tmp, "warning")
+  ) {
+    tmp <- tryCatch(f1txt(x, "//ISSN"), 
+      error = function(e) e, warning = function(w) w)
+    if (is.character(tmp) && grepl("[0-9]{4}-[0-9]{4}", tmp)) {
+      z <- rcrossref::cr_journals(tmp)
+      tmp <- if (!is.null(z$data)) z$data$publisher else "unknown"
+    } else {
+      tmp <- "unknown"
+    }
+  }
   list(
     full_name = tmp,
     short_name = pull_name(tmp)
@@ -43,7 +65,11 @@ pub_guess_publisher <- function(x) {
 }
 
 pgp <- function(x, prov) {
-  if (is.null(prov)) pub_guess_publisher(x)$short_name else prov
+  if (is.null(prov) || prov == "cached") {
+    pub_guess_publisher(x)$short_name 
+  } else {
+    prov
+  }
 }
 
 check_xml <- function(x) {
@@ -55,6 +81,7 @@ check_xml <- function(x) {
 }
 
 pull_name <- function(z) {
-  pubs <- "pensoft|copernicus|peerj|hindawi|frontiers|elife|elsevier|f1000 research"
-  gsub("\\s", "", tolower(strextract(z, pubs, ignore.case = TRUE)))
+  pubs <- "pensoft|copernicus|peerj|hindawi|frontiers|elife|elsevier|f1000 research|f1000research|public library|mdpi"
+  tmp <- gsub("\\s", "", tolower(strextract(z, pubs, ignore.case = TRUE)))
+  if (tmp == "publiclibrary") "plos" else tmp
 }

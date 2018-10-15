@@ -41,4 +41,10 @@ pub_guess_publisher(x)
 
 x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
 pub_guess_publisher(x)
+
+x <- system.file("examples/plos_1.xml", package = "pubchunks")
+pub_guess_publisher(x)
+
+x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
+pub_guess_publisher(x)
 }
