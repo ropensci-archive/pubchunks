@@ -47,4 +47,16 @@ pub_guess_publisher(x)
 
 x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
 pub_guess_publisher(x)
+
+x <- system.file("examples/pubmed_brief_1.xml", package = "pubchunks")
+pub_guess_publisher(x)
+
+x <- system.file("examples/pubmed_full_1.xml", package = "pubchunks")
+pub_guess_publisher(x)
+
+x <- system.file("examples/pubmed_full_2.xml", package = "pubchunks")
+pub_guess_publisher(x)
+
+x <- system.file("examples/pubmed_full_3.xml", package = "pubchunks")
+pub_guess_publisher(x)
 }

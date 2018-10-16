@@ -9,7 +9,8 @@ title <- function(b, from){
          peerj = f1txt(b, "//article-title"),
          copernicus = f1txt(b, "//article-title"),
          frontiers = f1txt(b, "//article-title"),
-         f1000research = f1txt(b, "//article-title")
+         f1000research = f1txt(b, "//article-title"),
+         f1txt(b, "//article-title") %|na|% f1txt(b, "//Article//Title")
   )
 }
 
@@ -21,7 +22,8 @@ doi <- function(b, from){
          elsevier = f1txt(b, "//dc:identifier"),
          copernicus = f1txt(b, "//article-id[@pub-id-type='doi']"),
          frontiers = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         f1000research = f1txt(b, "//article-id[@pub-id-type='doi']")
+         f1000research = f1txt(b, "//article-id[@pub-id-type='doi']"),
+         f1txt(b, "//article-id[@pub-id-type='doi']") %|na|% f1txt(b, "//ArticleId[@IdType='doi']")
   )
 }
 
@@ -32,7 +34,11 @@ categories <- function(b, from){
          entrez = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
          elsevier = falltxt(b, "//dcterms:subject"),
          frontiers = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         f1000research = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject"))
+         f1000research = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
+         {
+          bb <- xml2::xml_find_all(b, "//article-categories")
+          if (!length(bb) == 0) xml2::xml_text(xml2::xml_find_all(bb[[1]], "//subject")) else NULL
+         }
   )
 }
 
@@ -55,7 +61,8 @@ authors <- function(b, from){
     peerj = get_auth(b),
     copernicus = get_auth(b),
     frontiers = get_auth(b),
-    f1000research = get_auth(b)
+    f1000research = get_auth(b),
+    get_auth(b) %|na|% xml2::xml_find_all(b, "//AuthorList//Author")
   )
 }
 

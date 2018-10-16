@@ -35,6 +35,18 @@
 #' 
 #' x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
 #' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/pubmed_brief_1.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/pubmed_full_1.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/pubmed_full_2.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
+#' 
+#' x <- system.file("examples/pubmed_full_3.xml", package = "pubchunks")
+#' pub_guess_publisher(x)
 pub_guess_publisher <- function(x) {
   if (!class(x)[[1L]] %in% c("character", "xml_document")) {
     stop("x must be of class character or xml_document")
@@ -83,5 +95,6 @@ check_xml <- function(x) {
 pull_name <- function(z) {
   pubs <- "pensoft|copernicus|peerj|hindawi|frontiers|elife|elsevier|f1000 research|f1000research|public library|mdpi"
   tmp <- gsub("\\s", "", tolower(strextract(z, pubs, ignore.case = TRUE)))
+  if (!length(tmp)) tmp <- tolower(gsub("\\s", "_", z))
   if (tmp == "publiclibrary") "plos" else tmp
 }
