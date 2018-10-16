@@ -47,7 +47,7 @@ pub_tabularize.default <- function(x, bind = FALSE) {
 pub_tabularize.pub_chunks <- function(x, bind = FALSE) {
   assert(x, "pub_chunks")
   fr <- attr(x, "from")
-  switch(fr, 
+  switch(fr,
     character = pub_tab_one(x),
     xml_document = pub_tab_one(x),
     ft_data = lapply(x, pub_tab)
@@ -56,6 +56,7 @@ pub_tabularize.pub_chunks <- function(x, bind = FALSE) {
 
 #' @export
 pub_tabularize.list <- function(x, bind = FALSE) {
+  if (is.null(attr(x, "ft_data"))) attr(x, "ft_data") <- FALSE
   if (attr(x, "ft_data")) {
     res <- lapply(x, function(w) lapply(w, pub_tabularize))
     if (bind) rbl(lapply(res, rbl)) else res
