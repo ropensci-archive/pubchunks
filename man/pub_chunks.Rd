@@ -136,9 +136,22 @@ y <- system.file("examples/elife_1.xml", package = "pubchunks")
 z <- system.file("examples/f1000research_1.xml", package = "pubchunks")
 pub_chunks(list(x, y, z), c("doi", "title", "authors", "refs"))
 
+# non-XML files/content are xxx?
+# pub_chunks('foo bar')
+
+# Pubmed brief XML files (abstract only)
+x <- system.file("examples/pubmed_brief_1.xml", package = "pubchunks")
+pub_chunks(x, "title")
+
+# Pubmed full XML files
+x <- system.file("examples/pubmed_full_1.xml", package = "pubchunks")
+pub_chunks(x, "title")
+
 \dontrun{
 # using output of fulltext::ft_get()
 if (requireNamespace("fulltext", quietly = TRUE)) {
+  library("fulltext")
+
   # single
   x <- fulltext::ft_get('10.7554/eLife.03032')
   pub_chunks(fulltext::ft_collect(x), sections="authors")
@@ -148,6 +161,12 @@ if (requireNamespace("fulltext", quietly = TRUE)) {
     '10.7554/eLife.03032')
   x <- fulltext::ft_get(dois)
   pub_chunks(fulltext::ft_collect(x), sections="authors")
+
+  # as.ft_data() function
+  x <- ft_collect(as.ft_data())
+  names(x)
+  pub_chunks(x, "title")
+  pub_chunks(x, "title") \%>\% pub_tabularize()
 }
 }
 }

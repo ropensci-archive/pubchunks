@@ -1,7 +1,7 @@
 get_what <- function(data, what, from){
   if ( any(what == "all") ) what <- pub_sections()
-  res <- stats::setNames(lapply(what, function(z){
-    switch(z,
+  res <- stats::setNames(lapply(what, function(z) {
+    vv <- tryCatch(switch(z,
            front = front(data, from),
            body = body(data, from),
            back = back(data, from),
@@ -21,7 +21,8 @@ get_what <- function(data, what, from){
            acknowledgments = acknowledgments(data, from),
            permissions = permissions(data, from),
            history = history(data, from)
-    )
+    ), error = function(e) e, warning = function(w) w)
+    if (inherits(vv, c("error", "warning"))) NULL else vv
   }), what)
   res$.publisher <- from
   return(res)
