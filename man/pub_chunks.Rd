@@ -165,6 +165,7 @@ if (requireNamespace("fulltext", quietly = TRUE)) {
   # as.ft_data() function
   x <- ft_collect(as.ft_data())
   names(x)
+  x$cached
   pub_chunks(x, "title")
   pub_chunks(x, "title") \%>\% pub_tabularize()
 }
