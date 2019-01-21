@@ -53,12 +53,12 @@ pub_guess_publisher <- function(x) {
   }
   x <- check_xml(x)
   tmp <- falltxt(x, "//publisher/publisher-name")
-  if (length(tmp) == 0 || is.na(tmp)) {
+  if (length(tmp) == 0 || all(is.na(tmp))) {
     tmp <- tryCatch(f1txt(x, "//prism:publisher"), 
       error = function(e) e, warning = function(w) w)
   }
   if (
-    length(tmp) == 0 || is.na(tmp) || 
+    length(tmp) == 0 || all(is.na(tmp)) || 
     inherits(tmp, "error") || inherits(tmp, "warning")
   ) {
     tmp <- tryCatch(f1txt(x, "//ISSN"), 
