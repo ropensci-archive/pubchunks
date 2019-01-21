@@ -107,11 +107,6 @@ pub_chunks(x, "aff")
 pub_chunks(x, "title")
 pub_chunks(x, c("abstract", "title", "authors", "refs"))
 
-# Copernicus
-x <- system.file("examples/copernicus_1.xml", package = "pubchunks")
-pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))
-pub_chunks(x, "aff")
-
 # Frontiers
 x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
 pub_chunks(x, "authors")
@@ -130,6 +125,12 @@ pub_chunks(x, "title")
 pub_chunks(x, "aff")
 pub_chunks(x, c("doi", "title", "authors", "keywords", "refs"))
 
+\dontrun{
+# Copernicus
+x <- system.file("examples/copernicus_1.xml", package = "pubchunks")
+pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))
+pub_chunks(x, "aff")
+
 # MDPI
 x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
 x <- system.file("examples/mdpi_2.xml", package = "pubchunks")
@@ -144,6 +145,7 @@ vv$keywords
 vv$refs
 vv$abstract
 vv$categories
+}
 
 # Many inputs at once
 x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
