@@ -5,19 +5,19 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "pubchunks",
-  "description": "Get chunks of XML scholarly articles without \n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull \n    out the information you want. Works with outputs from \n    package fulltext, xml2 package documents, and file paths to \n    XML documents.",
+  "description": "Get chunks of XML scholarly articles without \n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull \n    out the information you want. Works with outputs from \n    package 'fulltext', 'xml2' package documents, and file paths to \n    XML documents.",
   "name": "pubchunks: Fetch Sections of XML Scholarly Articles",
   "codeRepository": "https://github.com/ropensci/pubchunks",
   "issueTracker": "https://github.com/ropensci/pubchunks/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.5.1",
+    "version": "3.5.2",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.5.1 Patched (2018-08-12 r75119)",
+  "runtimePlatform": "R version 3.5.2 Patched (2018-12-31 r75943)",
   "author": [
     {
       "@type": "Person",
@@ -88,14 +88,32 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=data.table"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rcrossref",
+      "name": "rcrossref",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rcrossref"
     }
   ],
   "contIntegration": "https://travis-ci.org/ropensci/pubchunks",
   "developmentStatus": "concept",
   "readme": "https://github.com/ropensci/pubchunks/blob/master/README.md",
-  "fileSize": "226.2KB",
+  "fileSize": "424.213KB",
   "applicationCategory": "Literature",
   "isPartOf": "https://ropensci.org",
   "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "text-mining", "open-access", "rstats", "r", "r-package"],
-  "releaseNotes": "https://github.com/ropensci/pubchunks/blob/master/NEWS.md"
+  "releaseNotes": "https://github.com/ropensci/pubchunks/blob/master/NEWS.md",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  }
 }
