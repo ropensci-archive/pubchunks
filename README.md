@@ -78,25 +78,33 @@ x <- system.file("examples/10_1016_0021_8928_59_90156_x.xml",
 ```r
 pub_chunks(x, "abstract")
 #> <pub chunks>
-#>   from: character
+#>   from: file
+#>   publisher/journal: elsevier/Journal of Applied Mathematics and Mechanics
 #>   sections: abstract
+#>   showing up to first 5: 
 #>    abstract (n=1): Abstract
 #>                
 #>                   This pa ...
 pub_chunks(x, "title")
 #> <pub chunks>
-#>   from: character
+#>   from: file
+#>   publisher/journal: elsevier/Journal of Applied Mathematics and Mechanics
 #>   sections: title
+#>   showing up to first 5: 
 #>    title (n=1): On the driving of a piston with a rigid collar int ...
 pub_chunks(x, "authors")
 #> <pub chunks>
-#>   from: character
+#>   from: file
+#>   publisher/journal: elsevier/Journal of Applied Mathematics and Mechanics
 #>   sections: authors
+#>   showing up to first 5: 
 #>    authors (n=1): Chetaev, D.N
 pub_chunks(x, c("title", "refs"))
 #> <pub chunks>
-#>   from: character
+#>   from: file
+#>   publisher/journal: elsevier/Journal of Applied Mathematics and Mechanics
 #>   sections: title, refs
+#>   showing up to first 5: 
 #>    title (n=1): On the driving of a piston with a rigid collar int ...
 #>    refs (n=6): 1.G.N.WatsonTeoriia besselevykh funktsiiTheory of
 ```
@@ -113,7 +121,9 @@ xml <- paste0(readLines(x), collapse = "")
 pub_chunks(xml, "title")
 #> <pub chunks>
 #>   from: character
+#>   publisher/journal: elsevier/Journal of Applied Mathematics and Mechanics
 #>   sections: title
+#>   showing up to first 5: 
 #>    title (n=1): On the driving of a piston with a rigid collar int ...
 ```
 
@@ -126,7 +136,9 @@ xml <- xml2::read_xml(xml)
 pub_chunks(xml, "title")
 #> <pub chunks>
 #>   from: xml_document
+#>   publisher/journal: elsevier/Journal of Applied Mathematics and Mechanics
 #>   sections: title
+#>   showing up to first 5: 
 #>    title (n=1): On the driving of a piston with a rigid collar int ...
 ```
 
@@ -146,7 +158,9 @@ pub_chunks(fulltext::ft_collect(x), sections="authors")
 #> $plos$`10.1371/journal.pone.0086169`
 #> <pub chunks>
 #>   from: xml_document
+#>   publisher/journal: plos/PLoS ONE
 #>   sections: authors
+#>   showing up to first 5: 
 #>    authors (n=4): nested list
 #> 
 #> 
@@ -176,6 +190,57 @@ pub_tabularize(res)
 #> 5             intron retention      elife
 #> 6  premature termination codon      elife
 ```
+
+## Get a random XML article
+
+
+```r
+library(rcrossref)
+library(dplyr)
+
+res <- cr_works(filter = list(
+    full_text_type = "application/xml", 
+    license_url="http://creativecommons.org/licenses/by/4.0/"))
+links <- bind_rows(res$data$link) %>% filter(content.type == "application/xml")
+download.file(links$URL[1], (i <- tempfile(fileext = ".xml")))
+pub_chunks(i)
+#> <pub chunks>
+#>   from: file
+#>   publisher/journal: scientific_research_publishing/Open Journal of Social Sciences
+#>   sections: all
+#>   showing up to first 5: 
+#>    front (n=2): nested list
+#>    body (n=40): Educational behaviors refer to the activities or a
+#>    back (n=1): nested list
+#>    title (n=1): Inspection on Reality of Kindergarten Teachers’ Ed ...
+#>    doi (n=1): 10.4236/jss.2014.29048
+download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
+pub_chunks(j)
+#> <pub chunks>
+#>   from: file
+#>   publisher/journal: hindawi/Case Reports in Gastrointestinal Medicine
+#>   sections: all
+#>   showing up to first 5: 
+#>    front (n=2): nested list
+#>    body (n=12): The American Association for the Study of Liver Di
+#>    back (n=4): nested list
+#>    title (n=1): Yogi Detox Tea: A Potential Cause of Acute Liver F ...
+#>    doi (n=1): 10.1155/2017/3540756
+download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
+pub_chunks(k)
+#> <pub chunks>
+#>   from: file
+#>   publisher/journal: hindawi/Advances in Materials Science and Engineering
+#>   sections: all
+#>   showing up to first 5: 
+#>    front (n=2): nested list
+#>    body (n=74): Nowadays, most of the service bridges are close or
+#>    back (n=3): nested list
+#>    title (n=1): Cubic Function-Based Bayesian Dynamic Linear Predi ...
+#>    doi (n=1): 10.1155/2017/7460378
+```
+
+
 
 
 ## Meta
