@@ -1,44 +1,47 @@
 title <- function(b, from){
-  switch(from,
-         elife = f1txt(b, "//title-group/article-title"),
-         plos = f1txt(b, "//title-group/article-title"),
-         entrez = f1txt(b, "//title-group/article-title"),
-         elsevier = f1txt(b, "//dc:title"),
-         hindawi = f1txt(b, "//article-title"),
-         pensoft = f1txt(b, "//article-title"),
-         peerj = f1txt(b, "//article-title"),
-         copernicus = f1txt(b, "//article-title"),
-         frontiers = f1txt(b, "//article-title"),
-         f1000research = f1txt(b, "//article-title"),
-         f1txt(b, "//article-title") %|na|% f1txt(b, "//Article//Title")
+  switch(
+    from,
+    elife = f1txt(b, "//title-group/article-title"),
+    plos = f1txt(b, "//title-group/article-title"),
+    entrez = f1txt(b, "//title-group/article-title"),
+    elsevier = f1txt(b, "//dc:title"),
+    hindawi = f1txt(b, "//article-title"),
+    pensoft = f1txt(b, "//article-title"),
+    peerj = f1txt(b, "//article-title"),
+    copernicus = f1txt(b, "//article-title"),
+    frontiers = f1txt(b, "//article-title"),
+    f1000research = f1txt(b, "//article-title"),
+    f1txt(b, "//article-title") %|na|% f1txt(b, "//Article//Title")
   )
 }
 
 doi <- function(b, from){
-  switch(from,
-         elife = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         plos = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         entrez = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         elsevier = f1txt(b, "//dc:identifier"),
-         copernicus = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         frontiers = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         f1000research = f1txt(b, "//article-id[@pub-id-type='doi']"),
-         f1txt(b, "//article-id[@pub-id-type='doi']") %|na|% f1txt(b, "//ArticleId[@IdType='doi']")
+  switch(
+    from,
+    elife = f1txt(b, "//article-id[@pub-id-type='doi']"),
+    plos = f1txt(b, "//article-id[@pub-id-type='doi']"),
+    entrez = f1txt(b, "//article-id[@pub-id-type='doi']"),
+    elsevier = f1txt(b, "//dc:identifier"),
+    copernicus = f1txt(b, "//article-id[@pub-id-type='doi']"),
+    frontiers = f1txt(b, "//article-id[@pub-id-type='doi']"),
+    f1000research = f1txt(b, "//article-id[@pub-id-type='doi']"),
+    f1txt(b, "//article-id[@pub-id-type='doi']") %|na|% f1txt(b, "//ArticleId[@IdType='doi']")
   )
 }
 
 categories <- function(b, from){
-  switch(from,
-         elife = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         plos = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         entrez = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         elsevier = falltxt(b, "//dcterms:subject"),
-         frontiers = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         f1000research = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
-         {
-          bb <- xml2::xml_find_all(b, "//article-categories")
-          if (!length(bb) == 0) xml2::xml_text(xml2::xml_find_all(bb[[1]], "//subject")) else NULL
-         }
+  switch(
+    from,
+    elife = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
+    plos = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
+    entrez = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
+    elsevier = falltxt(b, "//dcterms:subject"),
+    frontiers = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
+    f1000research = xml2::xml_text(xml2::xml_find_all(xml2::xml_find_all(b, "//article-categories")[[1]], "//subject")),
+    {
+      bb <- xml2::xml_find_all(b, "//article-categories")
+      if (!length(bb) == 0) xml2::xml_text(xml2::xml_find_all(bb[[1]], "//subject")) else NULL
+    }
   )
 }
 
@@ -95,7 +98,8 @@ aff <- function(b, from){
     peerj = get_aff(b),
     copernicus = NULL,
     frontiers = get_aff(b),
-    f1000research = get_aff(b)
+    f1000research = get_aff(b),
+    get_aff(b)
   )
 }
 
@@ -121,7 +125,8 @@ keywords <- function(b, from){
     plos = NULL,
     entrez = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd")),
     elsevier = falltxt(b, "//ce:keyword"),
-    f1000research = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd"))
+    f1000research = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd")),
+    mdpi = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd"))
   )
 }
 
@@ -153,7 +158,8 @@ abstract <- function(b, from){
     peerj = f1txt(b, "//abstract"),
     copernicus = f1txt(b, "//abstract"),
     frontiers = f1txt(b, "//abstract"),
-    f1000research = f1txt(b, "//abstract")
+    f1000research = f1txt(b, "//abstract"),
+    f1txt(b, "//abstract")
   )
 }
 
@@ -197,7 +203,8 @@ refs <- function(b, from){
     peerj = falltxt(b, "//ref-list/ref"),
     copernicus = falltxt(b, "//ref-list/ref"),
     frontiers = falltxt(b, "//ref-list/ref"),
-    f1000research = falltxt(b, "//ref-list/ref")
+    f1000research = falltxt(b, "//ref-list/ref"),
+    falltxt(b, "//ref-list/ref")
   )
 }
 

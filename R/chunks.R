@@ -104,7 +104,7 @@
 #' x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "aff")
-#' pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))
+#' pub_chunks(x, c("doi", "abstract", "title", "authors", "refs", "abstract"))
 #' 
 #' # eLife
 #' x <- system.file("examples/elife_1.xml", package = "pubchunks")
@@ -117,6 +117,21 @@
 #' pub_chunks(x, "title")
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, c("doi", "title", "authors", "keywords", "refs"))
+#' 
+#' # MDPI
+#' x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
+#' x <- system.file("examples/mdpi_2.xml", package = "pubchunks")
+#' pub_chunks(x, "title")
+#' pub_chunks(x, "aff")
+#' vv <- pub_chunks(x, c("doi", "title", "authors", "keywords", "refs", 
+#'   "abstract", "categories"))
+#' vv$doi
+#' vv$title
+#' vv$authors
+#' vv$keywords
+#' vv$refs
+#' vv$abstract
+#' vv$categories
 #' 
 #' # Many inputs at once
 #' x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
