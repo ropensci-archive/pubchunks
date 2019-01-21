@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xml:lang="en" article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">nutrients</journal-id>
+      <journal-title>Nutrients</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Nutrients</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Nutrients</abbrev-journal-title>
+      <issn pub-type="epub">2072-6643</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/nu3010049</article-id>
+      <article-id pub-id-type="publisher-id">nutrients-03-00049</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Folate Status of Reproductive Age Women and Neural Tube Defect Risk: The Effect of Long-Term Folic Acid Supplementation at Doses of 140 &#xB5;g and 400 &#xB5;g per Day</article-title>
+      </title-group>
+      
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hursthouse</surname>
+            <given-names>Nicola A.</given-names>
+          </name>
+          <xref rid="af1-nutrients-03-00049" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gray</surname>
+            <given-names>Andrew R.</given-names>
+          </name>
+          <xref rid="af2-nutrients-03-00049" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miller</surname>
+            <given-names>Jody C.</given-names>
+          </name>
+          <xref rid="af1-nutrients-03-00049" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rose</surname>
+            <given-names>Meredith C.</given-names>
+          </name>
+          <xref rid="af1-nutrients-03-00049" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Houghton</surname>
+            <given-names>Lisa A.</given-names>
+          </name>
+          <xref rid="af1-nutrients-03-00049" ref-type="aff">1</xref>
+          <xref rid="c1-nutrients-03-00049" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nutrients-03-00049"><label>1 </label>Department of Human Nutrition, University of Otago, Dunedin 9054, New Zealand; Email: <email>hurni473@student.otago.ac.nz</email> (N.A.H.); <email>jody.miller@otago.ac.nz</email> (J.C.M.); <email>meredith.rose@otago.ac.nz</email> (M.C.R.)</aff>
+      <aff id="af2-nutrients-03-00049"><label>2 </label>Department of Preventive and Social Medicine, University of Otago, Dunedin 9054, New Zealand; Email: <email>andrew.gray@otago.ac.nz</email></aff>
+      <author-notes>
+        <corresp id="c1-nutrients-03-00049"><label>* </label>Author to whom correspondence should be addressed; Email: <email>lisa.houghton@otago.ac.nz</email>; Tel.: +64-3-479-7294; Fax: +64-3-479-7958.</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>01</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>01</month><year>2011</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>1</issue>
+      <fpage>49</fpage>
+      <lpage>62</lpage>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>11</month>
+          <year>2010</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>13</day>
+          <month>12</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>01</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#x000A9; 2011 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+          <p>This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p> Primary prevention of most folate-responsive neural tube defects (NTDs) may not require 400 &#x3BC;g folic acid/day but may be achieved by attaining a high maternal folate status. Using RBC folate &#x2265;906 nmol/L as a marker for NTD risk reduction, the study aimed to determine the change in blood folate concentrations in reproductive age women in response to long-term folic acid supplementation at 400 &#xB5;g/day and 140 &#xB5;g/day (dose designed to mimic the average daily folic acid intake received from New Zealand&#x2019;s proposed mandatory bread fortification program). Participants were randomly assigned to a daily folic acid supplement of 140 &#xB5;g (<italic>n</italic> = 49), 400 &#xB5;g (<italic>n</italic> = 48) or placebo (<italic>n</italic> = 47) for 40 weeks. RBC folate concentrations were measured at baseline, and after 6, 12, 29 and 40 weeks. At 40 weeks, the overall prevalence of having a RBC folate &lt;906 nmol/L decreased to 18% and 35% in the 400 &#xB5;g and 140 &#xB5;g groups, respectively, while remaining relatively unchanged at 58% in the placebo group. After 40 weeks, there was no evidence of a difference in RBC folate between the two treatment groups (<italic>P</italic> = 0.340), nor was there evidence of a difference in the odds of a RBC folate &lt;906 nmol/L (<italic>P</italic> = 0.078). In conclusion, the average daily intake of folic acid received from the proposed fortification program would increase RBC folate concentrations in reproductive age women to levels associated with a low risk of NTDs. </p>
+      </abstract>
+      <kwd-group>
+        <kwd> neural tube defects</kwd>
+        <kwd>blood folate status</kwd>
+        <kwd>folic acid fortification</kwd>
+        <kwd>supplementation</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>1. Introduction</title>
+      <p>It is widely accepted that adequate maternal consumption of folic acid before pregnancy and during the early weeks of gestation can reduce the risk of having a child with a neural tube defect (NTD). As a result, public health authorities worldwide have recommended consuming 400 &#x3BC;g folic acid per day during the periconceptional period to reduce the risk of first occurrence NTDs [<xref ref-type="bibr" rid="B1-nutrients-03-00049">1</xref>,<xref ref-type="bibr" rid="B2-nutrients-03-00049">2</xref>,<xref ref-type="bibr" rid="B3-nutrients-03-00049">3</xref>,<xref ref-type="bibr" rid="B4-nutrients-03-00049">4</xref>]. This recommended dose is based mainly on the amount of folic acid observed to be associated with a reduction in NTDs in the majority of epidemiological studies [<xref ref-type="bibr" rid="B5-nutrients-03-00049">5</xref>,<xref ref-type="bibr" rid="B6-nutrients-03-00049">6</xref>,<xref ref-type="bibr" rid="B7-nutrients-03-00049">7</xref>,<xref ref-type="bibr" rid="B8-nutrients-03-00049">8</xref>,<xref ref-type="bibr" rid="B9-nutrients-03-00049">9</xref>]. It is also the level of intake that demonstrated a dramatic decline in NTD occurrence in a large-scale, prospective community intervention trial in China [<xref ref-type="bibr" rid="B10-nutrients-03-00049">10</xref>]. Whether an amount of folic acid lower than the current official recommendation would be efficacious is a critical question yet difficult to determine by way of randomized controlled trials. Alternatively, the relation of NTD risk to maternal red blood cell (RBC) folate concentrations may provide insight to the influence of varying levels of folic acid intake. In a case-control study carried out in Ireland, Daly <italic>et al.</italic> [<xref ref-type="bibr" rid="B11-nutrients-03-00049">11</xref>] documented a dose-response relationship between blood folate concentrations and the incidence of NTD, reporting that the lowest category of NTD risk occurred when maternal RBC folate concentrations were greater than 906 nmol/L. Achieving this protective folate concentration remains a challenge among reproductive age women.</p>
+      <p>Mandatory folic acid fortification of enriched cereal-grain products in the United States and Canada, implemented in 1998, has substantially improved the folate status of reproductive age women [<xref ref-type="bibr" rid="B12-nutrients-03-00049">12</xref>] and resulted in a significant decline in NTDs [<xref ref-type="bibr" rid="B13-nutrients-03-00049">13</xref>,<xref ref-type="bibr" rid="B14-nutrients-03-00049">14</xref>,<xref ref-type="bibr" rid="B15-nutrients-03-00049">15</xref>,<xref ref-type="bibr" rid="B16-nutrients-03-00049">16</xref>,<xref ref-type="bibr" rid="B17-nutrients-03-00049">17</xref>,<xref ref-type="bibr" rid="B18-nutrients-03-00049">18</xref>,<xref ref-type="bibr" rid="B19-nutrients-03-00049">19</xref>,<xref ref-type="bibr" rid="B20-nutrients-03-00049">20</xref>]. While implementation of fortification programs for the primary prevention of NTDs is still under debate in many countries, mandatory folic acid fortification of bread (140 &#xB5;g folic acid/100 g) was gazetted in New Zealand for September 2009 but recently deferred until May 2012 [<xref ref-type="bibr" rid="B21-nutrients-03-00049">21</xref>]. At present, there are no national data on the folate status of New Zealand women, nor are there complete surveillance data on the national rate of NTDs. Using RBC folate as a marker of NTD risk, the aim of our study was to assess the percentage of reproductive age women who have RBC folate concentrations above the protective level, and to evaluate the long-term effect of 140 &#x3BC;g/day (dose designed to mimic the estimated average folic acid intake provided by the proposed bread fortification program in New Zealand) and 400 &#x3BC;g/day (dose recommended for primary prevention of NTDs) on blood folate status.</p>
+    </sec>
+    <sec>
+      <title>2. Experimental Section</title>
+      <sec sec-type="subjects">
+        <title>2.1. Study Participants</title>
+        <p>A sample of healthy, reproductive age women (18&#x2013;40 y) were recruited in July 2008 from the staff and student population at the University of Otago, Dunedin, New Zealand, and from the local community through advertisements in the newspaper and word-of-mouth. Women were not included in the study if they were pregnant, lactating, or were planning a pregnancy in the next 12 months. Additional exclusion criteria for the study were regular use of folic acid-containing supplements in the previous 6 months; self-reported history of cardiovascular, gastrointestinal, hepatic, renal or hematologic disease; and use of medications that interfere with folate metabolism (e.g., methotrexate, sulfasalazine, or anticonvulsants). Ethical approval was obtained from the Human Ethics Committee of the University of Otago, Dunedin, New Zealand, and all participants gave written, informed consent. This study was registered with the Australian New Zealand Clinical Trials Registry [<xref ref-type="bibr" rid="B22-nutrients-03-00049">22</xref>] as ACTRN12609000215224. </p>
+      </sec>
+      <sec>
+        <title>2.2. Study Protocol</title>
+        <p>The study was a 40 week double-blinded, placebo-controlled trial conducted from August 2008 through May 2009. Participants attended an early morning clinic at baseline, and after 6, 12, 29 and 40 weeks. At the baseline visit, sociodemographic and general health data were collected using a self&#x2011;administered questionnaire; height and weight were taken according to standardized procedures [<xref ref-type="bibr" rid="B23-nutrients-03-00049">23</xref>] and measured to the nearest 0.1 cm and 0.1 kg, respectively. At the completion of the baseline visit, participants were provided with electronic digital scales accurate to 1 g (Model 1017; Salter Housewares Ltd., Tonbridge, England) and received oral and written instructions on how to weigh and record all food and beverages consumed over an assigned 3-day period. Participants were then randomly assigned through the use of non-identifying group codes to receive either 400 &#x3BC;g folic acid/day, 140 &#x3BC;g folic acid/day, or placebo. At each clinic visit including baseline, fasting blood samples (15 mL collected &#x2265;12 h after an overnight fast) were obtained by venipuncture before the study tablet was administered. </p>
+      </sec>
+      <sec>
+        <title>2.3. Supplements</title>
+        <p>The study supplements were manufactured by New Zealand Nutritionals Ltd (Christchurch, New Zealand) as hard tablets, each containing microcrystalline cellulose as a filler (placebo), and either 140 &#x3BC;g (317 nmol) folic acid, or 400 &#x3BC;g (907 nmol) folic acid. Folate contents of the tablets were analyzed by microbiological assay in our laboratory at the beginning of the study. The actual amounts in the tablets aimed to provide 140 &#x3BC;g and 400 &#x3BC;g folic acid were 133 &#x3BC;g and 359 &#x3BC;g folic acid, respectively. Participants, investigators and biostatistician were blinded to the treatment. Supplements were coded by a third-party and randomization data was kept strictly confidential in a sealed envelope until all of the data analyses had been performed. Participants were instructed to take one tablet per day and to return all unused pills. Three bottles of tablets were prepared for each participant, and distributed at baseline, and weeks 12 and 29. Compliance with respect to supplement intake was assessed by counting returned pills. </p>
+      </sec>
+      <sec>
+        <title>2.4. Dietary Folate Assessment</title>
+        <p>Dietary intake of folate was determined via 3-day weighed food records completed at baseline. The diet records were completed over two non-consecutive weekdays and one weekend day. The total folate intakes, in &#xB5;g, were tabulated using an electronic version of the 2006 New Zealand Food Composition Tables [<xref ref-type="bibr" rid="B24-nutrients-03-00049">24</xref>] and expressed as an overall mean of the 3-day intake. Any unavailable foods in the composition table were substituted with an item of the same type with a similar folate level or, if available, estimated from the amount stated on the manufacturer label. In total, 128 3-day baseline diet records were entered and analysed. Dietary folate intakes may have varied over the 40 week intervention period, particular due to seasonal fluctuations in price and availability of folate-rich foods. </p>
+      </sec>
+      <sec>
+        <title>2.5. Blood Sampling and Laboratory Analysis</title>
+        <p>Blood samples were collected in EDTA-treated tubes, transported on ice and processed within one hour of collection. After measurement of the hematocrit, red blood cell hemolysates were prepared (dilution (1:10) of whole blood with 1% ascorbic acid) and incubated at 37 &#xB0;C for 30 min before storage at &#x2212;80 &#xB0;C. The remaining whole blood was centrifuged (1500 g for 15 min at 4 &#xB0;C) to separate the plasma and aliquots were stored immediately at &#x2212;80 &#xB0;C. Plasma and whole blood folate concentration was determined by microbiological assay [<xref ref-type="bibr" rid="B25-nutrients-03-00049">25</xref>] using test organism chloramphenicol-resistant <italic>Lactobacillus rhamnosus</italic> (ATCC 27773; American Type Culture Collection, Manassas, VA). Erythrocyte folate concentration was calculated from whole-blood values using individual packed cell volumes and after correction for plasma folate concentration. To avoid between-run variation, all study visit samples from each participant were measured in one batch. Accuracy and inter-assay variability were monitored with the use of two external quality controls: whole blood folate standard (National Institute for Biological Standards and Control, Hertfordshire, United Kingdom) with a certified value of 29.5 nmol/L (mean 27.3 (SD 4.6); CV 17%) and a human serum folate standard reference material (SRM 1955, National Institute of Standards and Technology, Gaithersburg, U.S.) with a total folate information value as determined by microbiological assay of 44 nmol/L (mean 42.5 (SD 8.7); CV 20%). A plasma folate concentration &lt;6.8 nmol/L or a RBC folate concentration &lt;317 nmol/L was used to indicate folate deficiency [<xref ref-type="bibr" rid="B26-nutrients-03-00049">26</xref>]. </p>
+      </sec>
+      <sec>
+        <title>2.6. Statistical Analysis</title>
+        <p>All statistical analyses were performed by using Stata (version 11, Stata Corp, College Station, TX). Characteristics of participants completing the study and dropping out before the final blood sample were compared using t-tests for continuous variables (after log-transformations where appropriate) and &#x3C7;<sup>2</sup> tests for categorical variables (with Fisher&#x2019;s exact test used where expected cell counts were below 5 for more than 20% of cells). The outcome variables were plasma and RBC folate concentrations and suboptimal RBC concentration (determined as &lt;906 nmol/L). The following known or potential predictors were identified a priori: age, BMI, education, ethnicity, use of oral contraceptives and dietary folate. Education was collapsed into three categories: secondary school or less, post-secondary education (university or college), or advanced degree. Participant ethnicity was classified as New Zealand European, Maori and Pacific Peoples, Asian, or other ethnicities. Plasma and RBC folate concentrations were natural log transformed where this resolved issues with skew and/or heteroscedasticity in residuals. Linear and logistic mixed models were used to assess intervention group effects and included a random participant effect. Difference in changes between groups was assessed using treatment group-by-time interactions. Selected error covariance structures (autoregressive, toeplitz, and unstructured) were investigated for linear mixed models to see if they improved model fit according to the Akaike information criterion (AIC). Non-linear associations were investigated, and where appropriate, modelled using fractional polynomials. Variables with <italic>P</italic> &lt; 0.25 in models including treatment group, time, and their interaction were included in the final regression models. All tests were 2-sided with statistical significance as determined by <italic>P</italic> &lt; 0.05.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>3. Results</title>
+      <p>Of the 144 women enrolled in the study, 119 completed the intervention trial (<xref ref-type="fig" rid="nutrients-03-00049-f001">Figure 1</xref>). Baseline characteristics of the study population by treatment group are presented in <xref ref-type="table" rid="nutrients-03-00049-t001">Table 1</xref>. The majority of participants were university educated, and identified as New Zealand European. Nearly one-third of the participants were classified as overweight or obese. Overall folate status of the study population was adequate (<xref ref-type="table" rid="nutrients-03-00049-t001">Table 1</xref>). Twenty-five participants were lost to the study over the 40 week intervention period with one participant conveying her intent to conceive and the remainder citing lack of time or personal reasons. No statistically significant evidence of differences were observed in treatment group, participant age, BMI category, ethnicity, education or baseline plasma and RBC folate concentrations between those participants who remained in the study and those who withdrew before the end of the study (all <italic>P</italic> &#x2265; 0.325). With respect to study supplement intake, 93% (134 out of 144) participants returned at least one of their three study bottles and of these, 90% (120 out of 134) had compliance of 70% or higher. </p>
+      <fig id="nutrients-03-00049-f001" position="anchor">
+        <label>Figure 1</label>
+        <caption>
+          <p>Flow diagram of the women who participated in the randomised trial.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nutrients-03-00049-g001.tif"/>
+      </fig>
+      <table-wrap id="nutrients-03-00049-t001" position="anchor">
+        <object-id pub-id-type="pii">nutrients-03-00049-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Baseline characteristics of study population <sup>1</sup>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle"> </th>
+              <th align="center" valign="middle">All (<italic>n</italic> = 144)</th>
+              <th align="center" valign="middle">Placebo (<italic>n</italic> = 47)</th>
+              <th align="center" valign="middle">140 &#xB5;g folic acid/day (<italic>n</italic> = 49)</th>
+              <th align="center" valign="middle">400 &#xB5;g folic acid/day (<italic>n</italic> = 48)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle">Age (y) <sup>2</sup></td>
+              <td align="center" valign="middle">24.5 &#xB1; 5.9</td>
+              <td align="center" valign="middle">24.5 &#xB1; 5.6</td>
+              <td align="center" valign="middle">24.2 &#xB1; 6.2</td>
+              <td align="center" valign="middle">24.9 &#xB1; 5.8</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Weight (kg) <sup>2</sup></td>
+              <td align="center" valign="middle">65.5 &#xB1; 12.3</td>
+              <td align="center" valign="middle">65.5 &#xB1; 12.2</td>
+              <td align="center" valign="middle">66.5 &#xB1; 12.1</td>
+              <td align="center" valign="middle">64.5 &#xB1; 12.7</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">BMI (kg/m&#xB2;) <sup>2</sup></td>
+              <td align="center" valign="middle">23.7 &#xB1; 3.9</td>
+              <td align="center" valign="middle">23.6 &#xB1; 3.8</td>
+              <td align="center" valign="middle">24.2 &#xB1; 4.0</td>
+              <td align="center" valign="middle">23.4 &#xB1; 4.0</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">BMI Category, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;&lt;18.5</td>
+              <td align="center" valign="middle">7 (5)</td>
+              <td align="center" valign="middle">2 (4)</td>
+              <td align="center" valign="middle">2 (4)</td>
+              <td align="center" valign="middle">3 (6)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;18.5&#x2013;24.9</td>
+              <td align="center" valign="middle">96 (67)</td>
+              <td align="center" valign="middle">32 (68)</td>
+              <td align="center" valign="middle">31 (63)</td>
+              <td align="center" valign="middle">33 (69)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;25.0&#x2013;29.9</td>
+              <td align="center" valign="middle">32 (22)</td>
+              <td align="center" valign="middle">10 (21)</td>
+              <td align="center" valign="middle">12 (25)</td>
+              <td align="center" valign="middle">10 (21)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;&#x2265;30.0</td>
+              <td align="center" valign="middle">9 (6)</td>
+              <td align="center" valign="middle">3 (6)</td>
+              <td align="center" valign="middle">4 (8)</td>
+              <td align="center" valign="middle">2 (4)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Ethnicity, <italic>n</italic> (%) <sup>3</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;New Zealand European</td>
+              <td align="center" valign="middle">109 (76)</td>
+              <td align="center" valign="middle">35 (75)</td>
+              <td align="center" valign="middle">35 (71)</td>
+              <td align="center" valign="middle">39 (81)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Maori and Pacific Peoples</td>
+              <td align="center" valign="middle">7 (5)</td>
+              <td align="center" valign="middle">4 (9)</td>
+              <td align="center" valign="middle">2 (4)</td>
+              <td align="center" valign="middle">1 (2)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Asian</td>
+              <td align="center" valign="middle">17 (12)</td>
+              <td align="center" valign="middle">6 (13)</td>
+              <td align="center" valign="middle">8 (16)</td>
+              <td align="center" valign="middle">3 (6)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Other ethnicities</td>
+              <td align="center" valign="middle">11 (8)</td>
+              <td align="center" valign="middle">2 (4)</td>
+              <td align="center" valign="middle">4 (8)</td>
+              <td align="center" valign="middle">5 (10)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Education, <italic>n</italic> (%) <sup>3</sup></td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Secondary school or less</td>
+              <td align="center" valign="middle">17 (12)</td>
+              <td align="center" valign="middle">3 (6)</td>
+              <td align="center" valign="middle">9 (18)</td>
+              <td align="center" valign="middle">5 (10)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Post-secondary education</td>
+              <td align="center" valign="middle">105 (73)</td>
+              <td align="center" valign="middle">39 (83)</td>
+              <td align="center" valign="middle">31 (63)</td>
+              <td align="center" valign="middle">35 (73)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Advanced degree</td>
+              <td align="center" valign="middle">22 (15)</td>
+              <td align="center" valign="middle">5 (11)</td>
+              <td align="center" valign="middle">9 (18)</td>
+              <td align="center" valign="middle">8 (17)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Oral contraceptive use, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle">63 (44)</td>
+              <td align="center" valign="middle">22 (47)</td>
+              <td align="center" valign="middle">20 (41)</td>
+              <td align="center" valign="middle">21 (44)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Dietary Folate (&#xB5;g/day) <sup>4,5</sup></td>
+              <td align="center" valign="middle">255.0 &#xB1; 1.5</td>
+              <td align="center" valign="middle">246.7 &#xB1; 1.5</td>
+              <td align="center" valign="middle">248.0 &#xB1; 1.6</td>
+              <td align="center" valign="middle">271.5 &#xB1; 1.5</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Plasma folate (nmol/L) <sup>4</sup></td>
+              <td align="center" valign="middle">19.9 &#xB1; 1.8</td>
+              <td align="center" valign="middle">21.4 &#xB1; 1.6</td>
+              <td align="center" valign="middle">19.2 &#xB1; 1.8</td>
+              <td align="center" valign="middle">19.3 &#xB1; 1.9</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;&lt;6.8 nmol/L, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle">2 (1)</td>
+              <td align="center" valign="middle">0 (0)</td>
+              <td align="center" valign="middle">2 (1)</td>
+              <td align="center" valign="middle">0 (0)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">Red blood cell folate (nmol/L) <sup>4</sup></td>
+              <td align="center" valign="middle">753.2 &#xB1; 1.6</td>
+              <td align="center" valign="middle">808.5 &#xB1; 1.5</td>
+              <td align="center" valign="middle">700.4 &#xB1; 1.6</td>
+              <td align="center" valign="middle">756.8 &#xB1; 1.6</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;&lt;317 nmol/L, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle">4 (3)</td>
+              <td align="center" valign="middle">1 (2)</td>
+              <td align="center" valign="middle">1 (2)</td>
+              <td align="center" valign="middle">2 (4)</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;&lt;906 nmol/L, <italic>n</italic> (%)</td>
+              <td align="center" valign="middle">95 (66)</td>
+              <td align="center" valign="middle">30 (64)</td>
+              <td align="center" valign="middle">33 (67)</td>
+              <td align="center" valign="middle">32 (67)</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+        <fn>
+        <p><sup>1</sup> There were no significant differences between the three groups; </p>
+      <p><sup>2</sup> Mean &#xB1; SD; </p>
+      <p><sup>3</sup> May not be equal to 100% due to rounding; </p>
+      <p><sup>4</sup> Geometric mean &#xB1; geometric SD; </p>
+      <p><sup>5</sup> Dietary folate intake from food sources only including natural folate and folic acid from fortified foods (due to missing data, <italic>n</italic> = 128 (<italic>n</italic> = 43 placebo, <italic>n</italic> = 43, 140 &#x3BC;g/day, and <italic>n</italic> = 42, 400 &#x3BC;g/day)).</p>
+      </fn>
+      </table-wrap-foot>
+      </table-wrap>
+      
+      
+      
+      <p>The geometric mean plasma and RBC folate concentrations at baseline and over the 40 week intervention period are shown in <xref ref-type="table" rid="nutrients-03-00049-t002">Table 2</xref>. Error covariance structures did not improve model fit as measured by AIC, and mixed models included only random effects for participants to account for repeated measures. For both plasma and RBC folate, statistically significant interactions between time and intervention were observed (both <italic>P</italic> &lt; 0.001). Relative to the placebo group, plasma folate increased statistically significantly in both supplemented groups; furthermore, the mean (95% CI) increase in plasma folate of 107% (63, 164) in the 400 &#x3BC;g group was statistically significantly greater (<italic>P</italic> = 0.007) than the group receiving 140 &#x3BC;g folic acid/day (50% (18, 90)). In contrast, after 40 weeks of supplementation, there were no statistically significant differences in the observed increases in RBC folate concentrations between the two treatment groups (63% (95% CI: 39, 92) <italic>versus</italic> 51% (29, 78), <italic>P</italic> = 0.340).</p>
+      <table-wrap id="nutrients-03-00049-t002" position="anchor">
+        <object-id pub-id-type="pii">nutrients-03-00049-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Plasma and red blood cell folate concentrations at baseline and over the 40 week intervention period <sup>1</sup>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle">Measurement and treatment group</th>
+              <th align="center" valign="middle">Baseline</th>
+              <th align="center" valign="middle">Week 6</th>
+              <th align="center" valign="middle">Week 12</th>
+              <th align="center" valign="middle">Week 29</th>
+              <th align="center" valign="middle">Week 40</th>
+              <th align="center" valign="middle">Difference in change from baseline to 40 weeks (%) 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" valign="middle">
+                <bold>Plasma folate (nmol/L)</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Placebo</td>
+              <td align="center" valign="middle">21.1 (17.8, 24.4)</td>
+              <td align="center" valign="middle">20.3 (17.1, 23.5)</td>
+              <td align="center" valign="middle">19.7 (16.6, 22.9)</td>
+              <td align="center" valign="middle">20.6 (17.2, 24.1)</td>
+              <td align="center" valign="middle">21.0 (17.4, 24.5)</td>
+              <td align="center" valign="middle">&#x2013;</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;140 &#x3BC;g folic acid/day</td>
+              <td align="center" valign="middle">19.5 (16.5, 22.5)</td>
+              <td align="center" valign="middle">26.6 (22.5, 30.8)</td>
+              <td align="center" valign="middle">28.0 (23.6, 32.5)</td>
+              <td align="center" valign="middle">31.0 (25.9, 36.0)</td>
+              <td align="center" valign="middle">29.0 (24.3, 33.7)</td>
+              <td align="center" valign="middle">49.8 (18.1, 90.1) <sup>3</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;400 &#x3BC;g folic acid/day</td>
+              <td align="center" valign="middle">19.2 (16.3, 22.2)</td>
+              <td align="center" valign="middle">37.3 (31.2, 43.3)</td>
+              <td align="center" valign="middle">38.3 (32.1, 44.6)</td>
+              <td align="center" valign="middle">37.3 (31.1, 43.4)</td>
+              <td align="center" valign="middle">39.5 (33.0, 46.1)</td>
+              <td align="center" valign="middle">107.0 (62.7, 163.8) <sup>4,5</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">
+                <bold>RBC folate (nmol/L)</bold>
+              </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+              <td align="center" valign="middle"> </td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;Placebo</td>
+              <td align="center" valign="middle">794.4 (696.7, 892.1)</td>
+              <td align="center" valign="middle">763.8 (668.8, 858.8)</td>
+              <td align="center" valign="middle">707.8 (619.2, 796.5)</td>
+              <td align="center" valign="middle">729.0 (634.3, 823.7)</td>
+              <td align="center" valign="middle">819.0 (711.1, 926.8)</td>
+              <td align="center" valign="middle">&#x2013;</td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;140 &#x3BC;g folic acid/day</td>
+              <td align="center" valign="middle">711.8 (626.1, 797.5)</td>
+              <td align="center" valign="middle">834.5 (732.8, 936.1)</td>
+              <td align="center" valign="middle">849.0 (743.4, 954.7)</td>
+              <td align="center" valign="middle">987.0 (861.8, 1112.2)</td>
+              <td align="center" valign="middle">1111.3 (970.3, 1252.3)</td>
+              <td align="center" valign="middle">51.4 (29.1, 77.6) <sup>4</sup></td>
+            </tr>
+            <tr>
+              <td align="left" valign="middle">&#xA0;&#xA0;&#xA0;&#xA0;400 &#x3BC;g folic acid/day</td>
+              <td align="center" valign="middle">755.5 (664.2, 846.8)</td>
+              <td align="center" valign="middle">910.8 (796.2, 1025.3)</td>
+              <td align="center" valign="middle">940.1 (821.2, 1059.1)</td>
+              <td align="center" valign="middle">1121.7 (977.9, 1265.4)</td>
+              <td align="center" valign="middle">1273.4 (1110.2, 1436.6)</td>
+              <td align="center" valign="middle">63.4 (39.2, 92.0) <sup>4</sup></td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+        <fn>
+        <p><sup>1</sup> Adjusted geometric means (95% CI) from models controlling for age, BMI and education (plasma folate) and education only (RBC folate). There were statistically significant time &#xD7; treatment interactions for changes in plasma and RBC folate, <italic>P</italic> &lt; 0.001 in both cases;</p>
+      <p><sup>2</sup> Relative to the placebo group;</p>
+      <p><sup>3</sup> Statistically significantly different change from baseline compared to placebo, <italic>P</italic> = 0.001; </p>
+      <p><sup>4</sup> <italic>P</italic> &lt; 0.001;</p>
+      <p><sup>5</sup> Statistically significantly different change from baseline compared to 140 &#xB5;g folic acid/day, <italic>P</italic> = 0.007.</p>
+      </fn>
+      </table-wrap-foot>
+      </table-wrap>
+      
+      <p>The decreasing prevalence of RBC folate concentration &lt;906 nmol/L in the supplemented groups is illustrated in <xref ref-type="fig" rid="nutrients-03-00049-f002">Figure 2</xref>. From baseline to 40 weeks, the prevalence of RBC folate &lt;906 nmol/L decreased nearly 3-fold in the 400 &#x3BC;g group, from 67% to 18%, and approximately 2-fold in the 140 &#x3BC;g group (67% to 35%). The prevalence in the placebo group was relatively unchanged (64% to 58%). From week 6, the 400 &#xB5;g treatment group had statistically significantly decreased odds of having a RBC folate concentration &lt;906 nmol/L compared with those in the placebo group after adjusting for education and the repeated measures (<italic>P</italic> = 0.009). There was no evidence that the odds changed among women taking 140 &#xB5;g until week 29 (<italic>P</italic> &lt; 0.001). At week 40, no statistically significant differences were detected in the odds ratio of having a RBC folate &lt;906 nmol/L between treatment groups (<italic>P</italic> = 0.078).</p>
+      <fig id="nutrients-03-00049-f002" position="anchor">
+        <label>Figure 2</label>
+        <caption>
+          <p>Unadjusted percentage of red blood cell folate concentrations &lt;906 nmol/L (95% CI).</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nutrients-03-00049-g002.tif"/>
+      </fig>
+    </sec>
+    <sec sec-type="discussion">
+      <title>4. Discussion and Conclusions</title>
+      <p>The present study demonstrates that although the prevalence of folate deficiency is low, nearly two&#x2011;thirds of our study population had baseline RBC folate concentrations below the level thought to be protective against NTDs (<italic>i.e.</italic>, &#x2265;906 nmol/L). Since 1996, New Zealand has permitted voluntary folic acid fortification of selected foods, however few foods have been fortified under this policy. It is estimated that the mandatory fortification of bread will increase average daily folic acid intakes among the target population by 136 &#x3BC;g. Our intervention trial was designed to evaluate changes in RBC folate at the proposed estimated daily intake level compared to the current official recommended dose of 400 &#x3BC;g folic acid/day for the primary prevention of NTD. After 40 weeks supplementation, blood folate status increased significantly in both treatment groups, however there was no evidence that mean RBC folate concentrations were significantly higher in the group of women taking 400 &#x3BC;g folic acid/day as compared to the 140 &#x3BC;g group. Moreover, there was no evidence of a difference in the odds of having a RBC folate &lt;906 nmol/L between treatment groups at 40 weeks. </p>
+      <p>To our knowledge, this is the longest intervention trial conducted to evaluate changes in blood folate indices to moderate folic acid intake levels. Previous intervention studies [<xref ref-type="bibr" rid="B27-nutrients-03-00049">27</xref>,<xref ref-type="bibr" rid="B28-nutrients-03-00049">28</xref>,<xref ref-type="bibr" rid="B29-nutrients-03-00049">29</xref>] have documented that RBC folate concentrations do not appear to reach a plateau with daily folic acid intakes between 100&#x2013;400 &#x3BC;g after 24 weeks. Our data support and extend these findings, as demonstrated by a continuous increase in RBC folate concentration in both folic acid treatment groups over the 40 week intervention period. In our study, mean RBC folate levels increased by 275 nmol/L among study participants receiving 140 &#x3BC;g folic acid/day over 29 weeks&#x2014;a finding similar to that found by Venn <italic>et al.</italic> [<xref ref-type="bibr" rid="B27-nutrients-03-00049">27</xref>] in which RBC folate increased by 251&#x2013;275 nmol/L after 24 weeks of low dose folate supplementation (&#x2248;100 &#x3BC;g folic acid/day). From 29 to 40 weeks, we observed a further increase in mean RBC folate concentrations of 124&#x2013;151 nmol/L in both folic acid regimens. However, unlike the study by Venn <italic>et al.</italic> [<xref ref-type="bibr" rid="B27-nutrients-03-00049">27</xref>], we did not measure changes in plasma homocysteine. Several epidemiologic studies have demonstrated a positive association between homocysteine and risk of NTDs [<xref ref-type="bibr" rid="B30-nutrients-03-00049">30</xref>]. Venn <italic>et al.</italic> [<xref ref-type="bibr" rid="B27-nutrients-03-00049">27</xref>] reported a 9% reduction in plasma homocysteine concentrations following supplementation with 100 &#x3BC;g folic acid/day over 24-week period. More recently, a 6-month supplementation study of 200 &#x3BC;g folic acid/day showed that this intake level was as effective as &#x2265;400 &#x3BC;g folic acid/day in lowering homocysteine concentrations in a group of healthy, older adult participants [<xref ref-type="bibr" rid="B31-nutrients-03-00049">31</xref>]. </p>
+      <p>Recent estimates in the United States and Canada show that folic acid fortification of the food supply has provided an additional intake of about 100 to 150 &#x3BC;g/day to reproductive age women [<xref ref-type="bibr" rid="B32-nutrients-03-00049">32</xref>,<xref ref-type="bibr" rid="B33-nutrients-03-00049">33</xref>]. Measurement of blood folate from the third National Health and Nutrition Examination Survey (NHANES III, 1998&#x2013;1994), representing the period before fortification, through to three 2-y post-fortification survey periods covering 1999&#x2013;2004 show that RBC folate concentrations increased by approximately 50% in every age group after the introduction of folic acid fortification [<xref ref-type="bibr" rid="B12-nutrients-03-00049">12</xref>]. This increase in blood folate compares favourably to our observed increase of 51% in mean RBC folate concentration after ingestion of 140 &#x3BC;g folic acid/day over 40 weeks. Furthermore, the proportion of study participants in the 140 &#x3BC;g/day group having a RBC folate concentration &#x2265;906 nmol/L (65%) is also consistent with the 60&#x2013;70% of reproductive age Canadian women reported to have attained this optimal level of blood folate after mandatory folate fortification of the food supply [<xref ref-type="bibr" rid="B34-nutrients-03-00049">34</xref>,<xref ref-type="bibr" rid="B35-nutrients-03-00049">35</xref>]. </p>
+      <p>Folic acid fortification in countries that have implemented mandatory policies has proven to be one of the most successful public health interventions in reducing the prevalence rate of NTDs. In Canada, De Wals <italic>et al.</italic> [<xref ref-type="bibr" rid="B15-nutrients-03-00049">15</xref>] indicated that the birth prevalence of NTDs decreased from 1.58 per 1000 births before fortification to 0.86 per 1000 births post-fortification across seven Canadian provinces. This prevalence rate is consistent with a recent systematic review, which estimated that approximately 7&#x2013;8 NTD cases per 10,000 births were still observed (when measuring the NTD prevalence at birth or from abortion) after the implementation of fortification or following periconceptional supplement use in primary prevention studies [<xref ref-type="bibr" rid="B36-nutrients-03-00049">36</xref>]. Moreover, recent data from the US National Birth Defects Prevention Study (1998&#x2013;2003) reported that periconceptional use of folic acid supplements in the post-fortification era no longer appears to further reduce NTD risk [<xref ref-type="bibr" rid="B37-nutrients-03-00049">37</xref>] suggesting that fortification may have provided the necessary level of folic acid needed to prevent most folate-responsive NTDs [<xref ref-type="bibr" rid="B37-nutrients-03-00049">37</xref>,<xref ref-type="bibr" rid="B38-nutrients-03-00049">38</xref>]. </p>
+      <p>The overall prevalence of NTDs in New Zealand is difficult to determine accurately due to inadequate data collection around the number of NTD-affected pregnancies. Complete data (terminations, stillbirths and live births) are only available for 1998 to 2003. These annual totals demonstrate a downward trend in the rate of NTD affected pregnancies rate from 17.4 to 11.2 per 10,000 births [<xref ref-type="bibr" rid="B39-nutrients-03-00049">39</xref>]. In 2003, NTD rates were the highest in early pregnancy terminations (5.7 cases per 10,000 total births), followed by live births (3.4 per 10,000) and foetal deaths (2.1 per 10,000) [<xref ref-type="bibr" rid="B40-nutrients-03-00049">40</xref>]. An assessment of the potential effect of incremental increases in folic acid intake on NTDs in New Zealand was undertaken in 2005 by Bower <italic>et al.</italic> [<xref ref-type="bibr" rid="B41-nutrients-03-00049">41</xref>]. On the basis of this assessment, the proposed mandatory bread fortification program is anticipated to reduce the prevalence of NTDs by 4&#x2013;14% (or up to 20%) per year from an estimated 70&#x2013;75 NTD-affected pregnancies. This projection was calculated using the dose-response relationship in serum folate described by Wald <italic>et al.</italic> [<xref ref-type="bibr" rid="B42-nutrients-03-00049">42</xref>] and the proportional risk of NTDs to a given serum folate level from nested case-control analysis by Daly <italic>et al.</italic> [<xref ref-type="bibr" rid="B11-nutrients-03-00049">11</xref>]. It has been noted, however, that the model developed by Wald <italic>et al.</italic> [<xref ref-type="bibr" rid="B42-nutrients-03-00049">42</xref>] likely underestimates the rise in serum folate concentrations (2.3 nmol/L increase for every 100 &#x3BC;g intake of folic acid/day) because 4 of the 6 studies included in the analysis were not of sufficient duration to achieve a plateau in serum folate concentrations (<italic>i.e.</italic>, ~6 weeks needed when &#x2264;200 &#x3BC;g folic acid/day is consumed) [<xref ref-type="bibr" rid="B43-nutrients-03-00049">43</xref>]. Thus, the projected NTD reduction attributed to the proposed bread fortification is likely to be underestimated. Our results support this notion as reflected by an observed rise of 8.5 nmol/L in mean plasma folate concentrations at 12 weeks among participants receiving 140 &#x3BC;g folic acid/day compared to the expected rise of 3.2 nmol/L derived using the Wald model [<xref ref-type="bibr" rid="B42-nutrients-03-00049">42</xref>]. Furthermore, the change in steady state plasma folate concentration among our women consuming 140 &#x3BC;g folic acid per day is highly comparable to the calculated rise of 8.2 nmol/L derived from a regression model by Quinlivan and Gregory [<xref ref-type="bibr" rid="B44-nutrients-03-00049">44</xref>], which included data from 11 intervention studies of sufficient duration. </p>
+      <p>Mandatory folic acid fortification of bread in New Zealand has been deferred until May 2012 due to public concerns regarding cost-effectiveness and the impact on consumer choice [<xref ref-type="bibr" rid="B21-nutrients-03-00049">21</xref>]. There are also a large range of public concerns over mandatory fortification in New Zealand and the effects it may have on non-target population groups. To date, there are no known safety concerns at the low-to-moderate level of intake resulting from fortification of the food supply with folic acid [<xref ref-type="bibr" rid="B45-nutrients-03-00049">45</xref>]. Currently, New Zealand recommends that women planning a pregnancy take 800 &#x3BC;g folic acid daily for 4 weeks prior to conception, and 12 weeks after to reduce the risk of NTDs [<xref ref-type="bibr" rid="B46-nutrients-03-00049">46</xref>]. Results from a small number of surveys conducted to assess supplement use among reproductive age women suggest that only a minority of women comply with the recommendation [<xref ref-type="bibr" rid="B47-nutrients-03-00049">47</xref>,<xref ref-type="bibr" rid="B48-nutrients-03-00049">48</xref>,<xref ref-type="bibr" rid="B49-nutrients-03-00049">49</xref>]. While optimal folic acid strategies continue to be debated worldwide, the findings of this trial are important as they allow for the evaluation of the impact of the proposed folic acid fortification programme on the target population. Using the endpoint of blood folate, our results suggest that the level of folic acid provided by the fortification program would increase RBC folate concentrations to a level associated with a low risk of NTDs. Moreover, given the greater response of plasma folate concentration to the proposed estimated level of intake, NTD risk reduction, as currently modeled, is likely underestimated. This is of particular importance in light of recent speculations that a similar increase in folic acid intake (provided by the U.S fortification program) may result in the prevention of most folate-related NTDs. </p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors&#x2019; responsibilities were as follows: LAH designed the research; MCR, JCM and NAH conducted the research; NAH, ARG and LAH analyzed and interpreted the data, and take responsibility for the integrity and accuracy of the findings; NAH and LAH wrote the manuscript, and ARG provided critical comments on the manuscript. All authors read and approved the final manuscript.</p>
+      <p>We wish to thank Ivy Salihs and Holiday Wilson for their assistance in carrying out the microbiological assay and the research nurse Margaret Waldron for blood collection. The study was funded by The University of Otago Research Grant. None of the authors had a financial conflict of interest.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-nutrients-03-00049">
+        <label>1.</label>
+        <citation citation-type="gov">
+          <collab>Department of Health Scottish Office Home and Health Department, Welsh Office, Department of Health and Social Services, Northern Ireland</collab>
+          <source>Report from an Expert Advisory Group on Folic Acid and the Prevention of Neural Tube Defects</source>
+          <publisher-name>Department of Health</publisher-name>
+          <publisher-loc>London, UK</publisher-loc>
+          <year>1992</year>
+        </citation>
+      </ref>
+      <ref id="B2-nutrients-03-00049">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <collab>Public Health Service, Centers for Disease Control and Prevention</collab>
+          <article-title>Recommendations for the use of folic acid to reduce the number of cases of spina bifida and other neural tube defects</article-title>
+          <source>MMWR Morb. Mortal. Wkly. Rep.</source>
+          <year>1992</year>
+          <volume>41</volume>
+          <fpage>1</fpage>
+          <lpage>7</lpage>
+        </citation>
+      </ref>
+      <ref id="B3-nutrients-03-00049">
+        <label>3.</label>
+        <citation citation-type="book">
+          <collab>National Health and Medical Research Council</collab>
+          <source>Revised Statement on the Relationship between Dietary Folic Acid and Neural Tube Defects Such As Spina Bifida</source>
+          <publisher-name>NHMRC</publisher-name>
+          <publisher-loc>Melbourne, Australia</publisher-loc>
+          <year>1993</year>
+        </citation>
+      </ref>
+      <ref id="B4-nutrients-03-00049">
+        <label>4.</label>
+        <citation citation-type="gov">
+          <collab>Commission of the European Communities</collab>
+          <source>Nutrient and Energy Intakes for the European Community; Reports of the Scientific Committee for Food Thirty-First Series</source>
+          <publisher-name>Office for Official Publications of the European Communities</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <year>1993</year>
+        </citation>
+      </ref>
+      <ref id="B5-nutrients-03-00049">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mulinare</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cordero</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Erickson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Berry</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Periconceptional use of multivitamins and the occurrence of neural tube defects</article-title>
+          <source>JAMA</source>
+          <year>1988</year>
+          <volume>260</volume>
+          <fpage>3141</fpage>
+          <lpage>3145</lpage>
+        </citation>
+      </ref>
+      <ref id="B6-nutrients-03-00049">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Milunsky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jick</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Jick</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Bruell</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>MacLaughlin</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Rothman</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Willett</surname>
+              <given-names>W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multivitamin/folic acid supplementation in early pregnancy reduces the prevalence of neural tube defects</article-title>
+          <source>JAMA</source>
+          <year>1989</year>
+          <volume>262</volume>
+          <fpage>2847</fpage>
+          <lpage>2852</lpage>
+        </citation>
+      </ref>
+      <ref id="B7-nutrients-03-00049">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Werler</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mitchell</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Periconceptional folic acid exposure and risk of occurrent neural tube defects</article-title>
+          <source>JAMA</source>
+          <year>1993</year>
+          <volume>269</volume>
+          <fpage>1257</fpage>
+          <lpage>1261</lpage>
+        </citation>
+      </ref>
+      <ref id="B8-nutrients-03-00049">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shaw</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Schaffer</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Velie</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Morland</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Periconceptional vitamin use, dietary folate, and the occurrence of neural tube defects</article-title>
+          <source>Epidemiology</source>
+          <year>1995</year>
+          <volume>6</volume>
+          <fpage>219</fpage>
+          <lpage>226</lpage>
+        </citation>
+      </ref>
+      <ref id="B9-nutrients-03-00049">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khoury</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Lammer</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Mulinare</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Does periconceptional multivitamin use reduce the risk of neural tube defects associated with other birth defects? Data from two population-based case-control studies</article-title>
+          <source>Am. J. Med. Genet.</source>
+          <year>1996</year>
+          <volume>61</volume>
+          <fpage>30</fpage>
+          <lpage>36</lpage>
+        </citation>
+      </ref>
+      <ref id="B10-nutrients-03-00049">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berry</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Erickson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mulinare</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>L.Y.</given-names>
+            </name>
+            <name>
+              <surname>Gindler</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>S.X.</given-names>
+            </name>
+            <name>
+              <surname>Correa</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevention of neural-tube defects with folic acid in China. China-U.S. Collaborative Project for Neural Tube Defect Prevention</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>1999</year>
+          <volume>341</volume>
+          <fpage>1485</fpage>
+          <lpage>1490</lpage>
+          <pub-id pub-id-type="pmid">10559448</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-nutrients-03-00049">
+        <label>11.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daly</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Kirke</surname>
+              <given-names>P.N.</given-names>
+            </name>
+            <name>
+              <surname>Molloy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Weir</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Folate levels and neural tube defects. Implications for prevention</article-title>
+          <source>JAMA</source>
+          <year>1995</year>
+          <volume>274</volume>
+          <fpage>1698</fpage>
+          <lpage>1702</lpage>
+          <pub-id pub-id-type="pmid">7474275</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12-nutrients-03-00049">
+        <label>12.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfeiffer</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Jain</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Yetley</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Picciano</surname>
+              <given-names>M.F.</given-names>
+            </name>
+            <name>
+              <surname>Rader</surname>
+              <given-names>J.I.</given-names>
+            </name>
+            <name>
+              <surname>Fisher</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Mulinare</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Osterloh</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trends in blood folate and vitamin B-12 concentrations in the United States, 1988&#x2013;2004</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2007</year>
+          <volume>86</volume>
+          <fpage>718</fpage>
+          <lpage>727</lpage>
+        </citation>
+      </ref>
+      <ref id="B13-nutrients-03-00049">
+        <label>13.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Honein</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Paulozzi</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Mathews</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Erickson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>L.Y.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Impact of folic acid fortification of the US food supply on the occurrence of neural tube defects</article-title>
+          <source>JAMA</source>
+          <year>2001</year>
+          <volume>285</volume>
+          <fpage>2981</fpage>
+          <lpage>2986</lpage>
+        </citation>
+      </ref>
+      <ref id="B14-nutrients-03-00049">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Williams</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Mai</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Edmonds</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Kirby</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Hobbs</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Sever</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Meaney</surname>
+              <given-names>F.J.</given-names>
+            </name>
+            <name>
+              <surname>Levitt</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence of spina bifida and anencephaly during the transition to mandatory folic acid fortification in the United States</article-title>
+          <source>Teratology</source>
+          <year>2002</year>
+          <volume>66</volume>
+          <fpage>33</fpage>
+          <lpage>39</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-nutrients-03-00049">
+        <label>15.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Wals</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tairou</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Van Allen</surname>
+              <given-names>M.I.</given-names>
+            </name>
+            <name>
+              <surname>Uh</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Lowry</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Sibbald</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Van den Hof</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Zimmer</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Crowley</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reduction in Neural-Tube Defects after Folic Acid Fortification in Canada</article-title>
+          <source>N. Engl. J. Med.</source>
+          <year>2007</year>
+          <volume>357</volume>
+          <fpage>135</fpage>
+          <lpage>142</lpage>
+        </citation>
+      </ref>
+      <ref id="B16-nutrients-03-00049">
+        <label>16.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Wals</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rusen</surname>
+              <given-names>I.D.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Morin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Niyonsenga</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Trend in prevalence of neural tube defects in Quebec</article-title>
+          <source>Clin. Mol. Teratol.</source>
+          <year>2003</year>
+          <volume>67</volume>
+          <fpage>919</fpage>
+          <lpage>923</lpage>
+        </citation>
+      </ref>
+      <ref id="B17-nutrients-03-00049">
+        <label>17.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ray</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Meier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Vermeulen</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Boss</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wyatt</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>D.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Association of neural tube defects and folic acid food fortification in Canada</article-title>
+          <source>Lancet</source>
+          <year>2002</year>
+          <volume>360</volume>
+          <fpage>2047</fpage>
+          <lpage>2048</lpage>
+        </citation>
+      </ref>
+      <ref id="B18-nutrients-03-00049">
+        <label>18.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Persad</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>van den Hof</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Dube</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Zimmer</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Incidence of open neural tube defects in Nova Scotia after folic acid fortification</article-title>
+          <source>CMAJ</source>
+          <year>2002</year>
+          <volume>167</volume>
+          <fpage>241</fpage>
+          <lpage>245</lpage>
+        </citation>
+      </ref>
+      <ref id="B19-nutrients-03-00049">
+        <label>19.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>West</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Randell</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Longerich</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Connor</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Crowley</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Prabhakaran</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>McCourt</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>A comprehensive evaluation of food fortification with folic acid for the primary prevention of neural tube defects</article-title>
+          <source>BMC Pregnancy Childbirth</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>20</fpage>
+        </citation>
+      </ref>
+      <ref id="B20-nutrients-03-00049">
+        <label>20.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Canfield</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Botto</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Mai</surname>
+              <given-names>C.T.</given-names>
+            </name>
+            <name>
+              <surname>Kirby</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Pearson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Devine</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Mulinare</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Changes in the birth prevalence of selected birth defects after grain fortification with folic acid in the United States: findings from a multi-state population-based study</article-title>
+          <source>Clin. Mol. Teratol.</source>
+          <year>2005</year>
+          <volume>73</volume>
+          <fpage>679</fpage>
+          <lpage>689</lpage>
+        </citation>
+      </ref>
+      <ref id="B21-nutrients-03-00049">
+        <label>21.</label>
+        <citation citation-type="gov">
+          <source>Proposed Amendment to the New Zealand Folic Acid Standard; NZFSA Public Discussion Paper No. 10/09</source>
+          <publisher-name>New Zealand Food Safety Authority</publisher-name>
+          <publisher-loc>Wellington, New Zealand</publisher-loc>
+          <month>July</month>
+          <day>22</day>
+          <year>2009</year>
+        </citation>
+      </ref>
+      <ref id="B22-nutrients-03-00049">
+        <label>22.</label>
+        <citation citation-type="web">
+          <collab>Australian New Zealand Clinical Trials Registry</collab>
+          <article-title>Effect of mandatory folic acid fortification policy on folate status of New Zealand women of childbearing age. ACTRN12609000215224</article-title>
+          <access-date>(accessed on 4 December 2008)</access-date>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.anzctr.org.au/trial_view.aspx?ID=83422" ext-link-type="uri">http://www.anzctr.org.au/trial_view.aspx?ID=83422</ext-link></comment>
+        </citation>
+      </ref>
+      <ref id="B23-nutrients-03-00049">
+        <label>23.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lohman</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Roche</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Martorell</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <source>Anthropometric Standardization Reference Manual</source>
+          <publisher-name>Human Kinetics Publications</publisher-name>
+          <publisher-loc>Champaign, IL, USA</publisher-loc>
+          <year>1988</year>
+        </citation>
+      </ref>
+      <ref id="B24-nutrients-03-00049">
+        <label>24.</label>
+        <citation citation-type="gov">
+          <source>New Zealand Food Composition Database (FOODfiles)</source>
+          <publisher-name>New Zealand Institute for Crop &amp; Food Research Limited and Ministry of Health</publisher-name>
+          <publisher-loc>Christchurch, New Zealand</publisher-loc>
+          <year>2006</year>
+        </citation>
+      </ref>
+      <ref id="B25-nutrients-03-00049">
+        <label>25.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Molloy</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Microbiological assay for serum, plasma, and red cell folate using cryopreserved, microtiter plate method</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1997</year>
+          <volume>281</volume>
+          <fpage>43</fpage>
+          <lpage>53</lpage>
+        </citation>
+      </ref>
+      <ref id="B26-nutrients-03-00049">
+        <label>26.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gibson</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <source>Principles of Nutritional Assessment</source>
+          <edition>2nd</edition>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <year>2005</year>
+        </citation>
+      </ref>
+      <ref id="B27-nutrients-03-00049">
+        <label>27.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Venn</surname>
+              <given-names>B.J.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Moser</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>J.I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of the effect of low-dose supplementation with l-5-methyltetrahydrofolate or folic acid on plasma homocysteine: a randomized placebo-controlled study</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2003</year>
+          <volume>77</volume>
+          <fpage>658</fpage>
+          <lpage>662</lpage>
+        </citation>
+      </ref>
+      <ref id="B28-nutrients-03-00049">
+        <label>28.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hao</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Q.H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>L.B.</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Erickson</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gindler</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Berry</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Folate status and homocysteine response to folic acid doses and withdrawal among young Chinese women in a large-scale randomized double-blind trial</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2008</year>
+          <volume>88</volume>
+          <fpage>448</fpage>
+          <lpage>457</lpage>
+        </citation>
+      </ref>
+      <ref id="B29-nutrients-03-00049">
+        <label>29.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lamers</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Prinz-Langenohl</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Moser</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Pietrzik</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Supplementation with [6<italic>S</italic>]-5-methyltetrahydrofolate or folic acid equally reduces plasma total homocysteine concentrations in healthy women</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2004</year>
+          <volume>79</volume>
+          <fpage>473</fpage>
+          <lpage>478</lpage>
+        </citation>
+      </ref>
+      <ref id="B30-nutrients-03-00049">
+        <label>30.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Molloy</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Brody</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Kirke</surname>
+              <given-names>P.N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The search for genetic polymorphisms in the homocysteine/folate pathway that contribute to the etiology of human neural tube defects</article-title>
+          <source>Clin. Mol. Teratol.</source>
+          <year>2009</year>
+          <volume>85</volume>
+          <fpage>285</fpage>
+          <lpage>294</lpage>
+        </citation>
+      </ref>
+      <ref id="B31-nutrients-03-00049">
+        <label>31.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tighe</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McNulty</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Finnegan</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Dunne</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Strain</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Molloy</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Duffy</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pentieva</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A dose-finding trial of the effect of long-term folic acid intervention: implications for food fortification policy</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2011</year>
+          <volume>93</volume>
+          <fpage>11</fpage>
+          <lpage>18</lpage>
+        </citation>
+      </ref>
+      <ref id="B32-nutrients-03-00049">
+        <label>32.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bailey</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Dodd</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Gahche</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Dwyer</surname>
+              <given-names>J.T.</given-names>
+            </name>
+            <name>
+              <surname>McDowell</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Yetley</surname>
+              <given-names>E.A.</given-names>
+            </name>
+            <name>
+              <surname>Sempos</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Burt</surname>
+              <given-names>V.L.</given-names>
+            </name>
+            <name>
+              <surname>Radimer</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Picciano</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Total folate and folic acid intakes from foods and dietary supplements in the United States: 2003&#x2013;2006</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2010</year>
+          <volume>91</volume>
+          <fpage>231</fpage>
+          <lpage>237</lpage>
+        </citation>
+      </ref>
+      <ref id="B33-nutrients-03-00049">
+        <label>33.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shakur</surname>
+              <given-names>Y.A.</given-names>
+            </name>
+            <name>
+              <surname>Garriguet</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Corey</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Connor</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Folic acid fortification above mandated levels results in a low prevalence of folate inadequacy among Canadians</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2010</year>
+          <volume>92</volume>
+          <fpage>818</fpage>
+          <lpage>825</lpage>
+        </citation>
+      </ref>
+      <ref id="B34-nutrients-03-00049">
+        <label>34.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bar-Oz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Koren</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kapur</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Folate fortification and supplementation&#x2014;are we there yet?</article-title>
+          <source>Reprod. Toxicol.</source>
+          <year>2008</year>
+          <volume>25</volume>
+          <fpage>408</fpage>
+          <lpage>412</lpage>
+        </citation>
+      </ref>
+      <ref id="B35-nutrients-03-00049">
+        <label>35.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tam</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>O&#x2019;Connor</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Kapur</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Koren</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Steady state folate concentrations achieved with 5 compared with 1.1 mg folic acid supplementation among women of childbearing age</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2009</year>
+          <volume>89</volume>
+          <fpage>844</fpage>
+          <lpage>852</lpage>
+          <pub-id pub-id-type="pmid">19158211</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36-nutrients-03-00049">
+        <label>36.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heseker</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Mason</surname>
+              <given-names>J.B.</given-names>
+            </name>
+            <name>
+              <surname>Selhub</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rosenberg</surname>
+              <given-names>I.H.</given-names>
+            </name>
+            <name>
+              <surname>Jacques</surname>
+              <given-names>P.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Not all cases of neural-tube defect can be prevented by increasing the intake of folic acid</article-title>
+          <source>Br. J. Nutr.</source>
+          <year>2009</year>
+          <volume>102</volume>
+          <fpage>173</fpage>
+          <lpage>180</lpage>
+        </citation>
+      </ref>
+      <ref id="B37-nutrients-03-00049">
+        <label>37.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosley</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Cleves</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Siega-Riz</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>G.M.</given-names>
+            </name>
+            <name>
+              <surname>Canfield</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Waller</surname>
+              <given-names>D.K.</given-names>
+            </name>
+            <name>
+              <surname>Werler</surname>
+              <given-names>M.M.</given-names>
+            </name>
+            <name>
+              <surname>Hobbs</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Neural tube defects and maternal folate intake among pregnancies conceived after folic acid fortification in the United States</article-title>
+          <source>Am. J. Epidemiol.</source>
+          <year>2009</year>
+          <volume>169</volume>
+          <fpage>9</fpage>
+          <lpage>17</lpage>
+        </citation>
+      </ref>
+      <ref id="B38-nutrients-03-00049">
+        <label>38.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mills</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>T.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Invited commentary: Preventing neural tube defects and more via food fortification?</article-title>
+          <source>Am. J. Epidemiol.</source>
+          <year>2009</year>
+          <volume>169</volume>
+          <fpage>18</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="pmid">18953060</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39-nutrients-03-00049">
+        <label>39.</label>
+        <citation citation-type="web">
+          <collab>New Zealand Food Safety Authority</collab>
+          <article-title>Folic Acid&#x2014;Key Issues&#x2014;NZFSA Response Science</article-title>
+          <access-date>(accessed on 22 October 2010)</access-date>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.nzfsa.govt.nz/consultation/folic-acid/nzfsa-response/folic-acid-key-issues-nzfsa-response.pdf" ext-link-type="uri">http://www.nzfsa.govt.nz/consultation/folic-acid/nzfsa-response/folic-acid-key-issues-nzfsa-response.pdf</ext-link></comment>
+        </citation>
+      </ref>
+      <ref id="B40-nutrients-03-00049">
+        <label>40.</label>
+        <citation citation-type="web">
+          <collab>New Zealand Ministry of Health</collab>
+          <article-title>Nutrition&#x2014;Folate/Folic Acid (Last updated 4 October 2010)</article-title>
+          <year>2010</year>
+          <access-date>(accessed on 22 October 2010)</access-date>
+          <comment>Available online:<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.moh.govt.nz/moh.nsf/indexmh/nutrition-folate#ntd2" ext-link-type="uri">http://www.moh.govt.nz/moh.nsf/indexmh/nutrition-folate#ntd2</ext-link></comment>
+        </citation>
+      </ref>
+      <ref id="B41-nutrients-03-00049">
+        <label>41.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bower</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Klerk</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hickling</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ambrosini</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Flicker</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Geelhoed</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Milne</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of the potential effect of incremental increases in folic acid intake on neural tube defects in Australia and New Zealand</article-title>
+          <source>Aust. N. Z. J. Public Health</source>
+          <year>2006</year>
+          <volume>30</volume>
+          <fpage>369</fpage>
+          <lpage>374</lpage>
+        </citation>
+      </ref>
+      <ref id="B42-nutrients-03-00049">
+        <label>42.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wald</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Law</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>J.K.</given-names>
+            </name>
+            <name>
+              <surname>Wald</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantifying the effect of folic acid</article-title>
+          <source>Lancet</source>
+          <year>2001</year>
+          <volume>358</volume>
+          <fpage>2069</fpage>
+          <lpage>2073</lpage>
+        </citation>
+      </ref>
+      <ref id="B43-nutrients-03-00049">
+        <label>43.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ward</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>McNulty</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>McPartlin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Strain</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Weir</surname>
+              <given-names>D.G.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Plasma homocysteine, a risk factor for cardiovascular disease, is lowered by physiological doses of folic acid</article-title>
+          <source>QJM</source>
+          <year>1997</year>
+          <volume>90</volume>
+          <fpage>519</fpage>
+          <lpage>524</lpage>
+        </citation>
+      </ref>
+      <ref id="B44-nutrients-03-00049">
+        <label>44.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quinlivan</surname>
+              <given-names>E.P.</given-names>
+            </name>
+            <name>
+              <surname>Gregory</surname>
+              <given-names>J.F.</given-names>
+              <suffix>III.</suffix>
+            </name>
+          </person-group>
+          <article-title>Effect of food fortification on folic acid intake in the United States</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2003</year>
+          <volume>77</volume>
+          <fpage>221</fpage>
+          <lpage>225</lpage>
+        </citation>
+      </ref>
+      <ref id="B45-nutrients-03-00049">
+        <label>45.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berry</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mulinare</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bower</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fortification of flour with folic acid</article-title>
+          <source>Food Nutr. Bull.</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <fpage>S22</fpage>
+          <lpage>S35</lpage>
+        </citation>
+      </ref>
+      <ref id="B46-nutrients-03-00049">
+        <label>46.</label>
+        <citation citation-type="gov">
+          <collab>Ministry of Health</collab>
+          <source>Improving the Folate Intake in New Zealand: Policy Implications; Public Health Intelligence Occasional Bulletin Number 18</source>
+          <publisher-name>Ministry of Health</publisher-name>
+          <publisher-loc>Wellington, New Zealand</publisher-loc>
+          <year>2003</year>
+        </citation>
+      </ref>
+      <ref id="B47-nutrients-03-00049">
+        <label>47.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schader</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Corwin</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>How many pregnant women in Christchurch are using folic acid supplements in early pregnancy?</article-title>
+          <source>N. Z. Med. J.</source>
+          <year>1999</year>
+          <volume>112</volume>
+          <fpage>463</fpage>
+          <lpage>465</lpage>
+          <pub-id pub-id-type="pmid">10678210</pub-id>
+        </citation>
+      </ref>
+      <ref id="B48-nutrients-03-00049">
+        <label>48.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferguson</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Skeaff</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Bourn</surname>
+              <given-names>D.M.</given-names>
+            </name>
+          </person-group>
+          <source>Folate Status of Representative Populations in Dunedin: Issues for Folate Fortification; A report prepared for the Ministry of Health and the Australian NZ Food Authority</source>
+          <publisher-name>University of Otago</publisher-name>
+          <publisher-loc>Dunedin, New Zealand</publisher-loc>
+          <year>2000</year>
+        </citation>
+      </ref>
+      <ref id="B49-nutrients-03-00049">
+        <label>49.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dobson</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Devenish</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Skeaff</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>T.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Periconceptional folic acid use among women giving birth at Queen Mary Maternity Hospital in Dunedin</article-title>
+          <source>Aust. N. Z. J. Obstet. Gynaecol.</source>
+          <year>2006</year>
+          <volume>46</volume>
+          <fpage>534</fpage>
+          <lpage>537</lpage>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
