@@ -33,13 +33,13 @@ test_that("pub_tabularize works", {
   expect_is(dd[[1]][[1]], "data.frame")
 
   expect_equal(NROW(aa), 6)
-  expect_equal(NROW(bb), 1)
+  expect_equal(NROW(bb), 6)
   expect_equal(NROW(cc[[1]]), 6)
-  expect_equal(NROW(cc[[2]]), 1)
+  expect_equal(NROW(cc[[2]]), 6)
   expect_equal(NROW(dd[[1]][[1]]), 1)
   
   expect_named(aa, c("doi", "title", "keywords", ".publisher"))
-  expect_named(bb, c("doi", "title", ".publisher"))
+  expect_named(bb, c("doi", "title", "keywords", ".publisher"))
   expect_named(cc[[1]], c("doi", "title", "keywords", ".publisher"))
   expect_named(dd, "plos")
   expect_named(dd[[1]][[1]], c("doi", "title", ".publisher"))

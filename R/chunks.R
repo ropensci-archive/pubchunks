@@ -184,15 +184,18 @@ pub_chunks.default <- function(x, sections = "all", provider = NULL) {
 
 #' @export
 pub_chunks.character <- function(x, sections = "all", provider = NULL) {
+  type <- if (file.exists(x)) "file" else "character"
   xml <- xml2::read_xml(x)
-  out <- get_what(data = xml, sections, pgp(xml, provider))
-  pccat(out, "character", sections)
+  pub <- pgp(xml, provider)
+  out <- get_what(data = xml, sections, pub)
+  pccat(out, type, sections, fetch_journal(pub, xml))
 }
 
 #' @export
 pub_chunks.xml_document <- function(x, sections = "all", provider = NULL) {
-  out <- get_what(data = x, sections, pgp(x, provider))
-  pccat(out, "xml_document", sections)
+  pub <- pgp(x, provider)
+  out <- get_what(data = x, sections, pub)
+  pccat(out, "xml_document", sections, fetch_journal(pub, x))
 }
 
 #' @export
@@ -216,12 +219,12 @@ pub_chunks.ft_data <- function(x, sections = "all", provider = NULL) {
         } else if (inherits(q, "character") && length(q) == 1) {
           qq <- tryCatch(xml2::read_xml(q), error = function(e) e)
           if (inherits(qq, "error")) {
-            pccat(list(.publisher = NA_character_), "empty", "empty")
+            pccat(list(.publisher = NA_character_), "empty", "empty", "empty")
           } else {
             pub_chunks(qq, sections, names(x[i]))
           }
         } else {
-          pccat(list(.publisher = NA_character_), "empty", "empty")
+          pccat(list(.publisher = NA_character_), "empty", "empty", "empty")
         }
       })
     }
@@ -235,35 +238,49 @@ pub_chunks.ft_data <- function(x, sections = "all", provider = NULL) {
 print.pub_chunks <- function(x, ...) {
   cat("<pub chunks>", sep = "\n")
   cat(paste0("  from: ", attr(x, "from")), sep = "\n")
+  cat(sprintf("  publisher/journal: %s/%s", x$.publisher, 
+    attr(x, "journal_title")), sep = "\n")
   cat(paste0("  sections: ", paste0(attr(x, "sections"), collapse = ", ")),
     sep = "\n")
+  cat("  showing up to first 5: ", sep = "\n")
   print_one(x)
 }
 
-pccat <- function(x, from, sections) {
+pccat <- function(x, from, sections, journal) {
   class(x) <- "pub_chunks"
   attr(x, "from") <- from
   attr(x, "sections") <- sections
+  attr(x, "journal_title") <- journal
   return(x)
 }
 
-countem <- function(x) {
-  fr <- attr(x, "from")
-  switch(fr,
-    character = length(x) - 1,
-    list = vapply(x, length, 1) - 1,
-    ft_data = lapply(x, function(z) vapply(z, length, 1) - 1)
-  )
+fetch_journal <- function(pub, w) {
+  pat <- if (pub == "elsevier") "//xocs:srctitle" else "//journal-title"
+  xml2::xml_text(xml2::xml_find_first(w, pat))
 }
+
+# Doesn't appear to be used
+# countem <- function(x) {
+#   fr <- attr(x, "from")
+#   switch(fr,
+#     character = length(x) - 1,
+#     list = vapply(x, length, 1) - 1,
+#     ft_data = lapply(x, function(z) vapply(z, length, 1) - 1)
+#   )
+# }
 
 print_one <- function(x) {
   for (i in seq_along(x[1:min(5, length(x))])) {
     if (names(x)[i] != ".publisher") {
       val <- x[[i]] %||% ""
       cnt <- length(val)
-      if (inherits(val[[1]], "list")) {
+      tryval <- tryCatch(val[[1]], error = function(e) e)
+      if (inherits(tryval, "list")) {
         val <- "nested list"
-      } else if (all(is.na(val)) || all(is.null(val)) || all(!nzchar(val))) {
+      } else if (
+        inherits(tryval, "error") || all(is.na(val)) || 
+        all(is.null(val)) || all(!nzchar(val))) {
+
         cnt <- 0
         val <- ""
       } else {

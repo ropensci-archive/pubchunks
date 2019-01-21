@@ -20,13 +20,13 @@ test_that("pub_chunks works", {
   expect_is(unclass(bb), "list")
   expect_is(unclass(cc), "list")
 
-  expect_equal(attr(aa, "from"), "character")
+  expect_equal(attr(aa, "from"), "file")
   expect_equal(attr(aa, "sections"), "title")
 
-  expect_equal(attr(bb, "from"), "character")
+  expect_equal(attr(bb, "from"), "file")
   expect_equal(attr(bb, "sections"), "abstract")
 
-  expect_equal(attr(cc, "from"), "character")
+  expect_equal(attr(cc, "from"), "file")
   expect_equal(attr(cc, "sections"), c("title", "abstract"))
   
   expect_named(aa, c("title", ".publisher"))

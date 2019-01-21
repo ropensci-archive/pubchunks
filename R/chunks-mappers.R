@@ -114,7 +114,6 @@ merge_node_groups <- function(x) {
         nms),
       id = xml2::xml_attr(z, "id")
     )
-
   })
 }
 
@@ -126,7 +125,8 @@ keywords <- function(b, from){
     entrez = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd")),
     elsevier = falltxt(b, "//ce:keyword"),
     f1000research = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd")),
-    mdpi = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd"))
+    mdpi = xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd")),
+    xml2::xml_text(xml2::xml_find_all(b, "//kwd-group/kwd"))
   )
 }
 
@@ -139,7 +139,8 @@ body <- function(b, from){
       xml2::xml_ns_strip(b)
       falltxt(b, "//body")
     },
-    f1000research = xml2::xml_text(xml2::xml_find_all(b, "//body//p"))
+    f1000research = xml2::xml_text(xml2::xml_find_all(b, "//body//p")),
+    xml2::xml_text(xml2::xml_find_all(b, "//body//p"))
   )
 }
 
@@ -217,7 +218,8 @@ publisher <- function(b, from){
     elsevier = f1txt(b, "//prism:publisher"),
     copernicus = f1txt(b, "//publisher/publisher-name"),
     frontiers = f1txt(b, "//publisher/publisher-name"),
-    f1000research = f1txt(b, "//publisher/publisher-name")
+    f1000research = f1txt(b, "//publisher/publisher-name"),
+    f1txt(b, "//publisher/publisher-name")
   )
 }
 
@@ -230,7 +232,8 @@ journal_meta <- function(b, from){
     elsevier = NULL,
     copernicus = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
     frontiers = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
-    f1000research = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse)
+    f1000research = lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse),
+    lapply(xml2::xml_children(xml2::xml_find_first(b, "//journal-meta")), xml_node_parse)
   )
 }
 
@@ -243,7 +246,8 @@ article_meta <- function(b, from){
     elsevier = NULL,
     copernicus = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
     frontiers = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
-    f1000research = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse)
+    f1000research = lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse),
+    lapply(xml2::xml_children(xml2::xml_find_first(b, "//article-meta")), xml_node_parse)
   )
 }
 
@@ -252,7 +256,8 @@ acknowledgments <- function(b, from){
          elife = falltxt(b, "//ack/p"),
          plos = falltxt(b, "//ack/p"),
          entrez = falltxt(b, "//ack/p"),
-         elsevier = f1txt(b, "//ce:acknowledgment")
+         elsevier = f1txt(b, "//ce:acknowledgment"),
+         falltxt(b, "//ack/p")
   )
 }
 
@@ -270,7 +275,8 @@ permissions <- function(b, from){
          },
          copernicus = getperms(b),
          frontiers = getperms(b),
-         f1000research = getperms(b)
+         f1000research = getperms(b),
+         getperms(b)
   )
 }
 
@@ -290,7 +296,8 @@ front <- function(b, from){
          elsevier = NULL,
          copernicus = get_forb(b, "//front"),
          frontiers = get_forb(b, "//front"),
-         f1000research = get_forb(b, "//front")
+         f1000research = get_forb(b, "//front"),
+         get_forb(b, "//front")
   )
 }
 
@@ -302,7 +309,8 @@ back <- function(b, from){
          elsevier = NULL,
          copernicus = get_forb(b, "//back"),
          frontiers = get_forb(b, "//back"),
-         f1000research = get_forb(b, "//back")
+         f1000research = get_forb(b, "//back"),
+         get_forb(b, "//back")
   )
 }
 
@@ -320,7 +328,8 @@ history <- function(b, from){
          entrez = history2date(b),
          elsevier = NULL,
          frontiers = history2date(b),
-         f1000research = history2date(b)
+         f1000research = history2date(b),
+         history2date(b)
   )
 }
 

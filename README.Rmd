@@ -121,6 +121,30 @@ res <- pub_chunks(x, c("doi", "title", "keywords"))
 pub_tabularize(res)
 ```
 
+## Get a random XML article
+
+```{r}
+library(rcrossref)
+library(dplyr)
+
+res <- cr_works(filter = list(
+    full_text_type = "application/xml", 
+    license_url="http://creativecommons.org/licenses/by/4.0/"))
+links <- bind_rows(res$data$link) %>% filter(content.type == "application/xml")
+download.file(links$URL[1], (i <- tempfile(fileext = ".xml")))
+pub_chunks(i)
+download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
+pub_chunks(j)
+download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
+pub_chunks(k)
+```
+
+```{r echo=FALSE}
+unlink(i)
+unlink(j)
+unlink(k)
+```
+
 
 ## Meta
 

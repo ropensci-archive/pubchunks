@@ -49,6 +49,7 @@ pub_tabularize.pub_chunks <- function(x, bind = FALSE) {
   fr <- attr(x, "from")
   switch(fr,
     character = pub_tab_one(x),
+    file = pub_tab_one(x),
     xml_document = pub_tab_one(x),
     ft_data = lapply(x, pub_tab)
   )
