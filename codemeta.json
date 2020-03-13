@@ -5,19 +5,19 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "pubchunks",
-  "description": "Get chunks of XML scholarly articles without \n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull \n    out the information you want. Works with outputs from \n    package 'fulltext', 'xml2' package documents, and file paths to \n    XML documents.",
+  "description": "Get chunks of XML scholarly articles without\n    having to know how to work with XML. Custom mappers\n    for each publisher and for each article section pull\n    out the information you want. Works with outputs from\n    package 'fulltext', 'xml2' package documents, and file\n    paths to XML documents.",
   "name": "pubchunks: Fetch Sections of XML Scholarly Articles",
   "codeRepository": "https://github.com/ropensci/pubchunks",
   "issueTracker": "https://github.com/ropensci/pubchunks/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.2.0",
+  "version": "0.2.0.92",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.5.2",
+    "version": "3.6.3",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.5.2 Patched (2018-12-31 r75943)",
+  "runtimePlatform": "R version 3.6.3 Patched (2020-02-29 r77909)",
   "author": [
     {
       "@type": "Person",
@@ -102,10 +102,10 @@
       "sameAs": "https://CRAN.R-project.org/package=rcrossref"
     }
   ],
-  "contIntegration": "https://travis-ci.org/ropensci/pubchunks",
-  "developmentStatus": "concept",
+  "contIntegration": ["https://travis-ci.org/ropensci/pubchunks", "https://codecov.io/gh/ropensci/pubchunks"],
+  "developmentStatus": "https://www.repostatus.org/#wip",
   "readme": "https://github.com/ropensci/pubchunks/blob/master/README.md",
-  "fileSize": "424.23KB",
+  "fileSize": "424.107KB",
   "applicationCategory": "Literature",
   "isPartOf": "https://ropensci.org",
   "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "text-mining", "open-access", "rstats", "r", "r-package"],
@@ -115,5 +115,8 @@
     "@type": "Organization",
     "name": "Comprehensive R Archive Network (CRAN)",
     "url": "https://cran.r-project.org"
-  }
+  },
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {}
 }
