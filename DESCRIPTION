@@ -1,12 +1,12 @@
 Package: pubchunks
 Title: Fetch Sections of XML Scholarly Articles
-Description: Get chunks of XML scholarly articles without 
+Description: Get chunks of XML scholarly articles without
     having to know how to work with XML. Custom mappers
-    for each publisher and for each article section pull 
-    out the information you want. Works with outputs from 
-    package 'fulltext', 'xml2' package documents, and file paths to 
-    XML documents.
-Version: 0.2.0.9100
+    for each publisher and for each article section pull
+    out the information you want. Works with outputs from
+    package 'fulltext', 'xml2' package documents, and file
+    paths to XML documents.
+Version: 0.2.0.92
 License: MIT + file LICENSE
 Authors@R: c(
     person("Scott", "Chamberlain",
@@ -16,7 +16,7 @@ Authors@R: c(
     )
 URL: https://github.com/ropensci/pubchunks
 BugReports: https://github.com/ropensci/pubchunks/issues
-Roxygen: list(wrap = FALSE, markdown = TRUE)
+Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Language: en-US
 Imports:
@@ -26,7 +26,7 @@ Imports:
 Suggests:
     fulltext (>= 1.0.1),
     testthat
-RoxygenNote: 6.1.1
-X-schema.org-applicationCategory: Literature 
+RoxygenNote: 7.1.0
+X-schema.org-applicationCategory: Literature
 X-schema.org-keywords: text-ming, literature, pdf, xml, publications, citations, full-text, TDM
 X-schema.org-isPartOf: https://ropensci.org

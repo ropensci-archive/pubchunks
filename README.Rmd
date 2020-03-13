@@ -14,7 +14,7 @@ pubchunks
 [![cran checks](https://cranchecks.info/badges/worst/pubchunks)](https://cranchecks.info/pkgs/pubchunks)
 [![Build Status](https://api.travis-ci.org/ropensci/pubchunks.svg)](https://travis-ci.org/ropensci/pubchunks)
 [![codecov](https://codecov.io/gh/ropensci/pubchunks/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/pubchunks)
-[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/metacran/cranlogs.app)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/metacran/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/pubchunks)](https://cran.r-project.org/package=pubchunks)
 
 ## Get chunks of XML articles
@@ -59,7 +59,7 @@ install.packages("pubchunks")
 Development version from GitHub
 
 ```{r eval=FALSE}
-devtools::install_github("ropensci/pubchunks")
+remotes::install_github("ropensci/pubchunks")
 ```
 
 Load library
@@ -151,6 +151,8 @@ unlink(k)
 * Please [report any issues or bugs](https://github.com/ropensci/pubchunks/issues).
 * License: MIT
 * Get citation information for `pubchunks`: `citation(package = 'pubchunks')`
-* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+* Please note that this project is released with a [Contributor Code of Conduct][coc]. By participating in this project you agree to abide by its terms.
 
 [![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
+
+[coc]: https://github.com/ropensci/pubchunks/blob/master/CODE_OF_CONDUCT.md

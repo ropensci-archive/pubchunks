@@ -7,7 +7,7 @@ pubchunks
 [![cran checks](https://cranchecks.info/badges/worst/pubchunks)](https://cranchecks.info/pkgs/pubchunks)
 [![Build Status](https://api.travis-ci.org/ropensci/pubchunks.svg)](https://travis-ci.org/ropensci/pubchunks)
 [![codecov](https://codecov.io/gh/ropensci/pubchunks/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/pubchunks)
-[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/metacran/cranlogs.app)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/metacran/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/pubchunks)](https://cran.r-project.org/package=pubchunks)
 
 ## Get chunks of XML articles
@@ -56,7 +56,7 @@ Development version from GitHub
 
 
 ```r
-devtools::install_github("ropensci/pubchunks")
+remotes::install_github("ropensci/pubchunks")
 ```
 
 Load library
@@ -206,38 +206,38 @@ download.file(links$URL[1], (i <- tempfile(fileext = ".xml")))
 pub_chunks(i)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: scientific_research_publishing/Open Journal of Social Sciences
+#>   publisher/journal: elife/eLife
 #>   sections: all
 #>   showing up to first 5: 
 #>    front (n=2): nested list
-#>    body (n=40): Educational behaviors refer to the activities or a
-#>    back (n=1): nested list
-#>    title (n=1): Inspection on Reality of Kindergarten Teachers’ Ed ...
-#>    doi (n=1): 10.4236/jss.2014.29048
+#>    body (n=78): Larval imaginal discs in Drosophila are single-cel
+#>    back (n=4): nested list
+#>    title (n=1): Tumor-promoting function of apoptotic caspases by  ...
+#>    doi (n=1): 10.7554/eLife.26747
 download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
 pub_chunks(j)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: hindawi/Case Reports in Gastrointestinal Medicine
+#>   publisher/journal: unknown/NA
 #>   sections: all
 #>   showing up to first 5: 
-#>    front (n=2): nested list
-#>    body (n=12): The American Association for the Study of Liver Di
-#>    back (n=4): nested list
-#>    title (n=1): Yogi Detox Tea: A Potential Cause of Acute Liver F ...
-#>    doi (n=1): 10.1155/2017/3540756
+#>    front (n=0): 
+#>    body (n=0): 
+#>    back (n=0): 
+#>    title (n=0): 
+#>    doi (n=0):
 download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
 pub_chunks(k)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: hindawi/Advances in Materials Science and Engineering
+#>   publisher/journal: hindawi/Geofluids
 #>   sections: all
 #>   showing up to first 5: 
 #>    front (n=2): nested list
-#>    body (n=74): Nowadays, most of the service bridges are close or
-#>    back (n=3): nested list
-#>    title (n=1): Cubic Function-Based Bayesian Dynamic Linear Predi ...
-#>    doi (n=1): 10.1155/2017/7460378
+#>    body (n=67): In the 1840s, Lyell studied sediment deposits alon
+#>    back (n=4): nested list
+#>    title (n=1): Structural Response of the Metro Tunnel under Loca ...
+#>    doi (n=1): 10.1155/2019/8541959
 ```
 
 
@@ -248,6 +248,8 @@ pub_chunks(k)
 * Please [report any issues or bugs](https://github.com/ropensci/pubchunks/issues).
 * License: MIT
 * Get citation information for `pubchunks`: `citation(package = 'pubchunks')`
-* Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+* Please note that this project is released with a [Contributor Code of Conduct][coc]. By participating in this project you agree to abide by its terms.
 
 [![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
+
+[coc]: https://github.com/ropensci/pubchunks/blob/master/CODE_OF_CONDUCT.md
