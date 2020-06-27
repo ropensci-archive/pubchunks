@@ -14,6 +14,9 @@ build:
 readme: README.Rmd
 	${RSCRIPT} -e 'library(methods); knitr::knit("README.Rmd")'
 
+eg:
+	${RSCRIPT} -e 'devtools::run_examples(run=TRUE)'
+
 check: build
 	_R_CHECK_CRAN_INCOMING_=FALSE R CMD CHECK --as-cran --no-manual `ls -1tr ${PACKAGE}*gz | tail -n1`
 	@rm -f `ls -1tr ${PACKAGE}*gz | tail -n1`
