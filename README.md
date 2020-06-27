@@ -3,7 +3,7 @@
 pubchunks
 =========
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![cran checks](https://cranchecks.info/badges/worst/pubchunks)](https://cranchecks.info/pkgs/pubchunks)
 [![Build Status](https://api.travis-ci.org/ropensci/pubchunks.svg)](https://travis-ci.org/ropensci/pubchunks)
 [![codecov](https://codecov.io/gh/ropensci/pubchunks/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/pubchunks)
@@ -206,18 +206,6 @@ download.file(links$URL[1], (i <- tempfile(fileext = ".xml")))
 pub_chunks(i)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: elife/eLife
-#>   sections: all
-#>   showing up to first 5: 
-#>    front (n=2): nested list
-#>    body (n=78): Larval imaginal discs in Drosophila are single-cel
-#>    back (n=4): nested list
-#>    title (n=1): Tumor-promoting function of apoptotic caspases by  ...
-#>    doi (n=1): 10.7554/eLife.26747
-download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
-pub_chunks(j)
-#> <pub chunks>
-#>   from: file
 #>   publisher/journal: unknown/NA
 #>   sections: all
 #>   showing up to first 5: 
@@ -226,18 +214,30 @@ pub_chunks(j)
 #>    back (n=0): 
 #>    title (n=0): 
 #>    doi (n=0):
+download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
+pub_chunks(j)
+#> <pub chunks>
+#>   from: file
+#>   publisher/journal: pensoft/ZooKeys
+#>   sections: all
+#>   showing up to first 5: 
+#>    front (n=3): nested list
+#>    body (n=31): The thermal spring Khakusy is located one kilomete
+#>    back (n=2): nested list
+#>    title (n=1): Description of a new species Gyraulus (Pulmonata:  ...
+#>    doi (n=1): 10.3897/zookeys.762.23661
 download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
 pub_chunks(k)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: hindawi/Geofluids
+#>   publisher/journal: pensoft/ZooKeys
 #>   sections: all
 #>   showing up to first 5: 
-#>    front (n=2): nested list
-#>    body (n=67): In the 1840s, Lyell studied sediment deposits alon
-#>    back (n=4): nested list
-#>    title (n=1): Structural Response of the Metro Tunnel under Loca ...
-#>    doi (n=1): 10.1155/2019/8541959
+#>    front (n=3): nested list
+#>    body (n=34): Approximately 2300 species of scorpions have been 
+#>    back (n=2): nested list
+#>    title (n=1): A new Sky Island species of Vaejovis C. L. Koch, 1 ...
+#>    doi (n=1): 10.3897/zookeys.760.22714
 ```
 
 
