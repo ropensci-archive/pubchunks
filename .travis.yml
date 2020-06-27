@@ -2,7 +2,7 @@ language: r
 cache: packages
 os: linux
 
-r_binary_packages:
+r_packages:
   - covr
 
 addons:
