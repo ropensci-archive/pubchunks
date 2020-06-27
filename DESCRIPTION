@@ -6,7 +6,7 @@ Description: Get chunks of XML scholarly articles without
     out the information you want. Works with outputs from
     package 'fulltext', 'xml2' package documents, and file
     paths to XML documents.
-Version: 0.2.0.92
+Version: 0.2.1.94
 License: MIT + file LICENSE
 Authors@R: c(
     person("Scott", "Chamberlain",

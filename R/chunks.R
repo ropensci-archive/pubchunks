@@ -133,7 +133,6 @@
 #' vv$refs
 #' vv$abstract
 #' vv$categories
-#' }
 #' 
 #' # Many inputs at once
 #' x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
@@ -152,7 +151,6 @@
 #' x <- system.file("examples/pubmed_full_1.xml", package = "pubchunks")
 #' pub_chunks(x, "title")
 #' 
-#' \dontrun{
 #' # using output of fulltext::ft_get()
 #' if (requireNamespace("fulltext", quietly = TRUE)) {
 #'   library("fulltext")
