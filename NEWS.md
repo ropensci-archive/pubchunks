@@ -1,3 +1,10 @@
+pubchunks 0.2.2
+===============
+
+### MINOR IMPROVEMENTS
+
+* fixed failing example (#9)
+
 pubchunks 0.2.0
 ===============
 
