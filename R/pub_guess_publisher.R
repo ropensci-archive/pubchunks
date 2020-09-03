@@ -5,7 +5,7 @@
 #' `xml_document` object (as from `xml2::read_xml`)
 #' @return a list, with two named character strings, one for 
 #' `full_name` and the other a `short_name`
-#' @examples
+#' @examples \dontrun{
 #' (x <- system.file("examples/pensoft_1.xml", package = "pubchunks"))
 #' pub_guess_publisher(x)
 #' 
@@ -47,6 +47,7 @@
 #' 
 #' x <- system.file("examples/pubmed_full_3.xml", package = "pubchunks")
 #' pub_guess_publisher(x)
+#' }
 pub_guess_publisher <- function(x) {
   if (!class(x)[[1L]] %in% c("character", "xml_document")) {
     stop("x must be of class character or xml_document")

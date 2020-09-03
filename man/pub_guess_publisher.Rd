@@ -18,6 +18,7 @@ a list, with two named character strings, one for
 Guess the publisher from an XML document
 }
 \examples{
+\dontrun{
 (x <- system.file("examples/pensoft_1.xml", package = "pubchunks"))
 pub_guess_publisher(x)
 
@@ -59,4 +60,5 @@ pub_guess_publisher(x)
 
 x <- system.file("examples/pubmed_full_3.xml", package = "pubchunks")
 pub_guess_publisher(x)
+}
 }
