@@ -218,26 +218,26 @@ download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
 pub_chunks(j)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: pensoft/ZooKeys
+#>   publisher/journal: scientific_research_publishing/Journal of Electromagnetic Analysis and Applications
 #>   sections: all
 #>   showing up to first 5: 
-#>    front (n=3): nested list
-#>    body (n=31): The thermal spring Khakusy is located one kilomete
-#>    back (n=2): nested list
-#>    title (n=1): Description of a new species Gyraulus (Pulmonata:  ...
-#>    doi (n=1): 10.3897/zookeys.762.23661
+#>    front (n=2): nested list
+#>    body (n=122): Conventional theoretical physics and its Standard 
+#>    back (n=1): nested list
+#>    title (n=1): Impacts of Revised Quantum Electrodynamics on Fund ...
+#>    doi (n=1): 10.4236/jemaa.2018.105008
 download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
 pub_chunks(k)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: pensoft/ZooKeys
+#>   publisher/journal: hindawi/BioMed Research International
 #>   sections: all
 #>   showing up to first 5: 
-#>    front (n=3): nested list
-#>    body (n=34): Approximately 2300 species of scorpions have been 
-#>    back (n=2): nested list
-#>    title (n=1): A new Sky Island species of Vaejovis C. L. Koch, 1 ...
-#>    doi (n=1): 10.3897/zookeys.760.22714
+#>    front (n=2): nested list
+#>    body (n=14): Neospora caninum is an obligate intracellular prot
+#>    back (n=5): nested list
+#>    title (n=1): First Report of Seroprevalence and Risk Factors of ...
+#>    doi (n=1): 10.1155/2018/2098908
 ```
 
 
@@ -248,7 +248,7 @@ pub_chunks(k)
 * Please [report any issues or bugs](https://github.com/ropensci/pubchunks/issues).
 * License: MIT
 * Get citation information for `pubchunks`: `citation(package = 'pubchunks')`
-* Please note that this project is released with a [Contributor Code of Conduct][coc]. By participating in this project you agree to abide by its terms.
+* Please note that this package is released with a [Contributor Code of Conduct](https://ropensci.org/code-of-conduct/). By contributing to this project, you agree to abide by its terms.
 
 [![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
 
