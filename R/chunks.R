@@ -63,6 +63,7 @@
 #' pub_chunks(x, "refs")
 #' pub_chunks(x, c("title", "refs"))
 #' 
+#' \dontrun{
 #' # works the same with the xml already in a string
 #' xml <- paste0(readLines(x), collapse = "")
 #' pub_chunks(xml, "title")
@@ -113,7 +114,6 @@
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, c("doi", "title", "authors", "keywords", "refs"))
 #' 
-#' \dontrun{
 #' # Copernicus
 #' x <- system.file("examples/copernicus_1.xml", package = "pubchunks")
 #' pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))

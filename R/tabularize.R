@@ -5,7 +5,7 @@
 #' @param bind (logical) whether to bind list of data.frames or not. 
 #' ignored unless `list` input to `x`. default: `FALSE`
 #' @return a data.frame or list
-#' @examples
+#' @examples \dontrun{
 #' # one at a time
 #' ## example 1, a file path
 #' x <- system.file("examples/elife_1.xml", package = "pubchunks")
@@ -24,7 +24,6 @@
 #' pub_tabularize(res)
 #' pub_tabularize(res, bind = TRUE)
 #' 
-#' \dontrun{
 #' # using output of fulltext::ft_get()
 #' if (requireNamespace("fulltext", quietly = TRUE)) {
 #'   dois <- c('10.1371/journal.pone.0086169', '10.1371/journal.pone.0155491', 
