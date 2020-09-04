@@ -79,6 +79,7 @@
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, "title")
+#' pub_chunks(x, "refs")$refs
 #' pub_chunks(x, c("abstract", "title", "authors", "refs"))
 #' 
 #' # Pensoft
@@ -86,6 +87,7 @@
 #' pub_chunks(x, "abstract")
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, "title")
+#' pub_chunks(x, "refs")$refs
 #' pub_chunks(x, c("abstract", "title", "authors", "refs"))
 #' 
 #' # Peerj
@@ -94,36 +96,42 @@
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, "title")
+#' pub_chunks(x, "refs")$refs
 #' pub_chunks(x, c("abstract", "title", "authors", "refs"))
 #' 
 #' # Frontiers
 #' x <- system.file("examples/frontiers_1.xml", package = "pubchunks")
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "aff")
+#' pub_chunks(x, "refs")$refs
 #' pub_chunks(x, c("doi", "abstract", "title", "authors", "refs", "abstract"))
 #' 
 #' # eLife
 #' x <- system.file("examples/elife_1.xml", package = "pubchunks")
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "aff")
+#' pub_chunks(x, "refs")$refs
 #' pub_chunks(x, c("doi", "title", "authors", "refs"))
 #' 
 #' # f1000research
-#' x <- system.file("examples/f1000research_1.xml", package = "pubchunks")
+#' x <- system.file("examples/f1000research_3.xml", package = "pubchunks")
 #' pub_chunks(x, "title")
 #' pub_chunks(x, "aff")
+#' pub_chunks(x, "refs")$refs
 #' pub_chunks(x, c("doi", "title", "authors", "keywords", "refs"))
 #' 
 #' # Copernicus
 #' x <- system.file("examples/copernicus_1.xml", package = "pubchunks")
 #' pub_chunks(x, c("doi", "abstract", "title", "authors", "refs"))
 #' pub_chunks(x, "aff")
+#' pub_chunks(x, "refs")$refs
 #' 
 #' # MDPI
 #' x <- system.file("examples/mdpi_1.xml", package = "pubchunks")
 #' x <- system.file("examples/mdpi_2.xml", package = "pubchunks")
 #' pub_chunks(x, "title")
 #' pub_chunks(x, "aff")
+#' pub_chunks(x, "refs")$refs
 #' vv <- pub_chunks(x, c("doi", "title", "authors", "keywords", "refs", 
 #'   "abstract", "categories"))
 #' vv$doi
@@ -187,7 +195,7 @@ pub_chunks.character <- function(x, sections = "all", provider = NULL) {
   type <- if (file.exists(x)) "file" else "character"
   xml <- xml2::read_xml(x)
   pub <- pgp(xml, provider)
-  out <- get_what(data = xml, sections, pub)
+  out <- get_what(data = xml, what = sections, from = pub)
   pccat(out, type, sections, fetch_journal(pub, xml))
 }
 

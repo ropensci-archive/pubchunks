@@ -195,16 +195,17 @@ refs_dois <- function(b, from){
 refs <- function(b, from){
   switch(
     from,
-    elife = falltxt(b, "//ref-list/ref"),
+    elife = refs_reflist(b, "//ref-list/ref"),
     plos = falltxt(b, "//ref-list/ref/mixed-citation"),
     entrez = falltxt(b, "//ref-list/ref"),
-    elsevier = falltxt(b, "//ce:bib-reference"),
-    hindawi = falltxt(b, "//ref-list/ref"),
-    pensoft = falltxt(b, "//ref-list/ref"),
-    peerj = falltxt(b, "//ref-list/ref"),
+    elsevier = refs_txt(b, "//ce:bib-reference"),
+    hindawi = refs_reflist(b, "//ref-list/ref"),
+    pensoft = refs_pensoft(b, "//ref-list/ref"),
+    peerj = refs_reflist(b, "//ref-list/ref"),
     copernicus = falltxt(b, "//ref-list/ref"),
-    frontiers = falltxt(b, "//ref-list/ref"),
-    f1000research = falltxt(b, "//ref-list/ref"),
+    frontiers = refs_reflist(b, "//ref-list/ref", typex = "citation"),
+    f1000research = refs_reflist(b, "//ref-list/ref", typex = "mixed_citation"),
+    mdpi = refs_reflist(b, "//ref-list/ref"),
     falltxt(b, "//ref-list/ref")
   )
 }
@@ -349,4 +350,110 @@ f1txt <- function(x, xpath) {
 falltxt <- function(x, xpath) {
   vapply(xml2::xml_text(xml2::xml_find_all(x, xpath)), strtrim, "", 
     USE.NAMES = FALSE)
+}
+
+refs_txt <- function(x, xpath) {
+  b <- xml2::xml_find_all(x, xpath)
+  lapply(b, function(z) {
+    auths <- xml2::xml_find_all(z, ".//sb:author")
+    if (length(auths) == 0) {
+      txt <- xml2::xml_text(xml2::xml_find_first(z, ".//ce:other-ref"))
+      return(txt)
+    }
+    auths_others <- auths[-1]
+    auths_others <- lapply(auths_others, function(w) {
+      paste0(vapply(xml2::xml_children(w), xml2::xml_text, ""), collapse = " ")
+    })
+    auths1_child <- xml2::xml_children(auths[1])
+    auth1 <- paste0(c(xml2::xml_text(auths1_child[2]), xml2::xml_text(auths1_child[1])), collapse=" ")
+    auths <- paste0(c(auth1, unlist(auths_others)), collapse=", ")
+    title <- xml2::xml_text(xml2::xml_find_first(z, ".//sb:contribution//sb:maintitle"))
+    journal <- xml2::xml_text(xml2::xml_find_first(z, ".//sb:host//sb:maintitle"))
+    vol <- xml2::xml_text(xml2::xml_find_first(z, ".//sb:host//sb:volume-nr"))
+    date <- xml2::xml_text(xml2::xml_find_first(z, ".//sb:host//sb:date"))
+    pages <- paste0(vapply(xml2::xml_children(xml2::xml_find_first(z, ".//sb:host//sb:pages")), xml2::xml_text, ""), collapse = "-")
+    sprintf("%s. %s. %s. %s %s, %s", auths, date, title, journal, vol, pages)
+  })
+}
+
+refs_reflist <- function(x, xpath, typex = "element_citation") {
+  b <- xml2::xml_find_all(x, xpath)
+  lapply(b, function(z) {
+    auths <- xml2::xml_find_all(z, ".//person-group/name")
+    if (length(auths) == 0) {
+      txt <- xml2::xml_text(suppressWarnings(xml2::xml_find_first(z, ".//ce:other-ref")))
+      return(txt)
+    }
+    auths_others <- auths[-1]
+    auths_others <- lapply(auths_others, function(w) {
+      paste0(vapply(xml2::xml_children(w), xml2::xml_text, ""), collapse = " ")
+    })
+    auths1_child <- xml2::xml_children(auths[1])
+    auth1 <- paste0(c(xml2::xml_text(auths1_child[1]), xml2::xml_text(auths1_child[2])), collapse=" ")
+    auths <- paste0(c(auth1, unlist(auths_others)), collapse=", ")
+    date <- xml2::xml_text(xml2::xml_find_first(z, ".//year"))
+
+    type <- switch(
+      typex,
+      element_citation = 
+        xml2::xml_attr(xml2::xml_find_first(z, ".//element-citation"), "publication-type"),
+      citation = 
+        xml2::xml_attr(xml2::xml_find_first(z, ".//citation"), "citation-type"),
+      mixed_citation = 
+        xml2::xml_attr(xml2::xml_find_first(z, ".//mixed-citation"), "publication-type")
+    )
+
+    source <- xml2::xml_text(xml2::xml_find_first(z, ".//source"))
+
+    if (type == "book") {
+      publisher <- xml2::xml_text(xml2::xml_find_first(z, ".//publisher-name"))
+      sprintf("%s %s. %s. %s", auths, date, source, publisher)
+    } else if (type == "journal") {
+      article_title <- xml2::xml_text(xml2::xml_find_first(z, ".//article-title"))
+      vol <- xml2::xml_text(xml2::xml_find_first(z, ".//volume"))
+      pages <- paste0(
+        na.omit(vapply(c("fpage", "lpage"), function(w) xml2::xml_text(xml2::xml_find_first(z, paste0(".//", w))), "")),
+        collapse = "-")
+      doi <- xml2::xml_text(xml2::xml_find_first(z, ".//pub-id[@pub-id-type=\"doi\"]")) %|na|% ""
+      if (nzchar(doi)) doi <- sprintf("(https://doi.org/%s)", doi)
+      sprintf("%s %s. %s %s %s, %s %s", auths, date, article_title, source, vol, pages, doi)
+    }
+  })
+}
+
+refs_pensoft <- function(x, xpath) {
+  b <- xml2::xml_find_all(x, xpath)
+  lapply(b, function(z) {
+    auths <- xml2::xml_find_all(z, ".//person-group/name")
+    if (length(auths) == 0) {
+      txt <- xml2::xml_text(xml2::xml_find_first(z, ".//ce:other-ref"))
+      return(txt)
+    }
+    auths_others <- auths[-1]
+    auths_others <- lapply(auths_others, function(w) {
+      paste0(vapply(xml2::xml_children(w), xml2::xml_text, ""), collapse = " ")
+    })
+    auths1_child <- xml2::xml_children(auths[1])
+    if (length(auths1_child) == 1) {
+      auth1 <- xml2::xml_text(auths1_child[1])
+    } else {
+      auth1 <- paste0(c(xml2::xml_text(auths1_child[1]), xml2::xml_text(auths1_child[2])), collapse=" ")
+    }
+    auths <- paste0(c(auth1, unlist(auths_others)), collapse=", ")
+    date <- xml2::xml_text(xml2::xml_find_first(z, ".//year"))
+    source <- xml2::xml_text(xml2::xml_find_first(z, ".//source"))
+    article_title <- xml2::xml_text(xml2::xml_find_first(z, ".//article-title"))
+    if (length(xml2::xml_find_first(z, ".//publisher-name")) > 0) {
+      publisher <- xml2::xml_text(xml2::xml_find_first(z, ".//publisher-name"))
+      sprintf("%s %s. %s %s", auths, date, article_title, publisher)
+    } else {
+      vol <- xml2::xml_text(xml2::xml_find_first(z, ".//volume"))
+      pages <- paste0(
+        na.omit(vapply(c("fpage", "lpage"), function(w) xml2::xml_text(xml2::xml_find_first(z, paste0(".//", w))), "")),
+        collapse = "-")
+      doi <- xml2::xml_text(xml2::xml_find_first(z, ".//ext-link")) %|na|% ""
+      if (nzchar(doi)) doi <- sprintf("(https://doi.org/%s)", doi)
+      sprintf("%s %s. %s %s %s, %s %s", auths, date, article_title, source, vol, pages, doi)
+    }
+  })
 }
