@@ -412,7 +412,7 @@ refs_reflist <- function(x, xpath, typex = "element_citation") {
       article_title <- xml2::xml_text(xml2::xml_find_first(z, ".//article-title"))
       vol <- xml2::xml_text(xml2::xml_find_first(z, ".//volume"))
       pages <- paste0(
-        na.omit(vapply(c("fpage", "lpage"), function(w) xml2::xml_text(xml2::xml_find_first(z, paste0(".//", w))), "")),
+        stats::na.omit(vapply(c("fpage", "lpage"), function(w) xml2::xml_text(xml2::xml_find_first(z, paste0(".//", w))), "")),
         collapse = "-")
       doi <- xml2::xml_text(xml2::xml_find_first(z, ".//pub-id[@pub-id-type=\"doi\"]")) %|na|% ""
       if (nzchar(doi)) doi <- sprintf("(https://doi.org/%s)", doi)
