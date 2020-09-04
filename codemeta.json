@@ -123,5 +123,8 @@
       "name": "rOpenSci"
     }
   ],
-  "relatedLink": ["https://docs.ropensci.org/pubchunks", "https://docs.ropensci.org/pubchunks/"]
+  "relatedLink": [
+    "https://docs.ropensci.org/pubchunks",
+    "https://docs.ropensci.org/pubchunks/"
+  ]
 }
