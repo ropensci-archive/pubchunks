@@ -14,7 +14,7 @@ There are no reverse dependencies.
 
 --------
 
-This version fixes a broken example.
+This version fixes a problem in the examples and improves references extraction from XML format articles.
 
 Thanks!
 Scott Chamberlain

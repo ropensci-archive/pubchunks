@@ -1,3 +1,11 @@
+pubchunks 0.3.0
+===============
+
+### MINOR IMPROVEMENTS
+
+* improvements to `pub_chunks()` with `sections="refs"` (fetching references from an article). all reference extraction was simply extracting the entire reference, which lost all white space. now there are custom reference parsers for the various types of reference formats. there still are outstanding issues, so do please point out where ref. extraction is not correct (#2)
+* fix pub_guess_publisher examples error (#10)
+
 pubchunks 0.2.2
 ===============
 

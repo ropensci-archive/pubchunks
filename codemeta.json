@@ -10,14 +10,13 @@
   "codeRepository": "https://github.com/ropensci/pubchunks",
   "issueTracker": "https://github.com/ropensci/pubchunks/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "4.0.2",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+  "runtimePlatform": "R version 4.0.2 Patched (2020-09-01 r79114)",
   "author": [
     {
       "@type": "Person",
@@ -102,13 +101,10 @@
       "sameAs": "https://CRAN.R-project.org/package=rcrossref"
     }
   ],
-  "contIntegration": [
-    "https://travis-ci.org/ropensci/pubchunks",
-    "https://codecov.io/gh/ropensci/pubchunks"
-  ],
-  "developmentStatus": "https://www.repostatus.org/#wip",
+  "contIntegration": ["https://travis-ci.org/ropensci/pubchunks", "https://codecov.io/gh/ropensci/pubchunks"],
+  "developmentStatus": "https://www.repostatus.org/#active",
   "readme": "https://github.com/ropensci/pubchunks/blob/master/README.md",
-  "fileSize": "424.151KB",
+  "fileSize": "0KB",
   "applicationCategory": "Literature",
   "isPartOf": "https://ropensci.org",
   "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "text-mining", "open-access", "rstats", "r", "r-package"],
@@ -127,5 +123,5 @@
       "name": "rOpenSci"
     }
   ],
-  "relatedLink": "https://docs.ropensci.org/pubchunks"
+  "relatedLink": ["https://docs.ropensci.org/pubchunks", "https://docs.ropensci.org/pubchunks/"]
 }
