@@ -19,8 +19,8 @@ is_or <- function(x, clazzes) {
 strextract <- function(str, pattern, ...) regmatches(str, regexpr(pattern, str, ...))
 strtrim <- function(str) gsub("^\\s+|\\s+$", "", str)
 
-xml_node_parse <- function(x) {
-  as.list(stats::setNames(strtrim(xml2::xml_text(x)), xml2::xml_name(x)))
+xml_node_parse <- function(x, extract) {
+  as.list(stats::setNames(strtrim(exfun(extract)(x)), xml2::xml_name(x)))
 }
 
 # Modified from plyr::try_default

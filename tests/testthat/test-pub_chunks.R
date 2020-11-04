@@ -34,6 +34,30 @@ test_that("pub_chunks works", {
   expect_named(cc, c("title", "abstract", ".publisher"))
 })
 
+test_that("pub_chunks: extract param", {
+  skip_on_cran()
+
+  z <- system.file("examples/plos_2.xml", package = "pubchunks")
+  zz <- system.file("examples/frontiers_1.xml", package = "pubchunks")
+
+  # not an allowed value for extract
+  expect_error(pub_chunks(z, "abstract", extract="foo"))
+
+  # xml_text vs. as.character
+  ## PLOS: lots of tags
+  res <- pub_chunks(z, "abstract", extract="xml_text")
+  expect_true(grepl("BackgroundThe health", res$abstract))
+  res1 <- pub_chunks(z, "abstract", extract="as.character")
+  expect_false(grepl("BackgroundThe health", res1$abstract))
+
+  ## frontiers: abstract, p, sub, and italic tags
+  res2 <- pub_chunks(zz, "abstract", extract="xml_text")
+  expect_true(grepl("^Our current", res2$abstract))
+  res3 <- pub_chunks(zz, "abstract", extract="as.character")
+  expect_false(grepl("^Our current", res3$abstract))
+  expect_true(grepl("^<abstract>\\n  <p>Our current", res3$abstract))
+})
+
 test_that("pub_chunks fails well", {
   skip_on_cran()
 

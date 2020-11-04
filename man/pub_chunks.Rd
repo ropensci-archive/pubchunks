@@ -4,7 +4,7 @@
 \alias{pub_chunks}
 \title{Extract chunks of data from articles}
 \usage{
-pub_chunks(x, sections = "all", provider = NULL)
+pub_chunks(x, sections = "all", provider = NULL, extract = "xml_text")
 }
 \arguments{
 \item{x}{one of the following:
@@ -26,6 +26,13 @@ for the XML you have you may or may not get what you need :). By default
 this is \code{NULL} and we use \code{\link[=pub_guess_publisher]{pub_guess_publisher()}} to guess the
 publisher; we may get it wrong. You can override our guessing by passing
 in a name.}
+
+\item{extract}{(character) one of 'xml_text' (default) or 'as.character'.
+The final step of extracting each part of an article is converting to
+a character string. By default, we'll use \code{\link[xml2:xml_text]{xml2::xml_text()}}, but if you
+prefer you can use \code{\link[=as.character]{as.character()}} which. The latter can be useful if
+the chunk being extracted has html tags in it that you do not want
+removed.}
 }
 \value{
 A list, named by the section selected. sections not found or
@@ -87,7 +94,8 @@ pub_chunks(xml, "title")
 
 # Hindawi
 x <- system.file("examples/hindawi_1.xml", package = "pubchunks")
-pub_chunks(x, "abstract")
+pub_chunks(x, "abstract")$abstract
+pub_chunks(x, "abstract", extract="as.character")$abstract
 pub_chunks(x, "authors")
 pub_chunks(x, "aff")
 pub_chunks(x, "title")

@@ -23,6 +23,12 @@
 #' this is `NULL` and we use [pub_guess_publisher()] to guess the 
 #' publisher; we may get it wrong. You can override our guessing by passing
 #' in a name.
+#' @param extract (character) one of 'xml_text' (default) or 'as.character'.
+#' The final step of extracting each part of an article is converting to 
+#' a character string. By default, we'll use [xml2::xml_text()], but if you
+#' prefer you can use [as.character()] which. The latter can be useful if
+#' the chunk being extracted has html tags in it that you do not want
+#' removed.
 #'
 #' @details Options for the `sections` parameter:
 #' 
@@ -75,7 +81,8 @@
 #'
 #' # Hindawi
 #' x <- system.file("examples/hindawi_1.xml", package = "pubchunks")
-#' pub_chunks(x, "abstract")
+#' pub_chunks(x, "abstract")$abstract
+#' pub_chunks(x, "abstract", extract="as.character")$abstract
 #' pub_chunks(x, "authors")
 #' pub_chunks(x, "aff")
 #' pub_chunks(x, "title")
@@ -181,39 +188,46 @@
 #'   pub_chunks(x, "title") %>% pub_tabularize()
 #' }
 #' }
-pub_chunks <- function(x, sections = "all", provider = NULL) {
+pub_chunks <- function(x, sections = "all", provider = NULL,
+  extract = "xml_text") {
   UseMethod("pub_chunks")
 }
 
 #' @export
-pub_chunks.default <- function(x, sections = "all", provider = NULL) {
+pub_chunks.default <- function(x, sections = "all", provider = NULL,
+  extract = "xml_text") {
   stop("no 'pub_chunks' method for ", class(x)[1L])
 }
 
 #' @export
-pub_chunks.character <- function(x, sections = "all", provider = NULL) {
+pub_chunks.character <- function(x, sections = "all", provider = NULL,
+  extract = "xml_text") {
   type <- if (file.exists(x)) "file" else "character"
   xml <- xml2::read_xml(x)
   pub <- pgp(xml, provider)
-  out <- get_what(data = xml, what = sections, from = pub)
+  out <- get_what(data = xml, what = sections, from = pub, extract)
   pccat(out, type, sections, fetch_journal(pub, xml))
 }
 
 #' @export
-pub_chunks.xml_document <- function(x, sections = "all", provider = NULL) {
+pub_chunks.xml_document <- function(x, sections = "all", provider = NULL,
+  extract = "xml_text") {
+
   pub <- pgp(x, provider)
-  out <- get_what(data = x, sections, pub)
+  out <- get_what(data = x, sections, pub, extract)
   pccat(out, "xml_document", sections, fetch_journal(pub, x))
 }
 
 #' @export
-pub_chunks.list <- function(x, sections = "all", provider = NULL) {
+pub_chunks.list <- function(x, sections = "all", provider = NULL,
+  extract = "xml_text") {
   tmp <- lapply(x, pub_chunks, sections = sections, provider = provider)
   structure(tmp, ft_data = FALSE)
 }
 
 #' @export
-pub_chunks.ft_data <- function(x, sections = "all", provider = NULL) {
+pub_chunks.ft_data <- function(x, sections = "all", provider = NULL,
+  extract = "xml_text") {
   sections <- match.arg(unlist(sections), c("all", pub_sections()), TRUE)
   out <- list()
   for (i in seq_along(x)) {
@@ -223,13 +237,13 @@ pub_chunks.ft_data <- function(x, sections = "all", provider = NULL) {
       out[[names(x[i])]] <-
       lapply(x[[i]]$data$data, function(q) {
         if (inherits(q, "xml_document")) {
-          pub_chunks(q, sections, names(x[i]))
+          pub_chunks(q, sections, names(x[i]), extract)
         } else if (inherits(q, "character") && length(q) == 1) {
           qq <- tryCatch(xml2::read_xml(q), error = function(e) e)
           if (inherits(qq, "error")) {
             pccat(list(.publisher = NA_character_), "empty", "empty", "empty")
           } else {
-            pub_chunks(qq, sections, names(x[i]))
+            pub_chunks(qq, sections, names(x[i]), extract)
           }
         } else {
           pccat(list(.publisher = NA_character_), "empty", "empty", "empty")
