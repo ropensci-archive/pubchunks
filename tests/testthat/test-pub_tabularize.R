@@ -18,7 +18,7 @@ test_that("pub_tabularize works", {
 
   # with fulltext package
   dois <- c('10.1371/journal.pone.0086169', '10.1371/journal.pone.0155491')
-  x <- fulltext::ft_get(dois, from='plos')
+  x <- fulltext::ft_get(dois)
   tmp <- pub_chunks(fulltext::ft_collect(x), sections=c("doi","title"))
   dd <- pub_tabularize(tmp)
 
