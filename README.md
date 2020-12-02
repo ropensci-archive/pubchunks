@@ -5,7 +5,7 @@ pubchunks
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![cran checks](https://cranchecks.info/badges/worst/pubchunks)](https://cranchecks.info/pkgs/pubchunks)
-[![Build Status](https://api.travis-ci.org/ropensci/pubchunks.svg)](https://travis-ci.org/ropensci/pubchunks)
+[![R-check](https://github.com/ropensci/pubchunks/workflows/R-check/badge.svg)](https://github.com/ropensci/pubchunks/actions?query=workflow%3AR-check)
 [![codecov](https://codecov.io/gh/ropensci/pubchunks/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/pubchunks)
 [![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/pubchunks)](https://github.com/r-hub/cranlogs.app)
 [![cran version](https://www.r-pkg.org/badges/version/pubchunks)](https://cran.r-project.org/package=pubchunks)
@@ -106,7 +106,7 @@ pub_chunks(x, c("title", "refs"))
 #>   sections: title, refs
 #>   showing up to first 5: 
 #>    title (n=1): On the driving of a piston with a rigid collar int ...
-#>    refs (n=6): 1.G.N.WatsonTeoriia besselevykh funktsiiTheory of
+#>    refs (n=6): Watson G.N.. 1949. Teoriia besselevykh funktsii. N
 ```
 
 The output of `pub_chunks()` is a list with an S3 class `pub_chunks` to make 
@@ -152,7 +152,7 @@ install.packages("fulltext")
 
 ```r
 library("fulltext")
-x <- fulltext::ft_get('10.1371/journal.pone.0086169', from='plos')
+x <- fulltext::ft_get('10.1371/journal.pone.0086169')
 pub_chunks(fulltext::ft_collect(x), sections="authors")
 #> $plos
 #> $plos$`10.1371/journal.pone.0086169`
@@ -218,26 +218,26 @@ download.file(links$URL[13], (j <- tempfile(fileext = ".xml")))
 pub_chunks(j)
 #> <pub chunks>
 #>   from: file
-#>   publisher/journal: scientific_research_publishing/Journal of Electromagnetic Analysis and Applications
-#>   sections: all
-#>   showing up to first 5: 
-#>    front (n=2): nested list
-#>    body (n=122): Conventional theoretical physics and its Standard 
-#>    back (n=1): nested list
-#>    title (n=1): Impacts of Revised Quantum Electrodynamics on Fund ...
-#>    doi (n=1): 10.4236/jemaa.2018.105008
-download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
-pub_chunks(k)
-#> <pub chunks>
-#>   from: file
 #>   publisher/journal: hindawi/BioMed Research International
 #>   sections: all
 #>   showing up to first 5: 
 #>    front (n=2): nested list
-#>    body (n=14): Neospora caninum is an obligate intracellular prot
-#>    back (n=5): nested list
-#>    title (n=1): First Report of Seroprevalence and Risk Factors of ...
-#>    doi (n=1): 10.1155/2018/2098908
+#>    body (n=49): Oxidative stress and Reactive Oxygen Species (ROS)
+#>    back (n=4): nested list
+#>    title (n=1): Selected Enzyme Inhibitory Effects of Euphorbia ch ...
+#>    doi (n=1): 10.1155/2018/1219367
+download.file(links$URL[20], (k <- tempfile(fileext = ".xml")))
+pub_chunks(k)
+#> <pub chunks>
+#>   from: file
+#>   publisher/journal: hindawi/Case Reports in Pathology
+#>   sections: all
+#>   showing up to first 5: 
+#>    front (n=2): nested list
+#>    body (n=16): Bonnetti et al. first noted in 1992 an unusual cel
+#>    back (n=3): nested list
+#>    title (n=1): An Inguinal Perivascular Epithelioid Cell Tumor Me ...
+#>    doi (n=1): 10.1155/2018/5749421
 ```
 
 
@@ -249,7 +249,3 @@ pub_chunks(k)
 * License: MIT
 * Get citation information for `pubchunks`: `citation(package = 'pubchunks')`
 * Please note that this package is released with a [Contributor Code of Conduct](https://ropensci.org/code-of-conduct/). By contributing to this project, you agree to abide by its terms.
-
-[![rofooter](https://ropensci.org/public_images/github_footer.png)](https://ropensci.org)
-
-[coc]: https://github.com/ropensci/pubchunks/blob/master/CODE_OF_CONDUCT.md

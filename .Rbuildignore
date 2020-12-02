@@ -17,3 +17,4 @@ README.Rmd
 ^notes\.md$
 ^codemeta\.json$
 ^LICENSE\.md$
+inst/cache
