@@ -86,7 +86,7 @@ aff <- function(b, from, extract){
           xml2::xml_find_first(z, "xref[@ref-type=\"aff\"]"), "rid")
       )
     })
-    apply(merge(rbl(affs_), rbl(auths_), by = "id"), 1, as.list)
+    apply(merge(rbl(affs_), rbl(auths_), by = "id", all = TRUE), 1, as.list)
   }
   switch(
     from,
