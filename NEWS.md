@@ -1,3 +1,15 @@
+pubchunks 0.4.0
+===============
+
+### NEW FEATURES
+
+* `pub_chunks()` gains new parameter `extract` to determine the final step of extracting text from XML format articles - use either `as.character()` or `xml2::xml_text()` (#11)
+
+### MINOR IMPROVEMENTS
+
+* fix to `sections="aff"` in `pub_chunks()` - keep all rows in merging data from different affilitation metadata parts to not lose any data (#7)
+
+
 pubchunks 0.3.0
 ===============
 

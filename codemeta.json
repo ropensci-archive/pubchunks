@@ -10,13 +10,13 @@
   "codeRepository": "https://github.com/ropensci/pubchunks",
   "issueTracker": "https://github.com/ropensci/pubchunks/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.0.2 Patched (2020-09-01 r79114)",
+  "runtimePlatform": "R version 4.0.3 Patched (2020-12-29 r79725)",
   "author": [
     {
       "@type": "Person",
@@ -101,10 +101,10 @@
       "sameAs": "https://CRAN.R-project.org/package=rcrossref"
     }
   ],
-  "contIntegration": ["https://travis-ci.org/ropensci/pubchunks", "https://codecov.io/gh/ropensci/pubchunks"],
+  "contIntegration": "https://codecov.io/gh/ropensci/pubchunks",
   "developmentStatus": "https://www.repostatus.org/#active",
   "readme": "https://github.com/ropensci/pubchunks/blob/master/README.md",
-  "fileSize": "0KB",
+  "fileSize": "3158.451KB",
   "applicationCategory": "Literature",
   "isPartOf": "https://ropensci.org",
   "keywords": ["text-ming", "literature", "pdf", "xml", "publications", "citations", "full-text", "TDM", "text-mining", "open-access", "rstats", "r", "r-package"],

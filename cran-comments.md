@@ -1,7 +1,7 @@
 ## Test environments
 
-* local OS X install, R 4.0.2
-* ubuntu 16.04 (on travis-ci), R 4.0.2
+* local OS X install, R 4.0.3
+* ubuntu 16.04 (on GitHub Actions), R 4.0.3
 * win-builder (devel and release)
 
 ## R CMD check results
@@ -10,11 +10,11 @@
 
 ## Reverse dependencies
 
-There are no reverse dependencies.
+There were no problems with the 1 reverse dependency.
 
 --------
 
-This version fixes a problem in the examples and improves references extraction from XML format articles.
+This version introduced a new parameter in a function and fixes an XML parsing issue.
 
 Thanks!
 Scott Chamberlain
